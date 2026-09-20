@@ -1,0 +1,92 @@
+[
+ {
+  "id": "15",
+  "titulo": "About - Image, Heading &amp; Copy",
+  "tipo": "section"
+ },
+ {
+  "id": "28",
+  "titulo": "Home Interior",
+  "tipo": "section"
+ },
+ {
+  "id": "57",
+  "titulo": "Home 1 Pro",
+  "tipo": "page"
+ },
+ {
+  "id": "67",
+  "titulo": "Home 2",
+  "tipo": "section"
+ },
+ {
+  "id": "71",
+  "titulo": "Home Interior 2",
+  "tipo": "section"
+ },
+ {
+  "id": "80",
+  "titulo": "Works Page 2",
+  "tipo": "section"
+ },
+ {
+  "id": "170",
+  "titulo": "Features &amp; Benefit - List",
+  "tipo": "section"
+ },
+ {
+  "id": "175",
+  "titulo": "Single Profile",
+  "tipo": "section"
+ },
+ {
+  "id": "236",
+  "titulo": "Single Work 3",
+  "tipo": "section"
+ },
+ {
+  "id": "239",
+  "titulo": "Pricing Table",
+  "tipo": "section"
+ },
+ {
+  "id": "242",
+  "titulo": "Pricing Table",
+  "tipo": "section"
+ },
+ {
+  "id": "244",
+  "titulo": "Pricing Table",
+  "tipo": "section"
+ },
+ {
+  "id": "264",
+  "titulo": "Pricing 1",
+  "tipo": "section"
+ },
+ {
+  "id": "266",
+  "titulo": "Pricing Table",
+  "tipo": "section"
+ },
+ {
+  "id": "281",
+  "titulo": "Pricing Table",
+  "tipo": "section"
+ },
+ {
+  "id": "289",
+  "titulo": "Our Services",
+  "tipo": "section"
+ },
+ {
+  "id": "889",
+  "titulo": "Focus Boxes",
+  "tipo": "section"
+ },
+ {
+  "id": "1018",
+  "titulo": "Contact",
+  "tipo": "section"
+ }
+]

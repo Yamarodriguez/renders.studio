@@ -1,0 +1,45 @@
+{
+  "name": "renders-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "renders.studio - copia fiel de la web de WordPress en Astro",
+  "scripts": {
+    "extraer": "node scripts/01-extraer-xml.mjs",
+    "preparar-imagenes": "node scripts/02-preparar-descarga-imagenes.mjs",
+    "analizar-head": "node scripts/03-analizar-head.mjs",
+    "armazon": "node scripts/04-extraer-armazon.mjs",
+    "revisar-css": "node scripts/05-revisar-css-de-paginas.mjs",
+    "comparar-marcado": "node scripts/06-comparar-marcado.mjs",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "iconos": "node scripts/07-generar-iconos.mjs",
+    "dinamicos": "node scripts/08-capturar-dinamicos.mjs",
+    "preparar-html-todo": "node scripts/09-preparar-descarga-html.mjs",
+    "cabecera": "node scripts/10-capturar-cabecera.mjs",
+    "recursos": "node scripts/11-preparar-descarga-recursos.mjs",
+    "recursos-css": "node scripts/12-recursos-del-css.mjs",
+    "envoltorio": "node scripts/13-extraer-envoltorio.mjs",
+    "encabezados": "node scripts/14-comparar-encabezados.mjs",
+    "datos": "npm run extraer && npm run armazon && npm run envoltorio && npm run iconos && npm run cabecera && npm run dinamicos",
+    "todo": "npm run datos && npm run comparar-marcado && npm run build && npm run encabezados"
+  },
+  "dependencies": {
+    "astro": "^7.3.3",
+    "node-html-parser": "^9.0.4"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "6.7.2",
+    "fa5": "npm:@fortawesome/fontawesome-free@5.15.4",
+    "simple-line-icons": "2.4.0",
+    "@fontsource/josefin-sans": "^5.3.0",
+    "@fontsource/poppins": "^5.3.0",
+    "@fontsource/raleway": "^5.3.0",
+    "@fontsource/roboto": "^5.3.0",
+    "playwright": "^1.63.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

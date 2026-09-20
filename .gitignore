@@ -1,0 +1,30 @@
+# ---------------------------------------------------------------
+#  Que sube a GitHub y que no
+#
+#  SUBE (Netlify lo necesita para construir la web):
+#    scripts/   el motor y las comprobaciones
+#    src/       la pagina de Astro
+#    datos/     el contenido ya extraido del export
+#    public/    imagenes, hojas de estilo, JavaScript y tipografias
+#    informes/  los resultados de las comprobaciones
+#    capturas/  las comparativas con la web real
+#
+#  NO SUBE (son copias de trabajo que se regeneran):
+# ---------------------------------------------------------------
+
+# la web ya construida: la hace Netlify en cada despliegue
+dist/
+.astro/
+node_modules/
+
+# la copia de la web real que usamos para comparar (unos 60 MB)
+referencia/
+
+# listas y registros de las descargas
+descargas/curl-*.txt
+descargas/log-*.txt
+
+# sistema
+.DS_Store
+Thumbs.db
+*.log

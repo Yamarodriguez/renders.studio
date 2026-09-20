@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# ---------------------------------------------------------------------------
+# FASE 1 y 2: la web de pruebas NO se indexa.
+# Esta cabecera se quita en la Fase 3, el dia de la mudanza, a la vez que el
+# noindex de las paginas. Mientras tanto evita que Google vea dos copias de
+# la misma web y nos hunda el posicionamiento.
+# ---------------------------------------------------------------------------
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"

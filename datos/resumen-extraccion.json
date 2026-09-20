@@ -1,0 +1,26 @@
+{
+ "fecha": "2026-09-17T15:40:50.995Z",
+ "itemsLeidos": 1097,
+ "paginas": 145,
+ "paginasConElementor": 141,
+ "paginasSinElementor": [
+  "aviso-legal",
+  "politica-de-privacidad",
+  "politica-de-cookies",
+  "personalizar-cookies"
+ ],
+ "adjuntos": 443,
+ "entradasDeMenu": 483,
+ "menus": {
+  "renders": 10,
+  "renders-2": 10,
+  "renders-espana": 10,
+  "renders-argentina": 10,
+  "renders-3": 10,
+  "renders-sin-provincias": 9
+ },
+ "plantillasDemo": 18,
+ "imagenesPropias": 1604,
+ "imagenesExternas": 2,
+ "avisos": []
+}

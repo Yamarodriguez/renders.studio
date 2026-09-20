@@ -1,0 +1,2023 @@
+{
+ "orden": [
+  "https://renders.studio/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.5.1.2",
+  "https://renders.studio/wp-includes/css/dist/block-library/style.min.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+  "https://renders.studio/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7",
+  "https://renders.studio/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1789645734",
+  "https://renders.studio/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2",
+  "https://renders.studio/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0",
+  "https://renders.studio/wp-content/themes/oceanwp/assets/css/style.min.css?ver=4.1.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.8.4",
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-3054.css?ver=1761704580",
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-2571.css?ver=1756999522",
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-1749.css?ver=1763372297",
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-4512.css?ver=1782466617",
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-3322.css?ver=1775143740",
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-19.css?ver=1787853811",
+  "https://renders.studio/wp-content/uploads/elementor/css/post-10.css?ver=1789702026",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image-gallery.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-bounce-in.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/bounceInUp.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/uploads/elementor/css/post-2571.css?ver=1789728271",
+  "https://renders.studio/wp-content/uploads/elementor/css/post-1749.css?ver=1789717292",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-pulse.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/uploads/elementor/css/post-4512.css?ver=1789714129",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-google_maps.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/uploads/elementor/css/post-3054.css?ver=1789741884",
+  "https://renders.studio/wp-content/uploads/elementor/css/post-3322.css?ver=1789741107",
+  "https://renders.studio/wp-content/uploads/elementor/css/post-19.css?ver=1789703267",
+  "https://renders.studio/wp-content/uploads/elementor/css/base-desktop.css?ver=6aacaf8aec2ce",
+  "https://renders.studio/wp-content/uploads/elementor/css/local-4512-frontend-desktop.css?ver=6aacded1b5e71",
+  "https://renders.studio/wp-content/uploads/elementor/css/base-mobile.css?ver=6aacaf8aec2ce",
+  "https://renders.studio/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+  "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1744287028",
+  "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1744287033",
+  "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1744378672",
+  "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/raleway.css?ver=1744379306",
+  "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/josefinsans.css?ver=1744379299"
+ ],
+ "comunes": [
+  "https://renders.studio/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.5.1.2",
+  "https://renders.studio/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7",
+  "https://renders.studio/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1789645734",
+  "https://renders.studio/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2",
+  "https://renders.studio/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0",
+  "https://renders.studio/wp-content/themes/oceanwp/assets/css/style.min.css?ver=4.1.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.8.4",
+  "https://renders.studio/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e"
+ ],
+ "propias": [
+  "https://renders.studio/wp-includes/css/dist/block-library/style.min.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-3054.css?ver=1761704580",
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-2571.css?ver=1756999522",
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-1749.css?ver=1763372297",
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-4512.css?ver=1782466617",
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-3322.css?ver=1775143740",
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-19.css?ver=1787853811",
+  "https://renders.studio/wp-content/uploads/elementor/css/post-10.css?ver=1789702026",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image-gallery.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-bounce-in.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/bounceInUp.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/uploads/elementor/css/post-2571.css?ver=1789728271",
+  "https://renders.studio/wp-content/uploads/elementor/css/post-1749.css?ver=1789717292",
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-pulse.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/uploads/elementor/css/post-4512.css?ver=1789714129",
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-google_maps.min.css?ver=4.2.4",
+  "https://renders.studio/wp-content/uploads/elementor/css/post-3054.css?ver=1789741884",
+  "https://renders.studio/wp-content/uploads/elementor/css/post-3322.css?ver=1789741107",
+  "https://renders.studio/wp-content/uploads/elementor/css/post-19.css?ver=1789703267",
+  "https://renders.studio/wp-content/uploads/elementor/css/base-desktop.css?ver=6aacaf8aec2ce",
+  "https://renders.studio/wp-content/uploads/elementor/css/local-4512-frontend-desktop.css?ver=6aacded1b5e71",
+  "https://renders.studio/wp-content/uploads/elementor/css/base-mobile.css?ver=6aacaf8aec2ce",
+  "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1744287028",
+  "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1744287033",
+  "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1744378672",
+  "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/raleway.css?ver=1744379306",
+  "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/josefinsans.css?ver=1744379299"
+ ],
+ "dondeAparece": {
+  "https://renders.studio/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.5.1.2": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "04-aviso-legal.html",
+   "05-privacidad.html",
+   "06-cookies.html",
+   "07-personalizar.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "04-aviso-legal.html",
+   "05-privacidad.html",
+   "06-cookies.html",
+   "07-personalizar.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1789645734": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "04-aviso-legal.html",
+   "05-privacidad.html",
+   "06-cookies.html",
+   "07-personalizar.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "04-aviso-legal.html",
+   "05-privacidad.html",
+   "06-cookies.html",
+   "07-personalizar.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "04-aviso-legal.html",
+   "05-privacidad.html",
+   "06-cookies.html",
+   "07-personalizar.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/themes/oceanwp/assets/css/style.min.css?ver=4.1.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "04-aviso-legal.html",
+   "05-privacidad.html",
+   "06-cookies.html",
+   "07-personalizar.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "04-aviso-legal.html",
+   "05-privacidad.html",
+   "06-cookies.html",
+   "07-personalizar.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.8.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "04-aviso-legal.html",
+   "05-privacidad.html",
+   "06-cookies.html",
+   "07-personalizar.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-19.css?ver=1787853811": [
+   "00-portada.html"
+  ],
+  "https://renders.studio/wp-content/uploads/elementor/css/post-10.css?ver=1789702026": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image-gallery.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-bounce-in.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/bounceInUp.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-pulse.min.css?ver=4.2.4": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/uploads/elementor/css/post-19.css?ver=1789703267": [
+   "00-portada.html"
+  ],
+  "https://renders.studio/wp-content/uploads/elementor/css/base-desktop.css?ver=6aacaf8aec2ce": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/uploads/elementor/css/base-mobile.css?ver=6aacaf8aec2ce": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "04-aviso-legal.html",
+   "05-privacidad.html",
+   "06-cookies.html",
+   "07-personalizar.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1744287028": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1744287033": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1744378672": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/raleway.css?ver=1744379306": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/josefinsans.css?ver=1744379299": [
+   "00-portada.html",
+   "01-madrid.html",
+   "02-precios.html",
+   "03-contacto.html",
+   "08-trabajo-renderista.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-3322.css?ver=1775143740": [
+   "01-madrid.html"
+  ],
+  "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-google_maps.min.css?ver=4.2.4": [
+   "01-madrid.html",
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/uploads/elementor/css/post-3322.css?ver=1789741107": [
+   "01-madrid.html"
+  ],
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-4512.css?ver=1782466617": [
+   "02-precios.html"
+  ],
+  "https://renders.studio/wp-content/uploads/elementor/css/post-4512.css?ver=1789714129": [
+   "02-precios.html"
+  ],
+  "https://renders.studio/wp-content/uploads/elementor/css/local-4512-frontend-desktop.css?ver=6aacded1b5e71": [
+   "02-precios.html"
+  ],
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-1749.css?ver=1763372297": [
+   "03-contacto.html"
+  ],
+  "https://renders.studio/wp-content/uploads/elementor/css/post-1749.css?ver=1789717292": [
+   "03-contacto.html"
+  ],
+  "https://renders.studio/wp-includes/css/dist/block-library/style.min.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e": [
+   "04-aviso-legal.html",
+   "05-privacidad.html",
+   "06-cookies.html",
+   "07-personalizar.html"
+  ],
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-2571.css?ver=1756999522": [
+   "08-trabajo-renderista.html"
+  ],
+  "https://renders.studio/wp-content/uploads/elementor/css/post-2571.css?ver=1789728271": [
+   "08-trabajo-renderista.html"
+  ],
+  "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-3054.css?ver=1761704580": [
+   "09-uruguay.html"
+  ],
+  "https://renders.studio/wp-content/uploads/elementor/css/post-3054.css?ver=1789741884": [
+   "09-uruguay.html"
+  ]
+ },
+ "porPagina": {
+  "00-portada.html": {
+   "hojas": [
+    {
+     "href": "https://renders.studio/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.5.1.2",
+     "id": "pt-cv-public-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7",
+     "id": "contact-form-7-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1789645734",
+     "id": "cmplz-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2",
+     "id": "font-awesome-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0",
+     "id": "simple-line-icons-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/style.min.css?ver=4.1.4",
+     "id": "oceanwp-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.4",
+     "id": "elementor-frontend-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.8.4",
+     "id": "eael-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-19.css?ver=1787853811",
+     "id": "eael-19-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/post-10.css?ver=1789702026",
+     "id": "elementor-post-10-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInDown-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.4",
+     "id": "widget-heading-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=4.2.4",
+     "id": "e-animation-shrink-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInUp-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.4",
+     "id": "widget-image-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css?ver=4.2.4",
+     "id": "e-shapes-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=4.2.4",
+     "id": "e-animation-fadeIn-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.2.4",
+     "id": "widget-divider-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.2.4",
+     "id": "widget-icon-list-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInRight-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image-gallery.min.css?ver=4.2.4",
+     "id": "widget-image-gallery-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-bounce-in.min.css?ver=4.2.4",
+     "id": "e-animation-bounce-in-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.2.4",
+     "id": "widget-spacer-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/bounceInUp.min.css?ver=4.2.4",
+     "id": "e-animation-bounceInUp-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-pulse.min.css?ver=4.2.4",
+     "id": "e-animation-pulse-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/post-19.css?ver=1789703267",
+     "id": "elementor-post-19-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/base-desktop.css?ver=6aacaf8aec2ce",
+     "id": "base-desktop-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/base-mobile.css?ver=6aacaf8aec2ce",
+     "id": "base-mobile-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+     "id": "oe-widgets-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1744287028",
+     "id": "elementor-gf-local-roboto-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1744287033",
+     "id": "elementor-gf-local-robotoslab-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1744378672",
+     "id": "elementor-gf-local-poppins-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/raleway.css?ver=1744379306",
+     "id": "elementor-gf-local-raleway-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/josefinsans.css?ver=1744379299",
+     "id": "elementor-gf-local-josefinsans-css"
+    }
+   ],
+   "scripts": [
+    "https://renders.studio/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://renders.studio/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://www.googletagmanager.com/gtag/js?id=G-XKW45Q3V7K"
+   ],
+   "estilosEnLinea": [
+    {
+     "id": "wp-img-auto-sizes-contain-inline-css",
+     "largo": 135
+    },
+    {
+     "id": "wp-emoji-styles-inline-css",
+     "largo": 340
+    },
+    {
+     "id": "classic-theme-styles-inline-css",
+     "largo": 350
+    },
+    {
+     "id": "global-styles-inline-css",
+     "largo": 10241
+    },
+    {
+     "id": "elementor-frontend-inline-css",
+     "largo": 328
+    },
+    {
+     "id": "(sin id)",
+     "largo": 722
+    },
+    {
+     "id": "(sin id)",
+     "largo": 10243
+    }
+   ],
+   "cuentas": {
+    "adsense": [],
+    "analytics": [
+     "G-XKW45Q3V7K"
+    ],
+    "universalAnalytics": [],
+    "tagManager": [],
+    "searchConsole": [
+     "2mNYT6rK3OvDzXmI4He2izpFWsXKhbjF6ftGpJyrU9k"
+    ],
+    "whatsapp": [],
+    "correos": [
+     "Renders.studio3D@gmail.com",
+     "renders.studio3D@Gmail.com"
+    ],
+    "telefonos": []
+   },
+   "bodyClass": "home wp-singular page-template-default page page-id-19 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme dropdown-mobile boxed-layout wrap-boxshadow default-breakpoint content-full-screen has-topbar page-header-disabled has-breadcrumbs elementor-default elementor-kit-10 elementor-page elementor-page-19"
+  },
+  "01-madrid.html": {
+   "hojas": [
+    {
+     "href": "https://renders.studio/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.5.1.2",
+     "id": "pt-cv-public-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7",
+     "id": "contact-form-7-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1789645734",
+     "id": "cmplz-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2",
+     "id": "font-awesome-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0",
+     "id": "simple-line-icons-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/style.min.css?ver=4.1.4",
+     "id": "oceanwp-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.4",
+     "id": "elementor-frontend-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.8.4",
+     "id": "eael-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-3322.css?ver=1775143740",
+     "id": "eael-3322-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/post-10.css?ver=1789702026",
+     "id": "elementor-post-10-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.2.4",
+     "id": "widget-spacer-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInDown-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.4",
+     "id": "widget-heading-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.4",
+     "id": "widget-image-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=4.2.4",
+     "id": "e-animation-shrink-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInUp-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css?ver=4.2.4",
+     "id": "e-shapes-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=4.2.4",
+     "id": "e-animation-fadeIn-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.2.4",
+     "id": "widget-divider-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.2.4",
+     "id": "widget-icon-list-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInRight-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image-gallery.min.css?ver=4.2.4",
+     "id": "widget-image-gallery-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-bounce-in.min.css?ver=4.2.4",
+     "id": "e-animation-bounce-in-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/bounceInUp.min.css?ver=4.2.4",
+     "id": "e-animation-bounceInUp-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-pulse.min.css?ver=4.2.4",
+     "id": "e-animation-pulse-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-google_maps.min.css?ver=4.2.4",
+     "id": "widget-google_maps-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/post-3322.css?ver=1789741107",
+     "id": "elementor-post-3322-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/base-desktop.css?ver=6aacaf8aec2ce",
+     "id": "base-desktop-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/base-mobile.css?ver=6aacaf8aec2ce",
+     "id": "base-mobile-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+     "id": "oe-widgets-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1744287028",
+     "id": "elementor-gf-local-roboto-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1744287033",
+     "id": "elementor-gf-local-robotoslab-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1744378672",
+     "id": "elementor-gf-local-poppins-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/raleway.css?ver=1744379306",
+     "id": "elementor-gf-local-raleway-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/josefinsans.css?ver=1744379299",
+     "id": "elementor-gf-local-josefinsans-css"
+    }
+   ],
+   "scripts": [
+    "https://renders.studio/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://renders.studio/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://www.googletagmanager.com/gtag/js?id=G-XKW45Q3V7K"
+   ],
+   "estilosEnLinea": [
+    {
+     "id": "wp-img-auto-sizes-contain-inline-css",
+     "largo": 135
+    },
+    {
+     "id": "wp-emoji-styles-inline-css",
+     "largo": 340
+    },
+    {
+     "id": "classic-theme-styles-inline-css",
+     "largo": 350
+    },
+    {
+     "id": "global-styles-inline-css",
+     "largo": 10241
+    },
+    {
+     "id": "elementor-frontend-inline-css",
+     "largo": 328
+    },
+    {
+     "id": "(sin id)",
+     "largo": 722
+    },
+    {
+     "id": "(sin id)",
+     "largo": 10243
+    }
+   ],
+   "cuentas": {
+    "adsense": [],
+    "analytics": [
+     "G-XKW45Q3V7K"
+    ],
+    "universalAnalytics": [],
+    "tagManager": [],
+    "searchConsole": [
+     "2mNYT6rK3OvDzXmI4He2izpFWsXKhbjF6ftGpJyrU9k"
+    ],
+    "whatsapp": [],
+    "correos": [
+     "Renders.studio3D@gmail.com",
+     "renders.studio3D@Gmail.com"
+    ],
+    "telefonos": []
+   },
+   "bodyClass": "wp-singular page-template-default page page-id-3322 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme dropdown-mobile boxed-layout wrap-boxshadow default-breakpoint content-full-screen has-topbar page-header-disabled has-breadcrumbs elementor-default elementor-kit-10 elementor-page elementor-page-3322"
+  },
+  "02-precios.html": {
+   "hojas": [
+    {
+     "href": "https://renders.studio/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.5.1.2",
+     "id": "pt-cv-public-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7",
+     "id": "contact-form-7-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1789645734",
+     "id": "cmplz-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2",
+     "id": "font-awesome-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0",
+     "id": "simple-line-icons-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/style.min.css?ver=4.1.4",
+     "id": "oceanwp-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.4",
+     "id": "elementor-frontend-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.8.4",
+     "id": "eael-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-4512.css?ver=1782466617",
+     "id": "eael-4512-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/post-10.css?ver=1789702026",
+     "id": "elementor-post-10-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.4",
+     "id": "widget-image-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css?ver=4.2.4",
+     "id": "e-shapes-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInDown-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.4",
+     "id": "widget-heading-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.2.4",
+     "id": "widget-spacer-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInUp-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=4.2.4",
+     "id": "e-animation-fadeIn-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.2.4",
+     "id": "widget-divider-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=4.2.4",
+     "id": "e-animation-shrink-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.2.4",
+     "id": "widget-icon-list-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInRight-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image-gallery.min.css?ver=4.2.4",
+     "id": "widget-image-gallery-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-bounce-in.min.css?ver=4.2.4",
+     "id": "e-animation-bounce-in-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/bounceInUp.min.css?ver=4.2.4",
+     "id": "e-animation-bounceInUp-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-pulse.min.css?ver=4.2.4",
+     "id": "e-animation-pulse-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/post-4512.css?ver=1789714129",
+     "id": "elementor-post-4512-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/base-desktop.css?ver=6aacaf8aec2ce",
+     "id": "base-desktop-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/local-4512-frontend-desktop.css?ver=6aacded1b5e71",
+     "id": "local-4512-frontend-desktop-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/base-mobile.css?ver=6aacaf8aec2ce",
+     "id": "base-mobile-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+     "id": "oe-widgets-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1744287028",
+     "id": "elementor-gf-local-roboto-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1744287033",
+     "id": "elementor-gf-local-robotoslab-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1744378672",
+     "id": "elementor-gf-local-poppins-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/raleway.css?ver=1744379306",
+     "id": "elementor-gf-local-raleway-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/josefinsans.css?ver=1744379299",
+     "id": "elementor-gf-local-josefinsans-css"
+    }
+   ],
+   "scripts": [
+    "https://renders.studio/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://renders.studio/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://www.googletagmanager.com/gtag/js?id=G-XKW45Q3V7K"
+   ],
+   "estilosEnLinea": [
+    {
+     "id": "wp-img-auto-sizes-contain-inline-css",
+     "largo": 135
+    },
+    {
+     "id": "wp-emoji-styles-inline-css",
+     "largo": 340
+    },
+    {
+     "id": "classic-theme-styles-inline-css",
+     "largo": 350
+    },
+    {
+     "id": "global-styles-inline-css",
+     "largo": 10241
+    },
+    {
+     "id": "elementor-frontend-inline-css",
+     "largo": 328
+    },
+    {
+     "id": "(sin id)",
+     "largo": 722
+    },
+    {
+     "id": "(sin id)",
+     "largo": 10243
+    }
+   ],
+   "cuentas": {
+    "adsense": [],
+    "analytics": [
+     "G-XKW45Q3V7K"
+    ],
+    "universalAnalytics": [],
+    "tagManager": [],
+    "searchConsole": [
+     "2mNYT6rK3OvDzXmI4He2izpFWsXKhbjF6ftGpJyrU9k"
+    ],
+    "whatsapp": [],
+    "correos": [
+     "Renders.studio3D@gmail.com",
+     "renders.studio3D@Gmail.com"
+    ],
+    "telefonos": []
+   },
+   "bodyClass": "wp-singular page-template-default page page-id-4512 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme dropdown-mobile boxed-layout wrap-boxshadow default-breakpoint content-full-screen has-topbar page-header-disabled has-breadcrumbs elementor-default elementor-kit-10 elementor-page elementor-page-4512"
+  },
+  "03-contacto.html": {
+   "hojas": [
+    {
+     "href": "https://renders.studio/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.5.1.2",
+     "id": "pt-cv-public-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7",
+     "id": "contact-form-7-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1789645734",
+     "id": "cmplz-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2",
+     "id": "font-awesome-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0",
+     "id": "simple-line-icons-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/style.min.css?ver=4.1.4",
+     "id": "oceanwp-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.4",
+     "id": "elementor-frontend-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.8.4",
+     "id": "eael-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-1749.css?ver=1763372297",
+     "id": "eael-1749-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/post-10.css?ver=1789702026",
+     "id": "elementor-post-10-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=4.2.4",
+     "id": "e-animation-fadeIn-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.4",
+     "id": "widget-heading-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInDown-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.2.4",
+     "id": "widget-divider-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.4",
+     "id": "widget-image-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-pulse.min.css?ver=4.2.4",
+     "id": "e-animation-pulse-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInUp-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.2.4",
+     "id": "widget-spacer-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=4.2.4",
+     "id": "e-animation-shrink-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css?ver=4.2.4",
+     "id": "e-shapes-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.2.4",
+     "id": "widget-icon-list-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInRight-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image-gallery.min.css?ver=4.2.4",
+     "id": "widget-image-gallery-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-bounce-in.min.css?ver=4.2.4",
+     "id": "e-animation-bounce-in-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/bounceInUp.min.css?ver=4.2.4",
+     "id": "e-animation-bounceInUp-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/post-1749.css?ver=1789717292",
+     "id": "elementor-post-1749-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/base-desktop.css?ver=6aacaf8aec2ce",
+     "id": "base-desktop-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/base-mobile.css?ver=6aacaf8aec2ce",
+     "id": "base-mobile-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+     "id": "oe-widgets-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1744287028",
+     "id": "elementor-gf-local-roboto-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1744287033",
+     "id": "elementor-gf-local-robotoslab-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1744378672",
+     "id": "elementor-gf-local-poppins-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/raleway.css?ver=1744379306",
+     "id": "elementor-gf-local-raleway-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/josefinsans.css?ver=1744379299",
+     "id": "elementor-gf-local-josefinsans-css"
+    }
+   ],
+   "scripts": [
+    "https://renders.studio/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://renders.studio/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://www.googletagmanager.com/gtag/js?id=G-XKW45Q3V7K"
+   ],
+   "estilosEnLinea": [
+    {
+     "id": "wp-img-auto-sizes-contain-inline-css",
+     "largo": 135
+    },
+    {
+     "id": "wp-emoji-styles-inline-css",
+     "largo": 340
+    },
+    {
+     "id": "classic-theme-styles-inline-css",
+     "largo": 350
+    },
+    {
+     "id": "global-styles-inline-css",
+     "largo": 10241
+    },
+    {
+     "id": "elementor-frontend-inline-css",
+     "largo": 328
+    },
+    {
+     "id": "(sin id)",
+     "largo": 722
+    },
+    {
+     "id": "(sin id)",
+     "largo": 10243
+    }
+   ],
+   "cuentas": {
+    "adsense": [],
+    "analytics": [
+     "G-XKW45Q3V7K"
+    ],
+    "universalAnalytics": [],
+    "tagManager": [],
+    "searchConsole": [
+     "2mNYT6rK3OvDzXmI4He2izpFWsXKhbjF6ftGpJyrU9k"
+    ],
+    "whatsapp": [],
+    "correos": [
+     "Renders.studio3D@gmail.com",
+     "renders.studio3D@Gmail.com"
+    ],
+    "telefonos": []
+   },
+   "bodyClass": "wp-singular page-template-default page page-id-1749 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme dropdown-mobile boxed-layout wrap-boxshadow default-breakpoint content-full-screen has-topbar page-header-disabled has-breadcrumbs elementor-default elementor-kit-10 elementor-page elementor-page-1749"
+  },
+  "04-aviso-legal.html": {
+   "hojas": [
+    {
+     "href": "https://renders.studio/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.5.1.2",
+     "id": "pt-cv-public-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-includes/css/dist/block-library/style.min.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+     "id": "wp-block-library-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7",
+     "id": "contact-form-7-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1789645734",
+     "id": "cmplz-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2",
+     "id": "font-awesome-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0",
+     "id": "simple-line-icons-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/style.min.css?ver=4.1.4",
+     "id": "oceanwp-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.4",
+     "id": "elementor-frontend-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.8.4",
+     "id": "eael-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+     "id": "oe-widgets-style-css"
+    }
+   ],
+   "scripts": [
+    "https://renders.studio/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://renders.studio/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://www.googletagmanager.com/gtag/js?id=G-XKW45Q3V7K"
+   ],
+   "estilosEnLinea": [
+    {
+     "id": "wp-img-auto-sizes-contain-inline-css",
+     "largo": 135
+    },
+    {
+     "id": "wp-emoji-styles-inline-css",
+     "largo": 340
+    },
+    {
+     "id": "wp-block-library-theme-inline-css",
+     "largo": 2821
+    },
+    {
+     "id": "classic-theme-styles-inline-css",
+     "largo": 350
+    },
+    {
+     "id": "global-styles-inline-css",
+     "largo": 10241
+    },
+    {
+     "id": "(sin id)",
+     "largo": 722
+    },
+    {
+     "id": "(sin id)",
+     "largo": 10243
+    }
+   ],
+   "cuentas": {
+    "adsense": [],
+    "analytics": [
+     "G-XKW45Q3V7K"
+    ],
+    "universalAnalytics": [],
+    "tagManager": [],
+    "searchConsole": [
+     "2mNYT6rK3OvDzXmI4He2izpFWsXKhbjF6ftGpJyrU9k"
+    ],
+    "whatsapp": [],
+    "correos": [
+     "renders.studio3d@gmail.com",
+     "Renders.studio3D@gmail.com"
+    ],
+    "telefonos": []
+   },
+   "bodyClass": "wp-singular page-template-default page page-id-4496 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme dropdown-mobile boxed-layout wrap-boxshadow default-breakpoint content-full-screen has-topbar page-header-disabled has-breadcrumbs elementor-default elementor-kit-10"
+  },
+  "05-privacidad.html": {
+   "hojas": [
+    {
+     "href": "https://renders.studio/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.5.1.2",
+     "id": "pt-cv-public-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-includes/css/dist/block-library/style.min.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+     "id": "wp-block-library-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7",
+     "id": "contact-form-7-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1789645734",
+     "id": "cmplz-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2",
+     "id": "font-awesome-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0",
+     "id": "simple-line-icons-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/style.min.css?ver=4.1.4",
+     "id": "oceanwp-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.4",
+     "id": "elementor-frontend-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.8.4",
+     "id": "eael-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+     "id": "oe-widgets-style-css"
+    }
+   ],
+   "scripts": [
+    "https://renders.studio/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://renders.studio/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://www.googletagmanager.com/gtag/js?id=G-XKW45Q3V7K"
+   ],
+   "estilosEnLinea": [
+    {
+     "id": "wp-img-auto-sizes-contain-inline-css",
+     "largo": 135
+    },
+    {
+     "id": "wp-emoji-styles-inline-css",
+     "largo": 340
+    },
+    {
+     "id": "wp-block-library-theme-inline-css",
+     "largo": 2821
+    },
+    {
+     "id": "classic-theme-styles-inline-css",
+     "largo": 350
+    },
+    {
+     "id": "global-styles-inline-css",
+     "largo": 10241
+    },
+    {
+     "id": "(sin id)",
+     "largo": 722
+    },
+    {
+     "id": "(sin id)",
+     "largo": 10243
+    }
+   ],
+   "cuentas": {
+    "adsense": [],
+    "analytics": [
+     "G-XKW45Q3V7K"
+    ],
+    "universalAnalytics": [],
+    "tagManager": [],
+    "searchConsole": [
+     "2mNYT6rK3OvDzXmI4He2izpFWsXKhbjF6ftGpJyrU9k"
+    ],
+    "whatsapp": [],
+    "correos": [
+     "Renders.studio3D@gmail.com",
+     "renders.studio3d@gmail.com",
+     "nbsprenders.studio3d@gmail.com"
+    ],
+    "telefonos": []
+   },
+   "bodyClass": "wp-singular page-template-default page page-id-4497 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme dropdown-mobile boxed-layout wrap-boxshadow default-breakpoint content-full-screen has-topbar page-header-disabled has-breadcrumbs elementor-default elementor-kit-10"
+  },
+  "06-cookies.html": {
+   "hojas": [
+    {
+     "href": "https://renders.studio/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.5.1.2",
+     "id": "pt-cv-public-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-includes/css/dist/block-library/style.min.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+     "id": "wp-block-library-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7",
+     "id": "contact-form-7-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1789645734",
+     "id": "cmplz-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2",
+     "id": "font-awesome-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0",
+     "id": "simple-line-icons-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/style.min.css?ver=4.1.4",
+     "id": "oceanwp-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.4",
+     "id": "elementor-frontend-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.8.4",
+     "id": "eael-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+     "id": "oe-widgets-style-css"
+    }
+   ],
+   "scripts": [
+    "https://renders.studio/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://renders.studio/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://www.googletagmanager.com/gtag/js?id=G-XKW45Q3V7K"
+   ],
+   "estilosEnLinea": [
+    {
+     "id": "wp-img-auto-sizes-contain-inline-css",
+     "largo": 135
+    },
+    {
+     "id": "wp-emoji-styles-inline-css",
+     "largo": 340
+    },
+    {
+     "id": "wp-block-library-theme-inline-css",
+     "largo": 2821
+    },
+    {
+     "id": "classic-theme-styles-inline-css",
+     "largo": 350
+    },
+    {
+     "id": "global-styles-inline-css",
+     "largo": 10241
+    },
+    {
+     "id": "(sin id)",
+     "largo": 722
+    },
+    {
+     "id": "(sin id)",
+     "largo": 10243
+    }
+   ],
+   "cuentas": {
+    "adsense": [],
+    "analytics": [
+     "G-XKW45Q3V7K"
+    ],
+    "universalAnalytics": [],
+    "tagManager": [],
+    "searchConsole": [
+     "2mNYT6rK3OvDzXmI4He2izpFWsXKhbjF6ftGpJyrU9k"
+    ],
+    "whatsapp": [],
+    "correos": [
+     "Renders.studio3D@gmail.com"
+    ],
+    "telefonos": []
+   },
+   "bodyClass": "wp-singular page-template-default page page-id-4498 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme dropdown-mobile boxed-layout wrap-boxshadow default-breakpoint content-full-screen has-topbar page-header-disabled has-breadcrumbs elementor-default elementor-kit-10"
+  },
+  "07-personalizar.html": {
+   "hojas": [
+    {
+     "href": "https://renders.studio/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.5.1.2",
+     "id": "pt-cv-public-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-includes/css/dist/block-library/style.min.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+     "id": "wp-block-library-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7",
+     "id": "contact-form-7-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1789645734",
+     "id": "cmplz-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2",
+     "id": "font-awesome-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0",
+     "id": "simple-line-icons-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/style.min.css?ver=4.1.4",
+     "id": "oceanwp-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.4",
+     "id": "elementor-frontend-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.8.4",
+     "id": "eael-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+     "id": "oe-widgets-style-css"
+    }
+   ],
+   "scripts": [
+    "https://renders.studio/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://renders.studio/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://www.googletagmanager.com/gtag/js?id=G-XKW45Q3V7K"
+   ],
+   "estilosEnLinea": [
+    {
+     "id": "wp-img-auto-sizes-contain-inline-css",
+     "largo": 135
+    },
+    {
+     "id": "wp-emoji-styles-inline-css",
+     "largo": 340
+    },
+    {
+     "id": "wp-block-library-theme-inline-css",
+     "largo": 2821
+    },
+    {
+     "id": "classic-theme-styles-inline-css",
+     "largo": 350
+    },
+    {
+     "id": "global-styles-inline-css",
+     "largo": 10241
+    },
+    {
+     "id": "(sin id)",
+     "largo": 722
+    },
+    {
+     "id": "(sin id)",
+     "largo": 10243
+    }
+   ],
+   "cuentas": {
+    "adsense": [],
+    "analytics": [
+     "G-XKW45Q3V7K"
+    ],
+    "universalAnalytics": [],
+    "tagManager": [],
+    "searchConsole": [
+     "2mNYT6rK3OvDzXmI4He2izpFWsXKhbjF6ftGpJyrU9k"
+    ],
+    "whatsapp": [],
+    "correos": [
+     "Renders.studio3D@gmail.com"
+    ],
+    "telefonos": []
+   },
+   "bodyClass": "wp-singular page-template-default page page-id-4499 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme dropdown-mobile boxed-layout wrap-boxshadow default-breakpoint content-full-screen has-topbar page-header-disabled has-breadcrumbs elementor-default elementor-kit-10"
+  },
+  "08-trabajo-renderista.html": {
+   "hojas": [
+    {
+     "href": "https://renders.studio/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.5.1.2",
+     "id": "pt-cv-public-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7",
+     "id": "contact-form-7-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1789645734",
+     "id": "cmplz-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2",
+     "id": "font-awesome-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0",
+     "id": "simple-line-icons-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/style.min.css?ver=4.1.4",
+     "id": "oceanwp-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.4",
+     "id": "elementor-frontend-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.8.4",
+     "id": "eael-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-2571.css?ver=1756999522",
+     "id": "eael-2571-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/post-10.css?ver=1789702026",
+     "id": "elementor-post-10-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInDown-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.4",
+     "id": "widget-heading-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.4",
+     "id": "widget-image-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInUp-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=4.2.4",
+     "id": "e-animation-fadeIn-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.2.4",
+     "id": "widget-divider-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-pulse.min.css?ver=4.2.4",
+     "id": "e-animation-pulse-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.2.4",
+     "id": "widget-spacer-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=4.2.4",
+     "id": "e-animation-shrink-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css?ver=4.2.4",
+     "id": "e-shapes-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.2.4",
+     "id": "widget-icon-list-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInRight-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image-gallery.min.css?ver=4.2.4",
+     "id": "widget-image-gallery-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-bounce-in.min.css?ver=4.2.4",
+     "id": "e-animation-bounce-in-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/bounceInUp.min.css?ver=4.2.4",
+     "id": "e-animation-bounceInUp-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/post-2571.css?ver=1789728271",
+     "id": "elementor-post-2571-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/base-desktop.css?ver=6aacaf8aec2ce",
+     "id": "base-desktop-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/base-mobile.css?ver=6aacaf8aec2ce",
+     "id": "base-mobile-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+     "id": "oe-widgets-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1744287028",
+     "id": "elementor-gf-local-roboto-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1744287033",
+     "id": "elementor-gf-local-robotoslab-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1744378672",
+     "id": "elementor-gf-local-poppins-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/raleway.css?ver=1744379306",
+     "id": "elementor-gf-local-raleway-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/josefinsans.css?ver=1744379299",
+     "id": "elementor-gf-local-josefinsans-css"
+    }
+   ],
+   "scripts": [
+    "https://renders.studio/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://renders.studio/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://www.googletagmanager.com/gtag/js?id=G-XKW45Q3V7K"
+   ],
+   "estilosEnLinea": [
+    {
+     "id": "wp-img-auto-sizes-contain-inline-css",
+     "largo": 135
+    },
+    {
+     "id": "wp-emoji-styles-inline-css",
+     "largo": 340
+    },
+    {
+     "id": "classic-theme-styles-inline-css",
+     "largo": 350
+    },
+    {
+     "id": "global-styles-inline-css",
+     "largo": 10241
+    },
+    {
+     "id": "elementor-frontend-inline-css",
+     "largo": 328
+    },
+    {
+     "id": "(sin id)",
+     "largo": 722
+    },
+    {
+     "id": "(sin id)",
+     "largo": 10243
+    }
+   ],
+   "cuentas": {
+    "adsense": [],
+    "analytics": [
+     "G-XKW45Q3V7K"
+    ],
+    "universalAnalytics": [],
+    "tagManager": [],
+    "searchConsole": [
+     "2mNYT6rK3OvDzXmI4He2izpFWsXKhbjF6ftGpJyrU9k"
+    ],
+    "whatsapp": [],
+    "correos": [
+     "Renders.studio3D@gmail.com",
+     "renders.studio3D@Gmail.com"
+    ],
+    "telefonos": []
+   },
+   "bodyClass": "wp-singular page-template-default page page-id-2571 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme dropdown-mobile boxed-layout wrap-boxshadow default-breakpoint content-full-screen has-topbar page-header-disabled has-breadcrumbs elementor-default elementor-kit-10 elementor-page elementor-page-2571"
+  },
+  "09-uruguay.html": {
+   "hojas": [
+    {
+     "href": "https://renders.studio/wp-content/plugins/content-views-query-and-display-post-page/public/assets/css/cv.css?ver=4.5.1.2",
+     "id": "pt-cv-public-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.7",
+     "id": "contact-form-7-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1789645734",
+     "id": "cmplz-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=6.7.2",
+     "id": "font-awesome-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0",
+     "id": "simple-line-icons-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/themes/oceanwp/assets/css/style.min.css?ver=4.1.4",
+     "id": "oceanwp-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.2.4",
+     "id": "elementor-frontend-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/css/view/general.min.css?ver=6.8.4",
+     "id": "eael-general-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/essential-addons-elementor/eael-3054.css?ver=1761704580",
+     "id": "eael-3054-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/post-10.css?ver=1789702026",
+     "id": "elementor-post-10-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.2.4",
+     "id": "widget-spacer-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInDown-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.2.4",
+     "id": "widget-heading-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.2.4",
+     "id": "widget-image-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=4.2.4",
+     "id": "e-animation-shrink-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInUp-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/conditionals/shapes.min.css?ver=4.2.4",
+     "id": "e-shapes-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=4.2.4",
+     "id": "e-animation-fadeIn-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.2.4",
+     "id": "widget-divider-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.2.4",
+     "id": "widget-icon-list-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInRight.min.css?ver=4.2.4",
+     "id": "e-animation-fadeInRight-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-image-gallery.min.css?ver=4.2.4",
+     "id": "widget-image-gallery-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-bounce-in.min.css?ver=4.2.4",
+     "id": "e-animation-bounce-in-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/bounceInUp.min.css?ver=4.2.4",
+     "id": "e-animation-bounceInUp-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-pulse.min.css?ver=4.2.4",
+     "id": "e-animation-pulse-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/elementor/assets/css/widget-google_maps.min.css?ver=4.2.4",
+     "id": "widget-google_maps-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/post-3054.css?ver=1789741884",
+     "id": "elementor-post-3054-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/base-desktop.css?ver=6aacaf8aec2ce",
+     "id": "base-desktop-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/css/base-mobile.css?ver=6aacaf8aec2ce",
+     "id": "base-mobile-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=3f2d9036e38cbf86b31ac3bb1b37387e",
+     "id": "oe-widgets-style-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1744287028",
+     "id": "elementor-gf-local-roboto-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/robotoslab.css?ver=1744287033",
+     "id": "elementor-gf-local-robotoslab-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/poppins.css?ver=1744378672",
+     "id": "elementor-gf-local-poppins-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/raleway.css?ver=1744379306",
+     "id": "elementor-gf-local-raleway-css"
+    },
+    {
+     "href": "https://renders.studio/wp-content/uploads/elementor/google-fonts/css/josefinsans.css?ver=1744379299",
+     "id": "elementor-gf-local-josefinsans-css"
+    }
+   ],
+   "scripts": [
+    "https://renders.studio/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+    "https://renders.studio/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+    "https://www.googletagmanager.com/gtag/js?id=G-XKW45Q3V7K"
+   ],
+   "estilosEnLinea": [
+    {
+     "id": "wp-img-auto-sizes-contain-inline-css",
+     "largo": 135
+    },
+    {
+     "id": "wp-emoji-styles-inline-css",
+     "largo": 340
+    },
+    {
+     "id": "classic-theme-styles-inline-css",
+     "largo": 350
+    },
+    {
+     "id": "global-styles-inline-css",
+     "largo": 10241
+    },
+    {
+     "id": "elementor-frontend-inline-css",
+     "largo": 328
+    },
+    {
+     "id": "(sin id)",
+     "largo": 722
+    },
+    {
+     "id": "(sin id)",
+     "largo": 10243
+    }
+   ],
+   "cuentas": {
+    "adsense": [],
+    "analytics": [
+     "G-XKW45Q3V7K"
+    ],
+    "universalAnalytics": [],
+    "tagManager": [],
+    "searchConsole": [
+     "2mNYT6rK3OvDzXmI4He2izpFWsXKhbjF6ftGpJyrU9k"
+    ],
+    "whatsapp": [],
+    "correos": [
+     "Renders.studio3D@gmail.com",
+     "renders.studio3D@Gmail.com"
+    ],
+    "telefonos": []
+   },
+   "bodyClass": "wp-singular page-template-default page page-id-3054 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme dropdown-mobile boxed-layout wrap-boxshadow default-breakpoint content-full-screen has-topbar page-header-disabled has-breadcrumbs elementor-default elementor-kit-10 elementor-page elementor-page-3054"
+  }
+ },
+ "cuentas": {
+  "adsense": [],
+  "analytics": [
+   "G-XKW45Q3V7K"
+  ],
+  "universalAnalytics": [],
+  "tagManager": [],
+  "searchConsole": [
+   "2mNYT6rK3OvDzXmI4He2izpFWsXKhbjF6ftGpJyrU9k"
+  ],
+  "whatsapp": [],
+  "correos": [
+   "Renders.studio3D@gmail.com",
+   "renders.studio3D@Gmail.com",
+   "renders.studio3d@gmail.com",
+   "nbsprenders.studio3d@gmail.com"
+  ],
+  "telefonos": []
+ }
+}

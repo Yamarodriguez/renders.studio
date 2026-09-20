@@ -1,0 +1,90 @@
+[
+ {
+  "id": "4496",
+  "slug": "aviso-legal",
+  "titulo": "Aviso Legal",
+  "url": "https://renders.studio/aviso-legal/",
+  "ruta": "/aviso-legal/",
+  "estado": "publish",
+  "plantillaWp": null,
+  "versionElementor": null,
+  "conElementor": false,
+  "seo": {
+   "titulo": null,
+   "descripcion": null,
+   "focus": null,
+   "canonical": null,
+   "robotsNoindex": null
+  },
+  "miniatura": null,
+  "ajustesPagina": null,
+  "ajustesOcean": {},
+  "contenido": ""
+ },
+ {
+  "id": "4497",
+  "slug": "politica-de-privacidad",
+  "titulo": "Política de Privacidad",
+  "url": "https://renders.studio/politica-de-privacidad/",
+  "ruta": "/politica-de-privacidad/",
+  "estado": "publish",
+  "plantillaWp": null,
+  "versionElementor": null,
+  "conElementor": false,
+  "seo": {
+   "titulo": null,
+   "descripcion": null,
+   "focus": null,
+   "canonical": null,
+   "robotsNoindex": null
+  },
+  "miniatura": null,
+  "ajustesPagina": null,
+  "ajustesOcean": {},
+  "contenido": ""
+ },
+ {
+  "id": "4498",
+  "slug": "politica-de-cookies",
+  "titulo": "Política de Cookies",
+  "url": "https://renders.studio/politica-de-cookies/",
+  "ruta": "/politica-de-cookies/",
+  "estado": "publish",
+  "plantillaWp": null,
+  "versionElementor": null,
+  "conElementor": false,
+  "seo": {
+   "titulo": null,
+   "descripcion": null,
+   "focus": null,
+   "canonical": null,
+   "robotsNoindex": null
+  },
+  "miniatura": null,
+  "ajustesPagina": null,
+  "ajustesOcean": {},
+  "contenido": ""
+ },
+ {
+  "id": "4499",
+  "slug": "personalizar-cookies",
+  "titulo": "Personalizar Cookies",
+  "url": "https://renders.studio/personalizar-cookies/",
+  "ruta": "/personalizar-cookies/",
+  "estado": "publish",
+  "plantillaWp": null,
+  "versionElementor": null,
+  "conElementor": false,
+  "seo": {
+   "titulo": null,
+   "descripcion": null,
+   "focus": null,
+   "canonical": null,
+   "robotsNoindex": null
+  },
+  "miniatura": null,
+  "ajustesPagina": null,
+  "ajustesOcean": {},
+  "contenido": ""
+ }
+]

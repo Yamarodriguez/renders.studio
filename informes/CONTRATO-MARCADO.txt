@@ -1,0 +1,131 @@
+
+########## text-editor   (00-portada.html, id 07f3440)
+--- HTML real:
+<div class="elementor-element elementor-element-07f3440 elementor-widget elementor-widget-text-editor" data-id="07f3440" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><strong>Render arquitectura y diseño 3D</strong></p>								</div>
+				</div>
+--- ajustes:
+{"editor":"<p><strong>Render arquitectura y diseño 3D</strong></p>","text_color":"#e91e63","typography_typography":"custom","typography_font_family":"Poppins","typography_font_size":{"unit":"px","size":23},"typography_text_transform":"uppercase","_margin":{"unit":"px","top":"0","right":"0","bottom":"-20","left":"0","isLinked":false},"_padding":{"unit":"px","top":"60","right":"0","bottom":"0","left":"0","isLinked":false},"typography_font_size_mobile":{"unit":"px","size":14},"typography_font_weight":"700","eael_vto_writing_gradient_color_repeater":[{"eael_vto_writing_gradient_color":"#7C62FF","eael_vto_writing_gradient_color_location":{"unit":"%","size":50},"_id":"2374c47"},{"eael_vto_writing_gradient_color":"#FF6464","eael_vto_writing_gradient_color_location":{"unit":"%","size":90},"_id":"003a028"}]}
+
+########## heading   (00-portada.html, id 052c9d8)
+--- HTML real:
+<div class="elementor-element elementor-element-052c9d8 elementor-invisible elementor-widget elementor-widget-heading" data-id="052c9d8" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-heading-title elementor-size-default">Renders 3D</h1>				</div>
+				</div>
+--- ajustes:
+{"title":"Renders 3D","title_color":"#ffffff","typography_typography":"custom","typography_font_family":"Poppins","typography_font_size":{"unit":"px","size":70},"typography_font_weight":"800","typography_line_height":{"unit":"em","size":1.2},"typography_letter_spacing":{"unit":"px","size":-2},"_margin":{"unit":"px","top":"0","right":"0","bottom":"40","left":"0","isLinked":false},"_padding":{"unit":"em","top":"","right":"","bottom":"","left":"","isLinked":false},"_animation":"fadeInDown","typography_font_size_mobile":{"unit":"px","size":44},"typography_font_size_tablet":{"unit":"px","size":55},"header_size":"h1","eael_vto_writing_gradient_color_repeater":[{"eael_vto_writing_gradient_color":"#7C62FF","eael_vto_writing_gradient_color_location":{"unit":"%","size":50},"_id":"666618e"},{"eael_vto_writing_gradient_color":"#FF6464","eael_vto_writing_gradient_color_location":{"unit":"%","size":90
+
+########## button   (00-portada.html, id 8c60bf7)
+--- HTML real:
+<div class="elementor-element elementor-element-8c60bf7 elementor-invisible elementor-widget elementor-widget-button" data-id="8c60bf7" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:200}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm elementor-animation-shrink" href="https://renders.studio/contacto/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<svg aria-hidden="true" class="e-font-icon-svg e-fas-arrow-circle-right" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z"></path></svg>			</span>
+									<span class="elementor-button-text">Contacto render</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+--- ajustes:
+{"text":"Contacto render","icon":"fa fa-arrow-circle-right","icon_align":"right","icon_indent":{"unit":"px","size":10},"typography_typography":"custom","typography_font_family":"Poppins","typography_font_size":{"unit":"px","size":14},"typography_text_transform":"uppercase","button_text_color":"#ffffff","background_color":"#e91e63","hover_color":"#e91e63","button_background_hover_color":"#ffffff","border_radius":{"unit":"px","top":"0","right":"0","bottom":"0","left":"0","isLinked":true},"button_box_shadow_box_shadow_type":"yes","button_box_shadow_box_shadow":{"horizontal":5,"vertical":5,"blur":0,"spread":0,"color":"#673ab7"},"text_padding":{"unit":"px","top":"20","right":"40","bottom":"20","left":"40","isLinked":false},"_padding":{"unit":"px","top":"0","right":"0","bottom":"60","left":"0","isLinked":false},"hover_animation":"shrink","_animation":"fadeInUp","_animation_delay":200,"selected
+
+########## image   (00-portada.html, id 6688b90)
+--- HTML real:
+<div class="elementor-element elementor-element-6688b90 elementor-widget elementor-widget-image" data-id="6688b90" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="1024" height="1024" src="https://renders.studio/wp-content/uploads/2025/04/renders.studio.png" class="attachment-large size-large wp-image-903" alt="renders.studio" srcset="https://renders.studio/wp-content/uploads/2025/04/renders.studio.png 1024w, https://renders.studio/wp-content/uploads/2025/04/renders.studio-300x300.png 300w, https://renders.studio/wp-content/uploads/2025/04/renders.studio-150x150.png 150w, https://renders.studio/wp-content/uploads/2025/04/renders.studio-768x768.png 768w, https://renders.studio/wp-content/uploads/2025/04/renders.studio-600x600.png 600w" sizes="(max-width: 1024px) 100vw, 1024px" >															</div>
+				</div>
+--- ajustes:
+{"image":{"url":"http://renders.studio/wp-content/uploads/2025/04/renders.studio.png","id":903,"size":"","alt":"renders.studio","source":"library"},"width":{"unit":"%","size":87,"sizes":[]},"width_mobile":{"unit":"%","size":43,"sizes":[]},"image_border_radius":{"unit":"px","top":"50","right":"50","bottom":"50","left":"50","isLinked":true},"image_border_radius_mobile":{"unit":"px","top":"95","right":"95","bottom":"95","left":"95","isLinked":true}}
+
+########## divider   (00-portada.html, id 4a709a16)
+--- HTML real:
+<div class="elementor-element elementor-element-4a709a16 elementor-widget-divider--view-line elementor-invisible elementor-widget elementor-widget-divider" data-id="4a709a16" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:400}" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+--- ajustes:
+{"weight":{"unit":"px","size":5},"color":"#e91e63","width":{"unit":"px","size":70},"gap":{"unit":"px","size":0},"_padding":{"unit":"px","top":"0","right":"0","bottom":"30","left":"0","isLinked":false},"_animation":"fadeIn","_animation_delay":400,"text":"Separador"}
+
+########## icon-list   (00-portada.html, id 566c2721)
+--- HTML real:
+<div class="elementor-element elementor-element-566c2721 elementor-icon-list--layout-inline elementor-align-start elementor-tablet-align-start elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-id="566c2721" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:700}" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-pen-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 480H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48v352c0 26.5-21.5 48-48 48zM238.1 177.9L102.4 313.6l-6.3 57.1c-.8 7.6 5.6 14.1 13.3 13.3l57.1-6.3L302.2 242c2.3-2.3 2.3-6.1 0-8.5L246.7 178c-2.5-2.4-6.3-2.4-8.6-.1zM345 165.1L314.9 135c-9.4-9.4-24.6-9.4-33.9 0l-23.1 23.1c-2.3 2.3-2.3 6.1 0 8.5l55.5 55.5c2.3 2.3 6.1 2.3 8.5 0L345 199c9.3-9.3 9.3-24.5 0-33.9z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">Interior Design</span>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<s
+   [...cortado, 2979 car]
+--- ajustes:
+{"view":"inline","icon_list":[{"text":"Interior Design","icon":"fa fa-pencil-square","_id":"ba26ea4","selected_icon":{"value":"fas fa-pen-square","library":"fa-solid"},"__fa4_migrated":{"selected_icon":true}},{"text":"Architecture","icon":"fa fa-home","_id":"fb56691","selected_icon":{"value":"fas fa-home","library":"fa-solid"},"__fa4_migrated":{"selected_icon":true}},{"text":"Project Management","icon":"fa fa-trello","_id":"ed7220a","selected_icon":{"value":"fab fa-trello","library":"fa-brands"},"__fa4_migrated":{"selected_icon":true}}],"space_between":{"unit":"px","size":18},"icon_align":"left","icon_color":"#c48e4c","icon_size":{"unit":"px","size":20},"text_color":"#c48e4c","icon_typography_typography":"custom","icon_typography_font_family":"Raleway","icon_typography_font_size":{"unit":"em","size":0.8},"icon_typography_line_height":{"unit":"em","size":1.6},"_margin":{"unit":"px","top":
+
+########## image-gallery   (00-portada.html, id 5109bb17)
+--- HTML real:
+<div class="elementor-element elementor-element-5109bb17 gallery-spacing-custom elementor-invisible elementor-widget elementor-widget-image-gallery" data-id="5109bb17" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:300}" data-widget_type="image-gallery.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-image-gallery">
+			<div id='gallery-1' class='gallery galleryid-19 gallery-columns-3 gallery-size-large'><figure class='gallery-item'>
+			<div class='gallery-icon landscape'>
+				<a data-elementor-open-lightbox="no" href='https://renders.studio/wp-content/uploads/2026/08/render-exteriores.png'><img loading="lazy" decoding="async" width="1024" height="576" src="https://renders.studio/wp-content/uploads/2026/08/render-exteriores-1024x576.png" class="attachment-large size-large" alt="render-exteriores" aria-describedby="gallery-1-4622" srcset="https://renders.studio/wp-content/uploads/2026/08/render-exteriores-1024x576.png 1024w, https://renders.studio/wp-content/uploads/2026/08/render-exteriores-300x169.png 300w, https://renders.studio/wp-content/uploads/2026/08/render-exteriores-768x432.png 768w, https://renders.studio/wp-content/uploads/2026/08/render-exteriores-1536x864.png 1536w, https://renders.studio/wp-content/uploads/2026/08/render-exteriores-800x450.png 
+   [...cortado, 25409 car]
+--- ajustes:
+{"wp_gallery":[{"id":4622,"url":"https://renders.studio/wp-content/uploads/2026/08/render-exteriores.png"},{"id":4623,"url":"https://renders.studio/wp-content/uploads/2026/08/renders-de-casa-fachada.png"},{"id":4626,"url":"https://renders.studio/wp-content/uploads/2026/08/renders-exterior-fachada.png"},{"id":4621,"url":"https://renders.studio/wp-content/uploads/2026/08/renders-exteriores.png"},{"id":2487,"url":"https://renders.studio/wp-content/uploads/2025/08/3-COCINA-ISLA.jpg"},{"id":2488,"url":"https://renders.studio/wp-content/uploads/2025/08/2-COMEDOR.jpg"},{"id":2489,"url":"https://renders.studio/wp-content/uploads/2025/08/7-DORMITORIO-VESTIDOR.jpg"},{"id":950,"url":"https://renders.studio/wp-content/uploads/2025/04/render-interior-3d-habitacion.webp"},{"id":4633,"url":"https://renders.studio/wp-content/uploads/2026/08/render-de-salones.png"},{"id":4634,"url":"https://renders.studi
+
+########## spacer   (00-portada.html, id 1461650)
+--- HTML real:
+<div class="elementor-element elementor-element-1461650 elementor-widget elementor-widget-spacer" data-id="1461650" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+						</div>
+				</div>
+--- ajustes:
+{"space_mobile":{"unit":"px","size":242,"sizes":[]}}
+
+########## eael-contact-form-7   (00-portada.html, id 2220cca)
+--- HTML real:
+<div class="elementor-element elementor-element-2220cca eael-contact-form-7-button-align-center eael-contact-form-7-button-custom elementor-widget elementor-widget-eael-contact-form-7" data-id="2220cca" data-element_type="widget" data-e-type="widget" data-widget_type="eael-contact-form-7.default">
+				<div class="elementor-widget-container">
+					<div class="eael-contact-form-7-wrapper">
+                <div class="eael-contact-form eael-contact-form-7 eael-contact-form-2220cca placeholder-show eael-contact-form-align-default">
+<div class="wpcf7 no-js" id="wpcf7-f3383-p19-o1" lang="es-ES" dir="ltr" data-wpcf7-id="3383">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/#wpcf7-f3383-p19-o1" method="post" class="wpcf7-form init" aria-label="Formulario de contacto" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="3383" ><input type="hidden" name="_wpcf7_version" value="6.1.7" ><input type="hidden" name="_wpcf7_locale" value="es_ES" ><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f3383-p19-o1" ><input type="hidden" name="_wpcf7_container_post" value="19" ><input type="hidden" name="_wpcf7_posted_data_hash" value="" >
+</fieldset>
+<p><label> Tu nombre<br>
+<span class="wpcf7-form-control-wrap" data-name="your-name"><input
+   [...cortado, 3398 car]
+--- ajustes:
+{"contact_form_list":"3383","title_text_color":"#FFFFFF","description_text_color":"#FFFFFF","field_bg":"#FFFFFF","field_text_color":"#000000","text_color_label":"#FFFFFF","label_spacing":{"unit":"px","size":23,"sizes":[]},"typography_label_typography":"custom","typography_label_font_size":{"unit":"px","size":19,"sizes":[]},"button_align":"center","button_width":{"unit":"px","size":216,"sizes":[]},"button_bg_color_normal":"#FC3777"}
+
+########## google_maps   (01-madrid.html, id 3529e15)
+--- HTML real:
+<div class="elementor-element elementor-element-3529e15 elementor-widget elementor-widget-google_maps" data-id="3529e15" data-element_type="widget" data-e-type="widget" data-widget_type="google_maps.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-custom-embed">
+			<iframe loading="lazy"
+					src="https://maps.google.com/maps?q=Madrid&#038;t=m&#038;z=10&#038;output=embed&#038;iwloc=near"
+					title="Madrid"
+					aria-label="Madrid"
+			></iframe>
+		</div>
+						</div>
+				</div>
+--- ajustes:
+{"address":"Madrid","eael_image_masking_custom_clip_path":"clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);","eael_image_masking_custom_clip_path_hover":"clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);"}

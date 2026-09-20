@@ -1,0 +1,3 @@
+
+.e-heading-base a, .e-paragraph-base a { all: unset; cursor: pointer; }form[data-element_type="e-form"].form-state-success [data-element_type="e-form-success-message"],form[data-element_type="e-form"].form-state-error [data-element_type="e-form-error-message"]{ display: block; }
+/*# sourceURL=elementor-frontend-inline-css */

@@ -1,0 +1,27 @@
+---
+/**
+ * Genera las 145 paginas de la web.
+ *
+ * La direccion de cada una es la misma que en WordPress: /madrid/, /precios/,
+ * /aviso-legal/... y la portada en /. Ni una sola URL cambia.
+ *
+ * El HTML lo monta scripts/lib/construir-pagina.mjs: cabecera y armazon
+ * copiados de la web real, contenido generado desde el arbol de Elementor.
+ */
+import { creaConstructor } from '../../scripts/lib/construir-pagina.mjs';
+
+export async function getStaticPaths() {
+  const { paginas } = creaConstructor(process.cwd());
+  return paginas.map((p) => ({
+    // la portada va en la raiz; el resto, en su slug
+    params: { ruta: p.slug === 'renders' ? undefined : p.slug },
+    props: { slug: p.slug },
+  }));
+}
+
+const { slug } = Astro.props;
+const { construye } = creaConstructor(process.cwd());
+const html = construye(slug);
+---
+
+<Fragment set:html={html} />
