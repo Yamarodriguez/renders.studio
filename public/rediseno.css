@@ -128,16 +128,28 @@ body {
 
 h1, .elementor-widget-heading h1.elementor-heading-title,
 h2, .elementor-widget-heading h2.elementor-heading-title {
-  font-weight: 400 !important;
+  font-weight: 500 !important;
   letter-spacing: -0.028em !important;
   line-height: 1.08 !important;
-  color: var(--rs-tinta);
 }
 
 h3, .elementor-widget-heading h3.elementor-heading-title {
-  font-weight: 500 !important;
+  font-weight: 600 !important;
   letter-spacing: -0.018em !important;
   line-height: 1.22 !important;
+}
+
+/* Sobre una foto la letra fina se pierde: ahi manda el peso, no la
+   elegancia. Una seccion con imagen de fondo lleva titulares con cuerpo
+   y una sombra minima que los despega del render. */
+.elementor-section > .elementor-background-overlay ~ .elementor-container :where(h1,h2,h3).elementor-heading-title,
+.e-con > .elementor-background-overlay ~ .e-con-inner :where(h1,h2,h3).elementor-heading-title {
+  font-weight: 600 !important;
+  text-shadow: 0 2px 28px rgba(0,0,0,.75), 0 1px 3px rgba(0,0,0,.45);
+}
+.elementor-section > .elementor-background-overlay ~ .elementor-container .elementor-widget-text-editor,
+.e-con > .elementor-background-overlay ~ .e-con-inner .elementor-widget-text-editor {
+  text-shadow: 0 2px 22px rgba(0,0,0,.7), 0 1px 3px rgba(0,0,0,.4);
 }
 
 h4, h5, h6,
@@ -225,44 +237,34 @@ a.elementor-button:hover {
    8. LA CABECERA
    Territorio propio: no sale del constructor, la montamos nosotros.
    ------------------------------------------------------------------- */
+/* Nada de banda negra ni de cristal esmerilado: una barra clara, un
+   filete de pelo y se acabo. La cabecera no tiene que llamar la
+   atencion, tiene que desaparecer. */
 #top-bar-wrap {
-  background: var(--rs-tinta) !important;
-  border-bottom: 0 !important;
+  background: #fff !important;
+  border-bottom: 1px solid var(--rs-linea) !important;
   font-size: 12.5px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.015em;
 }
-#top-bar-wrap, #top-bar-wrap a { color: rgba(255,255,255,.82) !important; }
-#top-bar-wrap a:hover { color: #fff !important; }
+#top-bar-wrap, #top-bar-wrap a, #top-bar-wrap p { color: var(--rs-tinta-2) !important; }
+#top-bar-wrap a:hover { color: var(--rs-acento) !important; }
 
 #site-header {
-  background: rgba(255,255,255,.92) !important;
-  backdrop-filter: saturate(160%) blur(10px);
-  -webkit-backdrop-filter: saturate(160%) blur(10px);
+  background: #fff !important;
   border-bottom: 1px solid var(--rs-linea) !important;
   box-shadow: none !important;
 }
 #site-navigation .menu-link,
 #site-navigation a {
   font-family: var(--rs-texto) !important;
-  font-size: 13.5px !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.04em !important;
+  font-size: 14.5px !important;
+  font-weight: 450 !important;
+  letter-spacing: 0.005em !important;
   color: var(--rs-tinta) !important;
   text-transform: none;
 }
-#site-navigation > ul > li > a { position: relative; }
-#site-navigation > ul > li > a::after {
-  content: '';
-  position: absolute;
-  left: 15px; right: 15px; bottom: 22px;
-  height: 1px;
-  background: var(--rs-acento);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform .22s ease;
-}
-#site-navigation > ul > li:hover > a::after,
-#site-navigation > ul > li.current-menu-item > a::after { transform: scaleX(1); }
+#site-navigation > ul > li > a:hover,
+#site-navigation > ul > li.current-menu-item > a { color: var(--rs-acento) !important; }
 
 /* los desplegables: menos caja, más papel */
 #site-navigation ul.sub-menu {

@@ -1,190 +1,72 @@
-/* Generado por la comprobacion 3. No editar a mano. */
+/* Generado por scripts/20-contraste.mjs. No editar a mano: se reescribe. */
 
-/* 3.32:1 -> 4.63:1   "Render arquitectura y diseño 3D" */
-body.page-id-19 [data-id="07f3440"] strong{color:#c1134e !important}
+/* --- Texto claro sobre foto: se refuerza el velo --- */
 
-/* 1.31:1 -> 13.7:1   "Renders 3D" */
-body.page-id-19 [data-id="052c9d8"] h1.elementor-heading-title.elementor-size-default{color:#16171b !important}
+/* (portada): foto de fondo con velo de solo 0.13; la letra clara se perdia.
+   "Renders 3D" */
+body.page-id-19 [data-id="c359d24"] > .elementor-background-overlay{background-image:linear-gradient(95deg, rgba(8,9,12,.34) 0%, rgba(8,9,12,.18) 40%, rgba(8,9,12,0) 70%) !important;background-color:transparent !important;opacity:1 !important}
 
-/* 1.27:1 -> 13.7:1   "Renders 3D: En Renders.studio transformamos ideas en imágenes 3D de al" */
-body.page-id-19 [data-id="31c91fe"] p{color:#16171b !important}
+/* --- Texto sobre fondo plano: se corrige el color --- */
 
-/* 1.27:1 -> 13.7:1   "Renders 3D:" */
-body.page-id-19 [data-id="31c91fe"] b{color:#16171b !important}
-
-/* 1.27:1 -> 13.7:1   "3D render" */
-body.page-id-19 [data-id="31c91fe"] strong{color:#16171b !important}
-
-/* 2.52:1 -> 17.91:1   "Renderistas" */
+/* (portada)  2.52:1 -> 17.91:1   "Renderistas" */
 body.page-id-19 [data-id="385dd7fb"] strong{color:#16171b !important}
 
-/* 2.61:1 -> 4.52:1   "Interior Design" */
-body.page-id-19 [data-id="566c2721"] span.elementor-icon-list-text{color:#936730 !important}
-
-/* 3.94:1 -> 6.46:1   "Planos de arquitectura" */
-body.page-id-19 [data-id="41a1907b"] strong{color:#ffffff !important}
-
-/* 3.94:1 -> 6.46:1   "Modelados 3D" */
-body.page-id-19 [data-id="f6e5f63"] strong{color:#ffffff !important}
-
-/* 3.94:1 -> 6.46:1   "Infografías 3D arquitectónicas" */
-body.page-id-19 [data-id="5f74c2f4"] strong{color:#ffffff !important}
-
-/* 3.94:1 -> 6.46:1   "Home staging" */
-body.page-id-19 [data-id="63129238"] strong{color:#ffffff !important}
-
-/* 3.94:1 -> 6.46:1   "Arquitectura Virtual" */
-body.page-id-19 [data-id="483eaeb2"] strong{color:#ffffff !important}
-
-/* 3.94:1 -> 6.46:1   "Catálogos para arquitectura" */
-body.page-id-19 [data-id="25903eb8"] strong{color:#ffffff !important}
-
-/* 3.94:1 -> 6.46:1   "Tours virtual 360" */
-body.page-id-19 [data-id="df0caf6"] strong{color:#ffffff !important}
-
-/* 3.94:1 -> 6.46:1   "Arquitectos" */
-body.page-id-19 [data-id="215c6b7"] strong{color:#ffffff !important}
-
-/* 3.94:1 -> 6.46:1   "Estudios de arquitectura" */
-body.page-id-19 [data-id="7a5d72a"] strong{color:#ffffff !important}
-
-/* 4.35:1 -> 4.52:1   "¿Cuánto Cuesta un Render de arquitectura?" */
+/* (portada)  4.35:1 -> 4.52:1   "¿Cuánto Cuesta un Render de arquitectura?" */
 body.page-id-19 [data-id="56b35766"] strong{color:#e6175d !important}
 
-/* 3.89:1 -> 6.38:1   "Renders casas" */
-body.page-id-19 [data-id="3fe39ef"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Render Fachadas" */
-body.page-id-19 [data-id="4c067f5"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Render edificios" */
-body.page-id-19 [data-id="d4a3a7c"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Renders de exteriores, Diseños de render exterior" */
-body.page-id-19 [data-id="dbf1896"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Diseños de render de cafetería" */
-body.page-id-19 [data-id="aa990e0"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Render Productos, Diseño de render de producto" */
-body.page-id-19 [data-id="37a5766"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Renders de locales comerciales" */
-body.page-id-19 [data-id="b2b0152"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Render Realistas" */
-body.page-id-19 [data-id="e32d47f"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Renders de cocinas" */
-body.page-id-19 [data-id="baf2f0e"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Render nocturnos" */
-body.page-id-19 [data-id="9e529bb"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Render oficina" */
-body.page-id-19 [data-id="426e5e1"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Render de parques" */
-body.page-id-19 [data-id="b5b3a25"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Renders 360, Diseños de renders en 360" */
-body.page-id-19 [data-id="6841ca8"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Diseño de render de piscinas" */
-body.page-id-19 [data-id="cc5ecf0"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Render habitación" */
-body.page-id-19 [data-id="b5dbc95"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Render de baños, Diseño de render de baño" */
-body.page-id-19 [data-id="845d997"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Renders salas, Diseño de render sala comedor" */
-body.page-id-19 [data-id="59cedd4"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Render de antes y después, muestra tus proyectos !" */
-body.page-id-19 [data-id="12739c2"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Render de sofas, diseño de render de sofá o sillones" */
-body.page-id-19 [data-id="2b48af6"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Render de logo, renderizado logo" */
-body.page-id-19 [data-id="8ca06d4"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Renders para inmobiliarias, diseño para inmobiliaria" */
-body.page-id-19 [data-id="660bea3"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Render para marketing" */
-body.page-id-19 [data-id="64cf9ed"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Render de camping y glamping" */
-body.page-id-19 [data-id="d9d6c99"] strong{color:#ffffff !important}
-
-/* 3.89:1 -> 6.38:1   "Renders hoteles" */
-body.page-id-19 [data-id="efdfc9b"] strong{color:#ffffff !important}
-
-/* 4.46:1 -> 4.63:1   "Renders hiperrealistas" */
+/* (portada)  4.46:1 -> 4.63:1   "Renders hiperrealistas" */
 body.page-id-19 [data-id="pt-cv-page-1"] a._self{color:#e01279 !important}
 
-/* 1.06:1 -> 4.25:1   "Leer Más" */
+/* (portada)  1.06:1 -> 4.25:1   "Leer Más" */
 body.page-id-19 [data-id="pt-cv-page-1"] a._self.pt-cv-readmore{color:#16171b !important}
 
-/* 4.35:1 -> 4.52:1   "Arquitectos Renderistas profesionales" */
+/* (portada)  4.35:1 -> 4.52:1   "Arquitectos Renderistas profesionales" */
 body.page-id-19 [data-id="3ee848e"] strong{color:#e6175d !important}
 
-/* 4.35:1 -> 4.52:1   "Empresa de render para soluciones de renderizado" */
+/* (portada)  4.35:1 -> 4.52:1   "Empresa de render para soluciones de renderizado" */
 body.page-id-19 [data-id="491e1c1"] strong{color:#e6175d !important}
 
-/* 4.35:1 -> 4.52:1   "¿Qué es la renderización 3D o renderizado?" */
+/* (portada)  4.35:1 -> 4.52:1   "¿Qué es la renderización 3D o renderizado?" */
 body.page-id-19 [data-id="b379679"] strong{color:#e6175d !important}
 
-/* 4.35:1 -> 4.52:1   "Render 3D CON INTELIGENCIA ARTIFICIAL" */
+/* (portada)  4.35:1 -> 4.52:1   "Render 3D CON INTELIGENCIA ARTIFICIAL" */
 body.page-id-19 [data-id="246fdfa"] strong{color:#e6175d !important}
 
-/* 3.24:1 -> 4.66:1   "bUSCAS PRESUPUESTO PARA TUS PROYECTOS" */
-body.page-id-19 [data-id="6d250cf9"] p{color:#f06493 !important}
-
-/* 4.02:1 -> 4.67:1   "Cursos de render 3D" */
+/* (portada)  4.02:1 -> 4.67:1   "Cursos de render 3D" */
 body.page-id-19 [data-id="1aef21a"] strong{color:#d81557 !important}
 
-/* 4.35:1 -> 4.52:1   "Imagenes de render 3D" */
+/* (portada)  4.35:1 -> 4.52:1   "Imagenes de render 3D" */
 body.page-id-19 [data-id="01e578e"] strong{color:#e6175d !important}
 
-/* 1.58:1 -> 4.66:1   "★★★★★" */
+/* (portada)  1.58:1 -> 4.66:1   "★★★★★" */
 body.page-id-19 [data-id="8f41bb1"] div.star-rating{color:#886e08 !important}
 
-/* 4.25:1 -> 17.01:1   "Arquitecta" */
+/* (portada)  4.25:1 -> 17.01:1   "Arquitecta" */
 body.page-id-19 [data-id="8f41bb1"] div.client-position{color:#16171b !important}
 
-/* 4.05:1 -> 4.52:1   "render 3D" */
-body.page-id-19 [data-id="24c64dc"] p{color:#dd1659 !important}
-
-/* 4.35:1 -> 4.52:1   "Despacho de render 3D" */
+/* (portada)  4.35:1 -> 4.52:1   "Despacho de render 3D" */
 body.page-id-19 [data-id="f29ef66"] strong{color:#e6175d !important}
 
-/* 4.35:1 -> 4.52:1   "Agencia de render 3D" */
+/* (portada)  4.35:1 -> 4.52:1   "Agencia de render 3D" */
 body.page-id-19 [data-id="d2104bf"] strong{color:#e6175d !important}
 
-/* 4.48:1 -> 17.91:1   "Somos una agencia de renders especializada en crear visualizaciones 3D" */
+/* (portada)  4.48:1 -> 17.91:1   "Somos una agencia de renders especializada en crear visualizaciones 3D" */
 body.page-id-19 [data-id="dc05735"] p{color:#16171b !important}
 
-/* 4.48:1 -> 17.91:1   "agencia de renders" */
+/* (portada)  4.48:1 -> 17.91:1   "agencia de renders" */
 body.page-id-19 [data-id="dc05735"] strong{color:#16171b !important}
 
-/* 4.35:1 -> 4.52:1   "Render Freelance" */
+/* (portada)  4.35:1 -> 4.52:1   "Render Freelance" */
 body.page-id-19 [data-id="d4d7a5d"] strong{color:#e6175d !important}
 
-/* 4.48:1 -> 17.91:1   "Ofrecemos servicios de renders freelance para arquitectura, diseño de " */
+/* (portada)  4.48:1 -> 17.91:1   "Ofrecemos servicios de renders freelance para arquitectura, diseño de " */
 body.page-id-19 [data-id="6fd610dc"] p{color:#16171b !important}
 
-/* 4.48:1 -> 17.91:1   "renders freelance" */
+/* (portada)  4.48:1 -> 17.91:1   "renders freelance" */
 body.page-id-19 [data-id="6fd610dc"] strong{color:#16171b !important}
 
-/* 4.35:1 -> 4.52:1   "Programas de render" */
+/* (portada)  4.35:1 -> 4.52:1   "Programas de render" */
 body.page-id-19 [data-id="bc4a5e8"] strong{color:#e6175d !important}
 
-/* 1:1 -> 6.32:1   "Render en España" */
+/* (portada)  1:1 -> 6.32:1   "Render en España" */
 body.page-id-19 [data-id="0b8273f"] a{color:#16171b !important}
-
-/* 1.06:1 -> 11.96:1   "politica de privacidad" */
-body.page-id-19 [data-id="2220cca"] a{color:#ffffff !important}

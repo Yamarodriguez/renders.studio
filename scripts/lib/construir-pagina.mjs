@@ -114,11 +114,6 @@ export function creaConstructor(raiz = process.cwd()) {
           break;
       }
     }
-    // FASE 2 — el rediseño. Van las ULTIMAS, despues de OceanWP y de
-    // Elementor, para que ganen siempre. Si se quitan estas dos lineas, la
-    // web vuelve exactamente a como estaba en la Fase 1.
-    out.push('<link rel="stylesheet" id="rs-rediseno" href="/rediseno.css" media="all">');
-    out.push('<link rel="stylesheet" id="rs-contraste" href="/contraste.css" media="all">');
     return out.join('\n');
   }
 
