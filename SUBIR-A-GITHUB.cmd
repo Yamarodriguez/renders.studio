@@ -1,9 +1,9 @@
 @echo off
 REM ===============================================================
-REM  SUBIR EL PROYECTO A GITHUB
+REM  SUBIR EL PROYECTO A GITHUB  -  Fase 2 (redisenno)
 REM
-REM  Antes de subir pasa las comprobaciones que ya existen. Si alguna
-REM  falla, NO sube nada (es la regla 22 de tu prompt).
+REM  Antes de subir pasa las comprobaciones. Si alguna falla, NO sube
+REM  nada (regla 22 de tu prompt).
 REM
 REM  Repositorio: https://github.com/Yamarodriguez/renders.studio
 REM  Rama: main
@@ -16,7 +16,7 @@ cd /d "%PROYECTO%"
 
 echo.
 echo ===============================================
-echo  Subir renders.studio a GitHub
+echo  Subir renders.studio a GitHub - Fase 2
 echo ===============================================
 echo.
 
@@ -26,8 +26,24 @@ if errorlevel 1 (
   goto :fin
 )
 
-REM --- 1. comprobaciones -----------------------------------------
+REM --- 0. que esten los ficheros del redisenno --------------------
+if not exist "public\rediseno.css" (
+  echo NO SE SUBE: falta public\rediseno.css
+  goto :fin
+)
+if not exist "public\fuentes\inter-latin-wght-normal.woff2" (
+  echo NO SE SUBE: faltan las tipografias en public\fuentes\
+  goto :fin
+)
+if not exist "public\contraste.css" (
+  echo NO SE SUBE: falta public\contraste.css
+  echo              Ejecuta antes REDISENO.cmd
+  goto :fin
+)
+
+REM --- 1. comprobaciones ------------------------------------------
 echo [1/5] Comprobando el marcado contra la web real...
+echo       (el redisenno solo toca estilo: esto TIENE que seguir en 0)
 call node scripts/06-comparar-marcado.mjs
 if errorlevel 1 (
   echo.
@@ -55,30 +71,23 @@ if errorlevel 1 (
   goto :fin
 )
 
-REM --- 2. ajustes de git para un repositorio grande ---------------
+REM --- 2. git -----------------------------------------------------
 echo.
 echo [4/5] Preparando git...
 git config core.longpaths true
 git config http.postBuffer 524288000
-
-echo.
-echo    Repositorio remoto:
 git remote -v
 
-echo.
-echo    Ficheros que van a subir (resumen):
 git add -A
-git status --short --untracked-files=no > "%TEMP%\_gitstat.txt" 2>&1
-for /f %%C in ('find /c /v "" ^< "%TEMP%\_gitstat.txt"') do echo       %%C ficheros con cambios
+echo.
+echo    Ficheros con cambios:
+git status --short
 
-REM --- 3. subir ---------------------------------------------------
 echo.
 echo [5/5] Subiendo...
-echo    (la primera vez son unos 300 MB: imagenes, hojas de estilo y
-echo     el contenido extraido. Puede tardar varios minutos.)
 echo.
 
-git commit -m "Fase 1: motor de render verificado, 145 paginas generadas" -m "Marcado: 0 diferencias en 58.089 elementos y 37.416 contenidos de widget." -m "Encabezados: 145 de 145 paginas identicas a la web real." -m "Pendientes las comprobaciones de geometria, texto invisible y ficheros que no cargan."
+git commit -m "Fase 2: redisenno visual (tipografia, paleta, aire y botones)" -m "Tipografia: Inter Tight en titulares e Inter en texto, variables, solo latino, desde npm." -m "Paleta: un solo acento (el magenta de marca). Fuera azul, morado y dorado." -m "Comprobacion 3 (texto invisible): el H1 de la portada estaba en blanco sobre gris claro (1,31:1). Arreglado junto con otros 62 casos." -m "El marcado sigue en 0 diferencias: la hoja de redisenno se carga la ultima y no toca el HTML." -m "Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>" -m "Claude-Session: https://claude.ai/code/session_011hssdUEogzyUuHz2isGaVs"
 if errorlevel 1 (
   echo.
   echo AVISO: git dice que no hay nada nuevo que guardar, o ha fallado el commit.
@@ -107,9 +116,8 @@ echo  SUBIDO
 echo.
 echo  https://github.com/Yamarodriguez/renders.studio
 echo.
-echo  Si Netlify esta conectado a este repositorio,
-echo  el despliegue empieza solo. Recuerda que la web
-echo  de pruebas va con noindex hasta la mudanza.
+echo  Netlify empieza el despliegue solo. Recuerda que
+echo  la web de pruebas sigue con noindex hasta la mudanza.
 echo ===============================================
 
 :fin

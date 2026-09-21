@@ -1,0 +1,335 @@
+/* ===================================================================
+   renders.studio — HOJA DE REDISEÑO  (Fase 2)
+   -------------------------------------------------------------------
+   Esta hoja se carga LA ÚLTIMA, después de todas las de OceanWP y
+   Elementor. Solo toca ESTILO: tipografía, color, aire y botones.
+   No toca ni un texto, ni una dirección, ni una línea de HTML.
+
+   Para deshacer el rediseño entero: quitar esta hoja. La web vuelve
+   exactamente a como estaba.
+
+   Dirección: estudio minimalista claro.
+   Referencias del sector: Brick Visual, MIR, Beauty and the Bit.
+   =================================================================== */
+
+/* -------------------------------------------------------------------
+   1. LAS LETRAS
+   Inter Tight para los titulares, Inter para el texto.
+   Variables (un solo fichero cubre todos los grosores), solo latino.
+   ------------------------------------------------------------------- */
+@font-face {
+  font-family: 'Inter Var';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fuentes/inter-latin-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Inter Tight Var';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fuentes/inter-tight-latin-wght-normal.woff2') format('woff2-variations');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193,
+    U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* -------------------------------------------------------------------
+   2. LA PALETA
+   Un solo color de acento: el magenta de la marca. Fuera el azul
+   eléctrico, el morado de las sombras y el dorado.
+   ------------------------------------------------------------------- */
+:root {
+  --rs-titulo: 'Inter Tight Var', 'Inter Tight', system-ui, sans-serif;
+  --rs-texto:  'Inter Var', 'Inter', system-ui, sans-serif;
+
+  --rs-tinta:    #16171b;  /* titulares */
+  --rs-tinta-2:  #3c4049;  /* texto corrido */
+  --rs-tinta-3:  #6e737e;  /* secundario */
+  --rs-linea:    #e4e3de;  /* filetes */
+  --rs-fondo:    #ffffff;
+  --rs-fondo-2:  #f7f6f3;  /* franjas suaves */
+  --rs-acento:   #e5127c;  /* el magenta de la marca */
+  --rs-acento-2: #b30e60;  /* el mismo, al pasar por encima */
+}
+
+/* Las variables globales de Elementor: cambiarlas aquí reconfigura de
+   golpe todos los widgets que usan los estilos globales del tema. */
+body.elementor-kit-10 {
+  --e-global-typography-primary-font-family:   var(--rs-titulo);
+  --e-global-typography-secondary-font-family: var(--rs-titulo);
+  --e-global-typography-text-font-family:      var(--rs-texto);
+  --e-global-typography-accent-font-family:    var(--rs-texto);
+  --e-global-typography-primary-font-weight:   500;
+  --e-global-typography-secondary-font-weight: 400;
+  --e-global-color-primary:   var(--rs-tinta);
+  --e-global-color-secondary: var(--rs-tinta-3);
+  --e-global-color-text:      var(--rs-tinta-2);
+  --e-global-color-accent:    var(--rs-acento);
+  --widgets-spacing: 28px 28px;
+  --widgets-spacing-row: 28px;
+  --widgets-spacing-column: 28px;
+}
+
+/* -------------------------------------------------------------------
+   3. LA TIPOGRAFÍA, APLICADA
+   Se usa !important porque el CSS de cada página declara "Poppins"
+   elemento a elemento (145 veces solo en la portada).
+   OJO: nunca se toca <i>, ni nada cuya clase empiece por fa-, eicon- o
+   icon-. Ahí la "letra" ES el icono, y cambiarla lo convierte en un
+   cuadrado vacío. Esta es la trampa clásica.
+   ------------------------------------------------------------------- */
+body,
+body :where(p, li, dd, dt, td, th, blockquote, figcaption, label,
+             .elementor-widget-text-editor, .elementor-text-editor,
+             .elementor-icon-list-text, .elementor-button-text,
+             .menu-link, .widget, input, textarea, select, button) {
+  font-family: var(--rs-texto) !important;
+}
+
+body :where(h1, h2, h3, h4, h5, h6, .elementor-heading-title,
+             .entry-title, .widget-title, .elementor-image-box-title,
+             .elementor-icon-box-title) {
+  font-family: var(--rs-titulo) !important;
+}
+
+/* dentro de un titular o de un párrafo, todo hereda del padre */
+body :where(.elementor-heading-title, .elementor-widget-text-editor,
+             .elementor-widget-heading) :where(span, strong, b, em, a, small) {
+  font-family: inherit !important;
+}
+
+/* …salvo los iconos, que se quedan con la suya */
+.fa, .fas, .far, .fab, .fal, .fad,
+[class^="fa-"], [class*=" fa-"],
+[class^="eicon-"], [class*=" eicon-"],
+[class^="icon-"], [class*=" icon-"],
+.elementor-icon > i, .elementor-social-icon i {
+  font-family: revert !important;
+}
+
+/* -------------------------------------------------------------------
+   4. RITMO Y JERARQUÍA
+   No se cambian los tamaños (los fija el constructor página a página):
+   se cambian el grosor, el interlineado y la separación entre letras,
+   que es de donde sale la diferencia entre "plantilla" y "estudio".
+   ------------------------------------------------------------------- */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'kern' 1, 'liga' 1;
+  color: var(--rs-tinta-2);
+  background: var(--rs-fondo);
+}
+
+h1, .elementor-widget-heading h1.elementor-heading-title,
+h2, .elementor-widget-heading h2.elementor-heading-title {
+  font-weight: 400 !important;
+  letter-spacing: -0.028em !important;
+  line-height: 1.08 !important;
+  color: var(--rs-tinta);
+}
+
+h3, .elementor-widget-heading h3.elementor-heading-title {
+  font-weight: 500 !important;
+  letter-spacing: -0.018em !important;
+  line-height: 1.22 !important;
+}
+
+h4, h5, h6,
+.elementor-widget-heading :where(h4, h5, h6).elementor-heading-title {
+  font-weight: 600 !important;
+  letter-spacing: -0.01em !important;
+  line-height: 1.35 !important;
+}
+
+/* el texto corrido: más interlineado y una medida de línea cómoda */
+.elementor-widget-text-editor,
+.elementor-widget-text-editor p,
+.entry-content p {
+  line-height: 1.75 !important;
+  letter-spacing: 0.002em;
+}
+.elementor-widget-text-editor p,
+.entry-content > p,
+.entry-content > ul,
+.entry-content > ol {
+  max-width: 68ch;
+}
+.elementor-widget-text-editor p + p { margin-top: 1.1em; }
+.elementor-widget-text-editor ul li,
+.elementor-widget-text-editor ol li { margin-bottom: 0.5em; line-height: 1.7; }
+
+/* los rótulos pequeños en mayúsculas: el detalle que más «estudio» da */
+.elementor-widget-heading .elementor-heading-title[class*="uppercase"],
+.elementor-size-small .elementor-heading-title {
+  letter-spacing: 0.14em !important;
+  font-weight: 500 !important;
+}
+
+/* -------------------------------------------------------------------
+   5. LOS BOTONES
+   Fuera la sombra dura morada. Rectángulo limpio, rótulo espaciado.
+   Los colores los pone el constructor: aquí solo se ordena la forma.
+   ------------------------------------------------------------------- */
+.elementor-button,
+.elementor-button-link,
+a.elementor-button {
+  border-radius: 2px !important;
+  box-shadow: none !important;
+  font-family: var(--rs-texto) !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.09em !important;
+  transition: transform .18s ease, background-color .18s ease,
+              color .18s ease, box-shadow .18s ease !important;
+}
+.elementor-button:hover,
+a.elementor-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(22, 23, 27, .14) !important;
+}
+.elementor-button .elementor-button-icon { transition: transform .18s ease; }
+.elementor-button:hover .elementor-button-icon { transform: translateX(3px); }
+
+/* -------------------------------------------------------------------
+   6. ENLACES DENTRO DEL TEXTO
+   ------------------------------------------------------------------- */
+.elementor-widget-text-editor a:not(.elementor-button),
+.entry-content a:not(.elementor-button) {
+  color: var(--rs-acento);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  text-decoration-color: color-mix(in srgb, var(--rs-acento) 35%, transparent);
+  transition: color .15s ease, text-decoration-color .15s ease;
+}
+.elementor-widget-text-editor a:not(.elementor-button):hover,
+.entry-content a:not(.elementor-button):hover {
+  color: var(--rs-acento-2);
+  text-decoration-color: currentColor;
+}
+
+/* -------------------------------------------------------------------
+   7. LOS FILETES
+   Los separadores del constructor, convertidos en línea de pelo.
+   ------------------------------------------------------------------- */
+.elementor-divider-separator {
+  border-top-width: 1px !important;
+}
+
+/* -------------------------------------------------------------------
+   8. LA CABECERA
+   Territorio propio: no sale del constructor, la montamos nosotros.
+   ------------------------------------------------------------------- */
+#top-bar-wrap {
+  background: var(--rs-tinta) !important;
+  border-bottom: 0 !important;
+  font-size: 12.5px;
+  letter-spacing: 0.02em;
+}
+#top-bar-wrap, #top-bar-wrap a { color: rgba(255,255,255,.82) !important; }
+#top-bar-wrap a:hover { color: #fff !important; }
+
+#site-header {
+  background: rgba(255,255,255,.92) !important;
+  backdrop-filter: saturate(160%) blur(10px);
+  -webkit-backdrop-filter: saturate(160%) blur(10px);
+  border-bottom: 1px solid var(--rs-linea) !important;
+  box-shadow: none !important;
+}
+#site-navigation .menu-link,
+#site-navigation a {
+  font-family: var(--rs-texto) !important;
+  font-size: 13.5px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.04em !important;
+  color: var(--rs-tinta) !important;
+  text-transform: none;
+}
+#site-navigation > ul > li > a { position: relative; }
+#site-navigation > ul > li > a::after {
+  content: '';
+  position: absolute;
+  left: 15px; right: 15px; bottom: 22px;
+  height: 1px;
+  background: var(--rs-acento);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .22s ease;
+}
+#site-navigation > ul > li:hover > a::after,
+#site-navigation > ul > li.current-menu-item > a::after { transform: scaleX(1); }
+
+/* los desplegables: menos caja, más papel */
+#site-navigation ul.sub-menu {
+  border: 1px solid var(--rs-linea) !important;
+  box-shadow: 0 12px 34px rgba(22,23,27,.10) !important;
+  border-radius: 2px;
+}
+#site-navigation ul.sub-menu a {
+  font-size: 13px !important;
+  letter-spacing: 0.02em !important;
+}
+
+/* -------------------------------------------------------------------
+   9. EL PIE
+   ------------------------------------------------------------------- */
+#footer, #footer-widgets {
+  background: var(--rs-tinta) !important;
+  color: rgba(255,255,255,.72) !important;
+}
+#footer :where(p, li, span, a, td) { color: rgba(255,255,255,.72) !important; }
+#footer :where(h1,h2,h3,h4,h5,h6,.widget-title) {
+  color: #fff !important;
+  font-family: var(--rs-titulo) !important;
+  font-weight: 500 !important;
+  font-size: 13px !important;
+  letter-spacing: 0.14em !important;
+  text-transform: uppercase;
+}
+#footer a:hover { color: #fff !important; }
+#footer-bottom {
+  background: var(--rs-tinta) !important;
+  border-top: 1px solid rgba(255,255,255,.10) !important;
+  font-size: 12.5px;
+}
+#footer-bottom, #footer-bottom a { color: rgba(255,255,255,.55) !important; }
+
+#scroll-top {
+  border-radius: 2px !important;
+  background: var(--rs-tinta) !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+
+/* -------------------------------------------------------------------
+   10. IMÁGENES
+   Nada de sombras raras: la imagen se sostiene sola.
+   ------------------------------------------------------------------- */
+.elementor-widget-image img,
+.elementor-image-gallery img {
+  box-shadow: none !important;
+  transition: transform .4s cubic-bezier(.2,.6,.2,1), filter .4s ease;
+}
+.elementor-widget-image a:hover img { transform: scale(1.015); }
+
+/* -------------------------------------------------------------------
+   11. SELECCIÓN Y FOCO
+   ------------------------------------------------------------------- */
+::selection { background: var(--rs-acento); color: #fff; }
+:focus-visible {
+  outline: 2px solid var(--rs-acento);
+  outline-offset: 2px;
+}
+
+/* -------------------------------------------------------------------
+   12. MÓVIL
+   ------------------------------------------------------------------- */
+@media (max-width: 767px) {
+  h1, .elementor-widget-heading h1.elementor-heading-title { letter-spacing: -0.02em !important; }
+  .elementor-widget-text-editor, .elementor-widget-text-editor p { line-height: 1.7 !important; }
+}
