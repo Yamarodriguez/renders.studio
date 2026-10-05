@@ -97,6 +97,121 @@ function formas(s) {
   return out;
 }
 
+
+// ------------------------------------------------------- modo rediseno
+//
+// Con ctx.rediseno = true el armazon lleva, ademas de su marcado de
+// Elementor, unas pocas pistas para la hoja nueva (public/estilo/diseno.css):
+//   r-tono-*   si el bloque es oscuro, claro, suave o una foto
+//   --w        el ancho de la columna o caja, que antes ponia post-ID.css
+//   --fondo    la foto de fondo, si la hay
+// Los colores de Elementor NO se copian: solo se usan para decidir el tono.
+// Sin ctx.rediseno no cambia nada y la copia fiel sigue identica.
+
+/** Un color de Elementor (#rgb, #rrggbb, #rrggbbaa, rgb(a)) -> {r,g,b,a}. */
+function color(v) {
+  const t = String(v || '').trim();
+  let m = /^#([0-9a-f]{3,8})$/i.exec(t);
+  if (m) {
+    let h = m[1];
+    if (h.length === 3 || h.length === 4) h = h.split('').map((c) => c + c).join('');
+    const n = (i) => parseInt(h.slice(i, i + 2), 16);
+    return { r: n(0), g: n(2), b: n(4), a: h.length === 8 ? n(6) / 255 : 1 };
+  }
+  m = /^rgba?\(([^)]+)\)$/i.exec(t);
+  if (m) {
+    const [r, g, b, a = 1] = m[1].split(',').map((x) => Number(x.trim()));
+    return { r, g, b, a };
+  }
+  return null;
+}
+
+/** Luminancia relativa (0 negro, 1 blanco). */
+function luz({ r, g, b }) {
+  const f = (c) => {
+    c /= 255;
+    return c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
+  };
+  return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b);
+}
+
+/** El tono de un bloque: 'foto', 'oscuro', 'suave', 'claro' o null (hereda). */
+function tono(s) {
+  const foto = s.background_image?.url;
+  let velo = null;
+  if (tieneVelo(s) && s.background_overlay_color) {
+    velo = color(s.background_overlay_color);
+    if (velo) velo.a *= medida(s.background_overlay_opacity) ?? 0.5;
+  }
+  if (foto) {
+    // velo claro encima de la foto = textura de fondo: se trata como claro
+    if (velo && luz(velo) > 0.6) return 'suave';
+    return 'foto';
+  }
+  const fondo = color(s.background_color);
+  if (fondo && fondo.a >= 0.5) {
+    const l = luz(fondo);
+    if (l < 0.2) return 'oscuro';
+    if (l > 0.97) return 'claro';
+    return 'suave';
+  }
+  if (velo && velo.a >= 0.5 && luz(velo) < 0.2) return 'oscuro';
+  return null;
+}
+
+/** Hay texto (titulo, parrafo, boton) dentro, a cualquier profundidad? */
+function llevaTexto(n) {
+  return (n.elements || []).some((h) =>
+    h.elType === 'widget'
+      ? ['heading', 'text-editor', 'button', 'icon-list', 'eael-contact-form-7'].includes(h.widgetType)
+      : llevaTexto(h)
+  );
+}
+
+/** Texto plano de un widget de texto, para medir si es un antetitulo. */
+function textoPlano(html) {
+  return String(html || '').replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').trim();
+}
+
+/**
+ * Un parrafo corto justo antes de un titulo es un antetitulo
+ * ("RENDERS MADRID" encima de "Renders Madrid"). Se marca para darle la
+ * letra pequena de etiqueta. El texto no cambia.
+ */
+function marcaAntetitulos(hijos) {
+  const ws = (hijos || []).filter((h) => !(h.elType === 'widget' && h.widgetType === 'spacer'));
+  for (let i = 0; i < ws.length - 1; i++) {
+    const a = ws[i];
+    const b = ws[i + 1];
+    if (a.elType !== 'widget' || a.widgetType !== 'text-editor') continue;
+    if (b.elType !== 'widget' || b.widgetType !== 'heading') continue;
+    const t = textoPlano(a.settings?.editor);
+    if (t && t.length <= 70 && !/<(style|table|ul|img)/i.test(a.settings?.editor || '')) a._antetitulo = true;
+  }
+}
+
+/** Clases y estilo extra de un bloque en modo rediseno. */
+function pistas(n, ctx, { ancho = null, extra = [] } = {}) {
+  if (!ctx.rediseno) return { clases: '', estilo: '' };
+  const s = n.settings || {};
+  const c = [...extra];
+  const vars = [];
+  const t = tono(s);
+  if (t) c.push(`r-tono-${t}`);
+  if (t === 'foto') {
+    // algunas fotos estan guardadas en http://: se pasan a https para que
+    // construir-pagina las convierta en relativas como a las demas
+    const url = String(s.background_image.url).replace(/^http:\/\/renders\.studio/, 'https://renders.studio');
+    vars.push(`--fondo:url('${url.replaceAll("'", '%27')}')`);
+    if (!llevaTexto(n)) c.push('r-foto-sola');
+  }
+  if (ancho !== null && ancho !== undefined && !Number.isNaN(ancho)) vars.push(`--w:${ancho}%`);
+  return {
+    clases: c.length ? ' ' + c.join(' ') : '',
+    estilo: vars.length ? ` style="${attr(vars.join(';'))}"` : '',
+  };
+}
+
 // ---------------------------------------------------------------- secciones
 
 function pintaSection(n, ctx, interior) {
@@ -131,12 +246,13 @@ function pintaSection(n, ctx, interior) {
   }
 
   const hueco = s.gap || 'default';
+  const r = pistas(n, ctx, { extra: interior || ctx.enColumna ? ['r-interior'] : [] });
   const dentro = (n.elements || [])
     .map((h, i, a) => pinta(h, { ...ctx, interior: true, hermanos: a.length }))
     .join('');
 
   return (
-    `<section class="${c.join(' ')}" data-id="${n.id}" data-element_type="section" data-e-type="section"${datosAlFrente(n)}>` +
+    `<section class="${c.join(' ')}${r.clases}" data-id="${n.id}" data-element_type="section" data-e-type="section"${datosAlFrente(n)}${r.estilo}>` +
     velo(s) +
     formas(s) +
     `<div class="elementor-container elementor-column-gap-${hueco}">` +
@@ -160,12 +276,16 @@ function pintaColumn(n, ctx) {
     `elementor-element-${n.id}`,
   ];
   c.push(...clasesPropias(s));
-  if (s.animation) c.push('elementor-invisible');
+  if (s.animation && !ctx.rediseno) c.push('elementor-invisible');
 
-  const dentro = (n.elements || []).map((h) => pinta(h, ctx)).join('');
+  if (ctx.rediseno) marcaAntetitulos(n.elements);
+  const r = pistas(n, ctx, { ancho: medida(s._inline_size) ?? tam });
+  // lo que va dentro de una columna ya no es de primer nivel (seccion anidada)
+  const ctxHijos = ctx.rediseno ? { ...ctx, enColumna: true } : ctx;
+  const dentro = (n.elements || []).map((h) => pinta(h, ctxHijos)).join('');
 
   return (
-    `<div class="${c.join(' ')}" data-id="${n.id}" data-element_type="column" data-e-type="column"${datosAlFrente(n)}>` +
+    `<div class="${c.join(' ')}${r.clases}" data-id="${n.id}" data-element_type="column" data-e-type="column"${datosAlFrente(n)}${r.estilo}>` +
     `<div class="elementor-widget-wrap${dentro ? ' elementor-element-populated' : ''}">` +
     velo(s) +
     dentro +
@@ -191,6 +311,12 @@ function pintaContainer(n, ctx) {
     ctx.dentroDeContenedor ? 'e-child' : 'e-parent',
   ];
 
+  if (ctx.rediseno) marcaAntetitulos(n.elements);
+  const w = s.width && (s.width.unit || '%') === '%' ? medida(s.width) : null;
+  const r = pistas(n, ctx, {
+    ancho: w,
+    extra: [s.flex_direction === 'row' ? 'r-fila' : 'r-pila'],
+  });
   const dentro = (n.elements || [])
     .map((h) => pinta(h, { ...ctx, dentroDeContenedor: true }))
     .join('');
@@ -198,7 +324,7 @@ function pintaContainer(n, ctx) {
   const cuerpo = caja === 'e-con-boxed' ? `<div class="e-con-inner">${dentro}</div>` : dentro;
 
   return (
-    `<div class="${c.join(' ')}" data-id="${n.id}" data-element_type="container" data-e-type="container"${datosAlFrente(n)}>` +
+    `<div class="${c.join(' ')}${r.clases}" data-id="${n.id}" data-element_type="container" data-e-type="container"${datosAlFrente(n)}${r.estilo}>` +
     velo(s) +
     formas(s) +
     cuerpo +
@@ -254,8 +380,9 @@ function pintaWidget(n, ctx) {
   // ancho propio del widget ("initial" = el que le pongas a mano)
   if (s._element_width) c.push(`elementor-widget__width-${s._element_width}`);
   c.push(...clasesPropias(s));
-  if (s._animation) c.push('elementor-invisible');
+  if (s._animation && !ctx.rediseno) c.push('elementor-invisible');
   c.push('elementor-widget', `elementor-widget-${n.widgetType}`);
+  if (ctx.rediseno && n._antetitulo) c.push('r-antetitulo');
 
   const contenido = ctx.pintaContenido ? ctx.pintaContenido(n, ctx) : '';
 

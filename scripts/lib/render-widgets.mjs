@@ -218,7 +218,11 @@ export function creaPintor({ iconos = {}, adjuntos = {}, dinamicos = {}, dominio
       // la posicion en la pagina decide si lleva loading="lazy"
       const cuenta = ctx?.contador ? ctx.contador.imagenes++ : 99;
       let img;
-      if (tamano === 'custom') {
+      if (tamano === 'custom' && ctx?.rediseno) {
+        // En el rediseno no hacen falta los recortes de Elementor (muchos no
+        // estan descargados): se usa la foto original y la recorta el CSS.
+        img = imagen(s.image, { tamano: 'large', perezosa: cuenta >= IMAGENES_SIN_LAZY });
+      } else if (tamano === 'custom') {
         // Elementor recorta la foto y la guarda en uploads/elementor/thumbs/
         // con un nombre que no se puede calcular: se saca del HTML real.
         const url = miniaturaAMedida(s.image?.id, s.image_custom_dimension);

@@ -16,6 +16,7 @@ import path from 'node:path';
 import { pintaArbol } from './render-elementor.mjs';
 import { creaPintor } from './render-widgets.mjs';
 import { desSerializa } from './php.mjs';
+import { pintaCabezaRediseno, pintaCabecera, pintaCierre, pintaPie } from './rediseno.mjs';
 
 const DOMINIO = 'https://renders.studio';
 
@@ -30,7 +31,16 @@ const MENUS = {
   10: 'renders-sin-provincias',
 };
 
-export function creaConstructor(raiz = process.cwd()) {
+/**
+ * Dos formas de montar la web:
+ *   'rediseno' (la de siempre)  cabecera, cierre y pie nuevos y la hoja
+ *                               public/estilo/diseno.css
+ *   'fiel'                      la copia exacta de WordPress de la Fase 1
+ * Se elige con la variable DISENO:  DISENO=fiel npm run build
+ */
+export const MODO = process.env.DISENO === 'fiel' ? 'fiel' : 'rediseno';
+
+export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
   const DATOS = path.join(raiz, 'datos');
   const lee = (p) => JSON.parse(fs.readFileSync(path.join(DATOS, p), 'utf8'));
   const leeTexto = (p) => fs.readFileSync(path.join(DATOS, p), 'utf8');
@@ -138,11 +148,13 @@ export function creaConstructor(raiz = process.cwd()) {
     const cabecera = cabeceras[menu];
     if (!cabecera) throw new Error(`Me falta la cabecera del menu ${menu}`);
 
+    const rediseno = modo === 'rediseno';
     let contenido;
     let envoltorio;
     if (pagina.conElementor) {
       const datos = JSON.parse(fs.readFileSync(path.join(DATOS, 'paginas', `${slug}.json`), 'utf8'));
-      const ctx = { slug, contador: { imagenes: 0, sinLazy: new Set() } };
+      const ctx = { slug, rediseno, contador: { imagenes: 0, sinLazy: new Set() } };
+      if (rediseno) meteVistaEnTipos(datos.elementor);
       contenido = pintaArbol(datos.elementor, {
         ...ctx,
         pintaContenido: (n, c) => pintor.pintaContenido(n, c ?? ctx),
@@ -156,6 +168,8 @@ export function creaConstructor(raiz = process.cwd()) {
       contenido = capturado || l?.contenido || '';
       envoltorio = armazon.envoltorioLegal || armazon.envoltorio;
     }
+
+    if (rediseno) return construyeRediseno({ pagina, ficha, cabecera, contenido });
 
     const cuerpoContenido = envoltorio
       .replaceAll('{{ID}}', pagina.id)
@@ -179,6 +193,67 @@ export function creaConstructor(raiz = process.cwd()) {
       `\n</body>\n</html>`;
 
     return html;
+  }
+
+  /**
+   * Solo en el rediseno: la ficha de Content Views ("Renders hiperrealistas")
+   * que va suelta justo despues de la rejilla "Tipos de render" se mete
+   * dentro de esa rejilla, delante de su boton "Mas tipos de renders".
+   * No cambia ningun texto ni el orden de los encabezados: entre la rejilla
+   * y la ficha solo habia un espaciador y un boton.
+   */
+  function meteVistaEnTipos(arbol) {
+    const esVista = (n) =>
+      n.elType === 'container' &&
+      (n.elements || []).length === 1 &&
+      n.elements[0].widgetType === 'text-editor' &&
+      /\[pt_view/.test(n.elements[0].settings?.editor || '');
+    const i = arbol.findIndex(esVista);
+    if (i < 1) return;
+    const anterior = arbol[i - 1];
+    // la rejilla: una seccion con una sola columna que acaba en boton
+    const col = anterior.elType === 'section' && anterior.elements?.length === 1 ? anterior.elements[0] : null;
+    if (!col) return;
+    const hijos = col.elements || [];
+    const boton = hijos.findIndex((h) => h.widgetType === 'button');
+    if (boton < 0 || !hijos.slice(boton).every((h) => ['button', 'spacer'].includes(h.widgetType))) return;
+    // delante del boton suele ir un espaciador: la ficha va antes de el
+    let destino = boton;
+    while (destino > 0 && hijos[destino - 1].widgetType === 'spacer') destino--;
+    const vista = arbol.splice(i, 1)[0].elements[0];
+    vista.settings = { ...(vista.settings || {}), _css_classes: 'r-vista-en-rejilla' };
+    hijos.splice(destino, 0, vista);
+  }
+
+  /** La pagina con la caja nueva. El contenido es el mismo de la copia fiel. */
+  function construyeRediseno({ pagina, ficha, cabecera, contenido }) {
+    let cuerpo;
+    if (pagina.conElementor) {
+      // el primer bloque de cada pagina hace de portada
+      cuerpo = contenido.replace(/^<(section|div) class="/, '<$1 class="r-heroe ');
+      cuerpo = `<div class="elementor elementor-${pagina.id} r-contenido">${cuerpo}</div>`;
+    } else {
+      cuerpo =
+        // el titulo va en <p>: la pagina real no tiene H1 y los encabezados no cambian
+        `<div class="r-legal-cabeza"><div class="r-caja"><p class="r-legal-titulo">${pagina.titulo}</p></div></div>` +
+        `<div class="r-caja r-legal">${contenido}</div>`;
+    }
+    // El <head> NO pasa por aRelativas: canonical y og:url siguen absolutas.
+    return (
+      `<!DOCTYPE html>\n<html lang="${ficha.lang}">\n<head>\n` +
+      pintaCabezaRediseno(ficha) +
+      `\n</head>\n<body class="r-cuerpo r-pagina-${pagina.slug}">\n` +
+      // Toda la web va en una caja de ancho fijo y centrada: al alejar el
+      // zoom o en pantallas grandes no se estira.
+      `<div class="r-pagina">\n` +
+      aRelativas(pintaCabecera(cabecera, pagina.ruta)) +
+      `\n<main id="main">\n` +
+      aRelativas(cuerpo) +
+      `\n</main>\n` +
+      pintaCierre() +
+      aRelativas(pintaPie(cabecera)) +
+      `\n</div>\n</body>\n</html>`
+    );
   }
 
   return { construye, paginas };
