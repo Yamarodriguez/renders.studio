@@ -18,5 +18,15 @@
     "generada por computadora": "generada por ordenador",
     "para obtener una cotización ajustada": "para obtener una propuesta ajustada"
   },
-  "protegidas": ["levá-los"]
+  "protegidas": [
+    "levá-los"
+  ],
+  "cifras": {
+    "_nota": "Referencia unica de precios: la tabla de /precios/ (decision del propietario, 7-10-2026). La tabla resumida que se repite en la portada y en las ciudades se iguala a ella.",
+    "€50 – €150": "70 € – 170 €",
+    "€70 – €200": "90 € – 220 €",
+    "€60 – €250": "80 € – 270 €",
+    "€50 – €100": "90 € – 240 €",
+    "€100 – €500": "120 € – 520 €"
+  }
 }

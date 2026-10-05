@@ -33,7 +33,9 @@ export function creaCorrector(raiz = process.cwd()) {
   if (!fs.existsSync(fichero)) return { corrige: (h) => h, recuento: {} };
   const datos = JSON.parse(fs.readFileSync(fichero, 'utf8'));
   const palabras = datos.palabras || {};
-  const frases = datos.frases || {};
+  // las cifras corregidas (precios) se tratan igual que las frases
+  const { _nota, ...cifras } = datos.cifras || {};
+  const frases = { ...(datos.frases || {}), ...cifras };
   const protegidas = datos.protegidas || [];
   const recuento = {};
 
