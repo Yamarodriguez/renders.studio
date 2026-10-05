@@ -17,6 +17,7 @@ import { pintaArbol } from './render-elementor.mjs';
 import { creaPintor } from './render-widgets.mjs';
 import { desSerializa } from './php.mjs';
 import { pintaCabezaRediseno, pintaCabecera, pintaCierre, pintaPie } from './rediseno.mjs';
+import { creaCorrector } from './erratas.mjs';
 
 const DOMINIO = 'https://renders.studio';
 
@@ -52,6 +53,10 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
   const adjuntos = {};
   for (const a of lee('adjuntos.json')) adjuntos[a.id] = { ...a, meta: desSerializa(a.metaSerializado) };
   const pintor = creaPintor({ iconos, adjuntos, dinamicos });
+  // Solo para el rediseno: paso del texto a español de España.
+  // Con IDIOMA=original se pinta el texto tal cual, para comparar.
+  const corrector =
+    process.env.IDIOMA === 'original' ? { corrige: (h) => h, recuento: {} } : creaCorrector(raiz);
 
   const armazon = {
     barraSuperior: leeTexto('armazon/barra-superior.html'),
@@ -248,7 +253,7 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
       `<div class="r-pagina">\n` +
       aRelativas(pintaCabecera(cabecera, pagina.ruta)) +
       `\n<main id="main">\n` +
-      aRelativas(cuerpo) +
+      corrector.corrige(aRelativas(cuerpo)) +
       `\n</main>\n` +
       pintaCierre() +
       aRelativas(pintaPie(cabecera)) +
@@ -256,5 +261,5 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
     );
   }
 
-  return { construye, paginas };
+  return { construye, paginas, erratas: corrector.recuento };
 }

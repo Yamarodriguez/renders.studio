@@ -1,0 +1,22 @@
+{
+  "_nota": "Paso del texto a español de España (tuteo). Pedido por el propietario el 6-10-2026. Lo aplica scripts/lib/erratas.mjs al pintar, solo en el modo rediseno y solo sobre texto visible fuera de los encabezados. El contenido original (datos/paginas) no se edita. Las formas de destino no coinciden con ninguna de origen: aplicarlo dos veces no cambia nada.",
+  "palabras": {
+    "necesitás": "necesitas",
+    "tenés": "tienes",
+    "querés": "quieres",
+    "podés": "puedes",
+    "contás": "cuentas",
+    "contactás": "contactas",
+    "obtené": "obtén",
+    "pedí": "pide",
+    "descubrí": "descubre",
+    "completá": "completa",
+    "escribinos": "escríbenos",
+    "contáctenos": "contáctanos"
+  },
+  "frases": {
+    "generada por computadora": "generada por ordenador",
+    "para obtener una cotización ajustada": "para obtener una propuesta ajustada"
+  },
+  "protegidas": ["levá-los"]
+}
