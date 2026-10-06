@@ -1,0 +1,38 @@
+{
+  "_nota": "Destino de los botones y enlaces que en WordPress no llevaban a ningun sitio (href '#' o vacio). Lo aplica scripts/lib/anadidos.mjs al pintar, solo en el modo rediseno. La clave es el texto del boton en minusculas.",
+  "botones": {
+    "_claros": "en otras paginas del sitio este mismo boton si tiene destino: se usa ese",
+    "precios": "/precios/",
+    "cursos": "/cursos/",
+    "trabajos": "/trabajo-renderista/",
+    "freelance": "/freelance/",
+    "renderista": "/renderistas/",
+    "presupuesto": "/presupuesto/",
+    "despacho": "/despacho/",
+    "agencia": "/agencia/",
+    "programas": "/programas-para-renders/",
+    "empresa": "/empresa/",
+    "baratos": "/baratos/",
+    "económicos": "/economicos/",
+    "renderizacion": "/renderizado/",
+    "renders.studio3d@gmail.com": "mailto:Renders.studio3D@gmail.com",
+    "_provisionales": "no existe una pagina propia para esto: destino mas cercano, PENDIENTE de que el propietario lo confirme",
+    "ver mas": "/renderizado/",
+    "arquitectura": "/servicios/",
+    "mas tipos de renders": "/servicios/",
+    "ver mas proyectos render": "/hiperrealistas/",
+    "render con ia": "/presupuesto/",
+    "imágenes": "#proyectos"
+  },
+  "menu": {
+    "_nota": "entradas del menu que apuntaban a '#' y no tienen submenu. PENDIENTES de confirmar",
+    "videos": "/servicios/",
+    "imágenes": "/#proyectos",
+    "proyectos": "/#proyectos"
+  },
+  "rotos": {
+    "_nota": "enlaces del contenido original a paginas que no existen. Destino mas cercano, PENDIENTE de confirmar",
+    "/arquitectura": "/servicios/",
+    "/arquitectura/": "/servicios/"
+  }
+}

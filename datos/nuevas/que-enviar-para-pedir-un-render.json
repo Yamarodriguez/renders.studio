@@ -1,0 +1,72 @@
+{
+  "slug": "que-enviar-para-pedir-un-render",
+  "titulo": "Qué enviar para pedir un render",
+  "tituloSeo": "Qué enviar para pedir un render 3D: planos y archivos",
+  "descripcion": "Qué planos, archivos y referencias necesita un estudio para hacer tu render 3D y cómo prepararlos para que el presupuesto salga ajustado. Pide el tuyo.",
+  "palabraClave": "pedir un render",
+  "etiqueta": "Guía",
+  "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura.jpg",
+  "fotoAlt": "Planos de arquitectura preparados para pedir un render 3D de una vivienda",
+  "intro": {
+    "h2": "Lo que hace falta para pedir un render sin dar vueltas",
+    "html": "<p>Para <strong>pedir un render</strong> no necesitas un proyecto terminado. Necesitas que el estudio entienda tres cosas: cómo es el espacio, de qué está hecho y qué quieres enseñar. Cuanto más clara llegue esa información, más ajustado sale el presupuesto y menos correcciones hacen falta después.</p><p>Esta guía repasa qué enviar, en qué formato y qué puedes dejar para más adelante. Si ya lo tienes a mano, puedes <a href='/presupuesto/'>pedir tu presupuesto de renders</a> directamente.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "Los planos: la base para pedir un render",
+      "html": "<p>El plano es lo que fija las medidas, y sin medidas no hay modelo 3D fiable. Lo ideal es enviar la <strong>planta acotada del proyecto</strong>, y si existen, alzados y secciones. Con eso se levantan los volúmenes sin tener que suponer alturas ni huecos.</p><ul><li><strong>Planta</strong> con cotas o con escala gráfica.</li><li><strong>Alzados</strong> de las fachadas que vayan a verse en la imagen.</li><li><strong>Secciones</strong>, sobre todo si hay dobles alturas, cubiertas inclinadas o desniveles.</li><li><strong>Emplazamiento</strong> o una foto del solar, si el render es de exterior.</li></ul>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿En qué formato hay que enviar los planos para pedir un render?",
+      "html": "<p>En el que ya los tengas. Un archivo de CAD es lo más cómodo porque se puede medir sobre él, pero un PDF a escala sirve igual. Si trabajas con un modelo 3D de SketchUp, Revit o similar, envíalo: ahorra la fase de modelado. En la página de <a href='/programas-para-renders/'>programas para renders</a> tienes los más habituales.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede pedir un render solo con un boceto?",
+      "html": "<p>Sí. Un croquis a mano con las medidas principales es suficiente para empezar. En ese caso el estudio tiene que <strong>interpretar más decisiones de diseño</strong>, así que conviene acompañarlo de referencias y revisar con atención la primera vista previa.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Materiales y acabados: lo que da realismo al render",
+      "html": "<p>Dos renders del mismo espacio pueden parecer proyectos distintos según los materiales. Para que la imagen se parezca a lo que vas a construir, indica los <strong>acabados que ya tienes decididos</strong>: suelos, revestimientos, carpinterías, encimeras, colores de pared.</p><p>No hace falta una memoria de calidades completa. Vale una lista, las referencias del fabricante o fotos de las muestras. Lo que no esté decidido se puede proponer, y se ajusta cuando veas la vista previa. Si buscas el máximo detalle, mira cómo trabajamos los <a href='/hiperrealistas/'>renders hiperrealistas</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Referencias y puntos de vista antes de pedir el render",
+      "html": "<p>Una imagen de referencia explica en un segundo lo que cuesta un párrafo describir. Envía fotos o renders que te gusten y di qué te gusta de cada uno: la luz, el encuadre, el ambiente, el mobiliario.</p><p>Indica también <strong>cuántas vistas necesitas</strong> y desde dónde. Lo más claro es marcar sobre la planta el punto donde estaría la cámara y hacia dónde mira. El número de imágenes es lo que más cambia el presupuesto, así que merece la pena pensarlo antes.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué más conviene decir al pedir un render?",
+      "html": "<ul><li><strong>Para qué es la imagen</strong>: una venta sobre plano, un concurso, una reforma, un catálogo.</li><li><strong>La hora y el ambiente</strong>: de día, al atardecer, de noche.</li><li><strong>El formato de entrega</strong>: tamaño, si va a imprimirse o solo para web.</li><li><strong>La fecha</strong> en la que lo necesitas.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué pasa después de enviar el material",
+      "html": "<p>Con la información en la mano se analiza el proyecto y se envía una propuesta detallada. Cuando la apruebas, se modela el espacio y recibes una <strong>vista previa para dar tu opinión</strong> antes de aplicar materiales, iluminación y ambientación. Después llega el render final en la resolución y el formato que necesites.</p><p>El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Los rangos de precio por tipo de imagen están en la página de <a href='/precios/'>precios de renders</a>, y el servicio para plazos cortos, en <a href='/express/'>renders express</a>.</p>"
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre cómo pedir un render",
+    "items": [
+      {
+        "pregunta": "¿Hace falta tener el proyecto terminado?",
+        "respuesta": "No. Basta con que estén definidas las medidas y la distribución. Los <strong>acabados que falten por decidir</strong> se pueden proponer y ajustar sobre la vista previa. De hecho, muchos renders se encargan justo para tomar esas decisiones antes de construir."
+      },
+      {
+        "pregunta": "¿Qué ocurre si no tengo planos?",
+        "respuesta": "Se puede trabajar a partir de un croquis con medidas, fotos del espacio o un plano antiguo. Si necesitas la documentación, el estudio también hace <strong>planos y modelado 3D</strong>: puedes verlo en la página de <a href='/servicios/'>servicios de render</a>."
+      },
+      {
+        "pregunta": "¿Cuántas imágenes debería encargar?",
+        "respuesta": "Depende del uso. Para decidir una reforma suele bastar <strong>una vista por estancia</strong>. Para vender una vivienda o una promoción hacen falta las vistas que respondan a lo que un comprador quiere ver: fachada, zona de día, cocina y dormitorio principal."
+      },
+      {
+        "pregunta": "¿Puedo enviar el material poco a poco?",
+        "respuesta": "Puedes, pero el presupuesto se calcula con lo que hay sobre la mesa. Si los planos o los materiales cambian después, puede cambiar también el trabajo. Lo más práctico es <strong>enviar todo junto</strong> y avisar de lo que sigue pendiente."
+      }
+    ]
+  }
+}

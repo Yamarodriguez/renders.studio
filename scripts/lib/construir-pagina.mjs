@@ -18,6 +18,7 @@ import { creaPintor } from './render-widgets.mjs';
 import { desSerializa } from './php.mjs';
 import { pintaCabezaRediseno, pintaCabecera, pintaCierre, pintaPie } from './rediseno.mjs';
 import { creaCorrector } from './erratas.mjs';
+import { creaAnadidos } from './anadidos.mjs';
 
 const DOMINIO = 'https://renders.studio';
 
@@ -53,6 +54,8 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
   const adjuntos = {};
   for (const a of lee('adjuntos.json')) adjuntos[a.id] = { ...a, meta: desSerializa(a.metaSerializado) };
   const pintor = creaPintor({ iconos, adjuntos, dinamicos });
+  // Solo para el rediseno: enlaces arreglados, zonas, datos para Google y guias.
+  const anadidos = creaAnadidos(raiz, paginas);
   // Solo para el rediseno: paso del texto a español de España.
   // Con IDIOMA=original se pinta el texto tal cual, para comparar.
   const corrector =
@@ -243,23 +246,49 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
         `<div class="r-legal-cabeza"><div class="r-caja"><p class="r-legal-titulo">${pagina.titulo}</p></div></div>` +
         `<div class="r-caja r-legal">${contenido}</div>`;
     }
+    const cuerpoFinal = anadidos.arreglaEnlaces(corrector.corrige(aRelativas(cuerpo)));
+    const yaTieneFaq = ficha.cabeza.some((p) => p.tipo === 'scriptEnLinea' && String(p.js || '').includes('FAQPage'));
     // El <head> NO pasa por aRelativas: canonical y og:url siguen absolutas.
     return (
       `<!DOCTYPE html>\n<html lang="${ficha.lang}">\n<head>\n` +
-      pintaCabezaRediseno(ficha) +
+      pintaCabezaRediseno(ficha, { extra: anadidos.datosParaGoogle(pagina, cuerpoFinal, yaTieneFaq) }) +
       `\n</head>\n<body class="r-cuerpo r-pagina-${pagina.slug}">\n` +
       // Toda la web va en una caja de ancho fijo y centrada: al alejar el
       // zoom o en pantallas grandes no se estira.
       `<div class="r-pagina">\n` +
-      aRelativas(pintaCabecera(cabecera, pagina.ruta)) +
+      aRelativas(pintaCabecera(cabecera, pagina.ruta, anadidos.destinoDeMenu)) +
       `\n<main id="main">\n` +
-      corrector.corrige(aRelativas(cuerpo)) +
+      cuerpoFinal +
       `\n</main>\n` +
+      anadidos.pintaZonas(pagina) +
       pintaCierre() +
-      aRelativas(pintaPie(cabecera)) +
+      aRelativas(pintaPie(cabecera, { destinoDeMenu: anadidos.destinoDeMenu, guias: anadidos.guias })) +
       `\n</div>\n</body>\n</html>`
     );
   }
 
-  return { construye, paginas, erratas: corrector.recuento };
+  /** Una pagina nueva (datos/nuevas/<slug>.json). Solo existe en el rediseno. */
+  function construyeNueva(slug) {
+    const g = anadidos.guias.find((x) => x.slug === slug);
+    if (!g) throw new Error(`No conozco la guia ${slug}`);
+    // lo comun a toda la web (iconos, verificaciones, Analytics) sale de la portada
+    const ficha = JSON.parse(fs.readFileSync(path.join(DATOS, 'cabecera', 'renders.json'), 'utf8'));
+    const cabecera = cabeceras.renders;
+    return (
+      `<!DOCTYPE html>\n<html lang="${ficha.lang}">\n<head>\n` +
+      pintaCabezaRediseno(ficha, { propia: anadidos.cabezaDeGuia(g) }) +
+      `\n</head>\n<body class="r-cuerpo r-pagina-guia">\n<div class="r-pagina">\n` +
+      aRelativas(pintaCabecera(cabecera, `/${g.slug}/`, anadidos.destinoDeMenu)) +
+      `\n<main id="main">\n` +
+      anadidos.pintaGuia(g) +
+      `\n</main>\n` +
+      pintaCierre() +
+      aRelativas(pintaPie(cabecera, { destinoDeMenu: anadidos.destinoDeMenu, guias: anadidos.guias })) +
+      `\n</div>\n</body>\n</html>`
+    );
+  }
+
+  // las guias solo existen en el rediseno
+  const nuevas = modo === 'rediseno' ? anadidos.guias.map((g) => g.slug) : [];
+  return { construye, construyeNueva, nuevas, paginas, erratas: corrector.recuento };
 }

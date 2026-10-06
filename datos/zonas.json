@@ -1,0 +1,237 @@
+{
+ "_nota": "Jerarquia de las paginas de lugar: Espana -> region -> ciudad. La pinta scripts/lib/anadidos.mjs como bloque de enlaces despues del contenido, solo en el modo rediseno. 'hub' es la pagina que hace de cabecera de la region (null si no existe). No se elimina ninguna pagina.",
+ "espana": {
+  "hub": "espana",
+  "grupos": [
+   {
+    "nombre": "Comunidad de Madrid",
+    "hub": "madrid",
+    "paginas": [
+     "fuenlabrada",
+     "leganes",
+     "getafe",
+     "alcobendas",
+     "mostoles",
+     "parla",
+     "alcala-de-henares",
+     "torrejon-de-ardoz"
+    ]
+   },
+   {
+    "nombre": "Cataluña",
+    "hub": "cataluna",
+    "paginas": [
+     "barcelona",
+     "badalona",
+     "mataro",
+     "terrassa",
+     "hospitalet-de-llobregat",
+     "santa-coloma-de-gramenet",
+     "tarragona",
+     "reus",
+     "lleida",
+     "girona"
+    ]
+   },
+   {
+    "nombre": "Andalucía",
+    "hub": "andalucia",
+    "paginas": [
+     "sevilla",
+     "malaga",
+     "marbella",
+     "granada",
+     "cordoba",
+     "cadiz",
+     "jerez-de-la-frontera",
+     "huelva",
+     "jaen",
+     "almeria",
+     "algeciras",
+     "dos-hermanas",
+     "roquetas-de-mar"
+    ]
+   },
+   {
+    "nombre": "Comunidad Valenciana",
+    "hub": "valencia",
+    "paginas": [
+     "alicante",
+     "elche",
+     "castellon",
+     "sagunto",
+     "crevillente"
+    ]
+   },
+   {
+    "nombre": "Islas Baleares",
+    "hub": "baleares",
+    "paginas": [
+     "mallorca",
+     "ibiza",
+     "menorca"
+    ]
+   },
+   {
+    "nombre": "Islas Canarias",
+    "hub": "canarias",
+    "paginas": [
+     "tenerife",
+     "las-palmas",
+     "telde",
+     "san-cristobal-de-la-laguna"
+    ]
+   },
+   {
+    "nombre": "País Vasco",
+    "hub": "euskadi",
+    "paginas": [
+     "bilbao",
+     "bizkaia",
+     "alava",
+     "gipuzkoa",
+     "vitoria",
+     "san-sebastian",
+     "barakaldo"
+    ]
+   },
+   {
+    "nombre": "Galicia",
+    "hub": "galicia",
+    "paginas": [
+     "la-coruna",
+     "vigo",
+     "lugo",
+     "ourense",
+     "pontevedra",
+     "compostela"
+    ]
+   },
+   {
+    "nombre": "Castilla y León",
+    "hub": null,
+    "paginas": [
+     "valladolid",
+     "leon",
+     "burgos",
+     "salamanca",
+     "avila",
+     "segovia",
+     "soria",
+     "palencia",
+     "zamora",
+     "ponferrada"
+    ]
+   },
+   {
+    "nombre": "Castilla-La Mancha",
+    "hub": null,
+    "paginas": [
+     "toledo",
+     "albacete",
+     "ciudad-real",
+     "cuenca",
+     "guadalajara",
+     "alarcon"
+    ]
+   },
+   {
+    "nombre": "Aragón",
+    "hub": null,
+    "paginas": [
+     "zaragoza",
+     "huesca",
+     "teruel"
+    ]
+   },
+   {
+    "nombre": "Asturias",
+    "hub": "asturias",
+    "paginas": [
+     "oviedo",
+     "gijon",
+     "aviles"
+    ]
+   },
+   {
+    "nombre": "Región de Murcia",
+    "hub": "murcia",
+    "paginas": [
+     "cartagena",
+     "lorca"
+    ]
+   },
+   {
+    "nombre": "Navarra",
+    "hub": "navarra",
+    "paginas": [
+     "pamplona"
+    ]
+   },
+   {
+    "nombre": "La Rioja",
+    "hub": "la-rioja",
+    "paginas": [
+     "logrono"
+    ]
+   },
+   {
+    "nombre": "Cantabria",
+    "hub": "cantabria",
+    "paginas": [
+     "santander"
+    ]
+   },
+   {
+    "nombre": "Extremadura",
+    "hub": "extremadura",
+    "paginas": [
+     "badajoz",
+     "caceres"
+    ]
+   },
+   {
+    "nombre": "Ceuta y Melilla",
+    "hub": null,
+    "paginas": [
+     "ceuta",
+     "melilla"
+    ]
+   }
+  ]
+ },
+ "otros": {
+  "grupos": [
+   {
+    "nombre": "Argentina",
+    "hub": "argentina",
+    "paginas": [
+     "buenos-aires",
+     "rosario",
+     "mar-del-plata",
+     "santa-fe",
+     "salta",
+     "neuquen",
+     "mendoza",
+     "tucuman",
+     "bahia-blanca",
+     "corrientes",
+     "resistencia"
+    ]
+   },
+   {
+    "nombre": "Otros países",
+    "hub": null,
+    "paginas": [
+     "portugal",
+     "andorra",
+     "uruguay",
+     "mexico",
+     "peru",
+     "chile",
+     "panama"
+    ]
+   }
+  ]
+ }
+}

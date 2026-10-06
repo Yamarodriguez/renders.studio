@@ -11,17 +11,21 @@
 import { creaConstructor } from '../../scripts/lib/construir-pagina.mjs';
 
 export async function getStaticPaths() {
-  const { paginas } = creaConstructor(process.cwd());
-  return paginas.map((p) => ({
-    // la portada va en la raiz; el resto, en su slug
-    params: { ruta: p.slug === 'renders' ? undefined : p.slug },
-    props: { slug: p.slug },
-  }));
+  const { paginas, nuevas } = creaConstructor(process.cwd());
+  return [
+    ...paginas.map((p) => ({
+      // la portada va en la raiz; el resto, en su slug
+      params: { ruta: p.slug === 'renders' ? undefined : p.slug },
+      props: { slug: p.slug },
+    })),
+    // las guias nuevas del rediseno (datos/nuevas/)
+    ...nuevas.map((slug) => ({ params: { ruta: slug }, props: { slug, nueva: true } })),
+  ];
 }
 
-const { slug } = Astro.props;
-const { construye } = creaConstructor(process.cwd());
-const html = construye(slug);
+const { slug, nueva } = Astro.props;
+const { construye, construyeNueva } = creaConstructor(process.cwd());
+const html = nueva ? construyeNueva(slug) : construye(slug);
 ---
 
 <Fragment set:html={html} />

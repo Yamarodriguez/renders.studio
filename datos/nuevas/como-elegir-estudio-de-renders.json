@@ -1,0 +1,82 @@
+{
+  "slug": "como-elegir-estudio-de-renders",
+  "titulo": "Cómo elegir un estudio de renders",
+  "tituloSeo": "Cómo elegir un estudio de renders 3D: 6 cosas que mirar",
+  "descripcion": "Seis cosas que comparar antes de contratar un estudio de renders: portfolio, qué incluye el precio, revisiones, plazos, proceso y trato. Pide presupuesto.",
+  "palabraClave": "estudio de renders",
+  "etiqueta": "Guía",
+  "foto": "/wp-content/uploads/2025/04/Estudio-arquitectura.jpg",
+  "fotoAlt": "Estudio de renders de arquitectura trabajando en la visualización 3D de un proyecto",
+  "intro": {
+    "h2": "Qué comparar antes de contratar un estudio de renders",
+    "html": "<p>Dos presupuestos para el mismo proyecto pueden salir muy distintos, y el más barato no siempre es el que menos cuesta al final. Elegir un <strong>estudio de renders</strong> es más fácil si comparas lo mismo en todos: qué enseñan, qué incluyen, cómo trabajan y cuánto tardan.</p><p>Estas son las seis cosas que conviene mirar antes de decidir.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "1. El portfolio del estudio de renders",
+      "html": "<p>Es lo primero y lo que más dice. Busca trabajos <strong>parecidos al tuyo</strong>: si necesitas interiores de vivienda, mira interiores de vivienda, no torres de oficinas. Fíjate en la luz, en si los materiales parecen reales y en los detalles pequeños, que es donde se nota el cuidado.</p><p>Puedes ver nuestro trabajo en la galería de <a href='/hiperrealistas/'>renders hiperrealistas</a>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Cómo saber si un render es de calidad?",
+      "html": "<p>Mira las sombras y los reflejos, que deben ser coherentes con la luz de la escena. Comprueba las proporciones del mobiliario y de las personas. Y desconfía de las imágenes demasiado limpias: un buen render tiene las pequeñas imperfecciones que tiene una fotografía.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "2. Qué incluye el precio de cada estudio de renders",
+      "html": "<p>Para comparar presupuestos tienen que hablar de lo mismo. Pide que cada estudio indique <strong>qué entra en el precio</strong>: si el modelado 3D está incluido o se cobra aparte, cuántas imágenes son, en qué resolución y si el mobiliario y la ambientación van dentro.</p><p>Nuestros rangos por tipo de imagen están publicados en la página de <a href='/precios/'>precios de renders</a>, para que sepas por dónde va a ir el presupuesto antes de pedirlo.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Por qué hay tanta diferencia de precio entre estudios?",
+      "html": "<p>Porque no venden lo mismo. Cambian el nivel de detalle, el tiempo dedicado a cada imagen, las revisiones incluidas y el punto de partida. No cuesta igual trabajar sobre un modelo 3D ya hecho que <strong>levantar el proyecto desde unos planos</strong>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "3. Las revisiones que admite el estudio",
+      "html": "<p>Casi ningún render sale perfecto a la primera, y es normal: al ver la imagen se toman decisiones que sobre el plano no se veían. Pregunta <strong>en qué momento puedes pedir cambios</strong> y qué pasa si el cambio afecta al diseño y no solo a un acabado.</p><p>Un proceso con una vista previa antes del render final evita la mayoría de las sorpresas, porque se corrige cuando todavía es rápido hacerlo.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "4. Los plazos, por escrito",
+      "html": "<p>Un render que llega tarde a una presentación o a un lanzamiento no sirve. El plazo debe figurar en el presupuesto, y conviene saber <strong>de qué depende</strong>: del número de imágenes, de lo completa que llegue la documentación y de lo rápido que respondas a las vistas previas.</p><p>Nuestro plazo habitual es de 15 días, y puede ser menor si el proyecto es urgente. Para esos casos está el servicio de <a href='/express/'>renders express</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "5. El proceso de trabajo",
+      "html": "<p>Un estudio que explica sus pasos suele trabajar con orden. Lo razonable es que haya un análisis de la información, una propuesta, el modelado con una vista previa, la fase de materiales e iluminación y la entrega final. Si no sabes <strong>qué va a pasar después de pagar</strong>, pregunta antes.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Importa que el estudio de renders esté en mi ciudad?",
+      "html": "<p>Para el resultado, no. Los planos, las referencias y las revisiones se envían por internet, y el trabajo es el mismo esté donde esté el proyecto. Puedes ver cómo funciona en la página de <a href='/online/'>renders online</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "6. El trato y la comunicación",
+      "html": "<p>Vas a intercambiar muchos mensajes. Fíjate en cómo responden al primer contacto: si <strong>preguntan por tu proyecto</strong> antes de dar un precio, si explican con claridad y si contestan a lo que has preguntado. Es una buena pista de cómo será el resto del encargo.</p><p>Si quieres comprobarlo, cuéntanos tu proyecto en la página de <a href='/presupuesto/'>presupuesto de renders</a>.</p>"
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes al elegir un estudio de renders",
+    "items": [
+      {
+        "pregunta": "¿Es mejor un estudio o un renderista autónomo?",
+        "respuesta": "Depende del encargo. Para pocas imágenes, un profesional independiente puede dar <strong>un trato muy directo</strong>. Para proyectos con muchas vistas o plazos cortos ayuda que haya un equipo. Puedes comparar las dos formas de trabajar en <a href='/freelance/'>renders freelance</a>."
+      },
+      {
+        "pregunta": "¿Qué debo preguntar antes de aceptar un presupuesto?",
+        "respuesta": "Cuántas imágenes incluye y en qué resolución, si el modelado va dentro, <strong>cómo se gestionan los cambios</strong>, el plazo de entrega y qué necesitan de ti para empezar. Con esas cinco respuestas ya puedes comparar."
+      },
+      {
+        "pregunta": "¿Conviene elegir el presupuesto más barato?",
+        "respuesta": "Solo si incluye lo mismo que los demás. Un precio bajo que deja fuera el modelado o los cambios puede <strong>acabar costando más</strong>. Compara siempre el contenido del presupuesto, no solo la cifra final."
+      },
+      {
+        "pregunta": "¿Puedo encargar una sola imagen de prueba?",
+        "respuesta": "Sí, y es una buena forma de conocer a un estudio antes de un encargo grande. Verás <strong>la calidad, el trato y el cumplimiento del plazo</strong> con un riesgo pequeño."
+      }
+    ]
+  }
+}

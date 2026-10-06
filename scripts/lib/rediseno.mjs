@@ -16,7 +16,7 @@ import { parse } from 'node-html-parser';
 const DOMINIO = 'https://renders.studio';
 const CORREO = 'Renders.studio3D@gmail.com';
 const LOGO = '/wp-content/uploads/2025/04/cropped-render.png';
-const ESTILO = '/estilo/diseno.css?v=2';
+const ESTILO = '/estilo/diseno.css?v=3';
 
 /** Piezas del <head> de WordPress que se conservan. */
 function seConserva(p) {
@@ -32,11 +32,24 @@ function seConserva(p) {
   return false;
 }
 
-export function pintaCabezaRediseno(ficha) {
+/**
+ * El <head> del rediseno.
+ *   extra   HTML que se anade al final (JSON-LD de preguntas y servicio)
+ *   propia  para las paginas nuevas: su titulo, descripcion, canonica y
+ *           JSON-LD. De la ficha solo se toman entonces lo comun a toda la
+ *           web: iconos, verificaciones de Google y Bing, y Analytics.
+ */
+export function pintaCabezaRediseno(ficha, { extra = '', propia = '' } = {}) {
   const out = [];
+  const comun = (p) =>
+    (p.tipo === 'meta' && /charset|viewport|google-site-verification|msvalidate/.test(p.html)) ||
+    (p.tipo === 'link' && /rel="(icon|apple-touch-icon)"/.test(p.html)) ||
+    p.tipo === 'script' ||
+    (p.tipo === 'scriptEnLinea' && /gtag\('config'/.test(String(p.js || '')));
   for (const p of ficha.cabeza) {
     const queda = seConserva(p);
     if (!queda) continue;
+    if (propia && !comun(p)) continue;
     if (p.tipo === 'titulo') out.push(`<title>${p.texto}</title>`);
     else if (p.tipo === 'meta' || p.tipo === 'link') out.push(p.html);
     else if (p.tipo === 'script') out.push(`<script async src="${p.src}"></script>`);
@@ -50,6 +63,8 @@ export function pintaCabezaRediseno(ficha) {
     `<link rel="stylesheet" href="/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css">`,
     `<link rel="stylesheet" href="${ESTILO}">`
   );
+  if (propia) out.splice(2, 0, propia);
+  if (extra) out.push(extra);
   return out.join('\n');
 }
 
@@ -60,7 +75,7 @@ export function pintaCabezaRediseno(ficha) {
  * textos, mismos enlaces y mismo orden. Solo se quitan las flechas de Font
  * Awesome y el boton de busqueda, que no existe en la web estatica.
  */
-function leeMenu(cabeceraHtml) {
+function leeMenu(cabeceraHtml, destinoDeMenu = () => null) {
   const raiz = parse(cabeceraHtml);
   const ul = raiz.querySelector('ul.main-menu');
   const items = [];
@@ -68,9 +83,12 @@ function leeMenu(cabeceraHtml) {
     const a = li.childNodes.find((x) => x.tagName === 'A');
     if (!a) return null;
     const texto = a.text.replace(/\s+/g, ' ').trim();
-    const href = a.getAttribute('href') || '#';
+    let href = a.getAttribute('href') || '#';
     const sub = li.childNodes.find((x) => x.tagName === 'UL');
     const hijos = sub ? sub.childNodes.filter((x) => x.tagName === 'LI').map(lee).filter(Boolean) : [];
+    // entradas que en WordPress apuntaban a "#" y no abren submenu:
+    // su destino sale de datos/enlaces.json
+    if (href === '#' && !hijos.length) href = destinoDeMenu(texto) || '#';
     return { texto, href, hijos };
   };
   for (const li of ul.childNodes.filter((x) => x.tagName === 'LI')) {
@@ -110,8 +128,8 @@ function pintaMenu(items, ruta) {
   return `<ul class="r-nav">${items.map((it) => li(it, 0)).join('')}</ul>`;
 }
 
-export function pintaCabecera(cabeceraHtml, ruta) {
-  const items = leeMenu(cabeceraHtml);
+export function pintaCabecera(cabeceraHtml, ruta, destinoDeMenu) {
+  const items = leeMenu(cabeceraHtml, destinoDeMenu);
   const menu = pintaMenu(items, ruta);
   return `
 <a class="r-saltar" href="#main">Ir al contenido</a>
@@ -162,8 +180,8 @@ export function pintaCierre() {
 
 // -------------------------------------------------------------------- pie
 
-export function pintaPie(cabeceraHtml) {
-  const items = leeMenu(cabeceraHtml);
+export function pintaPie(cabeceraHtml, { destinoDeMenu, guias = [] } = {}) {
+  const items = leeMenu(cabeceraHtml, destinoDeMenu);
   const por = (t) => items.find((i) => i.texto.toLowerCase() === t);
   const columna = (titulo, enlaces) =>
     enlaces.length
@@ -176,6 +194,7 @@ export function pintaPie(cabeceraHtml) {
     columna('Renders.studio', sueltos),
     columna('Tipos', aplana(por('tipos') || { hijos: [] })),
     columna('Servicios', aplana(por('servicios') || { hijos: [] })),
+    columna('Guías', guias.map((g) => ({ texto: g.titulo, href: `/${g.slug}/` }))),
     columna('Contacto', [
       ...(por('contacto') && por('contacto').href !== '#' ? [por('contacto')] : []),
       ...aplana(por('contacto') || { hijos: [] }),

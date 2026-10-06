@@ -1,0 +1,72 @@
+{
+  "slug": "render-animacion-o-tour-360",
+  "titulo": "Render, animación 3D o tour virtual 360",
+  "tituloSeo": "Render, animación 3D o tour 360: diferencias y cuál elegir",
+  "descripcion": "Qué diferencia hay entre un render, una animación 3D y un tour virtual 360, para qué sirve cada uno y cuál encaja con tu proyecto. Compara y pide presupuesto.",
+  "palabraClave": "render, animación o tour 360",
+  "etiqueta": "Guía",
+  "foto": "/wp-content/uploads/2025/04/tour-360-virtual-de-arquitectura.jpg",
+  "fotoAlt": "Tour virtual 360 de arquitectura comparado con un render y una animación 3D",
+  "intro": {
+    "h2": "Tres formas de enseñar un proyecto que todavía no existe",
+    "html": "<p>Un render, una animación 3D y un tour virtual 360 salen del mismo modelo, pero <strong>no enseñan lo mismo</strong>. El render es una imagen fija. La animación es un vídeo que recorre el espacio por un camino decidido de antemano. El tour 360 deja que cada persona mire hacia donde quiera.</p><p>Elegir bien ahorra dinero: no todos los proyectos necesitan los tres. Aquí tienes qué aporta cada formato y cuándo merece la pena.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "El render: una imagen fija para decidir y para vender",
+      "html": "<p>El render es el formato más versátil. Sirve para una web, un portal inmobiliario, un cartel de obra, un dosier o una presentación a un cliente. Como es una sola imagen, permite <strong>cuidar cada detalle del encuadre</strong>: la luz, el mobiliario, lo que se ve por la ventana.</p><p>Es también el punto de partida de los otros dos formatos. En la página de <a href='/servicios/'>servicios de render</a> están los tipos que hacemos: interiores, exteriores, modelado, planos e infografías.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Cuándo basta con un render?",
+      "html": "<p>Cuando lo que hay que comunicar cabe en pocas vistas: el aspecto de una fachada, el resultado de una reforma, el ambiente de un local. También cuando la imagen va a imprimirse o a publicarse en un sitio donde no se puede reproducir vídeo.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "La animación 3D: un recorrido en vídeo",
+      "html": "<p>La animación encadena muchas imágenes para crear un vídeo. La cámara se mueve por el espacio y <strong>cuenta el proyecto en orden</strong>: se llega al edificio, se entra, se recorren las estancias. Quien lo ve no decide nada, solo mira, y por eso funciona bien en redes sociales, pantallas de una oficina de ventas o una presentación ante un público.</p><p>Requiere más trabajo que una imagen fija, porque cada segundo de vídeo son muchos fotogramas. Por eso suele encargarse junto a un grupo de renders del mismo modelo.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Para qué proyectos compensa una animación 3D?",
+      "html": "<p>Para los que se entienden mejor en movimiento: una promoción de viviendas con zonas comunes, un edificio con un recorrido interesante, un espacio comercial. Si la distribución es sencilla, unos buenos renders explican lo mismo.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "El tour virtual 360: la persona decide adónde mira",
+      "html": "<p>En un tour virtual 360 cada escena es una imagen esférica. El visitante gira la vista con el ratón o con el móvil y pasa de una estancia a otra. La sensación es la de <strong>estar dentro del espacio</strong>, y eso ayuda a entender tamaños y relaciones entre habitaciones que en una imagen fija no se aprecian.</p><p>Se comparte con un enlace y se puede ver en cualquier navegador. Su precio se calcula por escena, como indica la tabla de <a href='/precios/'>precios de renders</a>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué diferencia hay entre un tour 360 y la realidad virtual?",
+      "html": "<p>El tour 360 se ve en una pantalla normal. La realidad virtual usa unas gafas y coloca a la persona dentro de la escena. El material de partida es parecido; cambia <strong>el dispositivo con el que se mira</strong> y, con él, dónde tiene sentido usarlo.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Cómo elegir entre render, animación y tour 360",
+      "html": "<ul><li><strong>Para decidir un diseño</strong> o enseñar una reforma: renders.</li><li><strong>Para anuncios y portales inmobiliarios</strong>: renders, y un tour 360 si quieres que el comprador recorra la vivienda.</li><li><strong>Para redes sociales y presentaciones</strong>: animación 3D, apoyada en renders.</li><li><strong>Para una oficina de ventas</strong> o una feria: tour 360 o realidad virtual.</li></ul><p>Lo habitual es empezar por los renders y ampliar después. Como el modelo ya está hecho, añadir un tour o una animación cuesta menos que encargarlos desde cero. Si no lo tienes claro, cuéntanos el proyecto en la página de <a href='/contacto/'>contacto</a> y te decimos qué formato encaja.</p>"
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders, animaciones y tours 360",
+    "items": [
+      {
+        "pregunta": "¿Se puede hacer un tour 360 a partir de renders ya hechos?",
+        "respuesta": "Sí, siempre que se conserve el modelo 3D. Las escenas del tour se generan desde <strong>el mismo modelo</strong>, con los mismos materiales y la misma iluminación, así que el resultado es coherente con las imágenes que ya tienes."
+      },
+      {
+        "pregunta": "¿Qué necesito para encargar cualquiera de los tres?",
+        "respuesta": "Lo mismo: planos, materiales y referencias. La diferencia está en lo que se produce después. En la guía sobre <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a> tienes <strong>la lista completa</strong>."
+      },
+      {
+        "pregunta": "¿Cuál se entrega antes?",
+        "respuesta": "El render, porque es una sola imagen. La animación y el tour parten de ese trabajo y <strong>añaden tiempo de producción</strong>. El plazo concreto de cada encargo va indicado en el presupuesto."
+      },
+      {
+        "pregunta": "¿Sirven para vender sobre plano?",
+        "respuesta": "Los tres se usan para eso. Los renders van en los anuncios, el tour 360 permite <strong>visitar la vivienda antes de que exista</strong> y la animación presenta la promoción completa. Qué combinación conviene depende del tamaño del proyecto."
+      }
+    ]
+  }
+}
