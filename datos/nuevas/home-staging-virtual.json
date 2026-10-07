@@ -1,0 +1,128 @@
+{
+  "slug": "home-staging-virtual",
+  "tipo": "servicio",
+  "etiqueta": "Servicio",
+  "titulo": "Home staging virtual",
+  "tituloSeo": "Home staging virtual: amuebla tu vivienda en venta en 3D",
+  "descripcion": "Home staging virtual: amueblamos y decoramos en 3D las fotos de tu vivienda vacía para venderla o alquilarla antes, sin muebles reales. Pide presupuesto.",
+  "palabraClave": "home staging virtual",
+  "foto": "/wp-content/uploads/2025/04/Home-Staging-Viviendas.webp",
+  "fotoAlt": "Home staging virtual de un salón: la estancia vacía amueblada en 3D",
+  "intro": {
+    "h2": "Home staging virtual para que una vivienda vacía se venda como amueblada",
+    "html": "<p>El <strong>home staging virtual</strong> toma las fotos de una vivienda vacía o anticuada y la muestra amueblada, decorada y con los acabados renovados, todo en 3D y sin tocar nada en la realidad. El comprador ve el potencial de la casa en el anuncio, no un espacio desnudo.</p><p>Trabajamos sobre tus fotos o, si la vivienda está en obra, sobre los planos.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué es el home staging virtual?",
+      "html": "<p>El home staging tradicional amuebla una vivienda con muebles reales para enseñarla. La versión virtual hace lo mismo <strong>sobre las fotografías</strong>: se modela el mobiliario en 3D y se integra en la imagen respetando la perspectiva, la luz y las sombras de la foto original.</p><p>También permite ir más allá de los muebles: cambiar el suelo, pintar las paredes o quitar lo que sobra, para enseñar cómo quedaría la vivienda después de una reforma.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirve el home staging virtual",
+      "html": "<p>Para que el anuncio funcione. Una vivienda vacía fotografía mal: parece más pequeña, fría y difícil de imaginar. Amueblada, el comprador <strong>entiende las medidas y se proyecta</strong> en el espacio. Lo usan inmobiliarias, promotoras con pisos piloto sin amueblar y particulares que venden por su cuenta.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿El home staging virtual sirve también para alquiler?",
+      "html": "<p>Sí. Un piso de alquiler vacío compite con otros amueblados en el mismo portal; la imagen amueblada iguala la comparación. Y si el piso se alquila sin muebles, la foto virtual enseña cómo podría quedar.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Es honesto usar home staging virtual en un anuncio?",
+      "html": "<p>Lo es si se indica. Lo habitual es publicar la imagen amueblada junto a la foto real o señalar que el mobiliario es una recreación. Así el comprador ve el potencial sin sentirse engañado al visitar la vivienda.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de home staging virtual",
+      "html": "<ul><li><strong>Amueblado y decoración</strong> en 3D sobre tus fotos, con el estilo que indiques.</li><li><strong>Limpieza de la imagen</strong>: retirada de objetos, muebles viejos o desperfectos.</li><li><strong>Cambio de acabados</strong>: suelos, paredes y carpinterías, para enseñar la vivienda reformada.</li><li><strong>Iluminación</strong> integrada con la de la foto original para que el resultado sea creíble.</li><li><strong>Vista previa</strong> antes de la entrega para ajustar estilo y mobiliario.</li><li><strong>Entrega</strong> en el formato del portal o de la web donde se vaya a publicar.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de home staging virtual",
+      "html": "",
+      "tarjetas": [
+        {
+          "titulo": "Amueblado de vivienda vacía",
+          "texto": "Salón, cocina y dormitorios sobre tus fotos.",
+          "foto": "/wp-content/uploads/2025/04/home-staging.png"
+        },
+        {
+          "titulo": "Antes y después de reforma",
+          "texto": "La estancia actual frente a la renovada.",
+          "foto": "/wp-content/uploads/2025/05/renders-antes-y-despues.webp"
+        },
+        {
+          "titulo": "Decoración de piso piloto",
+          "texto": "Para promociones que no amueblan la vivienda.",
+          "foto": "/wp-content/uploads/2025/05/renders-inmobiliarias.webp"
+        },
+        {
+          "titulo": "Interiores desde planos",
+          "texto": "Si la vivienda está en obra y no hay fotos.",
+          "foto": "/wp-content/uploads/2025/04/render-interior.webp"
+        }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Cómo trabajamos el home staging virtual",
+      "html": "<p>El plazo habitual es de 15 días y puede ser menor si el anuncio tiene fecha.</p>",
+      "pasos": [
+        {
+          "titulo": "Nos envías las fotos",
+          "texto": "Cuanta más resolución, mejor; con luz natural y la estancia completa en el encuadre."
+        },
+        {
+          "titulo": "Estilo y presupuesto",
+          "texto": "Nos dices el estilo que buscas y te enviamos precio por imagen y plazo."
+        },
+        {
+          "titulo": "Vista previa",
+          "texto": "Revisas mobiliario, colores y acabados."
+        },
+        {
+          "titulo": "Entrega",
+          "texto": "Recibes las imágenes listas para el portal o la web."
+        }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Precio del home staging virtual",
+      "html": "<p>Se presupuesta por imagen según lo que haya que hacer sobre cada foto: solo amueblar, o también cambiar acabados. Como referencia, en la página de <a href='/precios/'>precios de renders</a> está el rango del render de interior.</p>",
+      "precios": [
+        {
+          "servicio": "Render interior (referencia)",
+          "precio": "70 € – 170 €"
+        },
+        {
+          "servicio": "Home staging virtual por imagen",
+          "precio": "Según el trabajo sobre cada foto: lo indica el presupuesto"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre home staging virtual",
+    "items": [
+      {
+        "pregunta": "¿Qué fotos necesito para el home staging virtual?",
+        "respuesta": "Fotos nítidas de cada estancia, con luz natural y el encuadre más amplio posible. Si la vivienda está en obra, <strong>trabajamos desde los planos</strong> como un render de interiores."
+      },
+      {
+        "pregunta": "¿Se nota que el mobiliario es virtual?",
+        "respuesta": "El objetivo es que no se note: se respetan la perspectiva, la luz y las sombras de la foto. Aun así, recomendamos <strong>indicarlo en el anuncio</strong> para que la visita no decepcione."
+      },
+      {
+        "pregunta": "¿Puedo elegir el estilo de decoración?",
+        "respuesta": "Sí. Nos indicas el estilo (nórdico, contemporáneo, clásico…) o nos pasas imágenes de referencia, y lo <strong>ajustamos en la vista previa</strong>."
+      },
+      {
+        "pregunta": "¿Cuánto tarda el home staging virtual?",
+        "respuesta": "El plazo habitual es de 15 días para el conjunto del encargo, y menos si el anuncio tiene fecha. Para urgencias, consulta <a href='/express/'>renders express</a>."
+      }
+    ]
+  }
+}

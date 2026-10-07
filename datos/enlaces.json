@@ -34,5 +34,21 @@
     "_nota": "enlaces del contenido original a paginas que no existen. Destino mas cercano, PENDIENTE de confirmar",
     "/arquitectura": "/servicios/",
     "/arquitectura/": "/servicios/"
+  },
+  "tarjetas": {
+    "_nota": "titulo de la tarjeta (en minusculas, tal cual lo escribio el propietario) -> pagina de servicio nueva",
+    "renders arquitectura": "/renders-arquitectura/",
+    "renders interiores": "/renders-interiores/",
+    "render video 3d": "/video-render-3d/",
+    "planos renders": "/planos-renders/",
+    "modelado 3d": "/modelado-3d/",
+    "infografias arquitectura": "/infografias-arquitectura/",
+    "home staging": "/home-staging-virtual/",
+    "realidad virtual arquitectura": "/realidad-virtual-arquitectura/",
+    "catalaogos": "/catalogos-arquitectura/",
+    "tour virtual 360": "/tour-virtual-360/",
+    "render arquitectos": "/renders-para-arquitectos/",
+    "estudio de arquitectura": "/renders-estudios-arquitectura/",
+    "render 360": "/tour-virtual-360/"
   }
 }

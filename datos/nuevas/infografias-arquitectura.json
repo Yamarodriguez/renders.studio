@@ -1,0 +1,136 @@
+{
+  "slug": "infografias-arquitectura",
+  "tipo": "servicio",
+  "etiqueta": "Servicio",
+  "titulo": "Infografías de arquitectura",
+  "tituloSeo": "Infografías de arquitectura 3D para vender y presentar",
+  "descripcion": "Infografías de arquitectura 3D para promociones, concursos y catálogos: imágenes con rótulos, planos y datos del proyecto. Desde 110 €. Pide presupuesto.",
+  "palabraClave": "infografías de arquitectura",
+  "foto": "/wp-content/uploads/2025/04/infografias.jpg",
+  "fotoAlt": "Infografías de arquitectura con imágenes del proyecto, planos y textos en una lámina",
+  "intro": {
+    "h2": "Infografías de arquitectura: la imagen y los datos en una sola pieza",
+    "html": "<p>Las <strong>infografías de arquitectura</strong> combinan renders, planos y textos en una composición pensada para comunicar: la lámina de un concurso, el folleto de una promoción, la ficha de una vivienda. La imagen enseña el proyecto y la infografía lo explica.</p><p>Las preparamos a partir de los renders y planos del proyecto, con el diseño adaptado al soporte donde se van a ver.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son las infografías de arquitectura?",
+      "html": "<p>En el sector se llama infografía a cualquier imagen 3D de un proyecto, pero aquí usamos la palabra con su sentido más preciso: una pieza que <strong>junta imagen e información</strong>. Un render muestra la fachada; una infografía muestra la fachada con la planta, las superficies, los materiales y el texto que hace falta para entenderla.</p><p>Es el formato de los paneles de concurso, de los dosieres comerciales y de los carteles de obra.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven las infografías de arquitectura",
+      "html": "<p>Para presentar un proyecto a quien tiene que decidir sin tener delante a quien lo ha diseñado: un jurado, un comité, un comprador que mira un folleto. La infografía tiene que <strong>contarlo todo por sí sola</strong>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué llevan las infografías de arquitectura de un concurso?",
+      "html": "<p>Lo que pidan las bases: normalmente una o varias imágenes principales, plantas, secciones y textos breves con la idea del proyecto, compuestos en el formato de panel exigido. El render se encuadra pensando en el conjunto, no como imagen suelta.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Y las infografías de arquitectura para una promoción?",
+      "html": "<p>Imágenes de fachada e interiores, la planta amueblada de cada tipo de vivienda, superficies y acabados, y el espacio para los datos de la comercializadora. Se preparan en el formato del folleto, de la web o del cartel. Si solo necesitas la planta, mira <a href='/planos-renders/'>planos renders</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de infografías de arquitectura",
+      "html": "<ul><li><strong>Renders</strong> de exterior o interior encuadrados para la composición.</li><li><strong>Planos y plantas</strong> redibujados en el mismo estilo gráfico.</li><li><strong>Composición y rotulación</strong>: textos, superficies y leyendas que nos facilites.</li><li><strong>Adaptación al soporte</strong>: panel, folleto, web o cartel.</li><li><strong>Vista previa</strong> de la composición antes de la entrega.</li><li><strong>Entrega</strong> en el formato de impresión o de pantalla que necesites.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de infografías de arquitectura",
+      "html": "",
+      "tarjetas": [
+        {
+          "titulo": "Paneles de concurso",
+          "texto": "Imagen, plantas y textos en el formato de las bases.",
+          "foto": "/wp-content/uploads/2025/04/infografias.jpg"
+        },
+        {
+          "titulo": "Infografías comerciales",
+          "texto": "Para folletos y webs de promociones.",
+          "foto": "/wp-content/uploads/2025/05/renders-inmobiliarias.webp"
+        },
+        {
+          "titulo": "Fichas de vivienda",
+          "texto": "Planta amueblada, superficies y acabados.",
+          "foto": "/wp-content/uploads/2025/04/render-de-casa-planta-3d.webp"
+        },
+        {
+          "titulo": "Carteles de obra",
+          "texto": "La imagen del proyecto a gran formato.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-edificios.jpg"
+        }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Cómo trabajamos las infografías de arquitectura",
+      "html": "<p>El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente, algo frecuente en los concursos.</p>",
+      "pasos": [
+        {
+          "titulo": "Proyecto y soporte",
+          "texto": "Nos envías planos o modelo y nos dices dónde se va a ver la pieza y en qué formato."
+        },
+        {
+          "titulo": "Presupuesto",
+          "texto": "Según el número de imágenes y de piezas a componer."
+        },
+        {
+          "titulo": "Renders y plantas",
+          "texto": "Producimos las imágenes pensando en la composición final."
+        },
+        {
+          "titulo": "Composición",
+          "texto": "Montamos la infografía con los textos que nos facilites y te enviamos una vista previa."
+        },
+        {
+          "titulo": "Entrega",
+          "texto": "Archivos listos para imprenta o pantalla."
+        }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Precio de las infografías de arquitectura",
+      "html": "<p>Rangos orientativos. La tabla completa está en la página de <a href='/precios/'>precios de renders</a>.</p>",
+      "precios": [
+        {
+          "servicio": "Infografía comercial (marketing y ventas)",
+          "precio": "110 € – 320 €"
+        },
+        {
+          "servicio": "Render exterior",
+          "precio": "90 € – 220 €"
+        },
+        {
+          "servicio": "Planos renderizados 3D",
+          "precio": "90 € – 240 €"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre infografías de arquitectura",
+    "items": [
+      {
+        "pregunta": "¿Qué diferencia hay entre un render y una infografía de arquitectura?",
+        "respuesta": "El render es la imagen; la infografía es la imagen <strong>compuesta con planos y textos</strong> para un soporte concreto. Si solo necesitas imágenes, mira <a href='/renders-arquitectura/'>renders de arquitectura</a>."
+      },
+      {
+        "pregunta": "¿Podéis seguir el formato que exigen las bases de un concurso?",
+        "respuesta": "Sí. Trabajamos con el tamaño, la orientación y el número de paneles que indiquen las bases, y <strong>entregamos en el formato de impresión</strong> que pidan."
+      },
+      {
+        "pregunta": "¿Quién escribe los textos de la infografía?",
+        "respuesta": "Tú. Nosotros componemos y rotulamos con <strong>los textos y los datos que nos facilites</strong>: superficies, memoria breve, nombre de la promoción, contacto."
+      },
+      {
+        "pregunta": "¿Cuánto tarda una infografía de arquitectura?",
+        "respuesta": "El plazo habitual es de 15 días, y menos si hay urgencia. En concursos con fecha cerrada lo acordamos desde el primer día; consulta también <a href='/express/'>renders express</a>."
+      }
+    ]
+  }
+}

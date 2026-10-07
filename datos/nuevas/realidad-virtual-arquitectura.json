@@ -1,0 +1,132 @@
+{
+  "slug": "realidad-virtual-arquitectura",
+  "tipo": "servicio",
+  "etiqueta": "Servicio",
+  "titulo": "Realidad virtual para arquitectura",
+  "tituloSeo": "Realidad virtual para arquitectura: recorre el proyecto",
+  "descripcion": "Realidad virtual para arquitectura: recorre el proyecto con gafas VR o desde el navegador antes de construirlo. Para promotoras y arquitectos. Pide presupuesto.",
+  "palabraClave": "realidad virtual para arquitectura",
+  "foto": "/wp-content/uploads/2025/04/realidad-virtual.png",
+  "fotoAlt": "Realidad virtual para arquitectura: una persona con gafas VR recorre un proyecto",
+  "intro": {
+    "h2": "Realidad virtual para arquitectura: estar dentro del proyecto antes de la obra",
+    "html": "<p>La <strong>realidad virtual para arquitectura</strong> coloca a una persona dentro del proyecto. Con unas gafas de realidad virtual, o desde el navegador en una versión 360, gira la cabeza y mira hacia donde quiere: entiende tamaños, alturas y relaciones entre estancias que ninguna imagen fija transmite igual.</p><p>Se produce a partir del mismo modelo 3D que los renders, así que el resultado es coherente con el resto del material del proyecto.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué es la realidad virtual para arquitectura?",
+      "html": "<p>Es una experiencia inmersiva construida sobre el modelo 3D del proyecto. Cada escena se renderiza en 360 grados y se conecta con las demás, de modo que la persona puede <strong>pasar de una estancia a otra</strong> y mirar en cualquier dirección. Con gafas VR la sensación es de presencia; en pantalla, es un recorrido interactivo.</p><p>La versión en pantalla es lo que llamamos <a href='/tour-virtual-360/'>tour virtual 360</a>; la realidad virtual añade el dispositivo que envuelve la vista.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirve la realidad virtual para arquitectura",
+      "html": "<p>Para decidir y para vender. Un cliente que recorre su futura casa con las gafas puestas <strong>detecta lo que no le convence</strong> antes de que esté construido. Una promotora que la ofrece en su oficina de ventas o en una feria da al comprador algo que un folleto no puede dar.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Hacen falta gafas para usar la realidad virtual para arquitectura?",
+      "html": "<p>Para la experiencia completa, sí. Pero el mismo material se puede ver sin gafas como tour 360 en el ordenador o en el móvil, así que el trabajo sirve para los dos usos.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué proyectos aprovechan mejor la realidad virtual para arquitectura?",
+      "html": "<p>Los que se venden sobre plano y los que tienen espacios difíciles de imaginar: dobles alturas, grandes zonas comunes, locales singulares. Para una reforma pequeña, unos <a href='/renders-interiores/'>renders de interiores</a> suelen ser suficientes.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de realidad virtual para arquitectura",
+      "html": "<ul><li><strong>Modelado 3D</strong> del proyecto, o trabajo sobre tu modelo.</li><li><strong>Escenas 360</strong> de las estancias y puntos de vista acordados, con materiales, luz y ambientación.</li><li><strong>Navegación</strong> entre escenas para recorrer el proyecto.</li><li><strong>Versión para gafas VR</strong> y versión para navegador.</li><li><strong>Vista previa</strong> de las escenas antes de la entrega final.</li><li><strong>Entrega</strong> con un enlace para compartir y los archivos para el dispositivo que uses.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de realidad virtual para arquitectura",
+      "html": "",
+      "tarjetas": [
+        {
+          "titulo": "Vivienda tipo de una promoción",
+          "texto": "El piso piloto virtual para la oficina de ventas.",
+          "foto": "/wp-content/uploads/2025/05/renders-inmobiliarias.webp"
+        },
+        {
+          "titulo": "Casa unifamiliar",
+          "texto": "Recorrido exterior e interior para el cliente.",
+          "foto": "/wp-content/uploads/2025/04/render-casa.jpg"
+        },
+        {
+          "titulo": "Interiorismo y locales",
+          "texto": "Para aprobar un diseño antes de ejecutarlo.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-locales.webp"
+        },
+        {
+          "titulo": "Hoteles y zonas comunes",
+          "texto": "Espacios grandes que se entienden recorriéndolos.",
+          "foto": "/wp-content/uploads/2025/05/renders-hoteles.jpg"
+        }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Cómo trabajamos la realidad virtual para arquitectura",
+      "html": "<p>El plazo depende del número de escenas y se fija en el presupuesto.</p>",
+      "pasos": [
+        {
+          "titulo": "Proyecto y escenas",
+          "texto": "Nos envías planos o modelo 3D y acordamos qué estancias y puntos de vista se recorren."
+        },
+        {
+          "titulo": "Presupuesto",
+          "texto": "Por escena, con el plazo de entrega."
+        },
+        {
+          "titulo": "Modelado y vista previa",
+          "texto": "Levantamos el modelo y te enviamos una primera escena para revisar."
+        },
+        {
+          "titulo": "Producción",
+          "texto": "Renderizamos todas las escenas en 360 y montamos la navegación."
+        },
+        {
+          "titulo": "Entrega",
+          "texto": "Enlace para compartir y archivos para las gafas."
+        }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Precio de la realidad virtual para arquitectura",
+      "html": "<p>Se presupuesta por escena. El rango del tour 360, que es la base del trabajo, está en la página de <a href='/precios/'>precios de renders</a>.</p>",
+      "precios": [
+        {
+          "servicio": "Tour virtual 360 (por escena)",
+          "precio": "120 € – 520 €"
+        },
+        {
+          "servicio": "Adaptación a gafas de realidad virtual",
+          "precio": "Según el número de escenas: lo indica el presupuesto"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre realidad virtual para arquitectura",
+    "items": [
+      {
+        "pregunta": "¿Qué diferencia hay entre realidad virtual y tour virtual 360?",
+        "respuesta": "El material es el mismo: escenas en 360 conectadas entre sí. El tour se ve en pantalla; la realidad virtual <strong>se ve con gafas</strong> y da sensación de presencia. Más detalle en <a href='/render-animacion-o-tour-360/'>render, animación 3D o tour 360</a>."
+      },
+      {
+        "pregunta": "¿Qué gafas de realidad virtual hacen falta?",
+        "respuesta": "Las escenas 360 se pueden ver en los visores habituales del mercado. Dinos cuál vas a usar y <strong>preparamos los archivos para ese dispositivo</strong>."
+      },
+      {
+        "pregunta": "¿Se puede cambiar el proyecto después de producir la realidad virtual?",
+        "respuesta": "Sí, pero cada cambio implica volver a renderizar las escenas afectadas. Por eso conviene <strong>aprobar bien la vista previa</strong> antes de producir el conjunto."
+      },
+      {
+        "pregunta": "¿Cuánto tarda la realidad virtual para arquitectura?",
+        "respuesta": "Más que un conjunto de renders fijos, porque cada escena se renderiza en 360 grados. El plazo depende del número de escenas y va indicado en el presupuesto."
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "renders-arquitectura",
+  "tipo": "servicio",
+  "etiqueta": "Servicio",
+  "titulo": "Renders de arquitectura",
+  "tituloSeo": "Renders de arquitectura 3D: exteriores e interiores",
+  "descripcion": "Renders de arquitectura 3D para arquitectos, promotoras y particulares: exteriores, interiores y edificios realistas. Desde 70 €. Pide presupuesto.",
+  "palabraClave": "renders de arquitectura",
+  "foto": "/wp-content/uploads/2025/04/3D-render-de-arquitectura.jpg",
+  "fotoAlt": "Render de arquitectura de un edificio de fachada curva con acabado realista",
+  "intro": {
+    "h2": "Renders de arquitectura que enseñan el proyecto antes de construirlo",
+    "html": "<p>Los <strong>renders de arquitectura</strong> convierten los planos de un proyecto en imágenes realistas: la fachada, el volumen, la luz y los materiales tal y como se verán una vez construidos. Sirven para convencer a un cliente, ganar un concurso o vender sobre plano.</p><p>Trabajamos online para toda España a partir de tus planos o de tu modelo 3D, con una vista previa antes del render final y un plazo habitual de 15 días.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de arquitectura?",
+      "html": "<p>Un render de arquitectura es una imagen generada por ordenador a partir del modelo 3D de un edificio o de un espacio. A diferencia de un plano o de una maqueta, muestra el proyecto <strong>como lo vería una persona</strong>: con la luz de una hora concreta, los materiales reales, el entorno y el mobiliario.</p><p>Se usan en todas las fases: para comprobar decisiones de diseño mientras el proyecto se define, para presentarlo a quien tiene que aprobarlo y para comercializarlo cuando todavía no existe. En la guía sobre <a href='/renderizado/'>renderizado 3D</a> explicamos cómo se produce la imagen.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de arquitectura",
+      "html": "<p>La utilidad depende de quién los encarga. A un estudio le sirven para <strong>explicar el proyecto sin planos</strong>; a una promotora, para vender antes de empezar la obra; a un particular, para ver su casa o su reforma antes de decidir.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Sirven los renders de arquitectura para un concurso?",
+      "html": "<p>Sí, y suelen ser decisivos. El jurado ve muchas propuestas en poco tiempo y la imagen es lo que recuerda. Un render de concurso cuida el encuadre, la atmósfera y la relación del edificio con su entorno más que el detalle de cada material.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Y para vender una vivienda sobre plano?",
+      "html": "<p>Es el uso más habitual. Las imágenes de fachada, zona de día, cocina y dormitorio principal son las que un comprador busca en un anuncio. Si el proyecto es una promoción completa, conviene combinarlas con un <a href='/render-animacion-o-tour-360/'>tour virtual 360 o una animación</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de arquitectura",
+      "html": "<ul><li><strong>Modelado 3D</strong> del edificio o del espacio a partir de tus planos, o trabajo sobre tu propio modelo.</li><li><strong>Materiales y acabados</strong> según tu memoria de calidades o tus referencias.</li><li><strong>Iluminación</strong> natural o artificial, de día, al atardecer o de noche.</li><li><strong>Entorno y ambientación</strong>: vegetación, mobiliario, personas y vehículos cuando la escena lo pide.</li><li><strong>Vista previa</strong> para revisar encuadre y materiales antes del render final.</li><li><strong>Entrega</strong> en la resolución y el formato que necesites, para web, impresión o presentación.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de arquitectura",
+      "html": "<p>Cada proyecto pide un tipo de imagen distinto. Estos son los más habituales:</p>",
+      "tarjetas": [
+        { "titulo": "Renders de fachadas", "texto": "La cara del edificio, con sus materiales y su luz.", "foto": "/wp-content/uploads/2025/04/render-fachada.jpg" },
+        { "titulo": "Renders de exteriores", "texto": "El edificio en su entorno: calle, jardín, vecinos.", "foto": "/wp-content/uploads/2025/04/renders-de-exteriores.jpg" },
+        { "titulo": "Renders de edificios", "texto": "Volúmenes completos para promociones y concursos.", "foto": "/wp-content/uploads/2025/04/renders-de-edificios.jpg" },
+        { "titulo": "Renders de interiores", "texto": "Estancias con sus acabados, mobiliario y luz.", "foto": "/wp-content/uploads/2025/04/render-interior.webp" },
+        { "titulo": "Renders de viviendas", "texto": "Casas unifamiliares, desde el proyecto a la venta.", "foto": "/wp-content/uploads/2025/04/render-casa.jpg" },
+        { "titulo": "Renders nocturnos", "texto": "El proyecto con la iluminación artificial encendida.", "foto": "/wp-content/uploads/2025/04/renders-nocturnos.webp" },
+        { "titulo": "Renders de locales y oficinas", "texto": "Espacios comerciales y de trabajo.", "foto": "/wp-content/uploads/2025/04/renders-de-oficinas-scaled.jpg" },
+        { "titulo": "Renders de parques y urbanismo", "texto": "Espacio público, plazas y zonas verdes.", "foto": "/wp-content/uploads/2025/04/renders-de-parques.jpg" }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Cómo trabajamos los renders de arquitectura",
+      "html": "<p>El proceso es el mismo para una vivienda que para una promoción; cambia el número de imágenes y el tiempo de cada fase. El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente.</p>",
+      "pasos": [
+        { "titulo": "Nos envías el proyecto", "texto": "Planos, alzados y secciones, o tu modelo 3D, con las referencias de materiales y las vistas que quieres. En la guía <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a> está la lista." },
+        { "titulo": "Presupuesto y plazo", "texto": "Analizamos la información y te enviamos una propuesta detallada con el precio y la fecha de entrega." },
+        { "titulo": "Modelado y vista previa", "texto": "Levantamos el modelo 3D y te mandamos una primera imagen para revisar encuadre y volúmenes." },
+        { "titulo": "Materiales e iluminación", "texto": "Aplicamos acabados, luz y ambientación según tus referencias y tus comentarios." },
+        { "titulo": "Render final y entrega", "texto": "Entregamos las imágenes en la resolución y el formato acordados. Puedes pedir correcciones si las necesitas." }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Precio de los renders de arquitectura",
+      "html": "<p>El precio depende del número de imágenes, del nivel de detalle y de si partimos de planos o de un modelo 3D ya hecho. Estos son los rangos orientativos; la tabla completa está en la página de <a href='/precios/'>precios de renders</a>.</p>",
+      "precios": [
+        { "servicio": "Render exterior", "precio": "90 € – 220 €" },
+        { "servicio": "Render interior", "precio": "70 € – 170 €" },
+        { "servicio": "Modelado 3D", "precio": "80 € – 270 €" },
+        { "servicio": "Pack 6 renders + vídeo 3D", "precio": "370 € – 620 €" }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Ejemplos de renders de arquitectura",
+      "html": "<p>Algunas imágenes de exteriores e interiores. Hay más en la página de <a href='/hiperrealistas/'>renders hiperrealistas</a>.</p>",
+      "galeria": [
+        { "foto": "/wp-content/uploads/2025/04/render-3d-fachada.jpg", "alt": "Render de arquitectura de la fachada de una vivienda unifamiliar moderna" },
+        { "foto": "/wp-content/uploads/2025/04/Disenos-arquitectonicos-1536x1090-1.jpg", "alt": "Render de arquitectura de una escalera de caracol vista desde arriba" },
+        { "foto": "/wp-content/uploads/2025/05/renders-3d-arquitectura.jpg", "alt": "Render exterior de arquitectura con vegetación y luz de tarde" },
+        { "foto": "/wp-content/uploads/2025/04/render-arquitectura.jpg", "alt": "Render de arquitectura interior de una escalera con barandilla metálica" },
+        { "foto": "/wp-content/uploads/2025/05/render-arquitectura-sala.jpg", "alt": "Render de arquitectura interior de un salón con grandes ventanales" },
+        { "foto": "/wp-content/uploads/2025/04/renders-de-edificios.jpg", "alt": "Render de arquitectura de un bloque de viviendas visto desde la calle" }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de arquitectura",
+    "items": [
+      {
+        "pregunta": "¿Cuánto tarda un render de arquitectura?",
+        "respuesta": "El plazo habitual es de 15 días desde que aprobamos el presupuesto, y puede ser menor si el proyecto es urgente. Depende del número de imágenes y de <strong>lo completa que llegue la documentación</strong>. Para plazos cortos está el servicio de <a href='/express/'>renders express</a>."
+      },
+      {
+        "pregunta": "¿Necesito un modelo 3D para encargar renders de arquitectura?",
+        "respuesta": "No. Lo habitual es partir de los planos: planta, alzados y secciones. Si ya tienes el modelo 3D, lo aprovechamos y <strong>se ahorra la fase de modelado</strong>."
+      },
+      {
+        "pregunta": "¿Qué diferencia hay entre un render de arquitectura y uno hiperrealista?",
+        "respuesta": "El hiperrealista lleva el detalle de materiales, luz e imperfecciones hasta el punto de <strong>confundirse con una fotografía</strong>. Es la opción para marketing inmobiliario y catálogos. Puedes ver ejemplos en <a href='/hiperrealistas/'>renders hiperrealistas</a>."
+      },
+      {
+        "pregunta": "¿Puedo pedir cambios después de ver el render?",
+        "respuesta": "Sí. Antes del render final recibes una vista previa para corregir encuadre, materiales o luz. Sobre la imagen final <strong>puedes solicitar correcciones</strong>; el presupuesto indica cuántas revisiones incluye cada encargo."
+      },
+      {
+        "pregunta": "¿Hacéis renders de arquitectura fuera de vuestra ciudad?",
+        "respuesta": "Sí. El servicio es online: los planos, las referencias y las revisiones se envían por internet, así que trabajamos igual para cualquier punto de España. Puedes ver cómo funciona en <a href='/online/'>renders online</a>."
+      }
+    ]
+  }
+}

@@ -60,6 +60,14 @@ export function creaAnadidos(raiz, paginas) {
     // enlaces a paginas que no existen
     const rotos = enlaces.rotos || {};
     salida = salida.replace(/href="([^"#?]+)"/g, (todo, h) => (rotos[h] && !h.startsWith('_') ? `href="${esc(rotos[h])}"` : todo));
+    // las tarjetas de servicios y de tipos de render enlazan a su pagina
+    // nueva (datos/enlaces.json, "tarjetas"); el texto del titulo no cambia
+    const tarjetas = enlaces.tarjetas || {};
+    salida = salida.replace(/<(h[23]) class="elementor-heading-title[^"]*">([^<]+)<\/\1>/g, (todo, n, texto) => {
+      const destino = tarjetas[plano(texto).toLowerCase()];
+      if (!destino || destino.startsWith('_')) return todo;
+      return todo.replace(`>${texto}<`, `><a href="${esc(destino)}">${texto}</a><`);
+    });
     // el ancla de la galeria de proyectos de la pagina
     salida = salida.replace('<div class="elementor-image-gallery">', '<div class="elementor-image-gallery" id="proyectos">');
     return salida;
@@ -194,18 +202,48 @@ export function creaAnadidos(raiz, paginas) {
 
   // ------------------------------------------------------------------ guias
 
-  /** El <main> de una guia nueva. */
+  /** Una tarjeta con foto (misma pinta que las de servicios y tipos). */
+  const tarjeta = (t) =>
+    `<div class="r-tarjeta" style="--fondo:url('${esc(t.foto)}')">` +
+    (t.href ? `<a class="r-tarjeta-enlace" href="${esc(t.href)}">` : '<div class="r-tarjeta-enlace">') +
+    `<span class="r-tarjeta-titulo">${esc(t.titulo)}</span>` +
+    (t.texto ? `<span class="r-tarjeta-texto">${esc(t.texto)}</span>` : '') +
+    (t.href ? '</a>' : '</div>') +
+    `</div>`;
+
+  /** El <main> de una pagina nueva: guia o servicio (datos/nuevas/*.json). */
   function pintaGuia(g) {
-    const otras = guias.filter((x) => x.slug !== g.slug);
+    const esServicio = g.tipo === 'servicio';
+    const otras = guias.filter((x) => x.slug !== g.slug && (x.tipo === 'servicio') === esServicio);
     const seccion = (s) => {
       const n = s.nivel === 'h3' ? 'h3' : 'h2';
-      return `<${n}>${esc(s.titulo)}</${n}>${s.html}`;
+      let dentro = s.html || '';
+      if (s.tarjetas) dentro += `<div class="r-tarjetas">${s.tarjetas.map(tarjeta).join('')}</div>`;
+      if (s.pasos) {
+        dentro += `<ol class="r-pasos">${s.pasos
+          .map((x) => `<li><strong>${esc(x.titulo)}</strong><span>${x.texto}</span></li>`)
+          .join('')}</ol>`;
+      }
+      if (s.precios) {
+        dentro +=
+          `<table class="r-precios"><thead><tr><th>Servicio</th><th>Precio orientativo</th></tr></thead><tbody>` +
+          s.precios.map((x) => `<tr><td>${esc(x.servicio)}</td><td>${esc(x.precio)}</td></tr>`).join('') +
+          `</tbody></table>`;
+      }
+      if (s.galeria) {
+        dentro += `<div class="r-galeria">${s.galeria
+          .map((x) => `<figure><img src="${esc(x.foto)}" alt="${esc(x.alt)}" loading="lazy" width="800" height="600"></figure>`)
+          .join('')}</div>`;
+      }
+      return `<${n}>${esc(s.titulo)}</${n}>${dentro}`;
     };
     return (
-      `<div class="r-guia">` +
+      `<div class="r-guia${esServicio ? ' r-servicio' : ''}">` +
       `<div class="r-guia-cabeza"><div class="r-caja r-guia-cabeza-in">` +
-      `<div><p class="r-etiqueta">${esc(g.etiqueta || 'Guía')}</p><h1>${esc(g.titulo)}</h1>` +
-      `<h2 class="r-guia-entrada">${esc(g.intro.h2)}</h2>${g.intro.html}</div>` +
+      `<div><p class="r-etiqueta">${esc(g.etiqueta || (esServicio ? 'Servicio' : 'Guía'))}</p><h1>${esc(g.titulo)}</h1>` +
+      `<h2 class="r-guia-entrada">${esc(g.intro.h2)}</h2>${g.intro.html}` +
+      (esServicio ? `<p class="r-guia-botones"><a class="r-boton r-boton-acento" href="/presupuesto/">Pedir presupuesto</a><a class="r-boton r-boton-linea" href="/precios/">Ver precios</a></p>` : '') +
+      `</div>` +
       (g.foto ? `<img class="r-guia-foto" src="${esc(g.foto)}" alt="${esc(g.fotoAlt || '')}" width="800" height="600">` : '') +
       `</div></div>` +
       `<div class="r-caja r-guia-cuerpo">${g.secciones.map(seccion).join('\n')}` +
@@ -213,7 +251,7 @@ export function creaAnadidos(raiz, paginas) {
         .map((it) => `<details><summary><h3>${esc(it.pregunta)}</h3></summary><p>${it.respuesta}</p></details>`)
         .join('')}</div>` +
       (otras.length
-        ? `<aside class="r-guia-otras"><p class="r-etiqueta">Otras guías</p><ul>${otras
+        ? `<aside class="r-guia-otras"><p class="r-etiqueta">${esServicio ? 'Otros servicios' : 'Otras guías'}</p><ul>${otras
             .map((x) => `<li><a href="/${x.slug}/">${esc(x.titulo)}</a></li>`)
             .join('')}</ul></aside>`
         : '') +
@@ -225,7 +263,19 @@ export function creaAnadidos(raiz, paginas) {
   function cabezaDeGuia(g) {
     const url = `${DOMINIO}/${g.slug}/`;
     const ld = [
-      {
+      g.tipo === 'servicio'
+        ? {
+            '@context': 'https://schema.org',
+            '@type': 'Service',
+            name: g.titulo,
+            serviceType: g.titulo,
+            description: g.descripcion,
+            url,
+            areaServed: 'España',
+            ...(g.foto ? { image: DOMINIO + g.foto } : {}),
+            provider: { '@type': 'Organization', name: 'Renders.studio', url: DOMINIO + '/', email: CORREO },
+          }
+        : {
         '@context': 'https://schema.org',
         '@type': 'Article',
         headline: g.titulo,

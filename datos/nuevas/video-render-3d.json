@@ -1,0 +1,132 @@
+{
+  "slug": "video-render-3d",
+  "tipo": "servicio",
+  "etiqueta": "Servicio",
+  "titulo": "Vídeo render 3D",
+  "tituloSeo": "Vídeo render 3D: animación arquitectónica de tu proyecto",
+  "descripcion": "Vídeo render 3D para arquitectura y promociones: un recorrido animado por el proyecto antes de construirlo, para redes y presentaciones. Pide presupuesto.",
+  "palabraClave": "vídeo render 3D",
+  "foto": "/wp-content/uploads/2025/04/video-render-3d.jpg",
+  "fotoAlt": "Vídeo render 3D de un edificio reproducido en una pantalla",
+  "intro": {
+    "h2": "Vídeo render 3D: el proyecto contado en movimiento",
+    "html": "<p>Un <strong>vídeo render 3D</strong> es una animación que recorre el proyecto: se llega al edificio, se entra, se pasa de una estancia a otra. Cuenta el espacio en orden y en pocos segundos, y por eso funciona en redes sociales, en portales inmobiliarios y en presentaciones.</p><p>Se produce a partir del mismo modelo 3D que los renders, con una vista previa del recorrido antes de la animación final.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué es un vídeo render 3D?",
+      "html": "<p>Es una secuencia de imágenes generadas por ordenador que, reproducidas una tras otra, crean la sensación de movimiento. La cámara sigue <strong>un recorrido decidido de antemano</strong> por el exterior y el interior del proyecto, con la luz, los materiales y la ambientación de un render fijo.</p><p>Cada segundo de vídeo son muchas imágenes, así que su producción lleva más tiempo que la de una imagen suelta. En la guía <a href='/render-animacion-o-tour-360/'>render, animación 3D o tour virtual 360</a> comparamos los tres formatos.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirve un vídeo render 3D",
+      "html": "<p>Para que el proyecto se entienda sin esfuerzo. Quien lo ve no tiene que interpretar planos ni imaginar el paso de una estancia a otra: <strong>solo tiene que mirar</strong>. Es el formato que mejor viaja por redes sociales y el que más se usa en oficinas de ventas y ferias.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Cuándo compensa un vídeo render 3D frente a los renders fijos?",
+      "html": "<p>Cuando el proyecto se entiende mejor en movimiento: una promoción con zonas comunes, un edificio con un recorrido interesante, un local con varios ambientes. Si la distribución es sencilla, unos buenos <a href='/renders-arquitectura/'>renders de arquitectura</a> explican lo mismo con menos coste.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué duración tiene un vídeo render 3D?",
+      "html": "<p>La que pida el uso. Un vídeo para redes sociales es corto y va al grano; una presentación para una promotora puede recorrer el proyecto con más calma. La duración se fija en el presupuesto junto con el recorrido.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de vídeo render 3D",
+      "html": "<ul><li><strong>Modelado 3D</strong> del proyecto, o trabajo sobre tu modelo si ya existe.</li><li><strong>Guion del recorrido</strong>: por dónde pasa la cámara y qué enseña en cada tramo.</li><li><strong>Materiales, iluminación y ambientación</strong> coherentes con los renders del proyecto.</li><li><strong>Vista previa del recorrido</strong> en baja calidad para aprobar el movimiento antes de producir el vídeo final.</li><li><strong>Montaje y entrega</strong> en el formato y la resolución que necesites para web, redes o pantalla.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de vídeo render 3D",
+      "html": "<p>Según lo que haya que contar:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Vídeo de promoción inmobiliaria",
+          "texto": "Recorrido por el edificio y las viviendas tipo.",
+          "foto": "/wp-content/uploads/2025/05/renders-inmobiliarias.webp"
+        },
+        {
+          "titulo": "Vídeo de vivienda",
+          "texto": "Exterior e interior de una casa, en un solo recorrido.",
+          "foto": "/wp-content/uploads/2025/04/render-casa.jpg"
+        },
+        {
+          "titulo": "Vídeo de interiorismo",
+          "texto": "Las estancias de un proyecto de interiores.",
+          "foto": "/wp-content/uploads/2025/04/render-interior.webp"
+        },
+        {
+          "titulo": "Vídeo para redes y marketing",
+          "texto": "Piezas cortas pensadas para captar la atención.",
+          "foto": "/wp-content/uploads/2025/05/renders-marketing.webp"
+        }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Cómo trabajamos el vídeo render 3D",
+      "html": "<p>El plazo depende de la duración y del recorrido, y se fija en el presupuesto.</p>",
+      "pasos": [
+        {
+          "titulo": "Proyecto y objetivo",
+          "texto": "Nos envías planos o modelo 3D y nos cuentas para qué es el vídeo y dónde se va a ver."
+        },
+        {
+          "titulo": "Guion del recorrido",
+          "texto": "Proponemos el camino de la cámara y los puntos en los que se detiene."
+        },
+        {
+          "titulo": "Presupuesto",
+          "texto": "Con la duración y el recorrido cerrados, te enviamos precio y plazo."
+        },
+        {
+          "titulo": "Vista previa",
+          "texto": "Apruebas el movimiento sobre una versión en baja calidad."
+        },
+        {
+          "titulo": "Vídeo final",
+          "texto": "Producimos la animación completa y la entregamos lista para publicar."
+        }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Precio de un vídeo render 3D",
+      "html": "<p>El vídeo se presupuesta según su duración y su recorrido. Como referencia, el pack que combina imágenes fijas y vídeo está en la página de <a href='/precios/'>precios de renders</a>.</p>",
+      "precios": [
+        {
+          "servicio": "Pack 6 renders + vídeo 3D",
+          "precio": "370 € – 620 €"
+        },
+        {
+          "servicio": "Vídeo render 3D a medida",
+          "precio": "Según duración y recorrido: lo indica el presupuesto"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre el vídeo render 3D",
+    "items": [
+      {
+        "pregunta": "¿Se puede hacer el vídeo render 3D a partir de los renders que ya tengo?",
+        "respuesta": "Sí, siempre que se conserve el modelo 3D. El vídeo usa <strong>el mismo modelo, los mismos materiales y la misma luz</strong>, así que queda coherente con las imágenes que ya tienes."
+      },
+      {
+        "pregunta": "¿El vídeo render 3D lleva música o texto?",
+        "respuesta": "Puede llevar rótulos con el nombre de la promoción, las superficies o los datos de contacto. La música depende de dónde se vaya a publicar y de los derechos de uso; <strong>lo acordamos en el presupuesto</strong>."
+      },
+      {
+        "pregunta": "¿En qué formato se entrega?",
+        "respuesta": "En el que necesites para su destino: formato horizontal para web y presentaciones, o <strong>vertical para redes sociales</strong>. Se puede entregar en más de un formato a partir del mismo recorrido."
+      },
+      {
+        "pregunta": "¿Cuánto tarda un vídeo render 3D?",
+        "respuesta": "Más que una imagen fija, porque cada segundo son muchos fotogramas. El plazo concreto depende de la duración y va indicado en el presupuesto. Para encargos con prisa, consulta <a href='/express/'>renders express</a>."
+      }
+    ]
+  }
+}

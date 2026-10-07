@@ -2532,3 +2532,236 @@ body.r-cuerpo {
     font-size: 16px;
   }
 }
+
+
+/* ============================================= PAGINAS DE SERVICIO */
+
+.r-guia-botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 26px 0 0;
+}
+.r-servicio .r-guia-cuerpo {
+  max-width: calc(var(--ancho) + var(--gutter) * 2);
+}
+.r-servicio .r-guia-cuerpo > p,
+.r-servicio .r-guia-cuerpo > ul,
+.r-servicio .r-guia-cuerpo > h3,
+.r-servicio .r-guia-cuerpo > .r-guia-faq,
+.r-servicio .r-guia-cuerpo > .r-guia-otras {
+  max-width: 780px;
+}
+.r-servicio .r-guia-cuerpo > h2 {
+  max-width: 820px;
+}
+
+/* tarjetas con foto, como las de la web */
+.r-tarjetas {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin: 24px 0 8px;
+}
+.r-tarjeta {
+  position: relative;
+  isolation: isolate;
+  aspect-ratio: 4 / 3;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--grafito);
+  transition: box-shadow 0.3s ease;
+}
+.r-tarjeta::before,
+.r-tarjeta::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+.r-tarjeta::before {
+  background: var(--fondo) center / cover no-repeat;
+  transition: transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.r-tarjeta::after {
+  background: linear-gradient(180deg, rgba(14, 15, 17, 0) 35%, rgba(14, 15, 17, 0.55) 65%, rgba(14, 15, 17, 0.92) 100%);
+}
+.r-tarjeta:hover {
+  box-shadow: 0 18px 40px rgba(20, 21, 24, 0.25);
+}
+.r-tarjeta:hover::before {
+  transform: scale(1.06);
+}
+.r-tarjeta-enlace {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 6px;
+  padding: 22px 22px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+.r-tarjeta-titulo {
+  position: relative;
+  display: block;
+  padding-top: 12px;
+  font-family: var(--titulos);
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  color: #fff;
+}
+.r-tarjeta-titulo::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28px;
+  height: 2px;
+  background: var(--acento-claro);
+}
+.r-tarjeta-texto {
+  display: block;
+  font-size: 13.5px;
+  line-height: 1.45;
+  color: #c4c6cb;
+}
+@media (max-width: 1024px) {
+  .r-tarjetas {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 560px) {
+  .r-tarjetas {
+    grid-template-columns: 1fr;
+  }
+  .r-tarjeta {
+    aspect-ratio: 16 / 10;
+  }
+}
+
+/* pasos del proceso */
+.r-pasos {
+  list-style: none;
+  counter-reset: paso;
+  margin: 24px 0 8px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+.r-pasos li {
+  counter-increment: paso;
+  position: relative;
+  padding: 26px 24px 24px;
+  background: var(--blanco);
+  border: 1px solid var(--linea);
+  border-radius: 8px;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+}
+.r-pasos li::before {
+  content: counter(paso, decimal-leading-zero);
+  display: block;
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  color: var(--acento);
+  margin-bottom: 12px;
+}
+.r-pasos li strong {
+  display: block;
+  font-family: var(--titulos);
+  font-size: 17px;
+  margin-bottom: 6px;
+}
+
+/* tabla de precios */
+.r-precios {
+  width: 100%;
+  max-width: 780px;
+  border-collapse: collapse;
+  margin: 20px 0 8px;
+  background: var(--blanco);
+  border: 1px solid var(--linea);
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 15.5px;
+}
+.r-precios th {
+  text-align: left;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--piedra);
+  background: var(--papel);
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--linea);
+}
+.r-precios td {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--linea);
+}
+.r-precios tr:last-child td {
+  border-bottom: 0;
+}
+.r-precios td:first-child {
+  color: var(--tinta);
+  font-weight: 600;
+}
+.r-precios td:last-child {
+  white-space: nowrap;
+}
+
+/* galeria de ejemplos */
+.r-galeria {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 24px 0 8px;
+}
+.r-galeria figure {
+  margin: 0;
+}
+.r-galeria img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+}
+@media (max-width: 760px) {
+  .r-galeria {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* pie con seis columnas; pasos del proceso en una sola fila */
+.r-pie-cols {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 24px;
+}
+@media (max-width: 1100px) {
+  .r-pie-cols {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 700px) {
+  .r-pie-cols {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 460px) {
+  .r-pie-cols {
+    grid-template-columns: 1fr;
+  }
+}
+.r-pasos {
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+}

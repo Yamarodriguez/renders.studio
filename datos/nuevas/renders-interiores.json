@@ -1,0 +1,102 @@
+{
+  "slug": "renders-interiores",
+  "tipo": "servicio",
+  "etiqueta": "Servicio",
+  "titulo": "Renders de interiores",
+  "tituloSeo": "Renders de interiores 3D: salones, cocinas y baños",
+  "descripcion": "Renders de interiores 3D para viviendas, reformas y locales: salones, cocinas, baños y dormitorios con materiales y luz reales. Desde 70 €. Pide presupuesto.",
+  "palabraClave": "renders de interiores",
+  "foto": "/wp-content/uploads/2025/04/render-interior.webp",
+  "fotoAlt": "Render de interiores de un salón con sofá, cuadros y luz natural",
+  "intro": {
+    "h2": "Renders de interiores para ver cada estancia antes de reformarla",
+    "html": "<p>Los <strong>renders de interiores</strong> muestran una estancia terminada: el suelo, las paredes, el mobiliario, la luz que entra por la ventana. Sirven para decidir una reforma, presentar un proyecto de interiorismo o vender una vivienda que todavía está en obra.</p><p>Trabajamos a partir de tu planta y de tus referencias de materiales, con una vista previa antes del render final y un plazo habitual de 15 días.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de interiores?",
+      "html": "<p>Un render de interiores es una imagen generada en 3D de un espacio cerrado: un salón, una cocina, un dormitorio, una oficina o un local. A diferencia de un exterior, aquí lo que manda es <strong>el detalle de cerca</strong>: la textura de la madera, el brillo de la encimera, el tejido del sofá y la forma en que la luz rebota en cada superficie.</p><p>Por eso es el tipo de render que más decisiones ayuda a tomar: en una imagen se ve si el color de la pared funciona con el suelo o si la mesa cabe donde se había pensado.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de interiores",
+      "html": "<p>Para quien reforma, evitan sorpresas: se eligen acabados viendo el conjunto y no una muestra suelta. Para un interiorista, son la forma de <strong>presentar la propuesta al cliente</strong> y cerrarla. Para una promotora o una inmobiliaria, enseñan cómo quedará una vivienda que aún no tiene ni suelos.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Sirven los renders de interiores para vender una vivienda vacía?",
+      "html": "<p>Sí. Cuando la vivienda está vacía o en obra, el render enseña el espacio amueblado y con acabados, que es lo que el comprador quiere imaginar. Si partimos de fotos del espacio real, el servicio se llama <a href='/home-staging-virtual/'>home staging virtual</a>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué estancias se piden más en los renders de interiores?",
+      "html": "<p>Salón, cocina y baño, en ese orden. Son las que más decisiones de acabados concentran y las que más se miran en un anuncio. Los dormitorios suelen añadirse cuando la vivienda se vende sobre plano.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de interiores",
+      "html": "<ul><li><strong>Modelado de la estancia</strong> a partir de tu planta, con sus huecos, alturas y carpinterías.</li><li><strong>Materiales y acabados</strong> según tus referencias: suelos, revestimientos, encimeras, pintura.</li><li><strong>Mobiliario y decoración</strong>, con tus piezas si ya las tienes elegidas o con una propuesta coherente con el estilo.</li><li><strong>Iluminación</strong> natural y artificial, de día o de noche.</li><li><strong>Vista previa</strong> para revisar encuadre, materiales y mobiliario antes del render final.</li><li><strong>Entrega</strong> en la resolución y el formato que necesites.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de interiores",
+      "html": "<p>Cada estancia tiene sus propias exigencias de luz y detalle. Estas son las más habituales:</p>",
+      "tarjetas": [
+        { "titulo": "Renders de salones", "texto": "La estancia principal, con su luz y su mobiliario.", "foto": "/wp-content/uploads/2025/05/renders-salas.webp" },
+        { "titulo": "Renders de cocinas", "texto": "Encimeras, frentes y electrodomésticos al detalle.", "foto": "/wp-content/uploads/2025/04/renders-de-cocinas.jpg" },
+        { "titulo": "Renders de baños", "texto": "Revestimientos, sanitarios y grifería.", "foto": "/wp-content/uploads/2025/04/renders-de-banos.webp" },
+        { "titulo": "Renders de dormitorios", "texto": "Habitaciones principales e infantiles.", "foto": "/wp-content/uploads/2025/04/renders-de-habitaciones.jpg" },
+        { "titulo": "Renders de oficinas", "texto": "Espacios de trabajo y zonas comunes.", "foto": "/wp-content/uploads/2025/04/renders-de-oficinas-scaled.jpg" },
+        { "titulo": "Renders de locales", "texto": "Tiendas, cafeterías y restaurantes.", "foto": "/wp-content/uploads/2025/04/renders-de-locales.webp" },
+        { "titulo": "Renders de hoteles", "texto": "Habitaciones y zonas nobles.", "foto": "/wp-content/uploads/2025/05/renders-hoteles.jpg" },
+        { "titulo": "Antes y después", "texto": "El espacio actual frente a la reforma.", "foto": "/wp-content/uploads/2025/05/renders-antes-y-despues.webp" }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Cómo trabajamos los renders de interiores",
+      "html": "<p>El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente.</p>",
+      "pasos": [
+        { "titulo": "Nos envías la planta", "texto": "Con medidas, la posición de ventanas y puertas, y fotos del espacio si existe. La lista completa está en <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a>." },
+        { "titulo": "Materiales y referencias", "texto": "Nos indicas los acabados decididos y nos pasas imágenes del estilo que buscas." },
+        { "titulo": "Presupuesto y plazo", "texto": "Te enviamos una propuesta con el precio por imagen y la fecha de entrega." },
+        { "titulo": "Vista previa", "texto": "Revisas encuadre, distribución del mobiliario y materiales antes del render final." },
+        { "titulo": "Render final", "texto": "Entregamos las imágenes en la resolución acordada. Puedes pedir correcciones si las necesitas." }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Precio de los renders de interiores",
+      "html": "<p>El precio por imagen depende del nivel de detalle y del número de vistas. La tabla completa está en la página de <a href='/precios/'>precios de renders</a>.</p>",
+      "precios": [
+        { "servicio": "Render interior", "precio": "70 € – 170 €" },
+        { "servicio": "Modelado 3D", "precio": "80 € – 270 €" },
+        { "servicio": "Planos renderizados 3D (vista cenital amueblada)", "precio": "90 € – 240 €" },
+        { "servicio": "Pack 6 renders + vídeo 3D", "precio": "370 € – 620 €" }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Ejemplos de renders de interiores",
+      "html": "<p>Salones, cocinas y dormitorios. Hay más en la página de <a href='/hiperrealistas/'>renders hiperrealistas</a>.</p>",
+      "galeria": [
+        { "foto": "/wp-content/uploads/2025/05/render-arquitectura-sala.jpg", "alt": "Render de interiores de un salón con ventanales y suelo de madera" },
+        { "foto": "/wp-content/uploads/2025/05/renders-casas-cocina.jpg", "alt": "Render de interiores de una cocina abierta con isla" },
+        { "foto": "/wp-content/uploads/2025/04/render-interior-3d-habitacion.webp", "alt": "Render de interiores de un dormitorio con cabecero y mesillas" },
+        { "foto": "/wp-content/uploads/2025/05/renders-proyectos.jpg", "alt": "Render de interiores de un salón minimalista con alfombra y lámpara" },
+        { "foto": "/wp-content/uploads/2025/05/proyecto-de-render-habitacion.jpg", "alt": "Render de interiores de un rincón de comedor junto a la ventana" },
+        { "foto": "/wp-content/uploads/2025/05/renders-de-cocinas-3.jpg", "alt": "Render de interiores de una cocina con frentes claros" }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de interiores",
+    "items": [
+      { "pregunta": "¿Puedo usar mis propios muebles en los renders de interiores?", "respuesta": "Sí. Si ya tienes elegidas las piezas, pásanos las referencias o las fotos y las reproducimos con <strong>sus medidas y acabados</strong>. Si no, proponemos un mobiliario coherente con el estilo que nos indiques." },
+      { "pregunta": "¿Cuántas vistas necesito por estancia?", "respuesta": "Para decidir una reforma suele bastar <strong>una vista por estancia</strong>. Para vender, conviene una segunda vista en el salón y en la cocina, que son las que más se miran." },
+      { "pregunta": "¿Cuánto tarda un render de interiores?", "respuesta": "El plazo habitual es de 15 días desde la aprobación del presupuesto, y menos si hay urgencia. Para plazos cortos está el servicio de <a href='/express/'>renders express</a>." },
+      { "pregunta": "¿Qué diferencia hay entre renders de interiores y home staging virtual?", "respuesta": "El render de interiores parte de planos y se modela todo el espacio. El <a href='/home-staging-virtual/'>home staging virtual</a> parte de <strong>fotos del espacio real</strong> y añade mobiliario y acabados sobre ellas." }
+    ]
+  }
+}

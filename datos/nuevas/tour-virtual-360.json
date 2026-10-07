@@ -1,0 +1,132 @@
+{
+  "slug": "tour-virtual-360",
+  "tipo": "servicio",
+  "etiqueta": "Servicio",
+  "titulo": "Tour virtual 360",
+  "tituloSeo": "Tour virtual 360 de arquitectura: recorre el proyecto",
+  "descripcion": "Tour virtual 360 de tu proyecto: escenas esféricas conectadas para recorrer una vivienda o promoción desde el navegador. Desde 120 € por escena.",
+  "palabraClave": "tour virtual 360",
+  "foto": "/wp-content/uploads/2025/04/tour-360-virtual-de-arquitectura.jpg",
+  "fotoAlt": "Tour virtual 360 de un salón renderizado, visto en pantalla",
+  "intro": {
+    "h2": "Tour virtual 360 para que cada persona mire hacia donde quiera",
+    "html": "<p>En un <strong>tour virtual 360</strong> cada estancia es una imagen esférica. Quien lo ve gira la vista con el ratón o con el móvil y pasa de una habitación a otra, como si estuviera dentro. Se comparte con un enlace y se abre en cualquier navegador.</p><p>Se produce a partir del mismo modelo 3D que los renders, con una escena de prueba antes de producir el recorrido completo.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué es un tour virtual 360?",
+      "html": "<p>Es un recorrido interactivo compuesto por escenas renderizadas en 360 grados y conectadas entre sí. A diferencia del vídeo, aquí <strong>la persona decide</strong>: hacia dónde mira, cuánto tiempo se queda y a qué estancia pasa. Y a diferencia del render fijo, transmite tamaños y relaciones entre espacios que una imagen no puede.</p><p>Si se ve con gafas, hablamos de <a href='/realidad-virtual-arquitectura/'>realidad virtual para arquitectura</a>; el material de partida es el mismo.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirve un tour virtual 360",
+      "html": "<p>Para vender sobre plano, sobre todo. El comprador <strong>visita la vivienda antes de que exista</strong>, desde su casa y a su ritmo. También sirve a un arquitecto o un interiorista para que su cliente apruebe el proyecto habiéndolo recorrido.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Cuántas escenas necesita un tour virtual 360?",
+      "html": "<p>Una por estancia que quieras enseñar, y a veces dos en las grandes. Para una vivienda tipo suelen bastar el salón, la cocina, el dormitorio principal y un baño. Para una promoción, se repite por cada tipo de vivienda y se añaden las zonas comunes.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Dónde se publica un tour virtual 360?",
+      "html": "<p>En tu web, en el anuncio del portal que lo admita, en un correo o en una pantalla de la oficina de ventas. Se entrega con un enlace y se puede incrustar donde haga falta.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de tour virtual 360",
+      "html": "<ul><li><strong>Modelado 3D</strong> del proyecto, o trabajo sobre tu modelo.</li><li><strong>Escenas 360</strong> de las estancias acordadas, con materiales, luz y ambientación.</li><li><strong>Navegación</strong> entre escenas con puntos de paso.</li><li><strong>Escena de prueba</strong> para revisar materiales y encuadre antes de producir el resto.</li><li><strong>Enlace para compartir</strong> y código para incrustar en tu web.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de tour virtual 360",
+      "html": "",
+      "tarjetas": [
+        {
+          "titulo": "Tour de vivienda tipo",
+          "texto": "El piso piloto virtual de una promoción.",
+          "foto": "/wp-content/uploads/2025/05/renders-inmobiliarias.webp"
+        },
+        {
+          "titulo": "Tour de casa unifamiliar",
+          "texto": "Exterior e interior en un solo recorrido.",
+          "foto": "/wp-content/uploads/2025/04/render-casa.jpg"
+        },
+        {
+          "titulo": "Tour de interiorismo",
+          "texto": "Para aprobar un diseño recorriéndolo.",
+          "foto": "/wp-content/uploads/2025/04/renders-360-3D.webp"
+        },
+        {
+          "titulo": "Tour de local o hotel",
+          "texto": "Espacios comerciales y de hospedaje.",
+          "foto": "/wp-content/uploads/2025/05/renders-hoteles.jpg"
+        }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Cómo trabajamos el tour virtual 360",
+      "html": "<p>El plazo depende del número de escenas y se fija en el presupuesto.</p>",
+      "pasos": [
+        {
+          "titulo": "Proyecto y escenas",
+          "texto": "Nos envías planos o modelo 3D y acordamos qué estancias se recorren."
+        },
+        {
+          "titulo": "Presupuesto",
+          "texto": "Por escena, con el plazo de entrega."
+        },
+        {
+          "titulo": "Escena de prueba",
+          "texto": "Revisas materiales, luz y encuadre en una primera estancia."
+        },
+        {
+          "titulo": "Producción",
+          "texto": "Renderizamos el resto de escenas y montamos la navegación."
+        },
+        {
+          "titulo": "Entrega",
+          "texto": "Enlace para compartir y código para tu web."
+        }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Precio del tour virtual 360",
+      "html": "<p>Se presupuesta por escena. La tabla completa está en la página de <a href='/precios/'>precios de renders</a>.</p>",
+      "precios": [
+        {
+          "servicio": "Tour virtual 360 (por escena)",
+          "precio": "120 € – 520 €"
+        },
+        {
+          "servicio": "Render interior fijo de la misma estancia",
+          "precio": "70 € – 170 €"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre el tour virtual 360",
+    "items": [
+      {
+        "pregunta": "¿Hace falta instalar algo para ver el tour virtual 360?",
+        "respuesta": "No. Se abre en cualquier navegador, en ordenador o en móvil, desde <strong>un enlace</strong>. Con gafas de realidad virtual la experiencia es inmersiva, pero no son necesarias."
+      },
+      {
+        "pregunta": "¿Se puede hacer el tour a partir de los renders que ya tengo?",
+        "respuesta": "Sí, si se conserva el modelo 3D. Las escenas se renderizan desde <strong>el mismo modelo</strong>, con los mismos materiales, así que el tour queda coherente con las imágenes."
+      },
+      {
+        "pregunta": "¿Qué diferencia hay entre un tour virtual 360 y una animación?",
+        "respuesta": "En la animación la cámara sigue un camino fijo; en el tour <strong>la persona elige</strong> hacia dónde mirar y adónde ir. Lo comparamos en <a href='/render-animacion-o-tour-360/'>render, animación 3D o tour 360</a>."
+      },
+      {
+        "pregunta": "¿Cuánto tarda un tour virtual 360?",
+        "respuesta": "Depende del número de escenas. El plazo habitual de los renders es de 15 días, menos si hay urgencia, y cada escena 360 lleva algo más de trabajo que una imagen fija; el plazo exacto va en el presupuesto."
+      }
+    ]
+  }
+}

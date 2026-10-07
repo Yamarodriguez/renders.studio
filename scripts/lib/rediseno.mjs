@@ -16,7 +16,7 @@ import { parse } from 'node-html-parser';
 const DOMINIO = 'https://renders.studio';
 const CORREO = 'Renders.studio3D@gmail.com';
 const LOGO = '/wp-content/uploads/2025/04/cropped-render.png';
-const ESTILO = '/estilo/diseno.css?v=3';
+const ESTILO = '/estilo/diseno.css?v=4';
 
 /** Piezas del <head> de WordPress que se conservan. */
 function seConserva(p) {
@@ -194,7 +194,8 @@ export function pintaPie(cabeceraHtml, { destinoDeMenu, guias = [] } = {}) {
     columna('Renders.studio', sueltos),
     columna('Tipos', aplana(por('tipos') || { hijos: [] })),
     columna('Servicios', aplana(por('servicios') || { hijos: [] })),
-    columna('Guías', guias.map((g) => ({ texto: g.titulo, href: `/${g.slug}/` }))),
+    columna('Servicios 3D', guias.filter((g) => g.tipo === 'servicio').map((g) => ({ texto: g.titulo, href: `/${g.slug}/` }))),
+    columna('Guías', guias.filter((g) => g.tipo !== 'servicio').map((g) => ({ texto: g.titulo, href: `/${g.slug}/` }))),
     columna('Contacto', [
       ...(por('contacto') && por('contacto').href !== '#' ? [por('contacto')] : []),
       ...aplana(por('contacto') || { hijos: [] }),

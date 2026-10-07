@@ -1,0 +1,83 @@
+{
+  "slug": "modelado-3d",
+  "tipo": "servicio",
+  "etiqueta": "Servicio",
+  "titulo": "Modelado 3D",
+  "tituloSeo": "Modelado 3D para arquitectura: de los planos al modelo",
+  "descripcion": "Modelado 3D de edificios, viviendas e interiores a partir de tus planos: la base para renders, animaciones y tours virtuales. Desde 80 €. Pide presupuesto.",
+  "palabraClave": "modelado 3D",
+  "foto": "/wp-content/uploads/2025/04/modelado-3D.jpg",
+  "fotoAlt": "Modelado 3D de un edificio en pantalla, en fase de construcción del modelo",
+  "intro": {
+    "h2": "Modelado 3D: el paso que convierte los planos en volumen",
+    "html": "<p>El <strong>modelado 3D</strong> es la base de todo lo demás. A partir de la planta, los alzados y las secciones se levanta el edificio o la estancia en tres dimensiones, con sus huecos, sus alturas y sus carpinterías. Sobre ese modelo se hacen después los renders, el vídeo o el tour virtual.</p><p>Modelamos desde tus planos o completamos y corregimos un modelo que ya tengas.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué es el modelado 3D en arquitectura?",
+      "html": "<p>Es la construcción digital del proyecto: cada muro, forjado, ventana y escalera se dibuja en tres dimensiones con sus medidas reales. El resultado es un modelo que se puede mirar desde cualquier punto de vista y al que después se aplican <strong>materiales, luz y entorno</strong> para obtener imágenes.</p><p>Un modelo bien hecho ahorra tiempo en todo lo que viene detrás: si las medidas y los huecos están bien, los renders salen a la primera y los cambios se hacen en un solo sitio.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirve el modelado 3D",
+      "html": "<p>Para producir imágenes, pero no solo. Un modelo 3D permite <strong>comprobar el proyecto</strong> antes de construirlo: ver si una escalera cabe, cómo entra la luz a una hora concreta o qué se ve desde una ventana. También es el punto de partida de los <a href='/planos-renders/'>planos renders</a>, del <a href='/video-render-3d/'>vídeo render 3D</a> y del <a href='/tour-virtual-360/'>tour virtual 360</a>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Hace falta un modelado 3D nuevo si ya tengo el proyecto en 3D?",
+      "html": "<p>No siempre. Si trabajas con SketchUp, Revit u otro programa de modelado, enviamos el archivo tal cual y lo revisamos. A veces hace falta completar detalles o corregir geometría para que el render salga limpio, y eso es más rápido que empezar de cero.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué planos necesito para el modelado 3D?",
+      "html": "<p>Planta acotada, alzados y secciones. Con la planta sola se puede modelar, pero habrá que suponer alturas y huecos. La lista completa está en <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de modelado 3D",
+      "html": "<ul><li><strong>Levantamiento del modelo</strong> a partir de planos, alzados y secciones, respetando las medidas.</li><li><strong>Huecos y carpinterías</strong>: ventanas, puertas, barandillas y escaleras.</li><li><strong>Cubiertas, terrazas y elementos exteriores</strong> cuando el encargo es de exterior.</li><li><strong>Revisión</strong> de un modelo existente, si ya lo tienes, para dejarlo listo para renderizar.</li><li><strong>Entrega</strong> del modelo en el formato que acordemos, además de las imágenes si las encargas.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de modelado 3D",
+      "html": "",
+      "tarjetas": [
+        { "titulo": "Modelado de edificios", "texto": "Bloques residenciales, oficinas y equipamientos.", "foto": "/wp-content/uploads/2025/04/renders-de-edificios.jpg" },
+        { "titulo": "Modelado de viviendas", "texto": "Casas unifamiliares, exterior e interior.", "foto": "/wp-content/uploads/2025/04/render-casa.jpg" },
+        { "titulo": "Modelado de interiores", "texto": "Estancias con su mobiliario a medida.", "foto": "/wp-content/uploads/2025/04/render-interior.webp" },
+        { "titulo": "Modelado de producto y mobiliario", "texto": "Piezas sueltas para catálogo o escena.", "foto": "/wp-content/uploads/2025/05/sofa-render-3d.webp" }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Cómo trabajamos el modelado 3D",
+      "html": "<p>El plazo habitual del encargo completo es de 15 días y puede ser menor si el proyecto es urgente.</p>",
+      "pasos": [
+        { "titulo": "Planos o modelo", "texto": "Nos envías la documentación o tu archivo 3D." },
+        { "titulo": "Presupuesto", "texto": "Según la complejidad del proyecto y lo que haya que modelar." },
+        { "titulo": "Modelado", "texto": "Levantamos la geometría y te enviamos una vista para comprobar volúmenes y huecos." },
+        { "titulo": "Ajustes y entrega", "texto": "Corregimos lo que indiques y entregamos el modelo, o seguimos con los renders." }
+      ]
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Precio del modelado 3D",
+      "html": "<p>Depende de la complejidad del proyecto. La tabla completa está en la página de <a href='/precios/'>precios de renders</a>.</p>",
+      "precios": [
+        { "servicio": "Modelado 3D (según complejidad)", "precio": "80 € – 270 €" },
+        { "servicio": "Render exterior sobre el modelo", "precio": "90 € – 220 €" },
+        { "servicio": "Render interior sobre el modelo", "precio": "70 € – 170 €" }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre modelado 3D",
+    "items": [
+      { "pregunta": "¿Entregáis el archivo del modelado 3D?", "respuesta": "Sí, si lo encargas como servicio. Acordamos el formato de entrega en el presupuesto para que puedas <strong>abrirlo con tu programa</strong>." },
+      { "pregunta": "¿El modelado 3D va incluido en el precio de los renders?", "respuesta": "En el presupuesto de cada encargo se indica qué incluye. Si partimos de tus planos, el modelado es una fase del trabajo; si nos envías un modelo ya hecho, <strong>esa fase se ahorra</strong>." },
+      { "pregunta": "¿Con qué programas trabajáis el modelado 3D?", "respuesta": "Con los habituales del sector; puedes ver la lista en <a href='/programas-para-renders/'>programas para renders</a>. Si tu modelo viene de otro programa, lo convertimos." },
+      { "pregunta": "¿Cuánto se tarda en modelar un proyecto?", "respuesta": "Depende del tamaño y del detalle. El plazo habitual del encargo completo es de 15 días, menos si hay urgencia, y <strong>el modelado es la primera fase</strong>." }
+    ]
+  }
+}
