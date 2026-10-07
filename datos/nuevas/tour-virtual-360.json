@@ -128,5 +128,11 @@
         "respuesta": "Depende del número de escenas. El plazo habitual de los renders es de 15 días, menos si hay urgencia, y cada escena 360 lleva algo más de trabajo que una imagen fija; el plazo exacto va en el presupuesto."
       }
     ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Tour virtual 360",
+    "singular": "Tour virtual 360",
+    "sufijo": "en tour virtual 360"
   }
 }

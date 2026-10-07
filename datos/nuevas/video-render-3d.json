@@ -128,5 +128,11 @@
         "respuesta": "Más que una imagen fija, porque cada segundo son muchos fotogramas. El plazo concreto depende de la duración y va indicado en el presupuesto. Para encargos con prisa, consulta <a href='/express/'>renders express</a>."
       }
     ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Vídeo render 3D",
+    "singular": "Vídeo render 3D",
+    "sufijo": "en vídeo 3D"
   }
 }

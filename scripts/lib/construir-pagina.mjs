@@ -19,6 +19,7 @@ import { desSerializa } from './php.mjs';
 import { pintaCabezaRediseno, pintaCabecera, pintaCierre, pintaPie } from './rediseno.mjs';
 import { creaCorrector } from './erratas.mjs';
 import { creaAnadidos } from './anadidos.mjs';
+import { creaClonador } from './clonar.mjs';
 
 const DOMINIO = 'https://renders.studio';
 
@@ -274,6 +275,7 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
     // lo comun a toda la web (iconos, verificaciones, Analytics) sale de la portada
     const ficha = JSON.parse(fs.readFileSync(path.join(DATOS, 'cabecera', 'renders.json'), 'utf8'));
     const cabecera = cabeceras.renders;
+    if (g.plantilla) return construyeClon(g, ficha, cabecera);
     return (
       `<!DOCTYPE html>\n<html lang="${ficha.lang}">\n<head>\n` +
       pintaCabezaRediseno(ficha, { propia: anadidos.cabezaDeGuia(g) }) +
@@ -281,6 +283,45 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
       aRelativas(pintaCabecera(cabecera, `/${g.slug}/`, anadidos.destinoDeMenu)) +
       `\n<main id="main">\n` +
       anadidos.pintaGuia(g) +
+      `\n</main>\n` +
+      pintaCierre() +
+      aRelativas(pintaPie(cabecera, { destinoDeMenu: anadidos.destinoDeMenu, guias: anadidos.guias })) +
+      `\n</div>\n</body>\n</html>`
+    );
+  }
+
+  /**
+   * Un servicio con la estructura completa de otra pagina (g.plantilla, hoy
+   * /hiperrealistas/): portada de la plantilla, el bloque SEO del servicio y
+   * despues TODAS las secciones de la plantilla, adaptadas por clonar.mjs.
+   * Las preguntas del servicio se suman al acordeon de la plantilla.
+   */
+  function construyeClon(g, ficha, cabecera) {
+    const datos = JSON.parse(fs.readFileSync(path.join(DATOS, 'paginas', `${g.plantilla}.json`), 'utf8'));
+    const plantilla = paginas.find((p) => p.slug === g.plantilla);
+    const arbol = creaClonador(g.clave, g.titulo).adapta(structuredClone(datos.elementor));
+    // el slug de la plantilla: galeria, formulario y mapa se copiaron con el
+    const ctx = { slug: g.plantilla, rediseno: true, contador: { imagenes: 0, sinLazy: new Set() } };
+    const pinta = (nodos) => pintaArbol(nodos, { ...ctx, pintaContenido: (n, c) => pintor.pintaContenido(n, c ?? ctx) });
+    const portada = pinta(arbol.slice(0, 1)).replace(/^<(section|div) class="/, '<$1 class="r-heroe ');
+    let resto = pinta(arbol.slice(1));
+    resto = resto.replace('<div class="faq-container">', `<div class="faq-container">${anadidos.faqItemsHtml(g)}`);
+    let cuerpo =
+      `<div class="elementor elementor-${plantilla.id} r-contenido r-clon">` +
+      portada +
+      anadidos.pintaBloqueSeo(g) +
+      resto +
+      `</div>`;
+    cuerpo = anadidos.arreglaEnlaces(corrector.corrige(aRelativas(cuerpo)));
+    // FAQPage con TODAS las preguntas del acordeon (las del servicio y las de la plantilla)
+    const faq = anadidos.datosParaGoogle({ conElementor: false }, cuerpo, false);
+    return (
+      `<!DOCTYPE html>\n<html lang="${ficha.lang}">\n<head>\n` +
+      pintaCabezaRediseno(ficha, { propia: anadidos.cabezaDeGuia(g, { sinFaq: true }), extra: faq }) +
+      `\n</head>\n<body class="r-cuerpo r-pagina-${g.slug}">\n<div class="r-pagina">\n` +
+      aRelativas(pintaCabecera(cabecera, `/${g.slug}/`, anadidos.destinoDeMenu)) +
+      `\n<main id="main">\n` +
+      cuerpo +
       `\n</main>\n` +
       pintaCierre() +
       aRelativas(pintaPie(cabecera, { destinoDeMenu: anadidos.destinoDeMenu, guias: anadidos.guias })) +

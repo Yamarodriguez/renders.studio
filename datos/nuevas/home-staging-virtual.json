@@ -124,5 +124,11 @@
         "respuesta": "El plazo habitual es de 15 días para el conjunto del encargo, y menos si el anuncio tiene fecha. Para urgencias, consulta <a href='/express/'>renders express</a>."
       }
     ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Home staging virtual",
+    "singular": "Home staging virtual",
+    "sufijo": "de home staging virtual"
   }
 }

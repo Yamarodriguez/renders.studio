@@ -43,10 +43,26 @@
       "titulo": "Tipos de planos renders",
       "html": "",
       "tarjetas": [
-        { "titulo": "Planta 2D técnica", "texto": "Dibujo limpio con mobiliario esquemático y rótulos.", "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura-1.jpg" },
-        { "titulo": "Planta 3D amueblada", "texto": "Vista cenital renderizada, con volumen y materiales.", "foto": "/wp-content/uploads/2025/04/render-de-casa-planta-3d.webp" },
-        { "titulo": "Planta de vivienda", "texto": "Pisos y casas, para venta o reforma.", "foto": "/wp-content/uploads/2025/04/Render-de-vivienda.webp" },
-        { "titulo": "Planta de parcela y jardín", "texto": "La vivienda en su terreno, con exteriores.", "foto": "/wp-content/uploads/2025/04/Render-casa-1-1.webp" }
+        {
+          "titulo": "Planta 2D técnica",
+          "texto": "Dibujo limpio con mobiliario esquemático y rótulos.",
+          "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura-1.jpg"
+        },
+        {
+          "titulo": "Planta 3D amueblada",
+          "texto": "Vista cenital renderizada, con volumen y materiales.",
+          "foto": "/wp-content/uploads/2025/04/render-de-casa-planta-3d.webp"
+        },
+        {
+          "titulo": "Planta de vivienda",
+          "texto": "Pisos y casas, para venta o reforma.",
+          "foto": "/wp-content/uploads/2025/04/Render-de-vivienda.webp"
+        },
+        {
+          "titulo": "Planta de parcela y jardín",
+          "texto": "La vivienda en su terreno, con exteriores.",
+          "foto": "/wp-content/uploads/2025/04/Render-casa-1-1.webp"
+        }
       ]
     },
     {
@@ -54,10 +70,22 @@
       "titulo": "Cómo trabajamos los planos renders",
       "html": "<p>El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente.</p>",
       "pasos": [
-        { "titulo": "Nos envías el plano", "texto": "En CAD, PDF o un croquis acotado, con las referencias de acabados si las tienes." },
-        { "titulo": "Presupuesto", "texto": "Te indicamos precio por planta y fecha de entrega." },
-        { "titulo": "Vista previa", "texto": "Revisas distribución, mobiliario y rótulos." },
-        { "titulo": "Entrega", "texto": "Recibes la planta en el formato acordado, lista para publicar." }
+        {
+          "titulo": "Nos envías el plano",
+          "texto": "En CAD, PDF o un croquis acotado, con las referencias de acabados si las tienes."
+        },
+        {
+          "titulo": "Presupuesto",
+          "texto": "Te indicamos precio por planta y fecha de entrega."
+        },
+        {
+          "titulo": "Vista previa",
+          "texto": "Revisas distribución, mobiliario y rótulos."
+        },
+        {
+          "titulo": "Entrega",
+          "texto": "Recibes la planta en el formato acordado, lista para publicar."
+        }
       ]
     },
     {
@@ -65,8 +93,14 @@
       "titulo": "Precio de los planos renders",
       "html": "<p>Rangos orientativos por planta. La tabla completa está en la página de <a href='/precios/'>precios de renders</a>.</p>",
       "precios": [
-        { "servicio": "Planos 2D profesionales", "precio": "40 € – 180 €" },
-        { "servicio": "Planos renderizados 3D (vista cenital amueblada)", "precio": "90 € – 240 €" }
+        {
+          "servicio": "Planos 2D profesionales",
+          "precio": "40 € – 180 €"
+        },
+        {
+          "servicio": "Planos renderizados 3D (vista cenital amueblada)",
+          "precio": "90 € – 240 €"
+        }
       ]
     },
     {
@@ -74,19 +108,46 @@
       "titulo": "Ejemplos de planos renders",
       "html": "",
       "galeria": [
-        { "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura.jpg", "alt": "Planos renders: planta 3D amueblada de una vivienda de dos dormitorios" },
-        { "foto": "/wp-content/uploads/2025/04/render-de-casa-planta-3d.webp", "alt": "Planos renders: planta 3D de una casa con jardín y piscina" },
-        { "foto": "/wp-content/uploads/2025/04/Render-de-vivienda.webp", "alt": "Planos renders: planta 3D sin amueblar con tabiques y huecos" }
+        {
+          "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura.jpg",
+          "alt": "Planos renders: planta 3D amueblada de una vivienda de dos dormitorios"
+        },
+        {
+          "foto": "/wp-content/uploads/2025/04/render-de-casa-planta-3d.webp",
+          "alt": "Planos renders: planta 3D de una casa con jardín y piscina"
+        },
+        {
+          "foto": "/wp-content/uploads/2025/04/Render-de-vivienda.webp",
+          "alt": "Planos renders: planta 3D sin amueblar con tabiques y huecos"
+        }
       ]
     }
   ],
   "faq": {
     "titulo": "Preguntas frecuentes sobre planos renders",
     "items": [
-      { "pregunta": "¿Los planos renders mantienen las medidas reales?", "respuesta": "Sí. Se redibujan sobre tu plano y <strong>conservan las proporciones y las medidas</strong>. Lo que cambia es la forma de representarlo, no la geometría." },
-      { "pregunta": "¿Puedo incluir las superficies de cada estancia?", "respuesta": "Sí, si nos las facilitas. Rotulamos cada estancia con su nombre y, si quieres, con los <strong>metros cuadrados que nos indiques</strong>." },
-      { "pregunta": "¿Sirven los planos renders para una vivienda en venta?", "respuesta": "Son una de las imágenes más eficaces en un anuncio. Si además quieres enseñar el interior, combínalos con <a href='/renders-interiores/'>renders de interiores</a> o con un <a href='/tour-virtual-360/'>tour virtual 360</a>." },
-      { "pregunta": "¿Cuánto se tarda en hacer una planta?", "respuesta": "El plazo habitual es de 15 días para el conjunto del encargo, y menos si hay urgencia. <strong>Una planta suelta suele ir más rápido</strong>; el plazo concreto va en el presupuesto." }
+      {
+        "pregunta": "¿Los planos renders mantienen las medidas reales?",
+        "respuesta": "Sí. Se redibujan sobre tu plano y <strong>conservan las proporciones y las medidas</strong>. Lo que cambia es la forma de representarlo, no la geometría."
+      },
+      {
+        "pregunta": "¿Puedo incluir las superficies de cada estancia?",
+        "respuesta": "Sí, si nos las facilitas. Rotulamos cada estancia con su nombre y, si quieres, con los <strong>metros cuadrados que nos indiques</strong>."
+      },
+      {
+        "pregunta": "¿Sirven los planos renders para una vivienda en venta?",
+        "respuesta": "Son una de las imágenes más eficaces en un anuncio. Si además quieres enseñar el interior, combínalos con <a href='/renders-interiores/'>renders de interiores</a> o con un <a href='/tour-virtual-360/'>tour virtual 360</a>."
+      },
+      {
+        "pregunta": "¿Cuánto se tarda en hacer una planta?",
+        "respuesta": "El plazo habitual es de 15 días para el conjunto del encargo, y menos si hay urgencia. <strong>Una planta suelta suele ir más rápido</strong>; el plazo concreto va en el presupuesto."
+      }
     ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Planos renders",
+    "singular": "Plano render",
+    "sufijo": "de planos"
   }
 }

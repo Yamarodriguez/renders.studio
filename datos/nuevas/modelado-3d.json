@@ -43,10 +43,26 @@
       "titulo": "Tipos de modelado 3D",
       "html": "",
       "tarjetas": [
-        { "titulo": "Modelado de edificios", "texto": "Bloques residenciales, oficinas y equipamientos.", "foto": "/wp-content/uploads/2025/04/renders-de-edificios.jpg" },
-        { "titulo": "Modelado de viviendas", "texto": "Casas unifamiliares, exterior e interior.", "foto": "/wp-content/uploads/2025/04/render-casa.jpg" },
-        { "titulo": "Modelado de interiores", "texto": "Estancias con su mobiliario a medida.", "foto": "/wp-content/uploads/2025/04/render-interior.webp" },
-        { "titulo": "Modelado de producto y mobiliario", "texto": "Piezas sueltas para catálogo o escena.", "foto": "/wp-content/uploads/2025/05/sofa-render-3d.webp" }
+        {
+          "titulo": "Modelado de edificios",
+          "texto": "Bloques residenciales, oficinas y equipamientos.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-edificios.jpg"
+        },
+        {
+          "titulo": "Modelado de viviendas",
+          "texto": "Casas unifamiliares, exterior e interior.",
+          "foto": "/wp-content/uploads/2025/04/render-casa.jpg"
+        },
+        {
+          "titulo": "Modelado de interiores",
+          "texto": "Estancias con su mobiliario a medida.",
+          "foto": "/wp-content/uploads/2025/04/render-interior.webp"
+        },
+        {
+          "titulo": "Modelado de producto y mobiliario",
+          "texto": "Piezas sueltas para catálogo o escena.",
+          "foto": "/wp-content/uploads/2025/05/sofa-render-3d.webp"
+        }
       ]
     },
     {
@@ -54,10 +70,22 @@
       "titulo": "Cómo trabajamos el modelado 3D",
       "html": "<p>El plazo habitual del encargo completo es de 15 días y puede ser menor si el proyecto es urgente.</p>",
       "pasos": [
-        { "titulo": "Planos o modelo", "texto": "Nos envías la documentación o tu archivo 3D." },
-        { "titulo": "Presupuesto", "texto": "Según la complejidad del proyecto y lo que haya que modelar." },
-        { "titulo": "Modelado", "texto": "Levantamos la geometría y te enviamos una vista para comprobar volúmenes y huecos." },
-        { "titulo": "Ajustes y entrega", "texto": "Corregimos lo que indiques y entregamos el modelo, o seguimos con los renders." }
+        {
+          "titulo": "Planos o modelo",
+          "texto": "Nos envías la documentación o tu archivo 3D."
+        },
+        {
+          "titulo": "Presupuesto",
+          "texto": "Según la complejidad del proyecto y lo que haya que modelar."
+        },
+        {
+          "titulo": "Modelado",
+          "texto": "Levantamos la geometría y te enviamos una vista para comprobar volúmenes y huecos."
+        },
+        {
+          "titulo": "Ajustes y entrega",
+          "texto": "Corregimos lo que indiques y entregamos el modelo, o seguimos con los renders."
+        }
       ]
     },
     {
@@ -65,19 +93,46 @@
       "titulo": "Precio del modelado 3D",
       "html": "<p>Depende de la complejidad del proyecto. La tabla completa está en la página de <a href='/precios/'>precios de renders</a>.</p>",
       "precios": [
-        { "servicio": "Modelado 3D (según complejidad)", "precio": "80 € – 270 €" },
-        { "servicio": "Render exterior sobre el modelo", "precio": "90 € – 220 €" },
-        { "servicio": "Render interior sobre el modelo", "precio": "70 € – 170 €" }
+        {
+          "servicio": "Modelado 3D (según complejidad)",
+          "precio": "80 € – 270 €"
+        },
+        {
+          "servicio": "Render exterior sobre el modelo",
+          "precio": "90 € – 220 €"
+        },
+        {
+          "servicio": "Render interior sobre el modelo",
+          "precio": "70 € – 170 €"
+        }
       ]
     }
   ],
   "faq": {
     "titulo": "Preguntas frecuentes sobre modelado 3D",
     "items": [
-      { "pregunta": "¿Entregáis el archivo del modelado 3D?", "respuesta": "Sí, si lo encargas como servicio. Acordamos el formato de entrega en el presupuesto para que puedas <strong>abrirlo con tu programa</strong>." },
-      { "pregunta": "¿El modelado 3D va incluido en el precio de los renders?", "respuesta": "En el presupuesto de cada encargo se indica qué incluye. Si partimos de tus planos, el modelado es una fase del trabajo; si nos envías un modelo ya hecho, <strong>esa fase se ahorra</strong>." },
-      { "pregunta": "¿Con qué programas trabajáis el modelado 3D?", "respuesta": "Con los habituales del sector; puedes ver la lista en <a href='/programas-para-renders/'>programas para renders</a>. Si tu modelo viene de otro programa, lo convertimos." },
-      { "pregunta": "¿Cuánto se tarda en modelar un proyecto?", "respuesta": "Depende del tamaño y del detalle. El plazo habitual del encargo completo es de 15 días, menos si hay urgencia, y <strong>el modelado es la primera fase</strong>." }
+      {
+        "pregunta": "¿Entregáis el archivo del modelado 3D?",
+        "respuesta": "Sí, si lo encargas como servicio. Acordamos el formato de entrega en el presupuesto para que puedas <strong>abrirlo con tu programa</strong>."
+      },
+      {
+        "pregunta": "¿El modelado 3D va incluido en el precio de los renders?",
+        "respuesta": "En el presupuesto de cada encargo se indica qué incluye. Si partimos de tus planos, el modelado es una fase del trabajo; si nos envías un modelo ya hecho, <strong>esa fase se ahorra</strong>."
+      },
+      {
+        "pregunta": "¿Con qué programas trabajáis el modelado 3D?",
+        "respuesta": "Con los habituales del sector; puedes ver la lista en <a href='/programas-para-renders/'>programas para renders</a>. Si tu modelo viene de otro programa, lo convertimos."
+      },
+      {
+        "pregunta": "¿Cuánto se tarda en modelar un proyecto?",
+        "respuesta": "Depende del tamaño y del detalle. El plazo habitual del encargo completo es de 15 días, menos si hay urgencia, y <strong>el modelado es la primera fase</strong>."
+      }
     ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Modelado 3D",
+    "singular": "Modelado 3D",
+    "sufijo": "de modelado 3D"
   }
 }

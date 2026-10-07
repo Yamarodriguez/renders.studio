@@ -132,5 +132,11 @@
         "respuesta": "Sí. El servicio es online: la documentación y las revisiones van por internet, así que trabajamos igual para cualquier estudio de España. Más en <a href='/online/'>renders online</a>."
       }
     ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders para arquitectos",
+    "singular": "Render para arquitectos",
+    "sufijo": "para arquitectos"
   }
 }

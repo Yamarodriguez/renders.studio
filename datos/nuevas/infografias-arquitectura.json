@@ -132,5 +132,11 @@
         "respuesta": "El plazo habitual es de 15 días, y menos si hay urgencia. En concursos con fecha cerrada lo acordamos desde el primer día; consulta también <a href='/express/'>renders express</a>."
       }
     ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Infografías de arquitectura",
+    "singular": "Infografía de arquitectura",
+    "sufijo": "en infografías de arquitectura"
   }
 }

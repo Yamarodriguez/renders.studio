@@ -212,10 +212,7 @@ export function creaAnadidos(raiz, paginas) {
     `</div>`;
 
   /** El <main> de una pagina nueva: guia o servicio (datos/nuevas/*.json). */
-  function pintaGuia(g) {
-    const esServicio = g.tipo === 'servicio';
-    const otras = guias.filter((x) => x.slug !== g.slug && (x.tipo === 'servicio') === esServicio);
-    const seccion = (s) => {
+  function seccionHtml(s) {
       const n = s.nivel === 'h3' ? 'h3' : 'h2';
       let dentro = s.html || '';
       if (s.tarjetas) dentro += `<div class="r-tarjetas">${s.tarjetas.map(tarjeta).join('')}</div>`;
@@ -236,7 +233,12 @@ export function creaAnadidos(raiz, paginas) {
           .join('')}</div>`;
       }
       return `<${n}>${esc(s.titulo)}</${n}>${dentro}`;
-    };
+  }
+
+  function pintaGuia(g) {
+    const esServicio = g.tipo === 'servicio';
+    const otras = guias.filter((x) => x.slug !== g.slug && (x.tipo === 'servicio') === esServicio);
+    const seccion = seccionHtml;
     return (
       `<div class="r-guia${esServicio ? ' r-servicio' : ''}">` +
       `<div class="r-guia-cabeza"><div class="r-caja r-guia-cabeza-in">` +
@@ -259,8 +261,35 @@ export function creaAnadidos(raiz, paginas) {
     );
   }
 
+  /**
+   * El bloque SEO propio de un servicio, para meterlo al principio de una
+   * pagina clonada de /hiperrealistas/: su h2 de entrada y las secciones de
+   * texto (que es, para que sirve, que incluye, tipos). Proceso, precios y
+   * ejemplos no van: la plantilla ya trae los suyos.
+   */
+  function pintaBloqueSeo(g) {
+    const secciones = g.secciones.filter((x) => !x.pasos && !x.precios && !x.galeria);
+    return (
+      `<section class="r-seo-servicio"><div class="r-guia r-servicio"><div class="r-caja r-guia-cuerpo">` +
+      `<p class="r-etiqueta">${esc(g.etiqueta || 'Servicio')}</p>` +
+      `<h2>${esc(g.intro.h2)}</h2>${g.intro.html}` +
+      `<p class="r-guia-botones"><a class="r-boton r-boton-acento" href="/presupuesto/">Pedir presupuesto</a><a class="r-boton r-boton-linea" href="/precios/">Ver precios</a></p>` +
+      secciones.map(seccionHtml).join('\n') +
+      `</div></div></section>`
+    );
+  }
+
+  /** Las preguntas del servicio, con el marcado del acordeon de la plantilla. */
+  const faqItemsHtml = (g) =>
+    g.faq.items
+      .map(
+        (it) =>
+          `<div class="faq-item"><h3 class="faq-question">${esc(it.pregunta)}</h3><div class="faq-answer"><p>${it.respuesta}</p></div></div>`
+      )
+      .join('');
+
   /** El <head> propio de una guia (titulo, descripcion, canonica y JSON-LD). */
-  function cabezaDeGuia(g) {
+  function cabezaDeGuia(g, { sinFaq = false } = {}) {
     const url = `${DOMINIO}/${g.slug}/`;
     const ld = [
       g.tipo === 'servicio'
@@ -294,7 +323,7 @@ export function creaAnadidos(raiz, paginas) {
           { '@type': 'ListItem', position: 2, name: g.titulo, item: url },
         ],
       },
-      {
+      !sinFaq && {
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
         mainEntity: g.faq.items.map((it) => ({
@@ -303,7 +332,7 @@ export function creaAnadidos(raiz, paginas) {
           acceptedAnswer: { '@type': 'Answer', text: plano(it.respuesta) },
         })),
       },
-    ];
+    ].filter(Boolean);
     return [
       `<title>${esc(g.tituloSeo)}</title>`,
       `<meta name="description" content="${esc(g.descripcion)}">`,
@@ -321,5 +350,5 @@ export function creaAnadidos(raiz, paginas) {
     ].join('\n');
   }
 
-  return { arreglaEnlaces, destinoDeMenu, pintaZonas, datosParaGoogle, pintaGuia, cabezaDeGuia, guias };
+  return { arreglaEnlaces, destinoDeMenu, pintaZonas, datosParaGoogle, pintaGuia, pintaBloqueSeo, faqItemsHtml, cabezaDeGuia, guias };
 }

@@ -43,10 +43,26 @@
       "titulo": "Tipos de catálogos de arquitectura",
       "html": "",
       "tarjetas": [
-        { "titulo": "Catálogo de promoción", "texto": "Viviendas, plantas, calidades y contacto.", "foto": "/wp-content/uploads/2025/05/renders-inmobiliarias.webp" },
-        { "titulo": "Dosier de vivienda única", "texto": "Una casa o un ático con todas sus vistas.", "foto": "/wp-content/uploads/2025/04/render-casa.jpg" },
-        { "titulo": "Catálogo de estudio", "texto": "Los proyectos del estudio, construidos o no.", "foto": "/wp-content/uploads/2025/04/Estudio-arquitectura.jpg" },
-        { "titulo": "Catálogo de producto", "texto": "Mobiliario y piezas renderizadas para fabricantes.", "foto": "/wp-content/uploads/2025/04/render-de-productos.webp" }
+        {
+          "titulo": "Catálogo de promoción",
+          "texto": "Viviendas, plantas, calidades y contacto.",
+          "foto": "/wp-content/uploads/2025/05/renders-inmobiliarias.webp"
+        },
+        {
+          "titulo": "Dosier de vivienda única",
+          "texto": "Una casa o un ático con todas sus vistas.",
+          "foto": "/wp-content/uploads/2025/04/render-casa.jpg"
+        },
+        {
+          "titulo": "Catálogo de estudio",
+          "texto": "Los proyectos del estudio, construidos o no.",
+          "foto": "/wp-content/uploads/2025/04/Estudio-arquitectura.jpg"
+        },
+        {
+          "titulo": "Catálogo de producto",
+          "texto": "Mobiliario y piezas renderizadas para fabricantes.",
+          "foto": "/wp-content/uploads/2025/04/render-de-productos.webp"
+        }
       ]
     },
     {
@@ -54,11 +70,26 @@
       "titulo": "Cómo trabajamos los catálogos de arquitectura",
       "html": "<p>El plazo depende del número de imágenes y de páginas y se fija en el presupuesto.</p>",
       "pasos": [
-        { "titulo": "Proyecto y contenido", "texto": "Nos envías planos o modelo, los textos y los datos que debe llevar el catálogo." },
-        { "titulo": "Presupuesto", "texto": "Según el número de renders, plantas y páginas." },
-        { "titulo": "Imágenes", "texto": "Producimos renders y plantas pensando en la maqueta." },
-        { "titulo": "Maquetación", "texto": "Montamos el catálogo y te enviamos la vista previa." },
-        { "titulo": "Entrega", "texto": "Archivos para imprenta y para pantalla." }
+        {
+          "titulo": "Proyecto y contenido",
+          "texto": "Nos envías planos o modelo, los textos y los datos que debe llevar el catálogo."
+        },
+        {
+          "titulo": "Presupuesto",
+          "texto": "Según el número de renders, plantas y páginas."
+        },
+        {
+          "titulo": "Imágenes",
+          "texto": "Producimos renders y plantas pensando en la maqueta."
+        },
+        {
+          "titulo": "Maquetación",
+          "texto": "Montamos el catálogo y te enviamos la vista previa."
+        },
+        {
+          "titulo": "Entrega",
+          "texto": "Archivos para imprenta y para pantalla."
+        }
       ]
     },
     {
@@ -66,21 +97,54 @@
       "titulo": "Precio de los catálogos de arquitectura",
       "html": "<p>El catálogo se presupuesta según su contenido. Los rangos de las imágenes que lo componen están en la página de <a href='/precios/'>precios de renders</a>.</p>",
       "precios": [
-        { "servicio": "Render exterior", "precio": "90 € – 220 €" },
-        { "servicio": "Render interior", "precio": "70 € – 170 €" },
-        { "servicio": "Planos renderizados 3D", "precio": "90 € – 240 €" },
-        { "servicio": "Infografía comercial", "precio": "110 € – 320 €" },
-        { "servicio": "Maquetación del catálogo", "precio": "Según páginas y contenido: lo indica el presupuesto" }
+        {
+          "servicio": "Render exterior",
+          "precio": "90 € – 220 €"
+        },
+        {
+          "servicio": "Render interior",
+          "precio": "70 € – 170 €"
+        },
+        {
+          "servicio": "Planos renderizados 3D",
+          "precio": "90 € – 240 €"
+        },
+        {
+          "servicio": "Infografía comercial",
+          "precio": "110 € – 320 €"
+        },
+        {
+          "servicio": "Maquetación del catálogo",
+          "precio": "Según páginas y contenido: lo indica el presupuesto"
+        }
       ]
     }
   ],
   "faq": {
     "titulo": "Preguntas frecuentes sobre catálogos de arquitectura",
     "items": [
-      { "pregunta": "¿Puedo usar en el catálogo renders que ya tengo?", "respuesta": "Sí. Si las imágenes tienen resolución suficiente para imprenta, las integramos en la maqueta. Si hace falta, <strong>producimos las que falten</strong> con el mismo estilo." },
-      { "pregunta": "¿Quién escribe los textos del catálogo de arquitectura?", "respuesta": "Tú. Nosotros maquetamos con <strong>los textos y los datos que nos facilites</strong>: calidades, superficies, descripción del entorno, contacto." },
-      { "pregunta": "¿Entregáis el catálogo listo para imprenta?", "respuesta": "Sí. Entregamos la versión de imprenta con las medidas y el formato que pida tu imprenta, y una <strong>versión ligera para web y correo</strong>." },
-      { "pregunta": "¿Cuánto tarda un catálogo de arquitectura?", "respuesta": "Depende del número de imágenes y de páginas. El plazo habitual de los renders es de 15 días, menos si hay urgencia, y la maquetación se añade a continuación; el conjunto va en el presupuesto." }
+      {
+        "pregunta": "¿Puedo usar en el catálogo renders que ya tengo?",
+        "respuesta": "Sí. Si las imágenes tienen resolución suficiente para imprenta, las integramos en la maqueta. Si hace falta, <strong>producimos las que falten</strong> con el mismo estilo."
+      },
+      {
+        "pregunta": "¿Quién escribe los textos del catálogo de arquitectura?",
+        "respuesta": "Tú. Nosotros maquetamos con <strong>los textos y los datos que nos facilites</strong>: calidades, superficies, descripción del entorno, contacto."
+      },
+      {
+        "pregunta": "¿Entregáis el catálogo listo para imprenta?",
+        "respuesta": "Sí. Entregamos la versión de imprenta con las medidas y el formato que pida tu imprenta, y una <strong>versión ligera para web y correo</strong>."
+      },
+      {
+        "pregunta": "¿Cuánto tarda un catálogo de arquitectura?",
+        "respuesta": "Depende del número de imágenes y de páginas. El plazo habitual de los renders es de 15 días, menos si hay urgencia, y la maquetación se añade a continuación; el conjunto va en el presupuesto."
+      }
     ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Catálogos de arquitectura",
+    "singular": "Catálogo de arquitectura",
+    "sufijo": "para catálogos de arquitectura"
   }
 }
