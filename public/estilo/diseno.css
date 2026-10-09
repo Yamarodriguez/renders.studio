@@ -2765,3 +2765,33 @@ body.r-cuerpo {
 .r-pasos {
   grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
 }
+
+/* ===================================================== MENUS GRANDES
+   Los desplegables largos (Tipos, Servicios, Lugares) se abren centrados
+   bajo la cabecera, en columnas, y no se salen de la pantalla. Un puente
+   invisible evita que se cierren al bajar el raton del enlace al panel. */
+.r-cabecera-in {
+  position: relative;
+}
+.r-menu-escritorio .r-nav-item:has(> .r-sub.r-mega) {
+  position: static;
+}
+.r-menu-escritorio .r-sub.r-mega {
+  left: 50%;
+  right: auto;
+  top: calc(100% - 1px);
+  width: min(960px, calc(100vw - 48px));
+  transform: translate(-50%, 6px);
+}
+.r-menu-escritorio .r-nav-item:hover > .r-sub.r-mega,
+.r-menu-escritorio .r-nav-item:focus-within > .r-sub.r-mega {
+  transform: translate(-50%, 0);
+}
+.r-menu-escritorio .r-sub.r-mega::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -26px;
+  height: 26px;
+}

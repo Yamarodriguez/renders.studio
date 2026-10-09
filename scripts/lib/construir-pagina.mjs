@@ -257,7 +257,7 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
       // Toda la web va en una caja de ancho fijo y centrada: al alejar el
       // zoom o en pantallas grandes no se estira.
       `<div class="r-pagina">\n` +
-      aRelativas(pintaCabecera(cabecera, pagina.ruta, anadidos.destinoDeMenu)) +
+      aRelativas(pintaCabecera(cabecera, pagina.ruta, anadidos.destinoDeMenu, anadidos.guias)) +
       `\n<main id="main">\n` +
       cuerpoFinal +
       `\n</main>\n` +
@@ -280,7 +280,7 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
       `<!DOCTYPE html>\n<html lang="${ficha.lang}">\n<head>\n` +
       pintaCabezaRediseno(ficha, { propia: anadidos.cabezaDeGuia(g) }) +
       `\n</head>\n<body class="r-cuerpo r-pagina-guia">\n<div class="r-pagina">\n` +
-      aRelativas(pintaCabecera(cabecera, `/${g.slug}/`, anadidos.destinoDeMenu)) +
+      aRelativas(pintaCabecera(cabecera, `/${g.slug}/`, anadidos.destinoDeMenu, anadidos.guias)) +
       `\n<main id="main">\n` +
       anadidos.pintaGuia(g) +
       `\n</main>\n` +
@@ -319,7 +319,7 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
       `<!DOCTYPE html>\n<html lang="${ficha.lang}">\n<head>\n` +
       pintaCabezaRediseno(ficha, { propia: anadidos.cabezaDeGuia(g, { sinFaq: true }), extra: faq }) +
       `\n</head>\n<body class="r-cuerpo r-pagina-${g.slug}">\n<div class="r-pagina">\n` +
-      aRelativas(pintaCabecera(cabecera, `/${g.slug}/`, anadidos.destinoDeMenu)) +
+      aRelativas(pintaCabecera(cabecera, `/${g.slug}/`, anadidos.destinoDeMenu, anadidos.guias)) +
       `\n<main id="main">\n` +
       cuerpo +
       `\n</main>\n` +

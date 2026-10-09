@@ -16,7 +16,7 @@ import { parse } from 'node-html-parser';
 const DOMINIO = 'https://renders.studio';
 const CORREO = 'Renders.studio3D@gmail.com';
 const LOGO = '/wp-content/uploads/2025/04/cropped-render.png';
-const ESTILO = '/estilo/diseno.css?v=4';
+const ESTILO = '/estilo/diseno.css?v=5';
 
 /** Piezas del <head> de WordPress que se conservan. */
 function seConserva(p) {
@@ -128,8 +128,22 @@ function pintaMenu(items, ruta) {
   return `<ul class="r-nav">${items.map((it) => li(it, 0)).join('')}</ul>`;
 }
 
-export function pintaCabecera(cabeceraHtml, ruta, destinoDeMenu) {
+export function pintaCabecera(cabeceraHtml, ruta, destinoDeMenu, guias = []) {
   const items = leeMenu(cabeceraHtml, destinoDeMenu);
+  // Las paginas nuevas entran en el menu (solo en la cabecera, no en el pie):
+  // los servicios en "Servicios" y los tipos de render en "Tipos", detras de
+  // lo que ya tenia WordPress.
+  const anade = (texto, lista) => {
+    const it = items.find((i) => i.texto.toLowerCase() === texto);
+    if (!it) return;
+    const ya = new Set(aplana(it).map((h) => h.href));
+    for (const g of lista) {
+      const href = `${DOMINIO}/${g.slug}/`;
+      if (!ya.has(href)) it.hijos.push({ texto: g.titulo, href, hijos: [] });
+    }
+  };
+  anade('servicios', guias.filter((g) => g.tipo === 'servicio' && g.grupo !== 'tipo'));
+  anade('tipos', guias.filter((g) => g.grupo === 'tipo'));
   const menu = pintaMenu(items, ruta);
   return `
 <a class="r-saltar" href="#main">Ir al contenido</a>
