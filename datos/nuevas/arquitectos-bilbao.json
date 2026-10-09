@@ -68,6 +68,12 @@
           "texto": "El edificio completo en volumen, listo para visualizar.",
           "foto": "/wp-content/uploads/2025/04/modelado-3D.jpg",
           "href": "/modelado-3d/"
+        },
+        {
+          "titulo": "Renders",
+          "texto": "Renders 3D de arquitectura, interiores y producto.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-arquitectura-y-diseno.png",
+          "href": "/"
         }
       ]
     }

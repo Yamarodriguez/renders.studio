@@ -68,6 +68,12 @@
           "texto": "Imágenes explicativas para presentar o vender el proyecto.",
           "foto": "/wp-content/uploads/2025/04/infografias.jpg",
           "href": "/infografias-arquitectura/"
+        },
+        {
+          "titulo": "Renders",
+          "texto": "Renders 3D de arquitectura, interiores y producto.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-arquitectura-y-diseno.png",
+          "href": "/"
         }
       ]
     }

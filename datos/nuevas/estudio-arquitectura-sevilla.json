@@ -68,6 +68,12 @@
           "texto": "Para cuando necesitas las imágenes con más prisa.",
           "foto": "/wp-content/uploads/2025/04/3D-render-de-arquitectura.jpg",
           "href": "/express/"
+        },
+        {
+          "titulo": "Renders",
+          "texto": "Renders 3D de arquitectura, interiores y producto.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-arquitectura-y-diseno.png",
+          "href": "/"
         }
       ]
     }

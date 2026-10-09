@@ -68,6 +68,12 @@
           "texto": "Estancias con materiales naturales y luz cálida.",
           "foto": "/wp-content/uploads/2025/04/render-interior.webp",
           "href": "/renders-interiores/"
+        },
+        {
+          "titulo": "Renders",
+          "texto": "Renders 3D de arquitectura, interiores y producto.",
+          "foto": "/wp-content/uploads/2025/05/render-arquitectura-sala.jpg",
+          "href": "/"
         }
       ]
     }

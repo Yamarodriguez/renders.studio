@@ -68,6 +68,12 @@
           "texto": "Amueblar en imagen un piso vacío para venderlo.",
           "foto": "/wp-content/uploads/2025/04/render-interior.webp",
           "href": "/home-staging-virtual/"
+        },
+        {
+          "titulo": "Renders",
+          "texto": "Renders 3D de arquitectura, interiores y producto.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-arquitectura-y-diseno.png",
+          "href": "/"
         }
       ]
     }

@@ -68,6 +68,12 @@
           "texto": "Tu chalet visto con su jardín y sus terrazas.",
           "foto": "/wp-content/uploads/2025/04/render-casa.jpg",
           "href": "/render-casa/"
+        },
+        {
+          "titulo": "Renders",
+          "texto": "Renders 3D de arquitectura, interiores y producto.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-arquitectura-y-diseno.png",
+          "href": "/"
         }
       ]
     }

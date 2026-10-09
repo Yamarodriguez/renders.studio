@@ -2905,3 +2905,14 @@ body.r-cuerpo {
   border-color: var(--tinta);
   color: var(--acento);
 }
+
+/* rejilla de tarjetas de las paginas nuevas: se reparte segun cuantas haya */
+.r-tarjetas {
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+}
+/* mas altas, para que titulo y texto no se monten cuando hay cinco */
+@media (min-width: 561px) {
+  .r-tarjeta {
+    aspect-ratio: 4 / 5;
+  }
+}

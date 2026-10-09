@@ -148,9 +148,6 @@ export function pintaCabecera(cabeceraHtml, ruta, destinoDeMenu, guias = []) {
     }
   };
   anade('servicios', guias.filter((g) => g.tipo === 'servicio' && !g.grupo));
-  // "Renders", que lleva a la portada, el primero de Servicios
-  const serv = items.find((i) => i.texto.toLowerCase() === 'servicios');
-  if (serv && !serv.hijos.some((h) => h.href === `${DOMINIO}/`)) serv.hijos.unshift({ texto: 'Renders', href: `${DOMINIO}/`, hijos: [] });
   anade('tipos', guias.filter((g) => g.grupo === 'tipo'));
   const menu = pintaMenu(items, ruta);
   return `

@@ -68,6 +68,12 @@
           "texto": "Plano comercial amueblado para entender bien la distribución.",
           "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura-1.jpg",
           "href": "/planos-renders/"
+        },
+        {
+          "titulo": "Renders",
+          "texto": "Renders 3D de arquitectura, interiores y producto.",
+          "foto": "/wp-content/uploads/2025/04/render-3d-fachada.jpg",
+          "href": "/"
         }
       ]
     }
