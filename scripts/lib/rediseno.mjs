@@ -147,7 +147,7 @@ export function pintaCabecera(cabeceraHtml, ruta, destinoDeMenu, guias = []) {
       if (!ya.has(href)) it.hijos.push({ texto: g.titulo, href, hijos: [] });
     }
   };
-  anade('servicios', guias.filter((g) => g.tipo === 'servicio' && g.grupo !== 'tipo'));
+  anade('servicios', guias.filter((g) => g.tipo === 'servicio' && !g.grupo));
   anade('tipos', guias.filter((g) => g.grupo === 'tipo'));
   const menu = pintaMenu(items, ruta);
   return `
@@ -214,7 +214,7 @@ export function pintaPie(cabeceraHtml, { destinoDeMenu, guias = [] } = {}) {
     columna('Tipos', aplana(por('tipos') || { hijos: [] })),
     columna('Servicios', aplana(por('servicios') || { hijos: [] })),
     // los tipos de render (grupo 'tipo') ya se enlazan desde sus tarjetas: no van al pie
-    columna('Servicios 3D', guias.filter((g) => g.tipo === 'servicio' && g.grupo !== 'tipo').map((g) => ({ texto: g.titulo, href: `/${g.slug}/` }))),
+    columna('Servicios 3D', guias.filter((g) => g.tipo === 'servicio' && !g.grupo).map((g) => ({ texto: g.titulo, href: `/${g.slug}/` }))),
     columna('Guías', guias.filter((g) => g.tipo !== 'servicio').map((g) => ({ texto: g.titulo, href: `/${g.slug}/` }))),
     columna('Contacto', [
       ...(por('contacto') && por('contacto').href !== '#' ? [por('contacto')] : []),

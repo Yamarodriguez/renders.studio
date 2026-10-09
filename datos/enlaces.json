@@ -21,7 +21,7 @@
     "arquitectura": "/servicios/",
     "mas tipos de renders": "/servicios/",
     "ver mas proyectos render": "/hiperrealistas/",
-    "render con ia": "/presupuesto/",
+    "render con ia": "/renders-con-ia/",
     "imágenes": "#proyectos"
   },
   "menu": {
@@ -72,6 +72,7 @@
     "renders inmobiliarios": "/renders-inmobiliarios/",
     "render marketing": "/renders-marketing/",
     "render camping": "/renders-camping/",
-    "hotel render": "/renders-hoteles/"
+    "hotel render": "/renders-hoteles/",
+    "renders con ia: renders con inteligencia artificial": "/renders-con-ia/"
   }
 }

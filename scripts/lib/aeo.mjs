@@ -115,7 +115,7 @@ export function creaAeo(raiz, paginas, anadidos) {
           servicio: g.titulo,
           respuesta: respuestaNueva(g),
           precio: aeo.precios[g.slug] || aeo.precioPorDefecto,
-          zona: 'Online, para toda España',
+          zona: g.ciudad ? `Online, para ${anadidos.lugarDe(g.ciudad)} y toda España` : 'Online, para toda España',
         })
       : '';
 
@@ -240,7 +240,8 @@ export function creaAeo(raiz, paginas, anadidos) {
 
   function llms() {
     const linea = (titulo, ruta, desc) => `- [${titulo}](${DOMINIO}${ruta})${desc ? `: ${desc}` : ''}`;
-    const servicios = anadidos.guias.filter((g) => g.tipo === 'servicio' && g.grupo !== 'tipo');
+    const servicios = anadidos.guias.filter((g) => g.tipo === 'servicio' && !g.grupo);
+    const ciudades = anadidos.guias.filter((g) => g.grupo === 'ciudad');
     const tipos = anadidos.guias.filter((g) => g.grupo === 'tipo');
     const guias = anadidos.guias.filter((g) => g.tipo !== 'servicio');
     const porSlug = Object.fromEntries(paginas.map((p) => [p.slug, p]));
@@ -272,6 +273,10 @@ export function creaAeo(raiz, paginas, anadidos) {
       '## Tipos de render',
       '',
       ...tipos.map((g) => linea(g.titulo, `/${g.slug}/`, g.descripcion)),
+      '',
+      '## Arquitectos y estudio de arquitectura por ciudad',
+      '',
+      ...ciudades.map((g) => linea(g.titulo, `/${g.slug}/`, g.descripcion)),
       '',
       '## Guías',
       '',

@@ -152,7 +152,9 @@ export function creaAnadidos(raiz, paginas) {
       intro = varios
         ? 'El servicio es online: estas son las demás páginas de fuera de España.'
         : `El servicio es online, así que trabajamos igual para cualquier punto de ${grupo.nombre}. Estas son las páginas de la zona.`;
-      const subir = [];
+      const subir = guias
+        .filter((g) => g.ciudad === pagina.slug)
+        .map((g) => `<a href="/${g.slug}/">${esc(g.titulo)}</a>`);
       if (grupo.hub && grupo.hub !== pagina.slug) subir.push(`<a href="${porSlug[grupo.hub].ruta}">${esc(nombreDe(grupo.hub))}</a>`);
       if (zona === 'espana') subir.push(`<a href="${rutaEspana}">${esc(nombreDe(zonas.espana.hub))}</a>`);
       cuerpo =

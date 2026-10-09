@@ -2879,3 +2879,29 @@ body.r-cuerpo {
   line-height: 1.3;
   margin: 0 0 12px;
 }
+
+/* lista de ciudades en las paginas generales de arquitectos y estudio */
+.r-guia-cuerpo ul.r-ciudades {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.r-guia-cuerpo ul.r-ciudades li {
+  margin: 0;
+}
+.r-guia-cuerpo ul.r-ciudades a {
+  display: block;
+  padding: 9px 14px;
+  background: var(--blanco);
+  border: 1px solid var(--linea);
+  border-radius: 6px;
+  font-size: 15px;
+  color: var(--tinta);
+  text-decoration: none;
+}
+.r-guia-cuerpo ul.r-ciudades a:hover {
+  border-color: var(--tinta);
+  color: var(--acento);
+}
