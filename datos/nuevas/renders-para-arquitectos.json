@@ -1,7 +1,7 @@
 {
   "slug": "renders-para-arquitectos",
   "tipo": "servicio",
-  "etiqueta": "Para quién",
+  "etiqueta": "Tipo de render",
   "titulo": "Renders para arquitectos",
   "tituloSeo": "Renders para arquitectos: concursos, clientes y obra",
   "descripcion": "Renders para arquitectos: imágenes para concursos, clientes y venta sobre plano, a partir de tus planos o de tu modelo 3D. Desde 70 €. Pide presupuesto.",
@@ -139,5 +139,6 @@
     "singular": "Render para arquitectos",
     "sufijo": "para arquitectos"
   },
-  "actualizado": "2026-10-09"
+  "actualizado": "2026-10-09",
+  "grupo": "tipo"
 }

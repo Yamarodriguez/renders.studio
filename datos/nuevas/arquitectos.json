@@ -1,0 +1,69 @@
+{
+  "slug": "arquitectos",
+  "tipo": "servicio",
+  "etiqueta": "Servicio",
+  "titulo": "Arquitectos",
+  "tituloSeo": "Arquitectos renderistas: diseño y visualización 3D online",
+  "descripcion": "Arquitectos renderistas para tu proyecto: resolvemos dudas de diseño y lo convertimos en planos, modelos y renders 3D. Online para toda España. Pide presupuesto.",
+  "palabraClave": "arquitectos",
+  "foto": "/wp-content/uploads/2025/04/arquitecto-renderista.png",
+  "fotoAlt": "Arquitectos renderistas revisando en pantalla el render de un proyecto",
+  "intro": {
+    "h2": "Arquitectos que diseñan y visualizan tu proyecto en 3D",
+    "html": "<p>En Renders.studio trabajan <strong>arquitectos renderistas</strong>: profesionales que entienden un proyecto de arquitectura y saben convertirlo en imágenes. Te ayudamos con las dudas de diseño y con los planos, el modelo 3D y los renders que necesitas para decidir, presentar o vender.</p><p>El servicio es online para toda España, con una vista previa antes de cada entrega y un plazo habitual de 15 días.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué hacen nuestros arquitectos renderistas?",
+      "html": "<p>Un arquitecto renderista une dos oficios: el del arquitecto, que sabe leer un proyecto, resolver una distribución o elegir un material, y el del renderista, que sabe convertirlo en una imagen realista. Por eso no se limita a dibujar lo que le llega: <strong>detecta lo que no encaja</strong> y lo comenta antes de producir la imagen.</p><p>Trabajamos con particulares que tienen una idea, con aparejadores y arquitectos técnicos que necesitan apoyo en el diseño, y con estudios y constructoras que quieren enseñar sus proyectos con calidad.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirve contar con arquitectos en tu proyecto",
+      "html": "<p>Para que el resultado sea fiel y tenga sentido. Una imagen bonita de algo que no se puede construir no sirve de nada; un equipo de <strong>arquitectos que visualizan</strong> cuida que lo que ves en el render sea coherente con los planos, las medidas y los materiales reales.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis ayudarme con dudas de diseño, no solo con los renders?",
+      "html": "<p>Sí. Muchas consultas empiezan así: una distribución que no convence, un material que no se sabe cómo quedará o una fachada que hay que decidir. Te damos respuesta y la enseñamos en imágenes para que decidas con seguridad.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Trabajáis también para otros arquitectos?",
+      "html": "<p>Sí. Si eres arquitecto y necesitas las imágenes de tu proyecto, trabajamos sobre tus planos o tu modelo con tu criterio. Lo explicamos en la página de <a href='/renders-para-arquitectos/'>renders para arquitectos</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye el servicio de nuestros arquitectos",
+      "html": "<ul><li><strong>Consulta de diseño</strong> sobre distribución, materiales y fachada.</li><li><strong>Planos de arquitectura</strong> en 2D y plantas amuebladas en 3D.</li><li><strong>Modelado 3D</strong> del proyecto a partir de tu idea o de tus planos.</li><li><strong>Renders de exteriores e interiores</strong> con materiales y luz reales.</li><li><strong>Vista previa</strong> para revisar cada decisión antes de la entrega.</li><li><strong>Entrega</strong> en la resolución y el formato que necesites.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios que ofrecen nuestros arquitectos",
+      "html": "<p>Lo que más nos piden, con su página propia:</p>",
+      "tarjetas": [
+        { "titulo": "Estudio de arquitectura", "texto": "Proyectos de arquitectura, interiores y fachadas.", "foto": "/wp-content/uploads/2025/04/Estudio-arquitectura.jpg", "href": "/estudio-arquitectura/" },
+        { "titulo": "Planos de arquitectura", "texto": "Plantas 2D y plantas amuebladas en 3D.", "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura.jpg", "href": "/planos-renders/" },
+        { "titulo": "Renders de arquitectura", "texto": "Exteriores y volúmenes de tu proyecto.", "foto": "/wp-content/uploads/2025/04/3D-render-de-arquitectura.jpg", "href": "/renders-arquitectura/" },
+        { "titulo": "Renders de interiores", "texto": "Estancias con sus acabados y su luz.", "foto": "/wp-content/uploads/2025/04/render-interior.webp", "href": "/renders-interiores/" }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre nuestros arquitectos",
+    "items": [
+      { "pregunta": "¿Puedo empezar solo con una idea?", "respuesta": "Sí. Con una idea, un croquis con medidas o fotos del espacio es suficiente para empezar. <strong>Te ayudamos a definirla</strong> y la vemos en imágenes antes de cerrar nada." },
+      { "pregunta": "¿Cuánto tardan los arquitectos en entregar?", "respuesta": "El plazo habitual es de 15 días para las imágenes, y puede ser menor si el proyecto es urgente. El plazo exacto <strong>va en el presupuesto</strong> de cada encargo." },
+      { "pregunta": "¿Trabajáis con clientes de toda España?", "respuesta": "Sí. El servicio es online: la información, las revisiones y las entregas van por internet, así que trabajamos igual <strong>para cualquier punto de España</strong>. Más en <a href='/online/'>renders online</a>." },
+      { "pregunta": "¿Cuánto cuesta el servicio?", "respuesta": "Depende de lo que encargues. Los rangos de renders, modelado y planos están en la página de <a href='/precios/'>precios de renders</a>; con tu proyecto te enviamos un <strong>presupuesto a medida</strong>." }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Arquitectos",
+    "singular": "Arquitecto",
+    "sufijo": "de arquitectos"
+  },
+  "actualizado": "2026-10-09"
+}

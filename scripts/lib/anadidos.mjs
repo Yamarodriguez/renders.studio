@@ -64,7 +64,16 @@ export function creaAnadidos(raiz, paginas) {
     // nueva (datos/enlaces.json, "tarjetas"); el texto del titulo no cambia
     const tarjetas = enlaces.tarjetas || {};
     salida = salida.replace(/<(h[23]) class="elementor-heading-title[^"]*">([^<]+)<\/\1>/g, (todo, n, texto) => {
-      const destino = tarjetas[plano(texto).toLowerCase()];
+      const t = plano(texto).toLowerCase();
+      // en las paginas de lugar el titulo lleva la ciudad detras ("Render
+      // Arquitectos Madrid"): vale la clave mas larga que lo empiece
+      let destino = tarjetas[t];
+      if (!destino) {
+        const clave = Object.keys(tarjetas)
+          .filter((k) => !k.startsWith('_') && t.startsWith(k + ' '))
+          .sort((a, b) => b.length - a.length)[0];
+        destino = clave && tarjetas[clave];
+      }
       if (!destino || destino.startsWith('_')) return todo;
       return todo.replace(`>${texto}<`, `><a href="${esc(destino)}">${texto}</a><`);
     });

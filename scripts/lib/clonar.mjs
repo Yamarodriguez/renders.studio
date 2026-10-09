@@ -32,8 +32,9 @@ const raices = (frase) =>
 
 /** Lleva la palabra clave (todas sus raices, sin contar "de", "para"...)? */
 export function contieneClave(texto, clave) {
-  const t = sinTildes(texto);
-  return raices(clave).every((r) => t.includes(r));
+  // palabra a palabra: "arquitectonicos" no cuenta como "arquitectos"
+  const palabras = sinTildes(texto).split(/[^a-z0-9]+/);
+  return raices(clave).every((r) => palabras.some((w) => w.startsWith(r) && w.length - r.length <= 2));
 }
 
 const conCaja = (modelo, texto) =>
