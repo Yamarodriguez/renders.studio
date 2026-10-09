@@ -303,7 +303,21 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
     // el slug de la plantilla: galeria, formulario y mapa se copiaron con el
     const ctx = { slug: g.plantilla, rediseno: true, contador: { imagenes: 0, sinLazy: new Set() } };
     const pinta = (nodos) => pintaArbol(nodos, { ...ctx, pintaContenido: (n, c) => pintor.pintaContenido(n, c ?? ctx) });
-    const portada = pinta(arbol.slice(0, 1)).replace(/^<(section|div) class="/, '<$1 class="r-heroe ');
+    // Las dos fotos de la portada de /hiperrealistas/ se llaman y se describen
+    // "renders-hiperrealista(s)": en cada servicio van copias con el nombre de
+    // su palabra clave (public/img/servicios/, mismas imagenes en WebP).
+    const fotoPortada = (fichero, alt, ancho) =>
+      `<img decoding="async" width="${ancho}" height="${ancho}" src="/img/servicios/${fichero}" alt="${alt}">`;
+    const portada = pinta(arbol.slice(0, 1))
+      .replace(/^<(section|div) class="/, '<$1 class="r-heroe ')
+      .replace(
+        /<img[^>]*src="[^"]*\/renders-hiperrealistas\.png"[^>]*>/,
+        fotoPortada(`${g.slug}-estudio.webp`, `${g.clave.plural} de Renders.studio`, 400)
+      )
+      .replace(
+        /<img[^>]*src="[^"]*\/renders-hiperrealista-768x768\.png"[^>]*>/,
+        fotoPortada(`${g.slug}.webp`, `${g.clave.plural}: estudio de Renders.studio donde se hacen los proyectos`, 1024)
+      );
     let resto = pinta(arbol.slice(1));
     resto = resto.replace('<div class="faq-container">', `<div class="faq-container">${anadidos.faqItemsHtml(g)}`);
     let cuerpo =
