@@ -1,0 +1,134 @@
+{
+  "slug": "arquitectos-mallorca",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "mallorca",
+  "etiqueta": "Servicio",
+  "titulo": "Arquitectos en Mallorca",
+  "tituloSeo": "Arquitectos en Mallorca: casas de campo y villas en 3D",
+  "descripcion": "Arquitectos en Mallorca para rehabilitar casas de campo, diseñar villas y presentar proyectos en renders y vídeo 3D, todo online. Pide presupuesto.",
+  "palabraClave": "arquitectos en Mallorca",
+  "foto": "/wp-content/uploads/2025/04/render-3d-fachada.jpg",
+  "fotoAlt": "Render de la fachada de una casa de campo rehabilitada, visualizada por arquitectos en Mallorca",
+  "intro": {
+    "h2": "Arquitectos en Mallorca para casas de campo, villas y rehabilitaciones",
+    "html": "<p>Rehabilitar una casa en el campo o construir una villa nueva es un proyecto largo, y conviene tener claro el resultado desde el principio. Nuestros <strong>arquitectos renderistas</strong> te ayudan a definir el diseño y lo integran en su parcela, con el terreno, la vegetación y las vistas.</p><p>Trabajamos online para clientes de Mallorca y del resto de las Islas Baleares. Puedes ver proyectos en <a href='/mallorca/'>renders en Mallorca</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Cómo ayudan nuestros arquitectos en Mallorca a rehabilitar una casa?",
+      "html": "<p>Una casa antigua tiene valores que merece la pena conservar: muros, huecos, proporciones. Lo primero que hacemos es dibujarla tal como está y, sobre esa base, proponerte cómo adaptarla a tu forma de vivir <strong>sin perder su carácter</strong>: qué estancias unir, cómo resolver la cocina y dónde colocar los baños.</p><p>Después lo vemos en 3D con los materiales que te gustan, por dentro y por fuera. La casa se modela con su entorno para que veas cómo se relaciona con el jardín, la piscina o el camino de acceso. Así funciona el trabajo de nuestros <a href='/arquitectos/'>arquitectos renderistas</a> en cualquier proyecto.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Arquitectos en Mallorca para estudios que necesitan las imágenes",
+      "html": "<p>Si tienes un estudio o eres arquitecto y llevas un proyecto en la isla, también podemos encargarnos solo de la visualización. Trabajamos con tus planos y tu criterio, y <strong>tú mantienes la autoría</strong> del diseño. Lo explicamos en <a href='/renders-para-arquitectos/'>renders para arquitectos</a>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis integrar la casa en el paisaje que la rodea?",
+      "html": "<p>Sí. Con fotos de la parcela y un plano de situación, modelamos el terreno, los árboles principales y el acceso. Así las imágenes muestran la casa en su sitio real y no sobre un fondo genérico, que es lo que más ayuda a decidir.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Cuánto se tarda en tener las primeras imágenes?",
+      "html": "<p>El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. En proyectos con exterior e interior solemos entregar antes las vistas de fachada, que son las que más decisiones desbloquean, y después los interiores.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye el proyecto con arquitectos en Mallorca",
+      "html": "<ul><li><strong>Levantamiento de la casa</strong> a partir de fotos y medidas.</li><li><strong>Propuesta de rehabilitación</strong> respetando la construcción original.</li><li><strong>Modelo de la parcela</strong> con terreno, piscina y jardín.</li><li><strong>Renders exteriores e interiores</strong> con materiales naturales.</li><li><strong>Vídeo del recorrido</strong> si quieres enseñarlo en movimiento.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios de arquitectos en Mallorca para casas y villas",
+      "html": "<p>Puedes ampliar información en cada servicio:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Vídeo render 3D",
+          "texto": "Recorridos animados por la casa y su jardín.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-arquitectura-y-diseno.png",
+          "href": "/video-render-3d/"
+        },
+        {
+          "titulo": "Renders de arquitectura",
+          "texto": "Villas y casas de campo con su entorno.",
+          "foto": "/wp-content/uploads/2025/04/3D-render-de-arquitectura.jpg",
+          "href": "/renders-arquitectura/"
+        },
+        {
+          "titulo": "Tour virtual",
+          "texto": "Pasear por la vivienda desde cualquier dispositivo.",
+          "foto": "/wp-content/uploads/2025/04/tour-360-virtual-de-arquitectura.jpg",
+          "href": "/tour-virtual-360/"
+        },
+        {
+          "titulo": "Renders de interiores",
+          "texto": "Estancias con materiales naturales y luz cálida.",
+          "foto": "/wp-content/uploads/2025/04/render-interior.webp",
+          "href": "/renders-interiores/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre arquitectos en Mallorca",
+    "items": [
+      {
+        "pregunta": "¿Podéis trabajar si vivo fuera de la isla?",
+        "respuesta": "Sí, y es algo frecuente. Todo el proceso es online, así que puedes seguir el proyecto desde donde estés y <strong>revisar cada propuesta</strong> por correo o videollamada. Te lo contamos en <a href='/online/'>cómo trabajamos online</a>."
+      },
+      {
+        "pregunta": "¿Hacéis el diseño de la piscina y el jardín?",
+        "respuesta": "Sí. Los diseñamos junto con la casa para que todo tenga coherencia: forma y posición de la piscina, pavimentos, porches y zonas de sombra. Lo ves en imágenes con <strong>la vegetación que elijas</strong> antes de encargar nada a nadie."
+      },
+      {
+        "pregunta": "¿Las imágenes sirven para alquilar o vender la villa?",
+        "respuesta": "Sí. Hay propietarios que encargan renders y vídeos de la casa terminada para <strong>preparar los anuncios</strong> mientras la obra avanza. Las entregamos en alta resolución y en formatos adecuados para portales y redes sociales."
+      },
+      {
+        "pregunta": "¿Cómo pido precio para mi proyecto?",
+        "respuesta": "Envíanos los planos o fotos de la casa y dinos qué imágenes o vídeos necesitas desde la página de <a href='/presupuesto/'>presupuesto de renders</a>. Con esa información te enviamos <strong>una valoración detallada</strong> con su plazo."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Renders 3D de nuestros arquitectos en Mallorca",
+    "Arquitectos en Mallorca para proyectos, modelado 3D, planos y diseño 3D",
+    "Qué es un render: lo que explican los arquitectos en Mallorca",
+    "Renders de arquitectura hechos por arquitectos en Mallorca",
+    "Arquitectos en Mallorca y visualización de alta calidad",
+    "Proyectos de nuestros arquitectos en Mallorca",
+    "Arquitectos en Mallorca: precios orientativos",
+    "Tipos de render que hacen los arquitectos en Mallorca",
+    "Renderistas y arquitectos en Mallorca",
+    "Una empresa de arquitectos en Mallorca especializada en renders",
+    "Arquitectos en Mallorca: qué es el renderizado 3D",
+    "Arquitectos en Mallorca y renders con inteligencia artificial",
+    "El proceso de los arquitectos en Mallorca",
+    "Pide presupuesto a nuestros arquitectos en Mallorca",
+    "Arquitectos en Mallorca: cursos de renders",
+    "Fotos e imágenes de los arquitectos en Mallorca",
+    "Arquitectos en Mallorca: trabaja con nosotros",
+    "¿Por qué elegir a nuestros arquitectos en Mallorca?",
+    "Lo que dicen los clientes de nuestros arquitectos en Mallorca",
+    "Arquitectos en Mallorca para arquitectura y diseño 3D",
+    "Un despacho de arquitectos en Mallorca",
+    "Agencia de arquitectos en Mallorca para tus imágenes 3D",
+    "Arquitectos freelance en Mallorca",
+    "Programas que usan los arquitectos en Mallorca",
+    "Arquitectos en Mallorca para presupuestos ajustados",
+    "Preguntas frecuentes a los arquitectos en Mallorca",
+    "Arquitectos en Mallorca: contacto",
+    "Arquitectos en Mallorca profesionales del render",
+    "Arquitectos en Mallorca: cuéntanos tu proyecto"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Arquitectos en Mallorca",
+    "singular": "Arquitecto en Mallorca",
+    "sufijo": "de arquitectos en Mallorca"
+  },
+  "actualizado": "2026-10-09"
+}

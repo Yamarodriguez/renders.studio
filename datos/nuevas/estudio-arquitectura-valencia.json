@@ -1,0 +1,134 @@
+{
+  "slug": "estudio-arquitectura-valencia",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "valencia",
+  "etiqueta": "Servicio",
+  "titulo": "Estudio de arquitectura en Valencia",
+  "tituloSeo": "Estudio de arquitectura en Valencia para casas y chalets",
+  "descripcion": "Diseñamos y visualizamos casas, chalets y reformas para clientes de Valencia y la Comunidad Valenciana: planos, modelo 3D y renders online. Pide presupuesto.",
+  "palabraClave": "estudio de arquitectura en Valencia",
+  "foto": "/wp-content/uploads/2025/04/render-casa.jpg",
+  "fotoAlt": "Render exterior de una casa unifamiliar proyectada por un estudio de arquitectura en Valencia",
+  "intro": {
+    "h2": "Tu casa, vista en 3D por un estudio de arquitectura en Valencia",
+    "html": "<p>Si estás pensando en construir o ampliar una casa, lo más difícil es imaginarla. En Renders.studio somos un estudio de arquitectura dedicado a la visualización 3D y trabajamos online para clientes de Valencia y de toda la Comunidad Valenciana, desde la idea hasta <strong>la imagen final</strong>.</p><p>Puedes llegar con una parcela y unas cuantas referencias o con un proyecto ya dibujado. En los dos casos, lo primero que verás es tu casa en tres dimensiones: así trabaja nuestro <a href='/estudio-arquitectura/'>estudio de arquitectura</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "Las etapas de un proyecto con nuestro estudio de arquitectura en Valencia",
+      "html": "<p>Empezamos con una conversación sobre cómo vives: cuántos dormitorios necesitas, qué uso tendrá el exterior, si quieres una planta o dos. Con eso planteamos los volúmenes y una primera distribución, que ves en un <a href='/modelado-3d/'>modelado 3D</a> sencillo para valorar <strong>el tamaño y la orientación</strong> de cada espacio.</p><p>Cuando la base está clara, afinamos fachadas, materiales y carpinterías, y preparamos los renders exteriores e interiores. Al final recibes los planos y las imágenes que necesitas para hablar con la constructora, pedir financiación o simplemente decidir con calma qué casa quieres construir.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Ventajas de un estudio de arquitectura en Valencia especializado en 3D",
+      "html": "<p>La principal es que descubres los problemas en la pantalla y no en la obra. Un pasillo demasiado largo, una ventana mal situada o una terraza poco aprovechable <strong>saltan a la vista</strong> en cuanto el modelo está levantado, y corregirlos en ese momento cuesta muy poco.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis diseñar una casa partiendo solo de la parcela?",
+      "html": "<p>Sí. Con la forma de la parcela, sus medidas aproximadas y tus necesidades preparamos una propuesta de volúmenes y distribución. La ves en 3D, opinas sobre ella y la ajustamos hasta que encaja con lo que imaginabas para tu familia.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué ocurre si ya tengo los planos de mi casa?",
+      "html": "<p>Que el trabajo es más directo: levantamos el modelo a partir de tus planos y nos centramos en materiales, luz y vistas. Es el servicio de <a href='/render-casa/'>render de casa</a>, muy pedido por quien quiere ver su vivienda antes de construirla.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye un proyecto con el estudio de arquitectura en Valencia",
+      "html": "<ul><li><strong>Programa de necesidades</strong> de la vivienda y del exterior.</li><li><strong>Estudio de volúmenes</strong> en 3D para valorar alturas y proporciones.</li><li><strong>Distribución interior</strong> con plantas amuebladas.</li><li><strong>Diseño de fachadas</strong> con materiales y carpinterías.</li><li><strong>Renders del exterior</strong> y del interior desde las vistas que elijas.</li><li><strong>Planos en 2D</strong> listos para compartir.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios del estudio de arquitectura en Valencia para viviendas",
+      "html": "<p>Elige el servicio que necesitas y mira ejemplos:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Render de casa",
+          "texto": "Tu vivienda unifamiliar vista por fuera y por dentro.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-exteriores.jpg",
+          "href": "/render-casa/"
+        },
+        {
+          "titulo": "Modelado 3D",
+          "texto": "Volúmenes y distribución levantados antes de cerrar el diseño.",
+          "foto": "/wp-content/uploads/2025/04/modelado-3D.jpg",
+          "href": "/modelado-3d/"
+        },
+        {
+          "titulo": "Renders de fachadas",
+          "texto": "Materiales, huecos y carpinterías de la fachada principal.",
+          "foto": "/wp-content/uploads/2025/04/render-3d-fachada.jpg",
+          "href": "/renders-fachadas/"
+        },
+        {
+          "titulo": "Infografías",
+          "texto": "Imágenes explicativas para presentar o vender el proyecto.",
+          "foto": "/wp-content/uploads/2025/04/infografias.jpg",
+          "href": "/infografias-arquitectura/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre estudio de arquitectura en Valencia",
+    "items": [
+      {
+        "pregunta": "¿Puedo cambiar cosas cuando ya he visto el modelo?",
+        "respuesta": "Sí, y es justo el momento de hacerlo. Las vistas previas existen para eso: <strong>mover una ventana</strong> o cambiar un material en el modelo es rápido, mientras que hacerlo en obra resulta caro. En el presupuesto te indicamos qué ajustes entran en cada fase."
+      },
+      {
+        "pregunta": "¿Cuánto tiempo lleva el trabajo?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Una casa diseñada desde cero necesita más conversaciones que un render sobre planos cerrados, así que <strong>el calendario concreto</strong> lo fijamos al ver tu encargo."
+      },
+      {
+        "pregunta": "¿Cómo pido presupuesto para mi casa?",
+        "respuesta": "Escríbenos desde la página para <a href='/presupuesto/'>pedir presupuesto</a> con lo que tengas: planos, fotos de la parcela, referencias o una descripción. Te respondemos con <strong>una propuesta a medida</strong> y con lo que necesitamos para empezar."
+      },
+      {
+        "pregunta": "¿Trabajáis con clientes de Alicante o Castellón?",
+        "respuesta": "Sí. Todo el proceso es online, así que atendemos igual proyectos en Valencia, en el resto de la Comunidad Valenciana o en cualquier otra parte de España. Tienes trabajos de la ciudad en <a href='/valencia/'>renders en Valencia</a> y puedes <strong>hablar con nosotros</strong> por internet."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Estudio de arquitectura en Valencia y renders 3D",
+    "Proyectos, modelado 3D y planos de un estudio de arquitectura en Valencia",
+    "Qué es un render y cómo lo usa un estudio de arquitectura en Valencia",
+    "Estudio de arquitectura en Valencia y renders de arquitectura",
+    "Visualización de alta calidad de un estudio de arquitectura en Valencia",
+    "Trabajos del estudio de arquitectura en Valencia",
+    "Precio del estudio de arquitectura en Valencia: tarifas claras",
+    "Estudio de arquitectura en Valencia y tipos de render",
+    "Los renderistas del estudio de arquitectura en Valencia",
+    "Empresa de renders y estudio de arquitectura en Valencia",
+    "El renderizado 3D en un estudio de arquitectura en Valencia",
+    "Inteligencia artificial en el estudio de arquitectura en Valencia",
+    "Cómo trabaja nuestro estudio de arquitectura en Valencia",
+    "Presupuesto de estudio de arquitectura en Valencia",
+    "Cursos de renders del estudio de arquitectura en Valencia",
+    "Imágenes de proyectos del estudio de arquitectura en Valencia",
+    "Trabajo en nuestro estudio de arquitectura en Valencia",
+    "¿Qué hace que elijan nuestro estudio de arquitectura en Valencia?",
+    "Opiniones de clientes del estudio de arquitectura en Valencia",
+    "Arquitectura y diseño 3D en un estudio de arquitectura en Valencia",
+    "Despacho y estudio de arquitectura en Valencia",
+    "Estudio de arquitectura en Valencia con agencia de renders",
+    "Estudio de arquitectura en Valencia con trato freelance",
+    "Estudio de arquitectura en Valencia: programas de render",
+    "Estudio de arquitectura en Valencia con precios ajustados",
+    "Estudio de arquitectura en Valencia: preguntas frecuentes",
+    "Contacta con el estudio de arquitectura en Valencia",
+    "Un estudio de arquitectura profesional en Valencia",
+    "Habla con nuestro estudio de arquitectura en Valencia"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Estudio de arquitectura en Valencia",
+    "singular": "Estudio de arquitectura en Valencia",
+    "sufijo": "en estudio de arquitectura en Valencia"
+  },
+  "actualizado": "2026-10-09"
+}

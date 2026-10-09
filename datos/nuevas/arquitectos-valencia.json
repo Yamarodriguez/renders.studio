@@ -1,0 +1,134 @@
+{
+  "slug": "arquitectos-valencia",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "valencia",
+  "etiqueta": "Servicio",
+  "titulo": "Arquitectos en Valencia",
+  "tituloSeo": "Arquitectos en Valencia: renders para vender obra nueva",
+  "descripcion": "Arquitectos en Valencia para promociones y viviendas de obra nueva: fachadas, interiores y planos en 3D para vender sobre plano, online. Pide presupuesto.",
+  "palabraClave": "arquitectos en Valencia",
+  "foto": "/wp-content/uploads/2025/04/renders-de-edificios.jpg",
+  "fotoAlt": "Render de un edificio residencial de obra nueva preparado por arquitectos en Valencia",
+  "intro": {
+    "h2": "Arquitectos en Valencia para promociones de obra nueva",
+    "html": "<p>Vender viviendas que todavía no existen exige que el comprador las vea. Nuestros arquitectos renderistas toman el proyecto de la promoción y lo convierten en <strong>imágenes que ayudan a vender</strong>: la fachada, las zonas comunes, los interiores tipo y los planos de cada vivienda.</p><p>Atendemos online a promotoras, constructoras y comercializadoras de Valencia y de toda la Comunidad Valenciana. Mira ejemplos en <a href='/valencia/'>renders en Valencia</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Cómo trabajan nuestros arquitectos en Valencia con una promotora?",
+      "html": "<p>Partimos de la documentación del proyecto: plantas, alzados, memoria de calidades y, si existe, el modelo del arquitecto autor. Nuestro equipo lo revisa, detecta lo que falta para visualizarlo y te lo pregunta antes de modelar, para que <strong>las imágenes respeten el proyecto</strong> y no prometan nada que luego no se construya.</p><p>Con el modelo terminado preparamos un juego de vistas pensado para la venta: la vista principal de fachada, interiores de la vivienda tipo y planos amueblados para el folleto. Te contamos cómo trabaja el equipo en la página de <a href='/arquitectos/'>arquitectos renderistas</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Arquitectos en Valencia que piensan en el comprador",
+      "html": "<p>Quien compra sobre plano se fija en la luz, en el tamaño real de las estancias y en los acabados. Por eso cuidamos que las imágenes sean fieles a las medidas y a la memoria de calidades: así <strong>la confianza del comprador</strong> se mantiene cuando recibe las llaves.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis preparar los planos comerciales de cada vivienda?",
+      "html": "<p>Sí. A partir de los planos técnicos dibujamos plantas limpias y amuebladas, en 2D o en 3D, con el estilo gráfico de la promoción. Son las que luego van en el folleto, en la web y en los portales. Más detalle en <a href='/planos-renders/'>planos renderizados</a>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Cuándo puedo empezar a comercializar con las imágenes?",
+      "html": "<p>El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Si la promoción necesita muchas vistas, te proponemos entregar antes la fachada y las imágenes principales para que el equipo comercial empiece cuanto antes.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye el servicio de arquitectos en Valencia para promotoras",
+      "html": "<ul><li><strong>Revisión del proyecto</strong> y lista de dudas antes de modelar.</li><li><strong>Modelo 3D del edificio</strong> con su entorno inmediato.</li><li><strong>Vistas de fachada</strong> de día y, si lo necesitas, de noche.</li><li><strong>Interiores de la vivienda tipo</strong> según la memoria de calidades.</li><li><strong>Planos comerciales amueblados</strong> para folleto y web.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios de arquitectos en Valencia para vender sobre plano",
+      "html": "<p>Esto es lo que suelen encargarnos las promociones:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Renders de edificios",
+          "texto": "Bloques residenciales completos con su fachada y su entorno.",
+          "foto": "/wp-content/uploads/2025/04/3D-render-de-arquitectura.jpg",
+          "href": "/renders-edificios/"
+        },
+        {
+          "titulo": "Infografías de arquitectura",
+          "texto": "Imágenes para folletos, vallas y portales inmobiliarios.",
+          "foto": "/wp-content/uploads/2025/04/infografias.jpg",
+          "href": "/infografias-arquitectura/"
+        },
+        {
+          "titulo": "Tour virtual",
+          "texto": "Recorrer la vivienda piloto desde el ordenador o el móvil.",
+          "foto": "/wp-content/uploads/2025/04/tour-360-virtual-de-arquitectura.jpg",
+          "href": "/tour-virtual-360/"
+        },
+        {
+          "titulo": "Renders de interiores",
+          "texto": "Salón, cocina y dormitorios de la vivienda tipo.",
+          "foto": "/wp-content/uploads/2025/05/render-arquitectura-sala.jpg",
+          "href": "/renders-interiores/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre arquitectos en Valencia",
+    "items": [
+      {
+        "pregunta": "¿Necesitáis el modelo 3D del arquitecto del proyecto?",
+        "respuesta": "No es imprescindible. Si existe, lo aprovechamos y <strong>el trabajo avanza antes</strong>; si no, modelamos el edificio desde los planos en PDF o en DWG. Lo importante es que la documentación sea la última versión aprobada."
+      },
+      {
+        "pregunta": "¿Las imágenes sirven para el folleto y para la web?",
+        "respuesta": "Sí. Entregamos cada vista en la resolución que pidas, preparada para imprenta o para pantalla. Si nos dices <strong>dónde se van a usar</strong>, ajustamos el encuadre de cada imagen a ese formato desde el principio."
+      },
+      {
+        "pregunta": "¿Trabajáis también para particulares de Valencia?",
+        "respuesta": "Sí. Aunque muchas consultas llegan de promotoras, también ayudamos a particulares que quieren ver <strong>su casa antes de construirla</strong> o su piso reformado. Puedes contarnos tu caso en la página de <a href='/presupuesto/'>pedir presupuesto</a>."
+      },
+      {
+        "pregunta": "¿Qué tengo que enviar para pedir presupuesto?",
+        "respuesta": "Los planos de la promoción, la memoria de calidades y una idea de cuántas vistas necesitas. Tienes la lista completa en <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a>, y con eso preparamos <strong>una propuesta detallada</strong>."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Arquitectos en Valencia y renders 3D",
+    "Proyectos, modelado 3D y planos con arquitectos en Valencia",
+    "Qué es un render y por qué lo usan los arquitectos en Valencia",
+    "Arquitectos en Valencia que hacen renders de arquitectura",
+    "Visualización arquitectónica con arquitectos en Valencia",
+    "Trabajos de los arquitectos en Valencia",
+    "Precio de los arquitectos en Valencia: tarifas claras",
+    "Arquitectos en Valencia y los tipos de render",
+    "Arquitectos renderistas en Valencia",
+    "Arquitectos en Valencia con empresa de renders",
+    "El renderizado 3D explicado por arquitectos en Valencia",
+    "Inteligencia artificial y arquitectos en Valencia",
+    "Cómo trabajan nuestros arquitectos en Valencia, paso a paso",
+    "Presupuesto de arquitectos en Valencia",
+    "Cursos de renders para arquitectos en Valencia",
+    "Imágenes de proyectos de arquitectos en Valencia",
+    "Trabajo para arquitectos renderistas en Valencia",
+    "¿Qué hace que elijan a nuestros arquitectos en Valencia?",
+    "Opiniones de clientes sobre los arquitectos en Valencia",
+    "Arquitectura y diseño 3D con arquitectos en Valencia",
+    "Despacho de arquitectos en Valencia dedicado al render",
+    "Arquitectos en Valencia con agencia de renders",
+    "Arquitectos en Valencia con trato freelance",
+    "Arquitectos en Valencia: programas de render",
+    "Arquitectos en Valencia con precios ajustados",
+    "Arquitectos en Valencia: preguntas frecuentes",
+    "Contacta con nuestros arquitectos en Valencia",
+    "Arquitectos profesionales en Valencia",
+    "Habla con nuestros arquitectos en Valencia"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Arquitectos en Valencia",
+    "singular": "Arquitecto en Valencia",
+    "sufijo": "de arquitectos en Valencia"
+  },
+  "actualizado": "2026-10-09"
+}

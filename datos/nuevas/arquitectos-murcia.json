@@ -1,0 +1,134 @@
+{
+  "slug": "arquitectos-murcia",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "murcia",
+  "etiqueta": "Servicio",
+  "titulo": "Arquitectos en Murcia",
+  "tituloSeo": "Arquitectos en Murcia: tu casa diseñada y vista en 3D",
+  "descripcion": "Arquitectos en Murcia para diseñar tu casa paso a paso: idea, planos, modelo 3D y renders realistas, con revisiones online en cada fase. Pide presupuesto.",
+  "palabraClave": "arquitectos en Murcia",
+  "foto": "/wp-content/uploads/2025/04/modelado-3D.jpg",
+  "fotoAlt": "Modelo 3D de una vivienda unifamiliar en proceso, trabajo de arquitectos en Murcia",
+  "intro": {
+    "h2": "Arquitectos en Murcia para diseñar tu casa paso a paso",
+    "html": "<p>Construir una casa en una parcela propia es una decisión importante, y casi nadie sabe por dónde empezar. Nuestros <strong>arquitectos renderistas</strong> te acompañan desde la idea inicial hasta las imágenes finales, y te explican cada paso con palabras sencillas.</p><p>Damos servicio online a familias de Murcia y de toda la Región de Murcia. Tienes proyectos de ejemplo en <a href='/murcia/'>renders en Murcia</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Cómo trabajan nuestros arquitectos en Murcia desde la idea inicial?",
+      "html": "<p>Empezamos escuchando: cuántas habitaciones necesitas, cómo usas la cocina, si trabajas desde casa, qué te gusta de otras viviendas. Con eso y con los datos de la parcela preparamos <strong>un esquema de distribución</strong> y lo comentamos contigo, con calma, hasta que encaja con tu forma de vivir y con lo que esperas de la casa.</p><p>Cuando el esquema está aprobado, pasamos al <a href='/modelado-3d/'>modelado 3D</a> de la casa, elegimos contigo los materiales de fachada e interiores y sacamos los renders. Cada fase termina con una revisión, de modo que solo avanzas sobre lo que te convence.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué ganas con arquitectos en Murcia que te enseñan la casa en 3D",
+      "html": "<p>Ver la casa antes de construirla evita sorpresas: una ventana mal orientada, un pasillo demasiado largo o una cocina sin espacio de trabajo. Con el modelo delante <strong>esos fallos se ven</strong> a tiempo, cuando corregirlos es un cambio en el dibujo. Conoce al equipo en <a href='/arquitectos/'>arquitectos renderistas</a>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué necesito saber de mi parcela para empezar?",
+      "html": "<p>Lo básico es la forma y las medidas del terreno, por dónde se accede y hacia dónde quedan las vistas o la calle. Si tienes un plano de la parcela, mejor. Con esa información colocamos la casa y estudiamos cómo aprovechar el espacio exterior.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Cuánto se tarda en ver la casa en imágenes?",
+      "html": "<p>El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Ese plazo cuenta desde que la distribución está aprobada; las fases previas de esquema dependen sobre todo de lo rápido que tomes tus decisiones.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye el acompañamiento de arquitectos en Murcia",
+      "html": "<ul><li><strong>Entrevista inicial</strong> sobre tu forma de vivir.</li><li><strong>Esquema de distribución</strong> adaptado a la parcela.</li><li><strong>Plantas amuebladas</strong> para comprobar los espacios.</li><li><strong>Modelo 3D de la casa</strong> con su entorno.</li><li><strong>Renders exteriores e interiores</strong> de la propuesta final.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios de arquitectos en Murcia para construir tu casa",
+      "html": "<p>Cada fase del proyecto tiene un servicio detrás:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Planos renderizados",
+          "texto": "La distribución amueblada y vista desde arriba.",
+          "foto": "/wp-content/uploads/2025/04/render-de-casa-planta-3d.webp",
+          "href": "/planos-renders/"
+        },
+        {
+          "titulo": "Render de casa",
+          "texto": "La fachada y el jardín antes de construir.",
+          "foto": "/wp-content/uploads/2025/04/render-casa.jpg",
+          "href": "/render-casa/"
+        },
+        {
+          "titulo": "Renders de cocinas",
+          "texto": "Una cocina pensada para tu forma de cocinar.",
+          "foto": "/wp-content/uploads/2025/05/renders-casas-cocina.jpg",
+          "href": "/renders-cocinas/"
+        },
+        {
+          "titulo": "Renders de fachadas",
+          "texto": "Materiales y colores exteriores comparados en imagen.",
+          "foto": "/wp-content/uploads/2025/04/render-fachada.jpg",
+          "href": "/renders-fachadas/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre arquitectos en Murcia",
+    "items": [
+      {
+        "pregunta": "¿Puedo cambiar la distribución después de ver los renders?",
+        "respuesta": "Sí, aunque es más sencillo hacerlo antes. Por eso enseñamos primero las plantas amuebladas; si luego quieres un ajuste, lo valoramos y te decimos <strong>cómo afecta al plazo</strong> antes de ponernos con él."
+      },
+      {
+        "pregunta": "¿Me ayudáis a elegir el estilo de la casa?",
+        "respuesta": "Sí. Puedes mandarnos fotos de casas que te gustan y comentarlas con nosotros. A partir de ellas te proponemos <strong>un lenguaje de fachada</strong> y de interiores coherente, y lo comprobamos en las imágenes antes de cerrarlo."
+      },
+      {
+        "pregunta": "¿Cuánto cuesta el modelado de la casa?",
+        "respuesta": "El modelado 3D está entre 80 € – 270 €, según el tamaño y el detalle del proyecto. Tienes todos los rangos en <a href='/precios/'>precios de renders</a>, y con tu caso preparamos <strong>una propuesta ajustada</strong>."
+      },
+      {
+        "pregunta": "¿Cómo empiezo si todavía no tengo nada dibujado?",
+        "respuesta": "Escríbenos desde la página de <a href='/presupuesto/'>pedir presupuesto</a> con lo que tengas: una idea, unas fotos de la parcela o un boceto. Te respondemos con <strong>los siguientes pasos</strong> y lo que haría falta para arrancar."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Renders 3D de nuestros arquitectos en Murcia",
+    "Arquitectos en Murcia para proyectos, modelado 3D, planos y diseño 3D",
+    "Qué es un render: lo que explican los arquitectos en Murcia",
+    "Renders de arquitectura hechos por arquitectos en Murcia",
+    "Arquitectos en Murcia y visualización de alta calidad",
+    "Proyectos de nuestros arquitectos en Murcia",
+    "Arquitectos en Murcia: precios orientativos",
+    "Tipos de render que hacen los arquitectos en Murcia",
+    "Renderistas y arquitectos en Murcia",
+    "Una empresa de arquitectos en Murcia especializada en renders",
+    "Arquitectos en Murcia: qué es el renderizado 3D",
+    "Arquitectos en Murcia y renders con inteligencia artificial",
+    "El proceso de los arquitectos en Murcia",
+    "Pide presupuesto a nuestros arquitectos en Murcia",
+    "Arquitectos en Murcia: cursos de renders",
+    "Fotos e imágenes de los arquitectos en Murcia",
+    "Arquitectos en Murcia: trabaja con nosotros",
+    "¿Por qué elegir a nuestros arquitectos en Murcia?",
+    "Lo que dicen los clientes de nuestros arquitectos en Murcia",
+    "Arquitectos en Murcia para arquitectura y diseño 3D",
+    "Un despacho de arquitectos en Murcia",
+    "Agencia de arquitectos en Murcia para tus imágenes 3D",
+    "Arquitectos freelance en Murcia",
+    "Programas que usan los arquitectos en Murcia",
+    "Arquitectos en Murcia para presupuestos ajustados",
+    "Preguntas frecuentes a los arquitectos en Murcia",
+    "Arquitectos en Murcia: contacto",
+    "Arquitectos en Murcia profesionales del render",
+    "Arquitectos en Murcia: cuéntanos tu proyecto"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Arquitectos en Murcia",
+    "singular": "Arquitecto en Murcia",
+    "sufijo": "de arquitectos en Murcia"
+  },
+  "actualizado": "2026-10-09"
+}

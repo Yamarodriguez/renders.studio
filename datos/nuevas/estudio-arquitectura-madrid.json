@@ -1,0 +1,134 @@
+{
+  "slug": "estudio-arquitectura-madrid",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "madrid",
+  "etiqueta": "Servicio",
+  "titulo": "Estudio de arquitectura en Madrid",
+  "tituloSeo": "Estudio de arquitectura en Madrid: planos y renders 3D",
+  "descripcion": "Estudio de arquitectura online para proyectos en Madrid: reformas de pisos, viviendas y promociones en planos, modelo 3D y renders. Pide presupuesto.",
+  "palabraClave": "estudio de arquitectura en Madrid",
+  "foto": "/wp-content/uploads/2025/04/render-de-casa-planta-3d.webp",
+  "fotoAlt": "Planta 3D amueblada de un piso reformado, trabajo de estudio de arquitectura en Madrid",
+  "intro": {
+    "h2": "Un estudio de arquitectura en Madrid que trabaja contigo online",
+    "html": "<p>Renders.studio es un estudio de arquitectura especializado en visualización 3D que trabaja online para proyectos en Madrid y en toda la Comunidad de Madrid. Nos llegan sobre todo <strong>reformas de pisos</strong>, viviendas nuevas y promociones que necesitan verse antes de empezar la obra.</p><p>Partimos de tu idea o de tus planos, te enseñamos una vista previa y cerramos las imágenes contigo, como en cualquier encargo de nuestro <a href='/estudio-arquitectura/'>estudio de arquitectura</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Cómo trabaja nuestro estudio de arquitectura en Madrid?",
+      "html": "<p>Trabajamos por fases cortas. Primero escuchamos qué quieres cambiar o construir y qué limitaciones tiene el espacio; después levantamos el proyecto en 3D y, de ese modelo, sacamos plantas, alzados y vistas. Cada fase termina con algo que puedes mirar y comentar, así que <strong>nada se cierra a ciegas</strong>.</p><p>Para un piso que se reforma, eso significa ver la nueva distribución amueblada antes de tirar un tabique. Para una promoción, significa tener las imágenes de venta listas mientras el proyecto avanza. Si quieres ver ejemplos de imágenes hechas para la capital, están en nuestra página de <a href='/madrid/'>renders en Madrid</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Ventajas de un estudio de arquitectura en Madrid que trabaja en remoto",
+      "html": "<p>Te ahorras desplazamientos y reuniones largas: compartes planos, fotos y medidas desde casa y respondes a las vistas previas cuando te viene bien. Además, el estudio <strong>diseña y enseña en imágenes</strong>, de modo que cada cambio que pides lo ves aplicado en el modelo y no descrito en un correo.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis rediseñar la distribución de un piso antiguo?",
+      "html": "<p>Sí. Con el plano actual o con unas medidas y fotos, proponemos una o varias distribuciones y las enseñamos amuebladas en 3D. Así comparas opciones de cocina abierta, dormitorios o baños antes de pedir presupuesto de obra y sabes qué tabiques merece la pena mover.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿También hacéis las imágenes para vender una promoción?",
+      "html": "<p>Sí. Preparamos exteriores, interiores tipo y plantas comerciales para folletos, portales inmobiliarios y la web de la promoción. Si además quieres un recorrido, el <a href='/tour-virtual-360/'>tour virtual</a> permite enseñar la vivienda a compradores que todavía no pueden entrar en ella.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye el trabajo del estudio de arquitectura en Madrid",
+      "html": "<ul><li><strong>Toma de datos</strong> a partir de tus planos, medidas o fotos.</li><li><strong>Propuesta de distribución</strong> con mobiliario y circulaciones.</li><li><strong>Modelo 3D completo</strong> de la vivienda, el edificio o la promoción.</li><li><strong>Plantas y alzados</strong> en 2D para presupuestar la obra.</li><li><strong>Renders interiores y exteriores</strong> con los acabados elegidos.</li><li><strong>Ajustes tras la vista previa</strong> antes de la entrega final.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios del estudio de arquitectura en Madrid para tu proyecto",
+      "html": "<p>Cada servicio tiene su propia página con ejemplos.</p>",
+      "tarjetas": [
+        {
+          "titulo": "Planos con renders",
+          "texto": "Distribuciones en 2D y plantas amuebladas en 3D.",
+          "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura-1.jpg",
+          "href": "/planos-renders/"
+        },
+        {
+          "titulo": "Renders de edificios",
+          "texto": "Promociones y bloques de viviendas vistos desde la calle.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-edificios.jpg",
+          "href": "/renders-edificios/"
+        },
+        {
+          "titulo": "Renders de cocinas",
+          "texto": "La cocina reformada con sus muebles y materiales.",
+          "foto": "/wp-content/uploads/2025/05/renders-casas-cocina.jpg",
+          "href": "/renders-cocinas/"
+        },
+        {
+          "titulo": "Tour virtual",
+          "texto": "Recorridos para enseñar la vivienda antes de terminarla.",
+          "foto": "/wp-content/uploads/2025/04/tour-360-virtual-de-arquitectura.jpg",
+          "href": "/tour-virtual-360/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre estudio de arquitectura en Madrid",
+    "items": [
+      {
+        "pregunta": "¿Qué necesitáis para empezar un proyecto en Madrid?",
+        "respuesta": "Con los planos que tengas, aunque sean antiguos, o con unas medidas y fotos del espacio podemos arrancar. Cuéntanos qué quieres conseguir y para cuándo; en la guía de <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a> tienes la lista completa. <strong>Lo que falte lo pedimos</strong> nosotros."
+      },
+      {
+        "pregunta": "¿Cuánto tarda el estudio en entregar las imágenes?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Antes de la entrega recibes una vista previa para pedir cambios, y la fecha concreta de tu encargo <strong>figura en el presupuesto</strong>."
+      },
+      {
+        "pregunta": "¿Trabajáis también fuera de la capital?",
+        "respuesta": "Sí. Atendemos encargos de cualquier municipio de la Comunidad de Madrid y del resto de España, porque todo el proceso es online: envío de información, revisiones y entrega. <strong>No hace falta desplazarse</strong> en ningún momento del proyecto."
+      },
+      {
+        "pregunta": "¿Cuánto cuesta un proyecto con renders?",
+        "respuesta": "Depende de cuántas imágenes, planos y modelado necesites. Como orientación, un render interior cuesta 70 € – 170 € y uno exterior, 90 € – 220 €; el resto está en <a href='/precios/'>precios de renders</a>. Con tus datos te enviamos un <strong>presupuesto a medida</strong>."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Estudio de arquitectura en Madrid y renders 3D",
+    "Proyectos, modelado 3D y planos de un estudio de arquitectura en Madrid",
+    "Qué es un render y cómo lo usa un estudio de arquitectura en Madrid",
+    "Estudio de arquitectura en Madrid y renders de arquitectura",
+    "Visualización de alta calidad de un estudio de arquitectura en Madrid",
+    "Trabajos del estudio de arquitectura en Madrid",
+    "Precio del estudio de arquitectura en Madrid: tarifas claras",
+    "Estudio de arquitectura en Madrid y tipos de render",
+    "Los renderistas del estudio de arquitectura en Madrid",
+    "Empresa de renders y estudio de arquitectura en Madrid",
+    "El renderizado 3D en un estudio de arquitectura en Madrid",
+    "Inteligencia artificial en el estudio de arquitectura en Madrid",
+    "Cómo trabaja nuestro estudio de arquitectura en Madrid",
+    "Presupuesto de estudio de arquitectura en Madrid",
+    "Cursos de renders del estudio de arquitectura en Madrid",
+    "Imágenes de proyectos del estudio de arquitectura en Madrid",
+    "Trabajo en nuestro estudio de arquitectura en Madrid",
+    "¿Qué hace que elijan nuestro estudio de arquitectura en Madrid?",
+    "Opiniones de clientes del estudio de arquitectura en Madrid",
+    "Arquitectura y diseño 3D en un estudio de arquitectura en Madrid",
+    "Despacho y estudio de arquitectura en Madrid",
+    "Estudio de arquitectura en Madrid con agencia de renders",
+    "Estudio de arquitectura en Madrid con trato freelance",
+    "Estudio de arquitectura en Madrid: programas de render",
+    "Estudio de arquitectura en Madrid con precios ajustados",
+    "Estudio de arquitectura en Madrid: preguntas frecuentes",
+    "Contacta con el estudio de arquitectura en Madrid",
+    "Un estudio de arquitectura profesional en Madrid",
+    "Habla con nuestro estudio de arquitectura en Madrid"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Estudio de arquitectura en Madrid",
+    "singular": "Estudio de arquitectura en Madrid",
+    "sufijo": "en estudio de arquitectura en Madrid"
+  },
+  "actualizado": "2026-10-09"
+}

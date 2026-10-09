@@ -1,0 +1,134 @@
+{
+  "slug": "estudio-arquitectura-zaragoza",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "zaragoza",
+  "etiqueta": "Servicio",
+  "titulo": "Estudio de arquitectura en Zaragoza",
+  "tituloSeo": "Estudio de arquitectura en Zaragoza: de la idea al render",
+  "descripcion": "De la idea a los planos y los renders 3D: diseño de viviendas y apoyo a técnicos para proyectos en Zaragoza y Aragón, trabajando online. Pide presupuesto.",
+  "palabraClave": "estudio de arquitectura en Zaragoza",
+  "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura.jpg",
+  "fotoAlt": "Planos de una vivienda, punto de partida del estudio de arquitectura en Zaragoza",
+  "intro": {
+    "h2": "Estudio de arquitectura en Zaragoza para dar forma a tu idea",
+    "html": "<p>Muchos proyectos empiezan con una idea a medias: una casa que quieres ampliar, un piso que no termina de funcionar o un solar con posibilidades. Trabajamos online para clientes de Zaragoza y de todo Aragón, y te acompañamos <strong>paso a paso</strong> hasta tener planos e imágenes claras.</p><p>Nuestro papel en el <a href='/estudio-arquitectura/'>estudio de arquitectura</a> es ordenar esa idea, resolver las dudas de diseño por el camino y enseñarte el resultado antes de comprometerte con nada.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "Los pasos de un encargo al estudio de arquitectura en Zaragoza",
+      "html": "<p>El primer paso es una conversación: qué quieres, qué tienes y qué te preocupa. El segundo, ordenar la información en un plano del estado actual o del solar. El tercero, proponer una solución y levantarla en 3D para que la veas desde dentro y desde fuera. Son pasos sencillos, pero bien hechos <strong>evitan decisiones precipitadas</strong>.</p><p>Con la propuesta aprobada, preparamos los <a href='/planos-renders/'>planos con renders</a> y las imágenes definitivas. Cada documento sale del mismo modelo, de modo que lo que ves en una planta coincide con lo que ves en el render.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "El estudio de arquitectura en Zaragoza como apoyo a otros técnicos",
+      "html": "<p>No solo trabajamos con particulares. Aparejadores, arquitectos técnicos y otros estudios pueden encargarnos la parte visual de sus proyectos cuando no tienen tiempo o herramientas para hacerla. Trabajamos sobre su documentación y con su criterio, como explicamos en <a href='/renders-para-arquitectos/'>renders para arquitectos</a>, un servicio <strong>pensado para profesionales</strong>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué hago si no sé por dónde empezar?",
+      "html": "<p>Cuéntanos tu situación tal y como la tengas en la cabeza, aunque sea desordenada. Con unas pocas preguntas sabremos qué información hace falta y cuál es el siguiente paso, y te lo diremos de forma clara antes de presupuestar nada.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis resolverme una duda concreta de diseño?",
+      "html": "<p>Sí. A veces el problema es uno solo: dónde colocar la escalera, cómo iluminar un pasillo o qué hacer con una esquina sin uso. Te proponemos soluciones y te las enseñamos en 3D para que elijas con criterio la que mejor te encaja.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué recibes del estudio de arquitectura en Zaragoza en cada encargo",
+      "html": "<ul><li><strong>Una conversación inicial</strong> para entender qué necesitas.</li><li><strong>Plano del estado actual</strong> o del solar.</li><li><strong>Propuesta de diseño</strong> levantada en 3D.</li><li><strong>Respuesta a tus dudas</strong> de distribución y materiales.</li><li><strong>Planos e imágenes finales</strong> coherentes entre sí.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios del estudio de arquitectura en Zaragoza",
+      "html": "<p>Cada servicio tiene ejemplos y explicación propia:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Planos con renders",
+          "texto": "Plantas claras y amuebladas para entender el proyecto.",
+          "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura-1.jpg",
+          "href": "/planos-renders/"
+        },
+        {
+          "titulo": "Modelado 3D",
+          "texto": "Tu idea levantada en volumen, lista para revisar.",
+          "foto": "/wp-content/uploads/2025/04/modelado-3D.jpg",
+          "href": "/modelado-3d/"
+        },
+        {
+          "titulo": "Renders para arquitectos",
+          "texto": "Imágenes para técnicos y estudios, con su propio criterio.",
+          "foto": "/wp-content/uploads/2025/04/arquitecto-renderista.png",
+          "href": "/renders-para-arquitectos/"
+        },
+        {
+          "titulo": "Infografías",
+          "texto": "Imágenes explicativas para presentar el proyecto con claridad.",
+          "foto": "/wp-content/uploads/2025/04/infografias.jpg",
+          "href": "/infografias-arquitectura/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre estudio de arquitectura en Zaragoza",
+    "items": [
+      {
+        "pregunta": "¿Cuánto tarda el proceso completo?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Si partimos de una idea sin definir, antes hay que cerrar la propuesta, y <strong>el calendario lo acordamos</strong> contigo al empezar."
+      },
+      {
+        "pregunta": "¿Cómo os hago llegar la información?",
+        "respuesta": "Por correo o por cualquier servicio para compartir archivos: planos, fotos, croquis o referencias. No hace falta que esté ordenada; <strong>nosotros la revisamos</strong> y te decimos si falta algo o si con eso podemos empezar."
+      },
+      {
+        "pregunta": "¿Atendéis proyectos en Huesca o Teruel?",
+        "respuesta": "Sí. Trabajamos online para todo Aragón y para el resto de España con el mismo método. Puedes ver ejemplos de la ciudad en <a href='/zaragoza/'>renders en Zaragoza</a> y <strong>contarnos tu proyecto</strong> cuando quieras."
+      },
+      {
+        "pregunta": "¿Cómo pido un presupuesto?",
+        "respuesta": "Desde la página de <a href='/presupuesto/'>presupuesto de renders</a>, contándonos qué quieres hacer y adjuntando lo que tengas. Te respondemos con una propuesta y, si tienes dudas sobre nuestra forma de trabajar, <strong>te lo explicamos</strong> sin compromiso."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Estudio de arquitectura en Zaragoza y renders 3D",
+    "Proyectos, modelado 3D y planos de un estudio de arquitectura en Zaragoza",
+    "Qué es un render y cómo lo usa un estudio de arquitectura en Zaragoza",
+    "Estudio de arquitectura en Zaragoza y renders de arquitectura",
+    "Visualización de alta calidad de un estudio de arquitectura en Zaragoza",
+    "Trabajos del estudio de arquitectura en Zaragoza",
+    "Precio del estudio de arquitectura en Zaragoza: tarifas claras",
+    "Estudio de arquitectura en Zaragoza y tipos de render",
+    "Los renderistas del estudio de arquitectura en Zaragoza",
+    "Empresa de renders y estudio de arquitectura en Zaragoza",
+    "El renderizado 3D en un estudio de arquitectura en Zaragoza",
+    "Inteligencia artificial en el estudio de arquitectura en Zaragoza",
+    "Cómo trabaja nuestro estudio de arquitectura en Zaragoza",
+    "Presupuesto de estudio de arquitectura en Zaragoza",
+    "Cursos de renders del estudio de arquitectura en Zaragoza",
+    "Imágenes de proyectos del estudio de arquitectura en Zaragoza",
+    "Trabajo en nuestro estudio de arquitectura en Zaragoza",
+    "¿Qué hace que elijan nuestro estudio de arquitectura en Zaragoza?",
+    "Opiniones de clientes del estudio de arquitectura en Zaragoza",
+    "Arquitectura y diseño 3D en un estudio de arquitectura en Zaragoza",
+    "Despacho y estudio de arquitectura en Zaragoza",
+    "Estudio de arquitectura en Zaragoza con agencia de renders",
+    "Estudio de arquitectura en Zaragoza con trato freelance",
+    "Estudio de arquitectura en Zaragoza: programas de render",
+    "Estudio de arquitectura en Zaragoza con precios ajustados",
+    "Estudio de arquitectura en Zaragoza: preguntas frecuentes",
+    "Contacta con el estudio de arquitectura en Zaragoza",
+    "Un estudio de arquitectura profesional en Zaragoza",
+    "Habla con nuestro estudio de arquitectura en Zaragoza"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Estudio de arquitectura en Zaragoza",
+    "singular": "Estudio de arquitectura en Zaragoza",
+    "sufijo": "en estudio de arquitectura en Zaragoza"
+  },
+  "actualizado": "2026-10-09"
+}

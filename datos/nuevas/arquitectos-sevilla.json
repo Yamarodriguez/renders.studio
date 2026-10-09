@@ -1,0 +1,134 @@
+{
+  "slug": "arquitectos-sevilla",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "sevilla",
+  "etiqueta": "Servicio",
+  "titulo": "Arquitectos en Sevilla",
+  "tituloSeo": "Arquitectos en Sevilla: reforma tu casa y mírala en 3D",
+  "descripcion": "Arquitectos en Sevilla para reformar una casa o rehacer su fachada: te ayudamos con el diseño y la verás en renders 3D antes de la obra. Pide presupuesto.",
+  "palabraClave": "arquitectos en Sevilla",
+  "foto": "/wp-content/uploads/2025/04/render-fachada.jpg",
+  "fotoAlt": "Render de la fachada reformada de una casa, propuesta de arquitectos en Sevilla",
+  "intro": {
+    "h2": "Arquitectos en Sevilla para reformar tu casa con las ideas claras",
+    "html": "<p>Comprar o heredar una casa para reformarla trae ilusión y también muchas dudas: cómo repartir las habitaciones, cómo ganar luz en las estancias, qué hacer con la fachada. Nuestros <strong>arquitectos renderistas</strong> te ayudan a resolverlas y te enseñan la casa terminada en imágenes.</p><p>Trabajamos online para propietarios de Sevilla y de cualquier punto de Andalucía. Hay ejemplos de proyectos en <a href='/sevilla/'>renders en Sevilla</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué hacen nuestros arquitectos en Sevilla en una reforma integral?",
+      "html": "<p>Primero entendemos la casa tal como está y cómo quieres vivir en ella. Con tus fotos y medidas dibujamos el estado actual y, sobre ese plano, probamos alternativas de distribución hasta dar con la que mejor encaja con tu familia y con tu día a día. Cada alternativa la ves <strong>dibujada y amueblada</strong>, no solo descrita.</p><p>Cuando la distribución está decidida, pasamos a los materiales: suelos, carpinterías, colores de la fachada y revestimientos de cocina y baños. Todo se ve en renders realistas para que compares opciones. Puedes leer cómo trabajamos en <a href='/arquitectos/'>nuestro equipo de arquitectos</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "La fachada, lo primero que enseñan los arquitectos en Sevilla",
+      "html": "<p>La fachada es lo que ven los vecinos y lo que más cuesta imaginar. Por eso solemos empezar por ella: probamos colores, carpinterías y rejas sobre una imagen realista de tu casa, y así <strong>eliges con la imagen delante</strong> en lugar de con una muestra pequeña. Más ejemplos en <a href='/renders-fachadas/'>renders de fachadas</a>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis enseñarme varias opciones de color para la fachada?",
+      "html": "<p>Sí. Sobre el mismo modelo de la casa preparamos variantes de color, de material y de carpintería, y te las enviamos juntas para que las compares. Es una forma sencilla de decidir en familia sin discutir sobre cómo quedará cada opción.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿En cuánto tiempo veré mi casa reformada?",
+      "html": "<p>El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Entre medias recibes una vista previa, y es el mejor momento para cambiar un color, mover un mueble o probar otro suelo antes de la versión final.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye la ayuda de nuestros arquitectos en Sevilla",
+      "html": "<ul><li><strong>Plano del estado actual</strong> de la casa con tus medidas.</li><li><strong>Alternativas de distribución</strong> para comparar con calma.</li><li><strong>Propuesta de fachada</strong> con colores y carpinterías.</li><li><strong>Renders de las estancias</strong> más importantes de la casa.</li><li><strong>Ajustes tras la vista previa</strong> antes de la entrega.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios de arquitectos en Sevilla para casas y viviendas",
+      "html": "<p>Estas páginas te dan más detalle de cada servicio:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Render de casa",
+          "texto": "Tu casa terminada, por fuera y por dentro.",
+          "foto": "/wp-content/uploads/2025/04/render-casa.jpg",
+          "href": "/render-casa/"
+        },
+        {
+          "titulo": "Planos de arquitectura",
+          "texto": "Distribuciones dibujadas en planta, en 2D o en 3D.",
+          "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura.jpg",
+          "href": "/planos-renders/"
+        },
+        {
+          "titulo": "Renders de cocinas",
+          "texto": "Muebles, encimera y revestimientos antes de elegirlos.",
+          "foto": "/wp-content/uploads/2025/05/renders-casas-cocina.jpg",
+          "href": "/renders-cocinas/"
+        },
+        {
+          "titulo": "Modelado 3D",
+          "texto": "La casa levantada en volumen a partir de tus medidas.",
+          "foto": "/wp-content/uploads/2025/04/modelado-3D.jpg",
+          "href": "/modelado-3d/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre arquitectos en Sevilla",
+    "items": [
+      {
+        "pregunta": "¿Me ayudáis si todavía no he comprado la casa?",
+        "respuesta": "Sí, y es buen momento. Con las fotos del anuncio y unas medidas aproximadas podemos hacer un <strong>estudio previo de distribución</strong> para que sepas qué posibilidades tiene la casa antes de decidir la compra."
+      },
+      {
+        "pregunta": "¿Os puedo enviar fotos hechas con el móvil?",
+        "respuesta": "Sí, nos sirven perfectamente. Lo útil es que haya fotos de cada estancia y de la fachada completa, y que vengan con <strong>las medidas principales</strong>. Si dudas, consulta <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a>."
+      },
+      {
+        "pregunta": "¿Las imágenes sirven para pedir presupuesto a constructores?",
+        "respuesta": "Sí. Con los planos y los renders, cualquier constructor entiende qué quieres hacer, y <strong>los presupuestos son comparables</strong> entre sí porque todos parten de la misma propuesta. Es uno de los motivos por los que muchos clientes nos escriben."
+      },
+      {
+        "pregunta": "¿Cuánto cuesta ver la reforma en imágenes?",
+        "respuesta": "Depende de las estancias y vistas que pidas. Como orientación, un render exterior de la fachada se mueve en 90 € – 220 €; el resto de rangos están en <a href='/precios/'>precios de renders</a> y te enviamos <strong>un presupuesto personalizado</strong>."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Renders 3D de nuestros arquitectos en Sevilla",
+    "Arquitectos en Sevilla para proyectos, modelado 3D, planos y diseño 3D",
+    "Qué es un render: lo que explican los arquitectos en Sevilla",
+    "Renders de arquitectura hechos por arquitectos en Sevilla",
+    "Arquitectos en Sevilla y visualización de alta calidad",
+    "Proyectos de nuestros arquitectos en Sevilla",
+    "Arquitectos en Sevilla: precios orientativos",
+    "Tipos de render que hacen los arquitectos en Sevilla",
+    "Renderistas y arquitectos en Sevilla",
+    "Una empresa de arquitectos en Sevilla especializada en renders",
+    "Arquitectos en Sevilla: qué es el renderizado 3D",
+    "Arquitectos en Sevilla y renders con inteligencia artificial",
+    "El proceso de los arquitectos en Sevilla",
+    "Pide presupuesto a nuestros arquitectos en Sevilla",
+    "Arquitectos en Sevilla: cursos de renders",
+    "Fotos e imágenes de los arquitectos en Sevilla",
+    "Arquitectos en Sevilla: trabaja con nosotros",
+    "¿Por qué elegir a nuestros arquitectos en Sevilla?",
+    "Lo que dicen los clientes de nuestros arquitectos en Sevilla",
+    "Arquitectos en Sevilla para arquitectura y diseño 3D",
+    "Un despacho de arquitectos en Sevilla",
+    "Agencia de arquitectos en Sevilla para tus imágenes 3D",
+    "Arquitectos freelance en Sevilla",
+    "Programas que usan los arquitectos en Sevilla",
+    "Arquitectos en Sevilla para presupuestos ajustados",
+    "Preguntas frecuentes a los arquitectos en Sevilla",
+    "Arquitectos en Sevilla: contacto",
+    "Arquitectos en Sevilla profesionales del render",
+    "Arquitectos en Sevilla: cuéntanos tu proyecto"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Arquitectos en Sevilla",
+    "singular": "Arquitecto en Sevilla",
+    "sufijo": "de arquitectos en Sevilla"
+  },
+  "actualizado": "2026-10-09"
+}

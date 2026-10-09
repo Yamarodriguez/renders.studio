@@ -1,0 +1,134 @@
+{
+  "slug": "estudio-arquitectura-barcelona",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "barcelona",
+  "etiqueta": "Servicio",
+  "titulo": "Estudio de arquitectura en Barcelona",
+  "tituloSeo": "Estudio de arquitectura en Barcelona: interiores en 3D",
+  "descripcion": "Diseño de interiores y reformas de pisos para clientes de Barcelona y Cataluña: distribución, materiales y renders 3D, todo online. Pide presupuesto.",
+  "palabraClave": "estudio de arquitectura en Barcelona",
+  "foto": "/wp-content/uploads/2025/04/render-interior.webp",
+  "fotoAlt": "Render de un interior reformado, propuesta online de nuestro estudio de arquitectura en Barcelona",
+  "intro": {
+    "h2": "Estudio de arquitectura en Barcelona para sacar partido a cada rincón",
+    "html": "<p>Muchos encargos que recibimos de Barcelona y del resto de Cataluña tienen algo en común: pisos donde cada rincón cuenta y donde la distribución decide si la casa funciona o no. Ahí es donde un estudio especializado en 3D aporta más, porque <strong>cada propuesta se ve</strong> antes de decidirla.</p><p>Trabajamos online, a partir de tus planos o de unas medidas, y te enseñamos el resultado en imágenes realistas. Si buscas ejemplos de proyectos de la ciudad, mira nuestros <a href='/barcelona/'>renders en Barcelona</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "Qué aporta un estudio de arquitectura en Barcelona al diseño interior",
+      "html": "<p>Diseñar un interior no es elegir muebles bonitos. Es decidir dónde va la cocina, cuánta luz llega a cada estancia, qué paredes se pueden abrir y cómo se guardan las cosas. Nuestro trabajo empieza por ahí: proponemos una distribución, la amueblamos en 3D y comprobamos que <strong>se puede vivir en ella</strong>.</p><p>Después llegan los materiales: suelos, carpinterías, revestimientos y luz artificial. Los aplicamos al modelo y los ves en <a href='/renders-interiores/'>renders de interiores</a> desde varios puntos de vista. Si algo no te convence, lo cambiamos sobre el modelo y vuelves a verlo, sin empezar de cero.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "¿Para quién trabaja nuestro estudio de arquitectura en Barcelona?",
+      "html": "<p>Para particulares que reforman su vivienda, para interioristas que quieren enseñar una propuesta a su cliente y para propietarios que venden o alquilan un piso vacío. A estos últimos les ayuda el <a href='/home-staging-virtual/'>home staging virtual</a>, que amuebla el espacio en la imagen <strong>sin mover un mueble</strong>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis proponer varias distribuciones para el mismo piso?",
+      "html": "<p>Sí, y es una de las peticiones más habituales. Partimos del mismo plano y planteamos alternativas, por ejemplo con la cocina integrada en el salón o separada de él. Las ves amuebladas en 3D, una al lado de otra, y eliges con argumentos.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Me ayudáis a elegir materiales y colores?",
+      "html": "<p>Sí. Te proponemos combinaciones de suelos, revestimientos y acabados coherentes con el estilo que buscas, y las aplicamos al modelo para que veas cómo cambia la estancia con luz de día y de noche. Decidir así es mucho más fácil que con muestras sueltas.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye un encargo al estudio de arquitectura en Barcelona",
+      "html": "<ul><li><strong>Análisis del piso</strong>: medidas, luz natural, instalaciones y lo que quieres cambiar.</li><li><strong>Propuestas de distribución</strong> amuebladas para comparar.</li><li><strong>Selección de acabados</strong> con suelos, revestimientos y carpinterías.</li><li><strong>Modelo 3D del interior</strong> con mobiliario a medida.</li><li><strong>Renders de cada estancia</strong> con luz natural y artificial.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios de interiorismo del estudio de arquitectura en Barcelona",
+      "html": "<p>Los encargos más habituales, cada uno con su página:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Renders de interiores",
+          "texto": "Salones, dormitorios y baños con sus acabados reales.",
+          "foto": "/wp-content/uploads/2025/05/render-arquitectura-sala.jpg",
+          "href": "/renders-interiores/"
+        },
+        {
+          "titulo": "Renders de cocinas",
+          "texto": "Muebles, encimeras e iluminación antes de encargarlos al taller.",
+          "foto": "/wp-content/uploads/2025/05/renders-casas-cocina.jpg",
+          "href": "/renders-cocinas/"
+        },
+        {
+          "titulo": "Home staging virtual",
+          "texto": "Pisos vacíos amueblados en la imagen para vender o alquilar.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-arquitectura-y-diseno.png",
+          "href": "/home-staging-virtual/"
+        },
+        {
+          "titulo": "Planos con renders",
+          "texto": "La distribución dibujada en planta y amueblada en 3D.",
+          "foto": "/wp-content/uploads/2025/04/render-de-casa-planta-3d.webp",
+          "href": "/planos-renders/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre estudio de arquitectura en Barcelona",
+    "items": [
+      {
+        "pregunta": "¿Hace falta un plano para encargar el diseño interior?",
+        "respuesta": "No es imprescindible. Con un croquis acotado y fotos de cada estancia podemos dibujar el estado actual y trabajar sobre él. Si tienes el plano, mejor: <strong>ganamos tiempo desde el principio</strong> y la propuesta sale más ajustada a la realidad."
+      },
+      {
+        "pregunta": "¿En cuánto tiempo tendré las imágenes?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Ese tiempo incluye una <strong>vista previa para corregir</strong> lo que no te encaje antes de recibir las imágenes definitivas."
+      },
+      {
+        "pregunta": "¿Cómo sé si un estudio de renders es fiable?",
+        "respuesta": "Fíjate en si enseña trabajos reales, si explica qué necesita de ti y si te deja revisar antes de entregar. Lo contamos con detalle en <a href='/como-elegir-estudio-de-renders/'>cómo elegir un estudio de renders</a>, una lectura útil <strong>antes de encargar nada</strong>."
+      },
+      {
+        "pregunta": "¿Trabajáis en toda Cataluña?",
+        "respuesta": "Sí. Como el servicio es online, da igual que el piso esté en la ciudad o en cualquier otro punto de Cataluña: recibimos la información por internet y <strong>entregamos los archivos en digital</strong>. Más sobre cómo funciona nuestro <a href='/estudio-arquitectura/'>estudio de arquitectura</a>."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Renders 3D de un estudio de arquitectura en Barcelona",
+    "Estudio de arquitectura en Barcelona: proyectos, modelado 3D, planos y diseño 3D",
+    "Qué es un render para un estudio de arquitectura en Barcelona",
+    "Renders de arquitectura de nuestro estudio de arquitectura en Barcelona",
+    "Estudio de arquitectura en Barcelona y visualización 3D",
+    "Proyectos de nuestro estudio de arquitectura en Barcelona",
+    "Estudio de arquitectura en Barcelona: precios orientativos",
+    "Tipos de render del estudio de arquitectura en Barcelona",
+    "Renderistas de un estudio de arquitectura en Barcelona",
+    "Estudio de arquitectura en Barcelona y empresa de renders",
+    "Estudio de arquitectura en Barcelona: qué es el renderizado 3D",
+    "Un estudio de arquitectura en Barcelona con inteligencia artificial",
+    "El proceso del estudio de arquitectura en Barcelona",
+    "Pide presupuesto al estudio de arquitectura en Barcelona",
+    "Estudio de arquitectura en Barcelona: cursos de renders",
+    "Fotos e imágenes del estudio de arquitectura en Barcelona",
+    "Estudio de arquitectura en Barcelona: trabaja con nosotros",
+    "¿Por qué elegir nuestro estudio de arquitectura en Barcelona?",
+    "Lo que dicen los clientes del estudio de arquitectura en Barcelona",
+    "Estudio de arquitectura en Barcelona para arquitectura y diseño 3D",
+    "Un despacho que es estudio de arquitectura en Barcelona",
+    "Agencia y estudio de arquitectura en Barcelona",
+    "Trato freelance en un estudio de arquitectura en Barcelona",
+    "Programas que usa el estudio de arquitectura en Barcelona",
+    "Estudio de arquitectura en Barcelona para presupuestos ajustados",
+    "Preguntas frecuentes al estudio de arquitectura en Barcelona",
+    "Estudio de arquitectura en Barcelona: contacto",
+    "Estudio de arquitectura en Barcelona profesional",
+    "Estudio de arquitectura en Barcelona: cuéntanos tu proyecto"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Estudio de arquitectura en Barcelona",
+    "singular": "Estudio de arquitectura en Barcelona",
+    "sufijo": "en estudio de arquitectura en Barcelona"
+  },
+  "actualizado": "2026-10-09"
+}

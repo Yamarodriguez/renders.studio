@@ -1,0 +1,134 @@
+{
+  "slug": "estudio-arquitectura-mallorca",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "mallorca",
+  "etiqueta": "Servicio",
+  "titulo": "Estudio de arquitectura en Mallorca",
+  "tituloSeo": "Estudio de arquitectura en Mallorca: casas y exteriores 3D",
+  "descripcion": "Casas, reformas y exteriores para proyectos en Mallorca y las Islas Baleares: diseño, planos y renders 3D con un estudio que trabaja online. Pide presupuesto.",
+  "palabraClave": "estudio de arquitectura en Mallorca",
+  "foto": "/wp-content/uploads/2025/04/3D-render-de-arquitectura.jpg",
+  "fotoAlt": "Render 3D de arquitectura residencial integrada en su entorno, estudio de arquitectura en Mallorca",
+  "intro": {
+    "h2": "Un estudio de arquitectura en Mallorca que trabaja la casa y su entorno",
+    "html": "<p>En una casa con jardín, terraza o piscina, el exterior pesa tanto como el interior. Nuestro estudio de arquitectura trabaja online para proyectos en Mallorca y en el resto de las Islas Baleares, y <strong>visualiza las dos cosas juntas</strong>: cómo se ve la casa desde fuera y cómo se vive dentro.</p><p>Es una forma práctica de seguir un proyecto aunque estés lejos de la parcela: todo llega en imágenes y planos, como en cualquier encargo de nuestro <a href='/estudio-arquitectura/'>estudio de arquitectura</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Cómo integra cada proyecto el estudio de arquitectura en Mallorca?",
+      "html": "<p>Empezamos situando la casa en su terreno: la pendiente, los accesos, las vistas que se quieren aprovechar y la posición del jardín y la piscina. Con esa información modelamos los volúmenes y comprobamos desde distintos puntos cómo se relaciona la vivienda con lo que la rodea.</p><p>Después definimos materiales, porches y carpinterías, y preparamos <a href='/renders-arquitectura/'>renders de arquitectura</a> exteriores con luz de distintas horas del día, además de los interiores que se abren a la terraza. Así compruebas que <strong>la casa y el jardín</strong> funcionan como un conjunto antes de construir.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Seguir tu proyecto a distancia con un estudio de arquitectura en Mallorca",
+      "html": "<p>Si no puedes estar cerca del terreno a diario, trabajar online es una ventaja: compartes la documentación, revisas las vistas previas desde cualquier sitio y <strong>tomas decisiones con imágenes</strong>, no con descripciones. Un <a href='/video-render-3d/'>vídeo render 3D</a> ayuda además a explicar el proyecto a toda la familia.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis representar la casa con su jardín y su piscina?",
+      "html": "<p>Sí. Modelamos el exterior completo: terrazas, porches, vegetación, piscina y caminos. Lo ves con luz de mañana o de atardecer, y puedes probar alternativas de pavimento o de pérgola antes de decidir cuál encaja mejor con la casa.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Trabajáis también reformas de casas existentes?",
+      "html": "<p>Sí. Dibujamos el estado actual con planos o con medidas y fotos, y sobre él planteamos la reforma: nuevos huecos, ampliaciones, cocina o baños. Ves el antes y el después en imágenes y decides qué conservar y qué cambiar.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Lo que incluye un proyecto del estudio de arquitectura en Mallorca",
+      "html": "<ul><li><strong>Implantación en el terreno</strong> con accesos, vistas y pendientes.</li><li><strong>Volúmenes y distribución</strong> de la vivienda en 3D.</li><li><strong>Diseño del exterior</strong> con jardín, terrazas y piscina.</li><li><strong>Materiales y carpinterías</strong> definidos sobre el modelo.</li><li><strong>Renders de día y atardecer</strong> del exterior y el interior.</li><li><strong>Planos y archivos</strong> para compartir con quien lo necesite.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios del estudio de arquitectura en Mallorca para casas",
+      "html": "<p>Servicios con ejemplos para ver con calma:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Renders de arquitectura",
+          "texto": "Volúmenes, materiales y entorno de la vivienda en imagen.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-exteriores.jpg",
+          "href": "/renders-arquitectura/"
+        },
+        {
+          "titulo": "Render de casa",
+          "texto": "La casa completa, por fuera y por dentro.",
+          "foto": "/wp-content/uploads/2025/04/render-casa.jpg",
+          "href": "/render-casa/"
+        },
+        {
+          "titulo": "Vídeo render 3D",
+          "texto": "Un paseo animado por la casa y el jardín.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-arquitectura-y-diseno.png",
+          "href": "/video-render-3d/"
+        },
+        {
+          "titulo": "Renders de interiores",
+          "texto": "Estancias abiertas al exterior con su luz natural.",
+          "foto": "/wp-content/uploads/2025/04/render-interior.webp",
+          "href": "/renders-interiores/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre estudio de arquitectura en Mallorca",
+    "items": [
+      {
+        "pregunta": "¿Qué necesitáis del terreno para empezar?",
+        "respuesta": "Un plano de la parcela o, al menos, su forma y sus medidas aproximadas, fotos desde varios puntos y una idea de lo que quieres construir. Con eso <strong>situamos la casa</strong> y preparamos una primera propuesta de volúmenes para comentarla contigo."
+      },
+      {
+        "pregunta": "¿Qué plazo tiene un encargo de renders?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Un diseño desde cero lleva más conversaciones, así que en ese caso <strong>pactamos las etapas</strong> al empezar y sabes en todo momento qué viene después."
+      },
+      {
+        "pregunta": "¿Trabajáis en Menorca, Ibiza o Formentera?",
+        "respuesta": "Sí. El servicio es online y sirve igual para cualquier isla de Baleares y para el resto de España. Puedes ver ejemplos en <a href='/mallorca/'>renders en Mallorca</a> y comprobar <strong>el nivel de detalle</strong> de nuestras imágenes."
+      },
+      {
+        "pregunta": "¿Cómo comparo estudios antes de decidir?",
+        "respuesta": "Mira trabajos reales, pregunta qué incluye el proceso y fíjate en si quien diseña entiende de arquitectura. Lo resumimos en <a href='/como-elegir-estudio-de-renders/'>cómo elegir un estudio de renders</a>, una guía <strong>útil para comparar</strong> propuestas con criterio."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Renders 3D de un estudio de arquitectura en Mallorca",
+    "Estudio de arquitectura en Mallorca: proyectos, modelado 3D, planos y diseño 3D",
+    "Qué es un render para un estudio de arquitectura en Mallorca",
+    "Renders de arquitectura de nuestro estudio de arquitectura en Mallorca",
+    "Estudio de arquitectura en Mallorca y visualización 3D",
+    "Proyectos de nuestro estudio de arquitectura en Mallorca",
+    "Estudio de arquitectura en Mallorca: precios orientativos",
+    "Tipos de render del estudio de arquitectura en Mallorca",
+    "Renderistas de un estudio de arquitectura en Mallorca",
+    "Estudio de arquitectura en Mallorca y empresa de renders",
+    "Estudio de arquitectura en Mallorca: qué es el renderizado 3D",
+    "Un estudio de arquitectura en Mallorca con inteligencia artificial",
+    "El proceso del estudio de arquitectura en Mallorca",
+    "Pide presupuesto al estudio de arquitectura en Mallorca",
+    "Estudio de arquitectura en Mallorca: cursos de renders",
+    "Fotos e imágenes del estudio de arquitectura en Mallorca",
+    "Estudio de arquitectura en Mallorca: trabaja con nosotros",
+    "¿Por qué elegir nuestro estudio de arquitectura en Mallorca?",
+    "Lo que dicen los clientes del estudio de arquitectura en Mallorca",
+    "Estudio de arquitectura en Mallorca para arquitectura y diseño 3D",
+    "Un despacho que es estudio de arquitectura en Mallorca",
+    "Agencia y estudio de arquitectura en Mallorca",
+    "Trato freelance en un estudio de arquitectura en Mallorca",
+    "Programas que usa el estudio de arquitectura en Mallorca",
+    "Estudio de arquitectura en Mallorca para presupuestos ajustados",
+    "Preguntas frecuentes al estudio de arquitectura en Mallorca",
+    "Estudio de arquitectura en Mallorca: contacto",
+    "Estudio de arquitectura en Mallorca profesional",
+    "Estudio de arquitectura en Mallorca: cuéntanos tu proyecto"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Estudio de arquitectura en Mallorca",
+    "singular": "Estudio de arquitectura en Mallorca",
+    "sufijo": "en estudio de arquitectura en Mallorca"
+  },
+  "actualizado": "2026-10-09"
+}

@@ -1,0 +1,134 @@
+{
+  "slug": "arquitectos-malaga",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "malaga",
+  "etiqueta": "Servicio",
+  "titulo": "Arquitectos en Málaga",
+  "tituloSeo": "Arquitectos en Málaga: chalets y viviendas en render 3D",
+  "descripcion": "Arquitectos en Málaga y la Costa del Sol para chalets, apartamentos y viviendas en venta: diseño y renders 3D online, sin desplazarte. Pide presupuesto.",
+  "palabraClave": "arquitectos en Málaga",
+  "foto": "/wp-content/uploads/2025/04/render-casa.jpg",
+  "fotoAlt": "Render de un chalet con piscina y jardín, proyecto de arquitectos en Málaga",
+  "intro": {
+    "h2": "Arquitectos en Málaga para chalets, apartamentos y viviendas en venta",
+    "html": "<p>Es habitual que el propietario de un apartamento o un chalet en la Costa del Sol no viva cerca y aun así quiera reformarlo, ampliarlo o venderlo. Nuestros <strong>arquitectos renderistas trabajan a distancia</strong> contigo: te ayudan con el diseño y te mandan imágenes de cómo quedará.</p><p>Trabajamos online para clientes de Málaga y de toda la Costa del Sol. Puedes ver trabajos en <a href='/malaga/'>renders en Málaga</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Cómo ayudan nuestros arquitectos en Málaga si vives lejos de tu casa?",
+      "html": "<p>Todo el proceso se hace por internet. Nos envías los planos, fotos o un vídeo grabado con el móvil, y preparamos el plano del estado actual. A partir de ahí te proponemos la reforma, la ampliación o el nuevo diseño de la terraza, y <strong>lo revisas desde cualquier lugar</strong> con una vista previa.</p><p>Si la casa la gestiona una inmobiliaria o un administrador, podemos coordinarnos también con ellos para recibir medidas y fotos. Así no tienes que viajar para cada decisión. Te contamos más sobre el equipo en <a href='/arquitectos/'>arquitectos renderistas</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Arquitectos en Málaga para vender o alquilar mejor tu vivienda",
+      "html": "<p>Una vivienda vacía o anticuada cuesta más de vender. Con un render de cómo podría quedar, o con el piso amueblado en imagen mediante <a href='/home-staging-virtual/'>home staging virtual</a>, el comprador entiende <strong>el potencial de la casa</strong> sin tener que imaginarlo ni hacer cálculos.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis diseñar la terraza o la zona de piscina?",
+      "html": "<p>Sí. Son de los encargos más comunes en chalets: redistribuir la terraza, añadir una pérgola, cambiar el pavimento o rediseñar la zona de piscina. Lo modelamos con tu parcela y te enseñamos el resultado con su vegetación y su mobiliario exterior.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Cuánto tarda el encargo si estoy fuera de España?",
+      "html": "<p>El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente, estés donde estés. Como todo va por correo y videollamada, la distancia no alarga el trabajo; lo que más influye es tener las medidas desde el principio.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye el trabajo de arquitectos en Málaga a distancia",
+      "html": "<ul><li><strong>Coordinación por internet</strong> contigo o con quien te represente.</li><li><strong>Plano de la vivienda</strong> a partir de fotos, vídeo y medidas.</li><li><strong>Diseño de exteriores</strong>: terraza, jardín y zona de piscina.</li><li><strong>Renders de interiores</strong> para reformar o para vender.</li><li><strong>Entrega en alta resolución</strong> lista para anuncios y portales.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios de arquitectos en Málaga para la Costa del Sol",
+      "html": "<p>Los servicios más útiles para este tipo de viviendas:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Renders de arquitectura",
+          "texto": "Volúmenes, fachadas y jardines de tu chalet.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-exteriores.jpg",
+          "href": "/renders-arquitectura/"
+        },
+        {
+          "titulo": "Tour virtual",
+          "texto": "Que el comprador recorra la casa sin viajar.",
+          "foto": "/wp-content/uploads/2025/04/tour-360-virtual-de-arquitectura.jpg",
+          "href": "/tour-virtual-360/"
+        },
+        {
+          "titulo": "Renders de interiores",
+          "texto": "Salones y dormitorios con la luz que buscas.",
+          "foto": "/wp-content/uploads/2025/04/render-interior.webp",
+          "href": "/renders-interiores/"
+        },
+        {
+          "titulo": "Vídeo render 3D",
+          "texto": "Un paseo animado por la vivienda terminada.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-arquitectura-y-diseno.png",
+          "href": "/video-render-3d/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre arquitectos en Málaga",
+    "items": [
+      {
+        "pregunta": "¿Puedo encargar el diseño de una ampliación?",
+        "respuesta": "Sí. Dibujamos la ampliación sobre la casa existente y te enseñamos cómo encaja por fuera y por dentro. Te sirve para decidir y para <strong>hablar con tu constructor</strong> con una propuesta concreta delante, sin malentendidos."
+      },
+      {
+        "pregunta": "¿Trabajáis con inmobiliarias de la Costa del Sol?",
+        "respuesta": "Sí. Preparamos imágenes de viviendas en venta, reformas propuestas y pisos amueblados virtualmente para <strong>mejorar los anuncios</strong> de la agencia. Puedes ver cómo encargarlo en la página de <a href='/presupuesto/'>solicitar presupuesto</a>."
+      },
+      {
+        "pregunta": "¿Qué pasa si no tengo planos de la vivienda?",
+        "respuesta": "No pasa nada. Con un vídeo recorriendo la casa y unas cuantas medidas tomadas con cinta métrica podemos dibujarla. Si alguien puede ir por ti, <strong>basta con un rato</strong> para recoger todo lo necesario."
+      },
+      {
+        "pregunta": "¿Cuánto cuesta un render de la terraza?",
+        "respuesta": "Un render exterior está en la horquilla de 90 € – 220 €, según el tamaño y el detalle de la escena. El resto de tarifas están en <a href='/precios/'>precios de renders</a> y te enviamos <strong>presupuesto sin compromiso</strong>."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Arquitectos en Málaga y renders 3D",
+    "Proyectos, modelado 3D y planos con arquitectos en Málaga",
+    "Qué es un render y por qué lo usan los arquitectos en Málaga",
+    "Arquitectos en Málaga que hacen renders de arquitectura",
+    "Visualización arquitectónica con arquitectos en Málaga",
+    "Trabajos de los arquitectos en Málaga",
+    "Precio de los arquitectos en Málaga: tarifas claras",
+    "Arquitectos en Málaga y los tipos de render",
+    "Arquitectos renderistas en Málaga",
+    "Arquitectos en Málaga con empresa de renders",
+    "El renderizado 3D explicado por arquitectos en Málaga",
+    "Inteligencia artificial y arquitectos en Málaga",
+    "Cómo trabajan nuestros arquitectos en Málaga, paso a paso",
+    "Presupuesto de arquitectos en Málaga",
+    "Cursos de renders para arquitectos en Málaga",
+    "Imágenes de proyectos de arquitectos en Málaga",
+    "Trabajo para arquitectos renderistas en Málaga",
+    "¿Qué hace que elijan a nuestros arquitectos en Málaga?",
+    "Opiniones de clientes sobre los arquitectos en Málaga",
+    "Arquitectura y diseño 3D con arquitectos en Málaga",
+    "Despacho de arquitectos en Málaga dedicado al render",
+    "Arquitectos en Málaga con agencia de renders",
+    "Arquitectos en Málaga con trato freelance",
+    "Arquitectos en Málaga: programas de render",
+    "Arquitectos en Málaga con precios ajustados",
+    "Arquitectos en Málaga: preguntas frecuentes",
+    "Contacta con nuestros arquitectos en Málaga",
+    "Arquitectos profesionales en Málaga",
+    "Habla con nuestros arquitectos en Málaga"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Arquitectos en Málaga",
+    "singular": "Arquitecto en Málaga",
+    "sufijo": "de arquitectos en Málaga"
+  },
+  "actualizado": "2026-10-09"
+}

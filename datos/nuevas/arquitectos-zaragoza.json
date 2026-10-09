@@ -1,0 +1,134 @@
+{
+  "slug": "arquitectos-zaragoza",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "zaragoza",
+  "etiqueta": "Servicio",
+  "titulo": "Arquitectos en Zaragoza",
+  "tituloSeo": "Arquitectos en Zaragoza: apoyo en diseño, planos y renders",
+  "descripcion": "Arquitectos en Zaragoza para aparejadores, arquitectos técnicos y particulares: apoyo en el diseño, planos 2D, modelo 3D y renders online. Pide presupuesto.",
+  "palabraClave": "arquitectos en Zaragoza",
+  "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura-1.jpg",
+  "fotoAlt": "Planos de arquitectura de una vivienda preparados por arquitectos en Zaragoza",
+  "intro": {
+    "h2": "Arquitectos en Zaragoza para apoyar a técnicos y particulares",
+    "html": "<p>Hay profesionales que dominan la obra pero necesitan ayuda con la parte de diseño o de imagen, y particulares que tienen una idea sin saber cómo dibujarla. A los dos les ofrecemos lo mismo: <strong>arquitectos renderistas</strong> que entienden el proyecto y lo convierten en planos e imágenes.</p><p>El servicio es online para clientes de Zaragoza y de todo Aragón. Si quieres ver trabajos, entra en <a href='/zaragoza/'>renders en Zaragoza</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿En qué ayudan nuestros arquitectos en Zaragoza a aparejadores y técnicos?",
+      "html": "<p>Un aparejador o un arquitecto técnico suele llevar reformas y obras en las que el cliente pide ver el resultado antes de dar el paso. Ahí entramos nosotros: tomamos su documentación, le planteamos <strong>dudas de diseño</strong> cuando las hay y producimos la planta amueblada, el modelo y los renders.</p><p>El técnico sigue al frente de la obra y de las decisiones técnicas; nosotros nos ocupamos de que el proyecto se entienda. Es una colaboración discreta que le permite presentar mejor su trabajo sin dedicar horas al modelado. Lo contamos con más detalle en <a href='/arquitectos/'>arquitectos renderistas</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Arquitectos en Zaragoza para particulares con una idea",
+      "html": "<p>Si vas a construir una vivienda unifamiliar o a reformar tu piso y solo tienes una idea, empezamos por ahí. La pasamos a <a href='/planos-renders/'>planos de arquitectura</a> claros, en 2D y amueblados, para que <strong>la idea tome forma</strong> antes de pensar en las imágenes finales.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Me entregáis los planos en un formato editable?",
+      "html": "<p>Sí. Si lo necesitas, te entregamos los planos en DWG además de en PDF, para que tu técnico o tu constructor pueda trabajar sobre ellos. Dinos el formato al pedir presupuesto y lo tenemos en cuenta desde el principio del encargo.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué plazo tenéis para un encargo de planos y renders?",
+      "html": "<p>El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Si el técnico necesita las imágenes para una reunión con su cliente, nos lo indica y organizamos la entrega en función de esa cita.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye la colaboración con arquitectos en Zaragoza",
+      "html": "<ul><li><strong>Lectura de tu documentación</strong> y dudas resueltas antes de modelar.</li><li><strong>Planos en 2D</strong> limpios y acotados.</li><li><strong>Plantas amuebladas</strong> para presentar al cliente.</li><li><strong>Modelo 3D reutilizable</strong> si vas a seguir trabajando con él.</li><li><strong>Renders de la propuesta</strong> con materiales reales.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios de arquitectos en Zaragoza para técnicos y familias",
+      "html": "<p>Estos son los servicios con los que solemos colaborar:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Modelado 3D",
+          "texto": "Tu proyecto en volumen, a partir de los planos.",
+          "foto": "/wp-content/uploads/2025/04/modelado-3D.jpg",
+          "href": "/modelado-3d/"
+        },
+        {
+          "titulo": "Render de casa",
+          "texto": "Viviendas unifamiliares vistas por fuera antes de construir.",
+          "foto": "/wp-content/uploads/2025/04/render-casa.jpg",
+          "href": "/render-casa/"
+        },
+        {
+          "titulo": "Renders de interiores",
+          "texto": "Estancias reformadas con acabados y mobiliario reales.",
+          "foto": "/wp-content/uploads/2025/04/render-interior.webp",
+          "href": "/renders-interiores/"
+        },
+        {
+          "titulo": "Infografías",
+          "texto": "Láminas e imágenes para presentar el proyecto al cliente.",
+          "foto": "/wp-content/uploads/2025/04/infografias.jpg",
+          "href": "/infografias-arquitectura/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre arquitectos en Zaragoza",
+    "items": [
+      {
+        "pregunta": "¿Mi cliente sabrá que las imágenes las hacéis vosotros?",
+        "respuesta": "No tiene por qué. Si lo prefieres, trabajamos como <strong>apoyo interno de tu despacho</strong> y entregamos las imágenes sin marca, para que las presentes como parte de tu propuesta y con tu propia imagen."
+      },
+      {
+        "pregunta": "¿Podéis partir de un boceto hecho a mano?",
+        "respuesta": "Sí. Un boceto con las medidas principales es un buen comienzo. Lo pasamos a limpio, te lo devolvemos para que lo confirmes y, con <strong>la distribución validada</strong>, seguimos. Revisa <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a> si tienes dudas."
+      },
+      {
+        "pregunta": "¿Trabajáis con particulares de toda la comunidad?",
+        "respuesta": "Sí. Atendemos a clientes de Zaragoza capital y de cualquier pueblo de Aragón, porque <strong>todo se hace online</strong>: envío de planos, revisiones y entrega. Puedes ver cómo funciona en <a href='/online/'>renders online</a>."
+      },
+      {
+        "pregunta": "¿Cuánto cuestan los planos?",
+        "respuesta": "Los planos 2D están en la franja de 40 € – 180 €, y los planos renderizados 3D en la de 90 € – 240 €, según tamaño y detalle. Más en <a href='/precios/'>precios de renders</a>, con <strong>presupuesto a tu medida</strong>."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Arquitectos en Zaragoza y renders 3D",
+    "Proyectos, modelado 3D y planos con arquitectos en Zaragoza",
+    "Qué es un render y por qué lo usan los arquitectos en Zaragoza",
+    "Arquitectos en Zaragoza que hacen renders de arquitectura",
+    "Visualización arquitectónica con arquitectos en Zaragoza",
+    "Trabajos de los arquitectos en Zaragoza",
+    "Precio de los arquitectos en Zaragoza: tarifas claras",
+    "Arquitectos en Zaragoza y los tipos de render",
+    "Arquitectos renderistas en Zaragoza",
+    "Arquitectos en Zaragoza con empresa de renders",
+    "El renderizado 3D explicado por arquitectos en Zaragoza",
+    "Inteligencia artificial y arquitectos en Zaragoza",
+    "Cómo trabajan nuestros arquitectos en Zaragoza, paso a paso",
+    "Presupuesto de arquitectos en Zaragoza",
+    "Cursos de renders para arquitectos en Zaragoza",
+    "Imágenes de proyectos de arquitectos en Zaragoza",
+    "Trabajo para arquitectos renderistas en Zaragoza",
+    "¿Qué hace que elijan a nuestros arquitectos en Zaragoza?",
+    "Opiniones de clientes sobre los arquitectos en Zaragoza",
+    "Arquitectura y diseño 3D con arquitectos en Zaragoza",
+    "Despacho de arquitectos en Zaragoza dedicado al render",
+    "Arquitectos en Zaragoza con agencia de renders",
+    "Arquitectos en Zaragoza con trato freelance",
+    "Arquitectos en Zaragoza: programas de render",
+    "Arquitectos en Zaragoza con precios ajustados",
+    "Arquitectos en Zaragoza: preguntas frecuentes",
+    "Contacta con nuestros arquitectos en Zaragoza",
+    "Arquitectos profesionales en Zaragoza",
+    "Habla con nuestros arquitectos en Zaragoza"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Arquitectos en Zaragoza",
+    "singular": "Arquitecto en Zaragoza",
+    "sufijo": "de arquitectos en Zaragoza"
+  },
+  "actualizado": "2026-10-09"
+}

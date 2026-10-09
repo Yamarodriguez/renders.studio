@@ -1,0 +1,134 @@
+{
+  "slug": "arquitectos-bilbao",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "bilbao",
+  "etiqueta": "Servicio",
+  "titulo": "Arquitectos en Bilbao",
+  "tituloSeo": "Arquitectos en Bilbao para edificios y oficinas en 3D",
+  "descripcion": "Arquitectos en Bilbao para rehabilitar fachadas, presentar edificios y diseñar oficinas: lo convertimos en planos y renders 3D, online. Pide presupuesto.",
+  "palabraClave": "arquitectos en Bilbao",
+  "foto": "/wp-content/uploads/2025/04/renders-de-oficinas-scaled.jpg",
+  "fotoAlt": "Render de una oficina con puestos de trabajo diseñada por arquitectos en Bilbao",
+  "intro": {
+    "h2": "Arquitectos en Bilbao para edificios, fachadas y oficinas",
+    "html": "<p>Una comunidad de vecinos que rehabilita su edificio, una constructora que presenta una obra o una empresa que cambia de oficina tienen algo en común: necesitan que mucha gente apruebe un proyecto que aún no existe. Nuestros <strong>arquitectos renderistas</strong> lo hacen visible.</p><p>Damos servicio online en Bilbao, en el resto de Bizkaia y en todo el País Vasco. Tienes ejemplos en <a href='/bilbao/'>renders en Bilbao</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Para qué llaman las comunidades de vecinos a nuestros arquitectos en Bilbao?",
+      "html": "<p>Cuando un edificio se rehabilita, la junta tiene que elegir entre varias propuestas de fachada, y en un plano de alzado casi nadie ve la diferencia. Nosotros modelamos el edificio y preparamos <strong>las variantes en imagen</strong>: colores, revestimientos, balcones y carpinterías, vistas desde la calle.</p><p>Así la votación se hace con las imágenes delante, cada vecino entiende lo que vota y el proyecto avanza con menos dudas. Trabajamos sobre la documentación del técnico que lleva la obra y respetamos sus decisiones. Más sobre nuestra forma de trabajar en <a href='/arquitectos/'>arquitectos renderistas</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Arquitectos en Bilbao para oficinas que se entienden antes de la mudanza",
+      "html": "<p>Antes de cambiar de oficina, la dirección y la plantilla quieren saber cómo será el día a día: puestos, salas, zonas de descanso. Un modelo 3D con renders de cada zona ayuda a <strong>decidir la distribución</strong> y a explicar el cambio. Lo vemos en detalle en <a href='/renders-oficinas/'>renders de oficinas</a>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis trabajar con la documentación que nos ha dado el técnico?",
+      "html": "<p>Sí, es lo más habitual. Trabajamos sobre sus planos, alzados y detalles de fachada, y le consultamos lo que no esté claro. Nuestro papel es que las imágenes muestren fielmente su propuesta, no cambiarla por nuestra cuenta.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Cuánto tiempo necesitáis para presentar la rehabilitación?",
+      "html": "<p>El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Si hay una junta con fecha fijada, dínoslo al principio y ordenamos el trabajo para que las variantes de fachada lleguen antes de la reunión.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye un encargo de edificio a arquitectos en Bilbao",
+      "html": "<ul><li><strong>Modelo 3D del edificio</strong> a partir de planos y fotos.</li><li><strong>Variantes de fachada</strong> para comparar en la junta.</li><li><strong>Vistas desde la calle</strong> a la altura del peatón.</li><li><strong>Diseño de zonas comunes</strong> como el portal y la escalera.</li><li><strong>Imágenes en alta resolución</strong> para presentaciones y carteles.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios de arquitectos en Bilbao para empresas y comunidades",
+      "html": "<p>Cada uno de estos servicios tiene su propia página:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Renders de edificios",
+          "texto": "Bloques de viviendas y edificios de oficinas completos.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-edificios.jpg",
+          "href": "/renders-edificios/"
+        },
+        {
+          "titulo": "Diseño de fachadas",
+          "texto": "Colores y revestimientos probados antes de la obra.",
+          "foto": "/wp-content/uploads/2025/04/render-3d-fachada.jpg",
+          "href": "/renders-fachadas/"
+        },
+        {
+          "titulo": "Infografías",
+          "texto": "Imágenes listas para presentaciones y carteles de obra.",
+          "foto": "/wp-content/uploads/2025/04/infografias.jpg",
+          "href": "/infografias-arquitectura/"
+        },
+        {
+          "titulo": "Modelado 3D",
+          "texto": "El edificio completo en volumen, listo para visualizar.",
+          "foto": "/wp-content/uploads/2025/04/modelado-3D.jpg",
+          "href": "/modelado-3d/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre arquitectos en Bilbao",
+    "items": [
+      {
+        "pregunta": "¿Hacéis también el portal y las zonas comunes?",
+        "respuesta": "Sí. El portal, la escalera y los rellanos suelen formar parte de la rehabilitación, y verlos en imagen ayuda a <strong>elegir materiales e iluminación</strong>. Los modelamos junto al resto del edificio para que todo sea coherente."
+      },
+      {
+        "pregunta": "¿Trabajáis para constructoras del País Vasco?",
+        "respuesta": "Sí. Preparamos las imágenes de obras nuevas y rehabilitaciones para presentaciones y carteles. Nos adaptamos a <strong>la imagen de cada constructora</strong> y a sus formatos habituales. Puedes pedirlo desde <a href='/presupuesto/'>la página de presupuesto</a>."
+      },
+      {
+        "pregunta": "¿Cómo se organizan las revisiones con varias personas?",
+        "respuesta": "Enviamos la vista previa a una persona de contacto, que reúne los comentarios del resto. Así <strong>evitamos instrucciones contradictorias</strong> y el trabajo avanza con más orden. Las revisiones se hacen por correo o por videollamada."
+      },
+      {
+        "pregunta": "¿Qué necesito para que me deis precio?",
+        "respuesta": "Los planos del edificio, unas fotos de la fachada y una idea de cuántas vistas necesitas. Con eso valoramos el trabajo, y también tienes los rangos orientativos en <a href='/precios/'>precios de renders</a> para hacerte <strong>una idea previa</strong>."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Renders 3D de nuestros arquitectos en Bilbao",
+    "Arquitectos en Bilbao para proyectos, modelado 3D, planos y diseño 3D",
+    "Qué es un render: lo que explican los arquitectos en Bilbao",
+    "Renders de arquitectura hechos por arquitectos en Bilbao",
+    "Arquitectos en Bilbao y visualización de alta calidad",
+    "Proyectos de nuestros arquitectos en Bilbao",
+    "Arquitectos en Bilbao: precios orientativos",
+    "Tipos de render que hacen los arquitectos en Bilbao",
+    "Renderistas y arquitectos en Bilbao",
+    "Una empresa de arquitectos en Bilbao especializada en renders",
+    "Arquitectos en Bilbao: qué es el renderizado 3D",
+    "Arquitectos en Bilbao y renders con inteligencia artificial",
+    "El proceso de los arquitectos en Bilbao",
+    "Pide presupuesto a nuestros arquitectos en Bilbao",
+    "Arquitectos en Bilbao: cursos de renders",
+    "Fotos e imágenes de los arquitectos en Bilbao",
+    "Arquitectos en Bilbao: trabaja con nosotros",
+    "¿Por qué elegir a nuestros arquitectos en Bilbao?",
+    "Lo que dicen los clientes de nuestros arquitectos en Bilbao",
+    "Arquitectos en Bilbao para arquitectura y diseño 3D",
+    "Un despacho de arquitectos en Bilbao",
+    "Agencia de arquitectos en Bilbao para tus imágenes 3D",
+    "Arquitectos freelance en Bilbao",
+    "Programas que usan los arquitectos en Bilbao",
+    "Arquitectos en Bilbao para presupuestos ajustados",
+    "Preguntas frecuentes a los arquitectos en Bilbao",
+    "Arquitectos en Bilbao: contacto",
+    "Arquitectos en Bilbao profesionales del render",
+    "Arquitectos en Bilbao: cuéntanos tu proyecto"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Arquitectos en Bilbao",
+    "singular": "Arquitecto en Bilbao",
+    "sufijo": "de arquitectos en Bilbao"
+  },
+  "actualizado": "2026-10-09"
+}

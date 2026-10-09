@@ -1,0 +1,134 @@
+{
+  "slug": "arquitectos-barcelona",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "barcelona",
+  "etiqueta": "Servicio",
+  "titulo": "Arquitectos en Barcelona",
+  "tituloSeo": "Arquitectos en Barcelona para locales e interiores en 3D",
+  "descripcion": "Arquitectos en Barcelona para tu local, tu oficina o tu vivienda: diseñamos el espacio y te lo enseñamos en renders 3D antes de la obra. Pide presupuesto.",
+  "palabraClave": "arquitectos en Barcelona",
+  "foto": "/wp-content/uploads/2025/05/renders-local-comercial.jpg",
+  "fotoAlt": "Render de un local comercial con escaparate, trabajo de arquitectos en Barcelona",
+  "intro": {
+    "h2": "Arquitectos en Barcelona para diseñar locales, oficinas e interiores",
+    "html": "<p>Abrir una tienda, renovar un restaurante o redistribuir una oficina obliga a tomar muchas decisiones de golpe. Nuestros <strong>arquitectos especializados en interiores</strong> ordenan esas decisiones contigo y las convierten en imágenes que puedes enseñar a socios, proveedores o a quien vaya a hacer la obra.</p><p>Damos servicio online a negocios y particulares de Barcelona y del resto de Cataluña. Tienes proyectos en <a href='/barcelona/'>renders en Barcelona</a> y más sobre el equipo en <a href='/arquitectos/'>arquitectos renderistas</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué aportan nuestros arquitectos en Barcelona a un local comercial?",
+      "html": "<p>Un local tiene que funcionar antes que gustar: el recorrido del cliente, la zona de caja, el almacén y la entrada de luz desde la calle. Nuestros arquitectos renderistas estudian esos puntos con el plano delante y te proponen una <strong>distribución pensada para vender</strong>, sin perder de vista la imagen de tu marca.</p><p>Con la distribución aprobada, modelamos el interior en 3D con mobiliario, iluminación y materiales. Las imágenes te sirven para elegir acabados, para pedir precios a los industriales y para anunciar la apertura. Hay más ejemplos de este tipo de encargo en <a href='/renders-locales-comerciales/'>renders de locales comerciales</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Arquitectos en Barcelona para estudios y diseñadores que necesitan apoyo",
+      "html": "<p>También colaboramos con estudios de interiorismo y diseñadores que tienen más trabajo del que pueden asumir. Nos pasan su proyecto, lo modelamos y producimos las vistas siguiendo su estilo, de modo que <strong>el cliente final</strong> recibe imágenes coherentes con la propuesta que le han presentado.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis trabajar con el plano que me ha dado el propietario del local?",
+      "html": "<p>Sí, es el punto de partida más habitual. Si el plano está incompleto, lo completamos con tus fotos y con las medidas que tomes en el local. Con eso basta para dibujar el estado actual y empezar a proponer cambios de distribución y de imagen.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Cuándo tendré las imágenes del local?",
+      "html": "<p>El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Si tienes una fecha de apertura cerrada, dínoslo al pedir presupuesto y organizamos las entregas para que llegues a tiempo con la obra y con la comunicación.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye el servicio de arquitectos en Barcelona para tu negocio",
+      "html": "<ul><li><strong>Estudio del local</strong> a partir del plano, las fotos y las medidas.</li><li><strong>Propuesta de distribución</strong> con zonas de venta, caja y almacén.</li><li><strong>Elección de materiales</strong> y de iluminación junto a ti.</li><li><strong>Modelo 3D completo</strong> del interior y de la fachada a la calle.</li><li><strong>Imágenes para comunicar</strong> la apertura en redes y en la web.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios de arquitectos en Barcelona para negocios y viviendas",
+      "html": "<p>Elige por dónde empezar según tu proyecto:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Renders de oficinas",
+          "texto": "Puestos de trabajo, salas de reunión y zonas comunes.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-oficinas-scaled.jpg",
+          "href": "/renders-oficinas/"
+        },
+        {
+          "titulo": "Renders de interiores",
+          "texto": "Viviendas con sus acabados, su mobiliario y su luz.",
+          "foto": "/wp-content/uploads/2025/04/render-interior.webp",
+          "href": "/renders-interiores/"
+        },
+        {
+          "titulo": "Diseño de fachadas",
+          "texto": "El escaparate y la entrada vistos desde la calle.",
+          "foto": "/wp-content/uploads/2025/04/render-fachada.jpg",
+          "href": "/renders-fachadas/"
+        },
+        {
+          "titulo": "Vídeo render 3D",
+          "texto": "Un recorrido animado por el espacio ya terminado.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-arquitectura-y-diseno.png",
+          "href": "/video-render-3d/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre arquitectos en Barcelona",
+    "items": [
+      {
+        "pregunta": "¿Hacéis también el diseño de viviendas, no solo de negocios?",
+        "respuesta": "Sí. Muchos clientes de Barcelona nos encargan la reforma de su piso: distribución, cocina, baños y acabados. El proceso es el mismo que con un local, y <strong>ves cada estancia</strong> en imágenes antes de decidir nada."
+      },
+      {
+        "pregunta": "¿Puedo pedir solo las imágenes para la web del negocio?",
+        "respuesta": "Sí. Si el local ya está diseñado, trabajamos sobre esa documentación y producimos las vistas que necesitas para <strong>anunciar la apertura</strong>. Conviene que nos digas en qué formato las vas a publicar para ajustar el encuadre."
+      },
+      {
+        "pregunta": "¿Cómo se revisan las propuestas si no nos vemos?",
+        "respuesta": "Por correo o por videollamada, como prefieras. Te enviamos una <strong>vista previa comentada</strong> y nos devuelves tus cambios por escrito o marcados sobre la propia imagen. Así funciona nuestro <a href='/online/'>servicio de renders online</a>."
+      },
+      {
+        "pregunta": "¿Cómo se calcula el precio de un local?",
+        "respuesta": "Depende del tamaño del espacio, de las vistas que necesites y de si hace falta diseñar o solo visualizar. Te orientamos con los rangos de <a href='/precios/'>precios de renders</a> y luego te pasamos un <strong>presupuesto por escrito</strong>."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Renders 3D de nuestros arquitectos en Barcelona",
+    "Arquitectos en Barcelona para proyectos, modelado 3D, planos y diseño 3D",
+    "Qué es un render: lo que explican los arquitectos en Barcelona",
+    "Renders de arquitectura hechos por arquitectos en Barcelona",
+    "Arquitectos en Barcelona y visualización de alta calidad",
+    "Proyectos de nuestros arquitectos en Barcelona",
+    "Arquitectos en Barcelona: precios orientativos",
+    "Tipos de render que hacen los arquitectos en Barcelona",
+    "Renderistas y arquitectos en Barcelona",
+    "Una empresa de arquitectos en Barcelona especializada en renders",
+    "Arquitectos en Barcelona: qué es el renderizado 3D",
+    "Arquitectos en Barcelona y renders con inteligencia artificial",
+    "El proceso de los arquitectos en Barcelona",
+    "Pide presupuesto a nuestros arquitectos en Barcelona",
+    "Arquitectos en Barcelona: cursos de renders",
+    "Fotos e imágenes de los arquitectos en Barcelona",
+    "Arquitectos en Barcelona: trabaja con nosotros",
+    "¿Por qué elegir a nuestros arquitectos en Barcelona?",
+    "Lo que dicen los clientes de nuestros arquitectos en Barcelona",
+    "Arquitectos en Barcelona para arquitectura y diseño 3D",
+    "Un despacho de arquitectos en Barcelona",
+    "Agencia de arquitectos en Barcelona para tus imágenes 3D",
+    "Arquitectos freelance en Barcelona",
+    "Programas que usan los arquitectos en Barcelona",
+    "Arquitectos en Barcelona para presupuestos ajustados",
+    "Preguntas frecuentes a los arquitectos en Barcelona",
+    "Arquitectos en Barcelona: contacto",
+    "Arquitectos en Barcelona profesionales del render",
+    "Arquitectos en Barcelona: cuéntanos tu proyecto"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Arquitectos en Barcelona",
+    "singular": "Arquitecto en Barcelona",
+    "sufijo": "de arquitectos en Barcelona"
+  },
+  "actualizado": "2026-10-09"
+}

@@ -1,0 +1,134 @@
+{
+  "slug": "arquitectos-madrid",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "madrid",
+  "etiqueta": "Servicio",
+  "titulo": "Arquitectos en Madrid",
+  "tituloSeo": "Arquitectos en Madrid: diseño, planos y renders 3D online",
+  "descripcion": "Arquitectos en Madrid para tu reforma o tu obra nueva: resolvemos tus dudas de diseño y te lo enseñamos en planos y renders 3D, online. Pide presupuesto.",
+  "palabraClave": "arquitectos en Madrid",
+  "foto": "/wp-content/uploads/2025/04/arquitecto-renderista.png",
+  "fotoAlt": "Arquitecto renderista revisando en pantalla el render de un piso, servicio de arquitectos en Madrid",
+  "intro": {
+    "h2": "Arquitectos en Madrid para ver tu reforma antes de empezar la obra",
+    "html": "<p>Si tienes un piso en Madrid y estás pensando en reformarlo, lo difícil suele ser imaginar el resultado. Nuestros <strong>arquitectos renderistas</strong> te ayudan a decidir la distribución, los materiales y la luz, y lo convierten en planos y renders para que lo veas antes de mover un tabique.</p><p>Trabajamos online para clientes de Madrid y de toda la Comunidad de Madrid. Puedes ver ejemplos en nuestros <a href='/madrid/'>renders en Madrid</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Cómo te ayudan nuestros arquitectos en Madrid con una reforma?",
+      "html": "<p>Una reforma empieza casi siempre con preguntas: si conviene abrir la cocina al salón, dónde colocar el baño nuevo o qué suelo funciona con la luz que entra por las ventanas. Un arquitecto renderista escucha esas dudas, te propone opciones y las <strong>dibuja sobre tus medidas</strong>, para que compares con calma.</p><p>Después levantamos el modelo 3D del piso y sacamos las vistas que necesitas para decidir, para pedir presupuestos a reformistas o para enseñar el proyecto en casa. Si quieres saber cómo trabajamos en general, lo contamos en la página de <a href='/arquitectos/'>nuestros arquitectos renderistas</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Por qué encargar el diseño a arquitectos en Madrid que trabajan online",
+      "html": "<p>Porque te ahorra desplazamientos y te deja revisar cada propuesta cuando te viene bien. Nos envías fotos, medidas o los planos que tengas, y recibes las vistas previas por correo. Así <strong>decides sin prisas</strong> y con las imágenes delante, que es cuando de verdad se ven los errores.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Necesito tener planos del piso para empezar?",
+      "html": "<p>No. Basta con un croquis con las medidas principales y unas fotos de cada estancia. Con eso dibujamos el estado actual y, sobre él, la propuesta de reforma. Si tienes los planos de la compraventa, también nos sirven. Te explicamos <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Cuánto tardáis en enseñarme la reforma en imágenes?",
+      "html": "<p>El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Antes de la entrega final te enviamos una vista previa para que revises la distribución, los acabados y el mobiliario, y así cambias lo que no te convenza.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye el trabajo de nuestros arquitectos en Madrid",
+      "html": "<ul><li><strong>Revisión de tu idea</strong> y de las dudas de distribución que tengas.</li><li><strong>Plano del estado actual</strong> a partir de tus medidas y fotos.</li><li><strong>Propuesta de reforma</strong> dibujada en planta y amueblada.</li><li><strong>Renders de las estancias</strong> clave: cocina, salón y baños.</li><li><strong>Cambios sobre la vista previa</strong> antes de cerrar las imágenes.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios de arquitectos en Madrid para tu vivienda",
+      "html": "<p>Estos son los encargos que más nos piden desde Madrid:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Renders de cocinas",
+          "texto": "Ver la cocina nueva con sus muebles y encimeras.",
+          "foto": "/wp-content/uploads/2025/05/renders-casas-cocina.jpg",
+          "href": "/renders-cocinas/"
+        },
+        {
+          "titulo": "Planos renderizados",
+          "texto": "La planta del piso amueblada y vista en volumen.",
+          "foto": "/wp-content/uploads/2025/04/render-de-casa-planta-3d.webp",
+          "href": "/planos-renders/"
+        },
+        {
+          "titulo": "Renders de interiores",
+          "texto": "Salones y dormitorios con sus acabados y su luz.",
+          "foto": "/wp-content/uploads/2025/05/render-arquitectura-sala.jpg",
+          "href": "/renders-interiores/"
+        },
+        {
+          "titulo": "Home staging virtual",
+          "texto": "Amueblar en imagen un piso vacío para venderlo.",
+          "foto": "/wp-content/uploads/2025/04/render-interior.webp",
+          "href": "/home-staging-virtual/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre arquitectos en Madrid",
+    "items": [
+      {
+        "pregunta": "¿Podéis ayudarme si solo quiero cambiar la cocina?",
+        "respuesta": "Sí. Muchos encargos son de una sola estancia. Dibujamos la cocina con tus medidas, probamos <strong>varias distribuciones posibles</strong> y te enseñamos la elegida en imágenes, con muebles, encimera y revestimientos, para que hables con el fabricante con una idea clara."
+      },
+      {
+        "pregunta": "¿Cómo os envío la información del piso?",
+        "respuesta": "Por correo o desde la <a href='/presupuesto/'>solicitud de presupuesto</a>. Nos sirven fotos hechas con el móvil, un croquis a mano con medidas y cualquier plano que tengas. Si falta algo, <strong>te lo pedimos nosotros</strong> antes de empezar."
+      },
+      {
+        "pregunta": "¿Trabajáis también con reformistas y aparejadores de Madrid?",
+        "respuesta": "Sí. Hay aparejadores, arquitectos técnicos y empresas de reformas que nos encargan la parte visual para <strong>enseñar la propuesta al cliente</strong>. Trabajamos sobre su documentación y respetamos su criterio en cada decisión técnica."
+      },
+      {
+        "pregunta": "¿Cuánto cuestan los renders de una reforma?",
+        "respuesta": "Un render interior está en la horquilla de 70 € – 170 €, según la complejidad de la estancia. Tienes el resto de rangos en <a href='/precios/'>precios de renders</a>, y con tu piso delante te enviamos un <strong>presupuesto a medida</strong>."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Arquitectos en Madrid y renders 3D",
+    "Proyectos, modelado 3D y planos con arquitectos en Madrid",
+    "Qué es un render y por qué lo usan los arquitectos en Madrid",
+    "Arquitectos en Madrid que hacen renders de arquitectura",
+    "Visualización arquitectónica con arquitectos en Madrid",
+    "Trabajos de los arquitectos en Madrid",
+    "Precio de los arquitectos en Madrid: tarifas claras",
+    "Arquitectos en Madrid y los tipos de render",
+    "Arquitectos renderistas en Madrid",
+    "Arquitectos en Madrid con empresa de renders",
+    "El renderizado 3D explicado por arquitectos en Madrid",
+    "Inteligencia artificial y arquitectos en Madrid",
+    "Cómo trabajan nuestros arquitectos en Madrid, paso a paso",
+    "Presupuesto de arquitectos en Madrid",
+    "Cursos de renders para arquitectos en Madrid",
+    "Imágenes de proyectos de arquitectos en Madrid",
+    "Trabajo para arquitectos renderistas en Madrid",
+    "¿Qué hace que elijan a nuestros arquitectos en Madrid?",
+    "Opiniones de clientes sobre los arquitectos en Madrid",
+    "Arquitectura y diseño 3D con arquitectos en Madrid",
+    "Despacho de arquitectos en Madrid dedicado al render",
+    "Arquitectos en Madrid con agencia de renders",
+    "Arquitectos en Madrid con trato freelance",
+    "Arquitectos en Madrid: programas de render",
+    "Arquitectos en Madrid con precios ajustados",
+    "Arquitectos en Madrid: preguntas frecuentes",
+    "Contacta con nuestros arquitectos en Madrid",
+    "Arquitectos profesionales en Madrid",
+    "Habla con nuestros arquitectos en Madrid"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Arquitectos en Madrid",
+    "singular": "Arquitecto en Madrid",
+    "sufijo": "de arquitectos en Madrid"
+  },
+  "actualizado": "2026-10-09"
+}

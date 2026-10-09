@@ -1,0 +1,134 @@
+{
+  "slug": "arquitectos-alicante",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "alicante",
+  "etiqueta": "Servicio",
+  "titulo": "Arquitectos en Alicante",
+  "tituloSeo": "Arquitectos en Alicante: adosados y apartamentos en 3D",
+  "descripcion": "Arquitectos en Alicante para adosados, apartamentos y chalets: te ayudamos a rediseñar terrazas, cocinas y salones y lo verás en renders 3D. Pide presupuesto.",
+  "palabraClave": "arquitectos en Alicante",
+  "foto": "/wp-content/uploads/2025/04/renders-de-exteriores.jpg",
+  "fotoAlt": "Render exterior de una vivienda adosada con terraza, encargo de arquitectos en Alicante",
+  "intro": {
+    "h2": "Arquitectos en Alicante para sacar partido a tu adosado o apartamento",
+    "html": "<p>Un adosado o un apartamento puede tener buenos metros y, aun así, una distribución que no encaja con tu forma de vivir: cocina cerrada, terraza sin uso, salón oscuro. Nuestros <strong>arquitectos renderistas</strong> estudian tu casa, te proponen cómo aprovecharla y te dejan ver el cambio en imágenes.</p><p>Atendemos por internet a propietarios de Alicante y de cualquier punto de la Comunidad Valenciana. Echa un vistazo a nuestros <a href='/alicante/'>renders en Alicante</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué cambios proponen nuestros arquitectos en Alicante?",
+      "html": "<p>Los más habituales son abrir la cocina al salón, reorganizar una terraza para ganar una estancia y renovar baños que se han quedado pequeños. En cada caso te enseñamos <strong>el antes y el después</strong> desde el mismo punto de vista, para que la diferencia se vea de un vistazo.</p><p>Partimos de lo que ya tienes: fotos, medidas o los planos de la escritura. Sobre ese estado actual dibujamos la propuesta, la modelamos en 3D y la pasamos a renders con materiales reales. Te explicamos cómo trabaja el equipo en la página de <a href='/arquitectos/'>arquitectos renderistas</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Arquitectos en Alicante para encargos con prisa",
+      "html": "<p>Si necesitas una imagen pronto, por ejemplo para enseñar una idea a la familia o para decidir la compra de una vivienda, tenemos un <a href='/express/'>servicio de renders express</a>. Lo pides indicando la fecha que te viene bien y te decimos <strong>qué podemos entregar</strong> en ese tiempo.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis enseñarme la terraza cerrada y abierta para comparar?",
+      "html": "<p>Sí. Preparamos las dos versiones desde el mismo encuadre: la terraza tal como está y la propuesta, con su cerramiento, su mobiliario y su iluminación. Viéndolas juntas es mucho más fácil decidir si el cambio compensa para tu forma de vivir.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Cuándo tendré la propuesta en imágenes?",
+      "html": "<p>El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Antes recibes una vista previa con la distribución y los materiales, y sobre ella nos dices qué ajustar para que la versión final sea la que esperas.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye cada encargo a nuestros arquitectos en Alicante",
+      "html": "<ul><li><strong>Estado actual dibujado</strong> con tus fotos y medidas.</li><li><strong>Nueva distribución</strong> con cocina abierta o estancias ganadas.</li><li><strong>Diseño de terrazas</strong> y espacios exteriores.</li><li><strong>Comparativa antes y después</strong> desde el mismo encuadre.</li><li><strong>Renders finales</strong> con materiales y mobiliario.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios de arquitectos en Alicante para tu casa",
+      "html": "<p>Si quieres profundizar, aquí tienes los servicios relacionados:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Renders de cocinas",
+          "texto": "Cocinas abiertas al salón, vistas antes de la reforma.",
+          "foto": "/wp-content/uploads/2025/05/renders-casas-cocina.jpg",
+          "href": "/renders-cocinas/"
+        },
+        {
+          "titulo": "Render de casa",
+          "texto": "Adosados y chalets completos, por dentro y por fuera.",
+          "foto": "/wp-content/uploads/2025/04/render-casa.jpg",
+          "href": "/render-casa/"
+        },
+        {
+          "titulo": "Planos renderizados",
+          "texto": "Tu vivienda en planta, amueblada y en volumen.",
+          "foto": "/wp-content/uploads/2025/04/render-de-casa-planta-3d.webp",
+          "href": "/planos-renders/"
+        },
+        {
+          "titulo": "Renders de interiores",
+          "texto": "Salones luminosos con los acabados que elijas.",
+          "foto": "/wp-content/uploads/2025/05/render-arquitectura-sala.jpg",
+          "href": "/renders-interiores/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre arquitectos en Alicante",
+    "items": [
+      {
+        "pregunta": "¿Me orientáis sobre qué materiales elegir?",
+        "respuesta": "Sí. Te proponemos combinaciones de suelo, revestimientos y carpinterías que encajen con la vivienda y te las enseñamos aplicadas en el render. Así <strong>eliges viendo el conjunto</strong> y no solo una muestra suelta en una tienda."
+      },
+      {
+        "pregunta": "¿Puedo encargar solo una estancia?",
+        "respuesta": "Claro. Hay clientes que solo quieren ver el baño nuevo o la cocina abierta. Encargar <strong>una única estancia</strong> es perfectamente posible y el proceso es el mismo: estado actual, propuesta, vista previa y entrega final."
+      },
+      {
+        "pregunta": "¿Cómo os hago llegar las medidas?",
+        "respuesta": "Por correo, junto con las fotos. Vale un croquis a mano con <strong>las cotas principales</strong> de cada estancia. Si quieres asegurarte de que no falta nada, revisa la guía sobre <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a>."
+      },
+      {
+        "pregunta": "¿Hay que pagar algo por pedir presupuesto?",
+        "respuesta": "No. Nos cuentas tu idea en <a href='/presupuesto/'>pedir presupuesto</a>, nos envías lo que tengas y te respondemos con <strong>una propuesta económica</strong> y el plazo de entrega. Después decides con calma si seguimos adelante."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Arquitectos en Alicante y renders 3D",
+    "Proyectos, modelado 3D y planos con arquitectos en Alicante",
+    "Qué es un render y por qué lo usan los arquitectos en Alicante",
+    "Arquitectos en Alicante que hacen renders de arquitectura",
+    "Visualización arquitectónica con arquitectos en Alicante",
+    "Trabajos de los arquitectos en Alicante",
+    "Precio de los arquitectos en Alicante: tarifas claras",
+    "Arquitectos en Alicante y los tipos de render",
+    "Arquitectos renderistas en Alicante",
+    "Arquitectos en Alicante con empresa de renders",
+    "El renderizado 3D explicado por arquitectos en Alicante",
+    "Inteligencia artificial y arquitectos en Alicante",
+    "Cómo trabajan nuestros arquitectos en Alicante, paso a paso",
+    "Presupuesto de arquitectos en Alicante",
+    "Cursos de renders para arquitectos en Alicante",
+    "Imágenes de proyectos de arquitectos en Alicante",
+    "Trabajo para arquitectos renderistas en Alicante",
+    "¿Qué hace que elijan a nuestros arquitectos en Alicante?",
+    "Opiniones de clientes sobre los arquitectos en Alicante",
+    "Arquitectura y diseño 3D con arquitectos en Alicante",
+    "Despacho de arquitectos en Alicante dedicado al render",
+    "Arquitectos en Alicante con agencia de renders",
+    "Arquitectos en Alicante con trato freelance",
+    "Arquitectos en Alicante: programas de render",
+    "Arquitectos en Alicante con precios ajustados",
+    "Arquitectos en Alicante: preguntas frecuentes",
+    "Contacta con nuestros arquitectos en Alicante",
+    "Arquitectos profesionales en Alicante",
+    "Habla con nuestros arquitectos en Alicante"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Arquitectos en Alicante",
+    "singular": "Arquitecto en Alicante",
+    "sufijo": "de arquitectos en Alicante"
+  },
+  "actualizado": "2026-10-09"
+}

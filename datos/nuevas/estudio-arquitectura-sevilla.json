@@ -1,0 +1,134 @@
+{
+  "slug": "estudio-arquitectura-sevilla",
+  "tipo": "servicio",
+  "grupo": "ciudad",
+  "ciudad": "sevilla",
+  "etiqueta": "Servicio",
+  "titulo": "Estudio de arquitectura en Sevilla",
+  "tituloSeo": "Estudio de arquitectura en Sevilla: reformas y fachadas 3D",
+  "descripcion": "Reformas, rehabilitaciones y fachadas para clientes de Sevilla y Andalucía: estado actual, propuesta y renders 3D en un servicio online. Pide presupuesto.",
+  "palabraClave": "estudio de arquitectura en Sevilla",
+  "foto": "/wp-content/uploads/2025/04/render-fachada.jpg",
+  "fotoAlt": "Render de la fachada rehabilitada de una vivienda, encargo a un estudio de arquitectura en Sevilla",
+  "intro": {
+    "h2": "Un estudio de arquitectura en Sevilla para reformar con cabeza",
+    "html": "<p>Rehabilitar una vivienda o renovar una fachada obliga a decidir mucho antes de ver nada. Nuestro estudio de arquitectura trabaja online para proyectos en Sevilla y en toda Andalucía, y resuelve esa incertidumbre con <strong>imágenes del resultado final</strong> antes de que empiece la obra.</p><p>Te ayudamos a pensar la reforma, la dibujamos y la convertimos en renders que entiende cualquiera: tú, tu familia o la empresa que va a ejecutarla.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Cómo plantea una reforma nuestro estudio de arquitectura en Sevilla?",
+      "html": "<p>Siempre en dos tiempos. Primero dibujamos el estado actual: con tus planos, si los tienes, o con medidas y fotos de cada estancia y de la fachada. Ese punto de partida es importante porque <strong>muestra lo que hay</strong> y deja claro qué se mantiene, qué se derriba y qué se añade.</p><p>Después llega la propuesta. La modelamos en 3D y te la enseñamos junto al estado actual, para que compares el antes y el después de cada espacio. Los <a href='/planos-renders/'>planos con renders</a> que salen de ese modelo sirven para pedir presupuestos de obra comparables entre sí.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "La fachada, punto fuerte del estudio de arquitectura en Sevilla",
+      "html": "<p>Cambiar una fachada afecta a toda la casa y también a la calle. Por eso la visualizamos con sus materiales, sus carpinterías y su color reales, desde la acera y con distinta luz, en <a href='/renders-fachadas/'>renders de fachadas</a> que ayudan a convencer a quien tiene que <strong>dar el visto bueno</strong>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis ayudarme si la casa no tiene planos?",
+      "html": "<p>Sí. Es muy común en viviendas antiguas. Nos envías las medidas de cada estancia, la altura de los techos y fotos desde varias esquinas, y dibujamos el estado actual. Si falta algún dato, te decimos exactamente qué medir y cómo hacerlo.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede ver cómo quedará la vivienda con distintos acabados?",
+      "html": "<p>Sí. Sobre el mismo modelo probamos varias opciones de suelo, carpintería o color de fachada y te las enseñamos en imágenes paralelas. Así decides con todos los datos delante, en lugar de imaginar el resultado a partir de catálogos.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye una reforma con el estudio de arquitectura en Sevilla",
+      "html": "<ul><li><strong>Levantamiento del estado actual</strong> a partir de planos, medidas o fotos.</li><li><strong>Propuesta de reforma</strong> con la nueva distribución.</li><li><strong>Comparativa antes y después</strong> de cada estancia.</li><li><strong>Estudio de la fachada</strong> con materiales y colores.</li><li><strong>Planos de la propuesta</strong> para pedir presupuestos de obra.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios del estudio de arquitectura en Sevilla para reformas",
+      "html": "<p>Cada servicio se explica con ejemplos en su página:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Renders de fachadas",
+          "texto": "La fachada renovada, con sus materiales y colores.",
+          "foto": "/wp-content/uploads/2025/04/render-3d-fachada.jpg",
+          "href": "/renders-fachadas/"
+        },
+        {
+          "titulo": "Planos con renders",
+          "texto": "Estado actual y propuesta, dibujados y en 3D.",
+          "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura.jpg",
+          "href": "/planos-renders/"
+        },
+        {
+          "titulo": "Renders de interiores",
+          "texto": "Estancias reformadas con la luz y los acabados elegidos.",
+          "foto": "/wp-content/uploads/2025/04/render-interior.webp",
+          "href": "/renders-interiores/"
+        },
+        {
+          "titulo": "Renders express",
+          "texto": "Para cuando necesitas las imágenes con más prisa.",
+          "foto": "/wp-content/uploads/2025/04/3D-render-de-arquitectura.jpg",
+          "href": "/express/"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre estudio de arquitectura en Sevilla",
+    "items": [
+      {
+        "pregunta": "¿Y si tengo prisa por enseñar la reforma?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Para esos casos está el servicio <a href='/express/'>express de renders</a>; cuéntanos la fecha que manejas y te diremos <strong>qué es posible</strong> con tu proyecto."
+      },
+      {
+        "pregunta": "¿Las imágenes sirven para pedir presupuesto a varias empresas?",
+        "respuesta": "Sí, y es una buena forma de hacerlo. Cuando todas reciben los mismos planos y las mismas imágenes, <strong>las ofertas se pueden comparar</strong> mejor, porque nadie tiene que interpretar qué quieres hacer ni rellenar huecos por su cuenta."
+      },
+      {
+        "pregunta": "¿Atendéis proyectos fuera de la capital sevillana?",
+        "respuesta": "Sí. Trabajamos online para toda la provincia, para el resto de Andalucía y para cualquier punto de España. Recibimos la documentación por internet y <strong>las revisiones son a distancia</strong>. Puedes ver ejemplos en <a href='/sevilla/'>renders en Sevilla</a>."
+      },
+      {
+        "pregunta": "¿Qué diferencia hay entre vuestro estudio y una empresa de renders?",
+        "respuesta": "Que además de producir imágenes pensamos el proyecto: proponemos distribuciones, detectamos lo que no encaja y lo comentamos. Lo explicamos en la página de nuestro <a href='/estudio-arquitectura/'>estudio de arquitectura</a>, donde verás <strong>todo lo que hacemos</strong>."
+      }
+    ]
+  },
+  "h2Plantilla": [
+    "Renders 3D de un estudio de arquitectura en Sevilla",
+    "Estudio de arquitectura en Sevilla: proyectos, modelado 3D, planos y diseño 3D",
+    "Qué es un render para un estudio de arquitectura en Sevilla",
+    "Renders de arquitectura de nuestro estudio de arquitectura en Sevilla",
+    "Estudio de arquitectura en Sevilla y visualización 3D",
+    "Proyectos de nuestro estudio de arquitectura en Sevilla",
+    "Estudio de arquitectura en Sevilla: precios orientativos",
+    "Tipos de render del estudio de arquitectura en Sevilla",
+    "Renderistas de un estudio de arquitectura en Sevilla",
+    "Estudio de arquitectura en Sevilla y empresa de renders",
+    "Estudio de arquitectura en Sevilla: qué es el renderizado 3D",
+    "Un estudio de arquitectura en Sevilla con inteligencia artificial",
+    "El proceso del estudio de arquitectura en Sevilla",
+    "Pide presupuesto al estudio de arquitectura en Sevilla",
+    "Estudio de arquitectura en Sevilla: cursos de renders",
+    "Fotos e imágenes del estudio de arquitectura en Sevilla",
+    "Estudio de arquitectura en Sevilla: trabaja con nosotros",
+    "¿Por qué elegir nuestro estudio de arquitectura en Sevilla?",
+    "Lo que dicen los clientes del estudio de arquitectura en Sevilla",
+    "Estudio de arquitectura en Sevilla para arquitectura y diseño 3D",
+    "Un despacho que es estudio de arquitectura en Sevilla",
+    "Agencia y estudio de arquitectura en Sevilla",
+    "Trato freelance en un estudio de arquitectura en Sevilla",
+    "Programas que usa el estudio de arquitectura en Sevilla",
+    "Estudio de arquitectura en Sevilla para presupuestos ajustados",
+    "Preguntas frecuentes al estudio de arquitectura en Sevilla",
+    "Estudio de arquitectura en Sevilla: contacto",
+    "Estudio de arquitectura en Sevilla profesional",
+    "Estudio de arquitectura en Sevilla: cuéntanos tu proyecto"
+  ],
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Estudio de arquitectura en Sevilla",
+    "singular": "Estudio de arquitectura en Sevilla",
+    "sufijo": "en estudio de arquitectura en Sevilla"
+  },
+  "actualizado": "2026-10-09"
+}
