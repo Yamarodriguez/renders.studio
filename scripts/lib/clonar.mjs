@@ -56,10 +56,21 @@ export function creaClonador(clave, titulo) {
 
   /** Palabras repetidas fuera, y "Tour virtual 360 3D" -> "Tour virtual 360". */
   const limpia = (t) => {
-    const x = sinRepetidas(t);
-    if (/3d/i.test(clave.plural)) return x;
-    const i = x.toLowerCase().indexOf(clave.plural.toLowerCase() + ' 3d');
-    return i < 0 ? x : x.slice(0, i + clave.plural.length) + x.slice(i + clave.plural.length + 3);
+    let x = sinRepetidas(t);
+    if (!/3d/i.test(clave.plural)) {
+      // primero fuera el "3D" que sobra; luego otra vez las palabras repetidas
+      // ("Estudio de arquitectura 3D arquitectura" -> "Estudio de arquitectura")
+      for (const k of [clave.plural, clave.singular]) {
+        const i = x.toLowerCase().indexOf(k.toLowerCase() + ' 3d');
+        if (i < 0) continue;
+        // con el singular solo si detras se repite la ultima palabra de la clave
+        const ultima = k.toLowerCase().split(' ').pop();
+        const detras = x.slice(i + k.length + 3).trim().toLowerCase();
+        if (k === clave.plural || detras.startsWith(ultima)) x = x.slice(0, i + k.length) + x.slice(i + k.length + 3);
+      }
+      x = sinRepetidas(x);
+    }
+    return x;
   };
 
   /** Mete la clave en un h2 que no la lleva. */

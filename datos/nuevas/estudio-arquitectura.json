@@ -1,0 +1,69 @@
+{
+  "slug": "estudio-arquitectura",
+  "tipo": "servicio",
+  "etiqueta": "Servicio",
+  "titulo": "Estudio de arquitectura",
+  "tituloSeo": "Estudio de arquitectura especializado en visualización 3D",
+  "descripcion": "Estudio de arquitectura especializado en visualización 3D: proyectos de arquitectura, interiores y fachadas en planos, modelos y renders. Pide presupuesto.",
+  "palabraClave": "estudio de arquitectura",
+  "foto": "/wp-content/uploads/2025/04/Estudio-arquitectura.jpg",
+  "fotoAlt": "Estudio de arquitectura trabajando en la visualización 3D de un proyecto",
+  "intro": {
+    "h2": "Un estudio de arquitectura que enseña el proyecto antes de construirlo",
+    "html": "<p>Renders.studio es un <strong>estudio de arquitectura especializado en visualización 3D</strong>. Trabajamos proyectos de arquitectura, interiores y diseño de fachadas, y los convertimos en planos, modelos y renders que cualquiera entiende.</p><p>El servicio es online para toda España: nos envías tu idea o tus planos, revisas una vista previa y recibes las imágenes con un plazo habitual de 15 días.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué hace un estudio de arquitectura especializado en 3D?",
+      "html": "<p>Un estudio de arquitectura define cómo será un edificio o un espacio: su distribución, sus volúmenes, sus materiales y su relación con el entorno. Cuando además está <strong>especializado en visualización 3D</strong>, cada decisión se comprueba en imágenes antes de dibujarla en limpio o de llevarla a obra.</p><p>Así trabajamos: el proyecto se modela en 3D desde el principio, y de ese modelo salen los planos, las vistas y los renders. Quien encarga ve su casa, su local o su fachada tal y como quedará, y puede cambiar lo que no le convence cuando todavía es fácil.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirve contar con un estudio de arquitectura en 3D",
+      "html": "<p>Para decidir con seguridad. Un plano lo entiende un técnico; una imagen la entiende cualquiera. Trabajar con un estudio que <strong>proyecta y visualiza a la vez</strong> evita malentendidos con el cliente, con la constructora o con quien tiene que aprobar el proyecto.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿En qué tipo de proyectos trabaja el estudio de arquitectura?",
+      "html": "<p>En proyectos de arquitectura residencial y comercial, interiorismo y diseño de fachadas: viviendas, reformas, locales, oficinas y promociones. En todos, el punto de partida es entender qué necesitas y enseñártelo en imágenes antes de cerrar nada.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Puedo encargar solo los renders de un proyecto que ya tengo?",
+      "html": "<p>Sí. Si ya tienes el proyecto, trabajamos sobre tus planos o tu modelo y te entregamos las imágenes. Es el servicio de <a href='/renders-arquitectura/'>renders de arquitectura</a>, y es lo que piden muchos arquitectos y promotoras.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye el servicio de nuestro estudio de arquitectura",
+      "html": "<ul><li><strong>Estudio de la idea</strong>: qué necesitas, qué espacio tienes y qué quieres enseñar.</li><li><strong>Planos de arquitectura</strong> en 2D y plantas amuebladas en 3D.</li><li><strong>Modelado 3D</strong> del edificio, de la vivienda o del local.</li><li><strong>Diseño de interiores y fachadas</strong> con materiales y acabados reales.</li><li><strong>Renders y vistas previas</strong> para revisar cada decisión antes de cerrarla.</li><li><strong>Entrega</strong> de planos e imágenes en el formato que necesites.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Servicios de nuestro estudio de arquitectura",
+      "html": "<p>Lo que más nos piden, con su página propia:</p>",
+      "tarjetas": [
+        { "titulo": "Planos de arquitectura", "texto": "Plantas 2D y plantas amuebladas en 3D.", "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura.jpg", "href": "/planos-renders/" },
+        { "titulo": "Modelado 3D", "texto": "El proyecto levantado en tres dimensiones.", "foto": "/wp-content/uploads/2025/04/modelado-3D.jpg", "href": "/modelado-3d/" },
+        { "titulo": "Diseño de interiores", "texto": "Estancias con sus acabados y su luz.", "foto": "/wp-content/uploads/2025/04/render-interior.webp", "href": "/renders-interiores/" },
+        { "titulo": "Diseño de fachadas", "texto": "La cara del edificio, antes de la obra.", "foto": "/wp-content/uploads/2025/04/render-fachada.jpg", "href": "/renders-fachadas/" }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre nuestro estudio de arquitectura",
+    "items": [
+      { "pregunta": "¿Tengo que tener los planos para empezar?", "respuesta": "No. Puedes empezar con una idea, un croquis con medidas o fotos del espacio. Si ya tienes planos, <strong>los usamos como base</strong> y el trabajo va más rápido." },
+      { "pregunta": "¿Cuánto tarda el estudio de arquitectura en entregar?", "respuesta": "El plazo habitual es de 15 días para las imágenes, y puede ser menor si el proyecto es urgente. El plazo exacto de cada encargo <strong>va en el presupuesto</strong>." },
+      { "pregunta": "¿Trabajáis con clientes de cualquier ciudad?", "respuesta": "Sí. El servicio es online: la información, las revisiones y las entregas van por internet, así que trabajamos igual <strong>para cualquier punto de España</strong>. Más en <a href='/online/'>renders online</a>." },
+      { "pregunta": "¿Cuánto cuesta trabajar con el estudio?", "respuesta": "Depende de lo que encargues. Los rangos de los renders, el modelado y los planos están en la página de <a href='/precios/'>precios de renders</a>; con tu proyecto te enviamos un <strong>presupuesto a medida</strong>." }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Estudio de arquitectura",
+    "singular": "Estudio de arquitectura",
+    "sufijo": "en estudio de arquitectura"
+  },
+  "actualizado": "2026-10-09"
+}
