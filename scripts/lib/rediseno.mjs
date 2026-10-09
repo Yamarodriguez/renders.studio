@@ -194,7 +194,8 @@ export function pintaPie(cabeceraHtml, { destinoDeMenu, guias = [] } = {}) {
     columna('Renders.studio', sueltos),
     columna('Tipos', aplana(por('tipos') || { hijos: [] })),
     columna('Servicios', aplana(por('servicios') || { hijos: [] })),
-    columna('Servicios 3D', guias.filter((g) => g.tipo === 'servicio').map((g) => ({ texto: g.titulo, href: `/${g.slug}/` }))),
+    // los tipos de render (grupo 'tipo') ya se enlazan desde sus tarjetas: no van al pie
+    columna('Servicios 3D', guias.filter((g) => g.tipo === 'servicio' && g.grupo !== 'tipo').map((g) => ({ texto: g.titulo, href: `/${g.slug}/` }))),
     columna('Guías', guias.filter((g) => g.tipo !== 'servicio').map((g) => ({ texto: g.titulo, href: `/${g.slug}/` }))),
     columna('Contacto', [
       ...(por('contacto') && por('contacto').href !== '#' ? [por('contacto')] : []),

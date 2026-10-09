@@ -1,0 +1,97 @@
+{
+  "slug": "renders-oficinas",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de oficinas",
+  "tituloSeo": "Renders de oficinas 3D: espacios de trabajo y coworking",
+  "descripcion": "Imágenes 3D de oficinas, despachos y coworking para empresas y arquitectos: puestos, salas y zonas comunes vistos antes de la obra. Pide presupuesto.",
+  "palabraClave": "renders de oficinas",
+  "foto": "/wp-content/uploads/2025/04/renders-de-oficinas-scaled.jpg",
+  "fotoAlt": "Renders de oficinas: espacio de trabajo abierto con puestos, sillas y luz natural",
+  "intro": {
+    "h2": "Renders de oficinas para planificar el espacio de trabajo",
+    "html": "<p>Cambiar de oficina o reformarla obliga a decidir muchas cosas a la vez: cuántos puestos caben, dónde van las salas de reuniones, cómo se reparte la luz. Un <strong>render de oficina</strong> pone todo eso en imágenes que entiende cualquiera del equipo.</p><p>Es un encargo distinto al de una vivienda, aunque la técnica sea la de los <a href='/renders-interiores/'>renders de interiores</a>: aquí manda el uso diario.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de oficinas?",
+      "html": "<p>Son imágenes 3D de espacios de trabajo: oficinas diáfanas, despachos, salas de reuniones, recepciones, zonas de descanso y coworking. Se modelan con su mobiliario técnico, mamparas, techos registrables y luminarias, y con <strong>la imagen de la empresa</strong> aplicada en colores, rótulos y materiales.</p><p>Frente a un render residencial, aquí importan la repetición y el orden. Muchos puestos iguales, uno detrás de otro, tienen que leerse sin parecer una fábrica, y por eso el encuadre, las plantas y los acabados cálidos se cuidan para que el espacio resulte agradable y no solo eficiente.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de oficinas",
+      "html": "<p>A la dirección de una empresa le sirven para aprobar el proyecto y <strong>presentarlo a la plantilla</strong> antes de la mudanza. A un arquitecto o a una ingeniería, para defender la propuesta en un concurso. A un propietario de edificios de oficinas, para alquilar plantas vacías mostrando cómo podrían quedar.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede ver la planta completa de la oficina?",
+      "html": "<p>Sí. Además de las vistas a la altura de los ojos, preparamos una planta 3D amueblada vista desde arriba, muy útil para entender el reparto de puestos, salas y circulaciones de un solo vistazo. Ese formato lo explicamos en <a href='/planos-renders/'>planos renderizados en 3D</a>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis incluir la marca de la empresa en el render?",
+      "html": "<p>Sí. Aplicamos el logotipo en recepción y en salas, los colores corporativos en paredes o tapicerías y los vinilos en las mamparas. Ver la oficina con su propia identidad ayuda a que la dirección se imagine trabajando allí y apruebe el diseño con más seguridad.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de oficinas",
+      "html": "<ul><li><strong>Distribución de puestos</strong> y salas sobre la planta del local.</li><li><strong>Mobiliario de oficina</strong> de catálogo o equivalente al que vayas a instalar.</li><li><strong>Identidad corporativa</strong> en rótulos, colores y vinilos.</li><li><strong>Iluminación técnica</strong> con las luminarias del proyecto.</li><li><strong>Recepción y zonas comunes</strong>, que son las vistas que más se enseñan.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de oficinas",
+      "html": "<p>Cada espacio de trabajo pide un enfoque propio.</p>",
+      "tarjetas": [
+        {
+          "titulo": "Oficina diáfana",
+          "texto": "Puestos abiertos, luz natural y circulación clara.",
+          "foto": "/wp-content/uploads/2025/04/Estudio-arquitectura.jpg"
+        },
+        {
+          "titulo": "Despacho de dirección",
+          "texto": "Un espacio privado para trabajar y recibir visitas.",
+          "foto": "/wp-content/uploads/2025/04/despachos-de-arquitectura-1-1536x1090-1.jpg"
+        },
+        {
+          "titulo": "Zona de descanso",
+          "texto": "Office, cafetería interna y rincones para reuniones informales.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-cafeterias-scaled.jpg"
+        },
+        {
+          "titulo": "Oficina en planta 3D",
+          "texto": "Vista cenital con todos los puestos y salas.",
+          "foto": "/wp-content/uploads/2025/04/render-de-casa-planta-3d.webp"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de oficinas",
+    "items": [
+      {
+        "pregunta": "¿Qué necesitáis para hacer el render de una oficina?",
+        "respuesta": "La planta del local con pilares, fachada y núcleos, el número aproximado de puestos y las referencias de mobiliario si las hay. Con eso proponemos <strong>una primera distribución</strong>. El detalle está en <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a>."
+      },
+      {
+        "pregunta": "¿Sirven para alquilar oficinas vacías?",
+        "respuesta": "Sí. Una planta vacía con techo y suelo técnico no le dice nada al posible inquilino. Amueblada en 3D, muestra <strong>cuántas personas caben</strong> y qué tipo de empresa podría instalarse. Es un recurso habitual en edificios de oficinas en comercialización."
+      },
+      {
+        "pregunta": "¿Cuánto tarda un render de oficina?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Si hay muchas vistas, conviene <strong>priorizar recepción y sala principal</strong> para tenerlas antes y avanzar después con las demás."
+      },
+      {
+        "pregunta": "¿Podéis hacer un recorrido por toda la oficina?",
+        "respuesta": "Sí. Con el modelo completo, un <a href='/tour-virtual-360/'>tour virtual 360</a> permite moverse de la recepción a las salas como si estuvieras dentro. Es útil para <strong>presentar el proyecto en remoto</strong> a un equipo repartido en varias sedes."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de oficinas",
+    "singular": "Render de oficina",
+    "sufijo": "de oficinas"
+  }
+}

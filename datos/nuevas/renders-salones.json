@@ -1,0 +1,97 @@
+{
+  "slug": "renders-salones",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de salones",
+  "tituloSeo": "Renders de salones 3D: estar, comedor y zonas de día",
+  "descripcion": "Imágenes 3D del salón de tu vivienda o promoción: sofá, comedor, luz natural y acabados vistos antes de reformar o de vender. Pide presupuesto.",
+  "palabraClave": "renders de salones",
+  "foto": "/wp-content/uploads/2025/05/renders-salas.webp",
+  "fotoAlt": "Renders de salones: zona de estar amueblada con sofá, alfombra y luz natural",
+  "intro": {
+    "h2": "Renders de salones para ver la zona de día como será",
+    "html": "<p>El salón es la estancia en la que más tiempo pasas despierto y la primera que mira quien abre un anuncio. Un <strong>render de salón</strong> enseña cómo funciona el conjunto: sofá, comedor, televisión, paso a la terraza y luz de la tarde.</p><p>Si quieres imágenes de otras estancias de la casa, encontrarás el servicio general en <a href='/renders-interiores/'>renders de interiores</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de salones?",
+      "html": "<p>Son imágenes 3D de la zona de estar de una vivienda, a menudo unida al comedor y a veces a la cocina. Aquí el reto es de <strong>escala y proporción</strong>: el sofá tiene que encajar con la mesa baja, la alfombra con el sofá y todo ello con la anchura real de la estancia.</p><p>Además es la estancia con más ventanas y más fuentes de luz. Por eso el encuadre importa tanto: una vista hacia el ventanal transmite amplitud, mientras que otra tomada desde la ventana enseña el mobiliario y los materiales con más claridad.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de salones",
+      "html": "<p>Sirven para decidir la distribución antes de comprar muebles grandes, que son caros y difíciles de devolver. Para una promotora, el salón es <strong>la imagen de portada</strong> de cada tipología de vivienda. Para un interiorista, es la vista con la que el cliente se queda con la propuesta o la descarta.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Es mejor un render de salón de día o de noche?",
+      "html": "<p>Depende del uso. La vista de día es la que mejor vende, porque transmite luz y amplitud. La de noche sirve para enseñar la iluminación artificial: lámparas, tiras de luz y luz indirecta. Si el proyecto lo pide, hacemos las dos desde el mismo punto, igual que en los <a href='/renders-nocturnos/'>renders nocturnos</a>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede probar el salón con varias distribuciones?",
+      "html": "<p>Sí. Con la estancia modelada, mover el sofá, girar la mesa de comedor o cambiar la posición de la televisión es sencillo. Resulta útil cuando el salón tiene varias puertas o un pilar en medio y no está claro dónde colocar la zona de estar y la de comer.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de salones",
+      "html": "<ul><li><strong>Zona de estar y comedor</strong> distribuidas sobre la planta real.</li><li><strong>Sofás, alfombras y lámparas</strong> elegidos por ti o propuestos según el estilo.</li><li><strong>Carpinterías y vistas exteriores</strong> para que el ventanal no quede en blanco.</li><li><strong>Luz natural según orientación</strong>, de mañana, de tarde o de noche.</li><li><strong>Encuadres pensados para anuncios</strong> y para presentaciones al cliente.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de salones",
+      "html": "<p>El salón cambia mucho según la vivienda, la luz y el estilo elegido.</p>",
+      "tarjetas": [
+        {
+          "titulo": "Salón con ventanales",
+          "texto": "Mucha luz natural y vistas hacia el exterior.",
+          "foto": "/wp-content/uploads/2025/05/render-arquitectura-sala.jpg"
+        },
+        {
+          "titulo": "Salón minimalista",
+          "texto": "Pocas piezas, colores neutros y una alfombra protagonista.",
+          "foto": "/wp-content/uploads/2025/05/renders-proyectos.jpg"
+        },
+        {
+          "titulo": "Salón comedor",
+          "texto": "Zona de estar y mesa de comedor compartiendo espacio.",
+          "foto": "/wp-content/uploads/2025/04/render-interior.webp"
+        },
+        {
+          "titulo": "Salón con cocina abierta",
+          "texto": "La isla de cocina integrada en la zona de día.",
+          "foto": "/wp-content/uploads/2025/05/renders-casas-cocina.jpg"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de salones",
+    "items": [
+      {
+        "pregunta": "¿Necesito tener elegido el sofá para pedir el render?",
+        "respuesta": "No. Si ya lo tienes, lo reproducimos con <strong>su forma y su tapicería</strong>; si no, te proponemos uno acorde con el estilo. Si lo que quieres es presentar un sofá de tu catálogo, eso se trabaja como <a href='/renders-sofas/'>renders de sofás</a>."
+      },
+      {
+        "pregunta": "¿Puedo usar el render del salón para vender mi piso?",
+        "respuesta": "Sí, y es la imagen que más se mira en los portales inmobiliarios. Si el piso ya existe y está vacío, quizá te encaje más amueblar las fotos reales con <a href='/home-staging-virtual/'>home staging virtual</a>; si está en obra, <strong>el render es la opción</strong> adecuada."
+      },
+      {
+        "pregunta": "¿Cuánto tarda un render de salón?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Lo que más retrasa un salón es <strong>cambiar el mobiliario</strong> después de la vista previa, así que conviene revisarla con calma antes de aprobarla."
+      },
+      {
+        "pregunta": "¿Se ve lo que hay detrás del ventanal?",
+        "respuesta": "Sí. Podemos colocar una vista genérica de ciudad, jardín o mar, o reproducir <strong>el paisaje real</strong> a partir de una foto tomada desde la ventana. Esto pesa mucho en un salón, porque el exterior ocupa buena parte de la imagen."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de salones",
+    "singular": "Render de salón",
+    "sufijo": "de salones"
+  }
+}

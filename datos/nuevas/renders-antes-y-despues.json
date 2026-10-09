@@ -1,0 +1,97 @@
+{
+  "slug": "renders-antes-y-despues",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders antes y después",
+  "tituloSeo": "Renders antes y después: tu reforma frente al estado actual",
+  "descripcion": "Imágenes 3D que comparan el estado actual de una vivienda, un local o una fachada con la reforma propuesta, desde el mismo encuadre. Pide presupuesto.",
+  "palabraClave": "renders antes y después",
+  "foto": "/wp-content/uploads/2025/05/renders-antes-y-despues.webp",
+  "fotoAlt": "Renders antes y después: estancia en su estado actual junto a la misma estancia reformada",
+  "intro": {
+    "h2": "Renders antes y después para enseñar lo que cambia una reforma",
+    "html": "<p>Una reforma se entiende mejor por contraste. Poner la foto del espacio tal y como está junto a la imagen de cómo quedará hace que el cliente vea <strong>el valor del cambio</strong> de un vistazo, sin tener que interpretar planos.</p><p>Sirve para cocinas, baños, viviendas completas, locales y fachadas. La propuesta se trabaja igual que unos <a href='/renders-interiores/'>renders de interiores</a> o de exteriores; lo propio aquí es la comparación.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders antes y después?",
+      "html": "<p>Son parejas de imágenes del mismo espacio tomadas desde <strong>el mismo punto de vista</strong>: una muestra el estado actual, normalmente con una foto, y la otra la reforma terminada en 3D. Al coincidir el encuadre, la perspectiva y la altura de cámara, el ojo compara sin esfuerzo y detecta cada cambio.</p><p>Se pueden presentar una al lado de otra, una encima de otra o en una imagen con deslizador para la web. Lo importante es que el antes sea honesto, con la luz y el desorden reales, y que el después respete las medidas, porque si no la comparación pierde credibilidad.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders antes y después",
+      "html": "<p>A un reformista o a un interiorista le sirven para <strong>cerrar encargos de reforma</strong> con clientes que no ven el potencial del espacio. A una inmobiliaria, para vender un piso que necesita obra mostrando lo que puede llegar a ser. Y en la web o en redes, enseñan el trabajo de una empresa de reformas mejor que una foto suelta.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Hace falta una foto del estado actual?",
+      "html": "<p>Sí, es la base de todo. Necesitamos una foto tomada desde el punto donde quieres el encuadre, con la cámara recta y a la altura de los ojos. A partir de ella ajustamos la cámara 3D para que la imagen reformada coincida línea a línea con la real y la comparación sea limpia.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede hacer un antes y después de una fachada?",
+      "html": "<p>Sí. Funciona muy bien en rehabilitaciones de edificios, cambios de color, carpinterías nuevas o aislamiento por el exterior. La comunidad de vecinos ve el edificio actual y el rehabilitado desde la calle, que es como lo van a ver ellos. Para obra nueva están los <a href='/renders-fachadas/'>renders de fachadas</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders antes y después",
+      "html": "<ul><li><strong>Ajuste de cámara</strong> sobre tu foto para que ambas imágenes coincidan.</li><li><strong>Modelado de la reforma</strong> con la nueva distribución, los acabados y el mobiliario.</li><li><strong>Mismo encuadre y luz</strong> en el antes y en el después.</li><li><strong>Montaje comparativo</strong> lado a lado o preparado para un deslizador web.</li><li><strong>Imágenes por separado</strong> por si quieres usarlas sueltas.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders antes y después",
+      "html": "<p>Cualquier reforma admite comparación, pero estas son las que más se piden.</p>",
+      "tarjetas": [
+        {
+          "titulo": "Cocina reformada",
+          "texto": "Muebles antiguos frente a la cocina nueva propuesta.",
+          "foto": "/wp-content/uploads/2025/05/renders-de-cocinas-3.jpg"
+        },
+        {
+          "titulo": "Baño reformado",
+          "texto": "Del alicatado antiguo a revestimientos y mampara nuevos.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-banos.webp"
+        },
+        {
+          "titulo": "Vivienda para vender",
+          "texto": "El piso vacío o anticuado, amueblado y actualizado.",
+          "foto": "/wp-content/uploads/2025/04/Home-Staging-Viviendas.webp"
+        },
+        {
+          "titulo": "Fachada rehabilitada",
+          "texto": "El edificio actual frente al rehabilitado, visto desde la calle.",
+          "foto": "/wp-content/uploads/2025/04/render-3d-fachada.jpg"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders antes y después",
+    "items": [
+      {
+        "pregunta": "¿Qué diferencia hay con el home staging virtual?",
+        "respuesta": "El <a href='/home-staging-virtual/'>home staging virtual</a> amuebla la foto existente sin cambiar la obra. La comparación antes y después muestra <strong>una reforma de verdad</strong>: suelos, paredes, distribución y carpinterías nuevas, todo modelado en 3D."
+      },
+      {
+        "pregunta": "¿Puedo enseñar varias propuestas sobre el mismo antes?",
+        "respuesta": "Sí. Con la cámara ya ajustada, preparar <strong>una segunda propuesta</strong> de reforma sobre la misma foto es más rápido que la primera. Así el cliente compara dos opciones frente al estado actual y decide con las tres imágenes delante."
+      },
+      {
+        "pregunta": "¿Cuánto cuesta un antes y después?",
+        "respuesta": "Se cobra como el render de la reforma, interior o exterior, porque el antes es tu propia foto. Los rangos por imagen están en la página de <a href='/precios/'>precios de renders</a>, con <strong>qué influye en cada caso</strong>."
+      },
+      {
+        "pregunta": "¿Cuánto tardáis en entregarlo?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Ayuda a ir más rápido tener <strong>una foto bien hecha</strong> del estado actual desde el principio, para no repetir el ajuste de cámara."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders antes y después",
+    "singular": "Render antes y después",
+    "sufijo": "antes y después"
+  }
+}

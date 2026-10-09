@@ -1,0 +1,92 @@
+{
+  "slug": "renders-cafeterias",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de cafeterías",
+  "tituloSeo": "Renders de cafeterías 3D para proyectar tu local",
+  "descripcion": "Renders de cafeterías en 3D para ver la barra, las mesas, la luz y los materiales antes de la obra. Trabajamos online para toda España. Pide presupuesto.",
+  "palabraClave": "renders de cafeterías",
+  "foto": "/wp-content/uploads/2025/04/renders-de-cafeterias-scaled.jpg",
+  "fotoAlt": "Renders de cafeterías con barra, mesas y zona de clientes iluminada",
+  "intro": {
+    "h2": "Renders de cafeterías para decidir el local antes de abrir",
+    "html": "<p>Abrir una cafetería obliga a decidir muchas cosas antes de tener el local listo: dónde va la barra, cuántas mesas caben, qué luz invita a quedarse. Una imagen 3D del espacio terminado responde a esas preguntas sin gastar en obra.</p><p>Preparamos cada imagen con tu planta y tus referencias de estilo, te enseñamos una <strong>vista previa revisable</strong> y entregamos en un plazo habitual de 15 días.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de cafeterías?",
+      "html": "<p>Son imágenes generadas por ordenador que muestran una cafetería como quedará al terminar la reforma: la barra con su vitrina, la máquina de café, las mesas, los asientos y la iluminación. Se modela el local completo y se colocan los materiales elegidos, de modo que la escena se puede mirar desde el punto que más interese.</p><p>Lo que distingue este encargo de un interior doméstico es que el espacio tiene que funcionar para el público y para quien trabaja detrás de la barra. Por eso cuidamos <strong>los recorridos del cliente</strong>, la zona de pedido y la relación entre la fachada y la sala, igual que en los <a href='/renders-locales-comerciales/'>renders de locales comerciales</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de cafeterías",
+      "html": "<p>Sirven para validar el proyecto con el propietario antes de encargar mobiliario, para presentar la idea a un socio o a un franquiciado y para <strong>anunciar la apertura</strong> en redes cuando el local aún está en obra. También ayudan a un interiorista a defender su propuesta de materiales y colores.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Puedo ver la cafetería de día y de noche?",
+      "html": "<p>Sí. Con la misma escena preparamos una vista con luz natural y otra con la iluminación artificial encendida. Es útil en cafeterías que cambian de ambiente por la tarde o que abren también como bar de copas, porque deja comparar lámparas y temperaturas de color.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede incluir la terraza exterior?",
+      "html": "<p>Sí, y conviene hacerlo si la terraza es parte del negocio. La modelamos con sus toldos, jardineras y mobiliario, y se puede combinar con una vista de la fachada. Para encargos centrados en el exterior del edificio tienes también los <a href='/renders-exteriores/'>renders de exteriores</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de cafeterías",
+      "html": "<ul><li><strong>Distribución de la sala</strong> según tu planta: barra, zona de mesas, aseos y almacén.</li><li><strong>Barra y vitrinas</strong> con sus frentes, encimeras y maquinaria colocada.</li><li><strong>Mobiliario de sala</strong> con las sillas, mesas y bancos que ya tengas elegidos o una propuesta acorde al estilo.</li><li><strong>Imagen de marca</strong> aplicada: rótulo, carta en pared, colores y vajilla.</li><li><strong>Iluminación ambiental</strong> de día y de noche, con lámparas colgantes y luz de barra.</li><li><strong>Entrega en alta resolución</strong> para presentaciones, redes o cartelería de obra.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de cafeterías",
+      "html": "<p>Cada formato de cafetería pide una escena distinta. Estos son los más frecuentes:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Cafetería de especialidad",
+          "texto": "Barra protagonista, maquinaria a la vista y mesas pequeñas.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-locales.webp"
+        },
+        {
+          "titulo": "Panadería con cafetería",
+          "texto": "Mostrador de venta y mesas en el mismo local.",
+          "foto": "/wp-content/uploads/2025/05/renders-local-comercial.jpg"
+        },
+        {
+          "titulo": "Cafetería de hotel",
+          "texto": "Desayunos y zona de estar abiertas al vestíbulo.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-arquitectura-y-diseno.png"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de cafeterías",
+    "items": [
+      {
+        "pregunta": "¿Qué necesitas para empezar el proyecto?",
+        "respuesta": "Con la planta del local y fotos del estado actual podemos empezar. Si ya tienes logotipo, colores o cafeterías de referencia, añádelos: nos ahorran pruebas. La <strong>planta del local acotada</strong> es lo imprescindible; el resto está en <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a>."
+      },
+      {
+        "pregunta": "¿Cuánto cuesta una imagen de una cafetería?",
+        "respuesta": "Un render interior está en la horquilla de 70 € – 170 € por imagen, según el detalle de la barra, el mobiliario y el número de vistas. Tienes la tabla completa en la página de <a href='/precios/'>precios de renders</a>, con <strong>el coste de cada servicio</strong>."
+      },
+      {
+        "pregunta": "¿Sirve el render para vender la marca a franquiciados?",
+        "respuesta": "Sí. Una cafetería pensada para replicarse en varias ciudades necesita una imagen que explique el concepto sin visitar ningún local. Con unas pocas vistas bien elegidas el franquiciado entiende <strong>la experiencia del cliente</strong>, el tono de la marca y lo que tendrá que montar."
+      },
+      {
+        "pregunta": "¿Puedo cambiar los materiales después de ver la vista previa?",
+        "respuesta": "Sí, para eso está la vista previa. En ese momento revisas el encuadre, el color de la barra, el suelo o las sillas y nos pides los cambios. Cuando apruebas esa fase, preparamos el render final con <strong>los ajustes ya incorporados</strong>."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de cafeterías",
+    "singular": "Render de cafetería",
+    "sufijo": "de cafeterías"
+  }
+}

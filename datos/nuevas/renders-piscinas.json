@@ -1,0 +1,97 @@
+{
+  "slug": "renders-piscinas",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de piscinas",
+  "tituloSeo": "Renders de piscinas 3D: diseño, agua y entorno real",
+  "descripcion": "Renders de piscinas en 3D para viviendas, urbanizaciones y hoteles: forma del vaso, revestimiento, agua y jardín antes de excavar. Pide presupuesto.",
+  "palabraClave": "renders de piscinas",
+  "foto": "/wp-content/uploads/2025/04/render-de-piscinas-3D.jpeg",
+  "fotoAlt": "Renders de piscinas: piscina privada con agua turquesa, tumbonas y jardín alrededor",
+  "intro": {
+    "h2": "Renders de piscinas para elegir forma y acabados antes de excavar",
+    "html": "<p>Una piscina es una obra difícil de rectificar: una vez excavado el vaso, cambiar la forma o la posición sale caro. Por eso conviene verla antes en 3D, con su <strong>color de agua real</strong>, su coronación, la playa de alrededor y la relación con la casa.</p><p>Hacemos imágenes para particulares, constructores de piscinas, paisajistas y promotoras, tanto de piscinas nuevas como de reformas de vasos existentes.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de piscinas?",
+      "html": "<p>Son imágenes fotorrealistas de una piscina y su entorno: el vaso, el revestimiento interior, la coronación, la escalera, el solárium, la vegetación y la fachada que se refleja en el agua. El reto técnico está en <strong>el comportamiento del agua</strong>, que refracta el fondo, refleja el cielo y cambia de tono según la profundidad.</p><p>Un gresite azul claro, una piedra natural o un revestimiento gris oscuro dan aguas completamente distintas. El render permite ver esa diferencia sobre la piscina concreta, con la luz de la parcela, en vez de imaginarla a partir de una pequeña muestra en la mano.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de piscinas",
+      "html": "<p>A un particular le sirven para decidir forma, revestimiento y ubicación con tranquilidad. A un constructor de piscinas, para <strong>cerrar ventas con imagen</strong> en lugar de con un plano, y a un hotel o una urbanización, para promocionar la zona de baño antes de que esté terminada.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede ver cómo queda la piscina en mi jardín actual?",
+      "html": "<p>Sí. Con fotos del jardín desde la casa y algunas medidas de referencia, modelamos la piscina y la integramos en la imagen real. Así ves la ocupación de la parcela, la distancia a los árboles existentes y cómo se verá desde el salón o la terraza.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué tipos de piscina se pueden representar?",
+      "html": "<p>Cualquiera: de obra, desbordantes, de lámina de agua, naturales con zona de regeneración, piscinas en cubierta o interiores climatizadas. Cada una tiene su lenguaje: una desbordante pide un encuadre que muestre el borde perdido sobre el paisaje, y una natural, mucha vegetación acuática.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de piscinas",
+      "html": "<ul><li><strong>Modelado del vaso</strong> con escaleras, bancos, desbordes y skimmers visibles.</li><li><strong>Revestimientos y coronación</strong> según el material elegido.</li><li><strong>Agua realista</strong> con reflejos, refracción y cáusticas en el fondo.</li><li><strong>Entorno completo</strong>: playa, tarima, tumbonas, vegetación y la propia vivienda.</li><li><strong>Iluminación subacuática</strong> si quieres también la versión de noche.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de piscinas",
+      "html": "<p>Del jardín de una casa a la azotea de un hotel, estos son los encargos más habituales:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Piscinas de vivienda",
+          "texto": "Piscinas privadas integradas en el jardín de la casa.",
+          "foto": "/wp-content/uploads/2025/04/render-fachada.jpg"
+        },
+        {
+          "titulo": "Piscinas comunitarias",
+          "texto": "Zonas comunes de urbanizaciones con solárium y ajardinamiento.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-exteriores.jpg"
+        },
+        {
+          "titulo": "Piscinas de hotel",
+          "texto": "Áreas de baño y terrazas pensadas para el huésped.",
+          "foto": "/wp-content/uploads/2025/05/renders-hoteles.jpg"
+        },
+        {
+          "titulo": "Piscinas de noche",
+          "texto": "Vasos iluminados desde dentro y jardín con luz cálida.",
+          "foto": "/wp-content/uploads/2025/04/renders-nocturnos.webp"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de piscinas",
+    "items": [
+      {
+        "pregunta": "¿Puedo comparar varios revestimientos en la misma imagen?",
+        "respuesta": "Sí. Preparamos variantes con el mismo encuadre cambiando solo el revestimiento o la coronación, para que veas <strong>el tono del agua</strong> que da cada opción. Es la forma más fiable de elegir, porque una muestra seca no se parece al material bajo el agua."
+      },
+      {
+        "pregunta": "¿Qué necesitáis para hacer el render de una piscina?",
+        "respuesta": "El plano de la piscina con su forma y profundidades, la planta del jardín o de la parcela y <strong>fotos del entorno</strong> si ya existe. Si tienes elegido el revestimiento, indícanos la referencia. Lo resumimos en <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a>."
+      },
+      {
+        "pregunta": "¿Os encargáis también del resto de la casa?",
+        "respuesta": "Sí. Si la vivienda está en proyecto, podemos modelarla entera y hacer la piscina como parte del conjunto exterior. Así la imagen refleja la <strong>relación entre casa y agua</strong>, que es lo que más valoran los compradores. Lo vemos en la página de <a href='/render-casa/'>renders de casas</a>."
+      },
+      {
+        "pregunta": "¿Sirven estas imágenes para vender una vivienda con piscina?",
+        "respuesta": "Sí, sobre todo cuando la piscina aún no está construida o está en mal estado. Una imagen de la zona de baño terminada ayuda a que el comprador <strong>imagine el verano en casa</strong>. Para campañas completas, consulta los <a href='/renders-inmobiliarios/'>renders inmobiliarios</a>."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de piscinas",
+    "singular": "Render de piscina",
+    "sufijo": "de piscinas"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "renders-cocinas",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de cocinas",
+  "tituloSeo": "Renders de cocinas 3D para reformas y cocinas a medida",
+  "descripcion": "Imágenes 3D de cocinas para reformas, fabricantes y tiendas de cocinas: muebles, encimeras y luz vistos antes de encargar nada. Pide presupuesto.",
+  "palabraClave": "renders de cocinas",
+  "foto": "/wp-content/uploads/2025/04/renders-de-cocinas.jpg",
+  "fotoAlt": "Renders de cocinas: vista de una cocina amueblada con encimera, frentes y electrodomésticos",
+  "intro": {
+    "h2": "Renders de cocinas para decidir muebles y encimeras antes de encargarlos",
+    "html": "<p>Una cocina se encarga una vez y se usa durante muchos años, así que equivocarse con un frente o con una encimera sale caro. Un <strong>render de cocina</strong> enseña la composición completa, con los muebles, el aplacado y la luz real de la estancia.</p><p>Si buscas imágenes de la vivienda entera, mira nuestros <a href='/renders-interiores/'>renders de interiores</a>; aquí nos centramos solo en la cocina y en quien la diseña, la fabrica o la vende.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de cocinas?",
+      "html": "<p>Son imágenes 3D de una cocina concreta, modelada con sus medidas, sus muebles y sus electrodomésticos. A diferencia de una foto de catálogo, se construyen sobre <strong>tu distribución real</strong>: la columna del horno donde va, la campana sobre la placa, el hueco del frigorífico y la ventana que ilumina la zona de trabajo.</p><p>En una cocina casi todo es superficie brillante o mate que reacciona a la luz: lacados, maderas, porcelánicos y acero. Por eso la imagen tiene que reproducir bien los reflejos y las juntas, o el cliente no reconocerá el material que eligió en la exposición.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de cocinas",
+      "html": "<p>A un particular le permiten comparar acabados sin pisar una tienda más. A una tienda de cocinas o a un fabricante le sirven para <strong>cerrar la venta</strong> enseñando al cliente su propia cocina y no una de exposición. Y a una promotora, para mostrar la cocina de una vivienda que aún está en estructura.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Puedo ver la misma cocina con varios colores de frentes?",
+      "html": "<p>Sí. Una vez modelada la cocina, cambiar el color de los frentes, la encimera o los tiradores es mucho más rápido que empezar de cero. Es la forma habitual de trabajar con quien duda entre un blanco mate y una madera, porque ve las opciones con la misma luz y el mismo encuadre.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Sirve un render de cocina abierta al salón?",
+      "html": "<p>Sí, y es donde más ayuda. Cuando la cocina se abre al salón, la imagen muestra cómo conviven la isla, el comedor y el sofá, y si los materiales de las dos zonas combinan entre sí. Para la zona de estar tienes también los <a href='/renders-salones/'>renders de salones</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de cocinas",
+      "html": "<ul><li><strong>Modelado de los módulos</strong> según el despiece del fabricante o tu plano de cocina.</li><li><strong>Encimeras y frentes</strong> con el acabado, el canto y la veta que elijas.</li><li><strong>Electrodomésticos y grifería</strong> integrados o vistos, según tu proyecto.</li><li><strong>Iluminación bajo muebles</strong> y luz natural de la ventana, de día o de noche.</li><li><strong>Variantes de acabado</strong> sobre la misma vista para comparar opciones.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de cocinas",
+      "html": "<p>Según el diseño de la cocina y el uso de la imagen, elegimos un encuadre u otro.</p>",
+      "tarjetas": [
+        {
+          "titulo": "Cocina con isla",
+          "texto": "La isla como centro de trabajo y reunión.",
+          "foto": "/wp-content/uploads/2025/05/renders-casas-cocina.jpg"
+        },
+        {
+          "titulo": "Cocina de frentes claros",
+          "texto": "Lacados y maderas suaves que amplían la estancia.",
+          "foto": "/wp-content/uploads/2025/05/renders-de-cocinas-3.jpg"
+        },
+        {
+          "titulo": "Cocina abierta al salón",
+          "texto": "Cocina, comedor y zona de estar en una vista.",
+          "foto": "/wp-content/uploads/2025/05/render-arquitectura-sala.jpg"
+        },
+        {
+          "titulo": "Cocina en planta 3D",
+          "texto": "Vista cenital para entender la distribución de los módulos.",
+          "foto": "/wp-content/uploads/2025/04/render-de-casa-planta-3d.webp"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de cocinas",
+    "items": [
+      {
+        "pregunta": "¿Qué necesitáis para hacer el render de mi cocina?",
+        "respuesta": "El plano con medidas, la posición de las tomas de agua y de las ventanas, y las referencias de muebles y encimera. Si eres fabricante, nos vale <strong>el despiece de tu programa</strong>. Tienes la lista completa en <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a>."
+      },
+      {
+        "pregunta": "¿Cuánto tarda un render de cocina?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Lo que más lo acorta es llegar con <strong>los acabados ya decididos</strong>, porque evita rehacer materiales a mitad del trabajo."
+      },
+      {
+        "pregunta": "¿Podéis usar los modelos reales de mis electrodomésticos?",
+        "respuesta": "Sí, siempre que nos pases la marca y el modelo o una ficha con fotos. Reproducimos <strong>sus proporciones y su acabado</strong>; si la pieza aún no está decidida, colocamos una genérica que no distraiga del conjunto de la cocina."
+      },
+      {
+        "pregunta": "¿Sirven estas imágenes para el catálogo de una tienda de cocinas?",
+        "respuesta": "Sí. Muchas tiendas encargan varias composiciones de una misma serie para la web y la exposición. Si además necesitas maquetarlas con textos y fichas, el servicio de <a href='/catalogos-arquitectura/'>catálogos con renders</a> se ocupa de esa parte y de <strong>mantener un estilo común</strong>."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de cocinas",
+    "singular": "Render de cocina",
+    "sufijo": "de cocinas"
+  }
+}

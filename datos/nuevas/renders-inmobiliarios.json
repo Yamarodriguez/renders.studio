@@ -1,0 +1,97 @@
+{
+  "slug": "renders-inmobiliarios",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders inmobiliarios",
+  "tituloSeo": "Renders inmobiliarios para vender viviendas sobre plano",
+  "descripcion": "Renders inmobiliarios para promotoras y agencias: fachadas, interiores y zonas comunes para vender viviendas sobre plano o en obra. Pide presupuesto.",
+  "palabraClave": "renders inmobiliarios",
+  "foto": "/wp-content/uploads/2025/05/renders-inmobiliarias.webp",
+  "fotoAlt": "Renders inmobiliarios de una promoción de viviendas preparada para su comercialización",
+  "intro": {
+    "h2": "Renders inmobiliarios para vender antes de construir",
+    "html": "<p>Una promoción se empieza a vender cuando todavía es un solar. El comprador no puede visitar nada, así que necesita imágenes que le enseñen el edificio, su vivienda y las zonas comunes con el aspecto que tendrán al entregar las llaves.</p><p>Preparamos el conjunto de vistas que pide la campaña comercial con <strong>una misma línea visual</strong>, en un plazo habitual de 15 días.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders inmobiliarios?",
+      "html": "<p>Son las imágenes 3D que acompañan la venta o el alquiler de un inmueble: la fachada de una promoción, el salón de una vivienda tipo, la piscina comunitaria o la vista desde una terraza. Se generan a partir del proyecto del arquitecto y de la memoria de calidades.</p><p>Su objetivo no es técnico sino comercial. Por eso importa tanto <strong>el encuadre que vende</strong>: la hora del día, la orientación y el mobiliario se eligen pensando en el perfil de comprador al que se dirige la promoción, sin alterar lo que se va a construir.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders inmobiliarios",
+      "html": "<p>Sirven para la web de la promoción, el folleto, los portales inmobiliarios, la caseta de ventas y la lona de obra. También ayudan a la agencia a <strong>explicar la memoria de calidades</strong> y al banco o al inversor a entender el producto que se financia.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué vistas necesita una promoción?",
+      "html": "<p>Lo habitual es combinar una vista exterior del edificio, una de las zonas comunes y varias interiores de la vivienda tipo, con salón y cocina como prioridad. Si hay viviendas muy distintas, conviene añadir una planta amueblada de cada tipología con los <a href='/planos-renders/'>planos renderizados</a>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Pueden reflejar diferentes opciones de acabado?",
+      "html": "<p>Sí. Muchas promotoras dejan elegir al comprador entre varios suelos, cocinas o alicatados. Con el mismo modelo generamos una imagen para cada combinación, lo que facilita la personalización y evita malentendidos cuando el cliente firma sus elecciones.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders inmobiliarios",
+      "html": "<ul><li><strong>Exteriores de la promoción</strong> con su entorno, jardines y accesos.</li><li><strong>Interiores de la vivienda tipo</strong> según la memoria de calidades.</li><li><strong>Zonas comunes</strong>: piscina, portal, gimnasio o espacios infantiles.</li><li><strong>Plantas amuebladas</strong> de cada tipología para el folleto.</li><li><strong>Imágenes para lona</strong> y caseta de ventas en gran formato.</li><li><strong>Revisión por fases</strong>, con vista previa antes de cada imagen final.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders inmobiliarios",
+      "html": "<p>Cada producto inmobiliario se presenta con un tipo de imagen distinto:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Edificios residenciales",
+          "texto": "Fachada completa de la promoción con su entorno.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-edificios.jpg"
+        },
+        {
+          "titulo": "Viviendas unifamiliares",
+          "texto": "Casas aisladas o adosadas con jardín y piscina.",
+          "foto": "/wp-content/uploads/2025/04/render-fachada.jpg"
+        },
+        {
+          "titulo": "Interiores de vivienda tipo",
+          "texto": "Salón, cocina y dormitorio amueblados para el folleto.",
+          "foto": "/wp-content/uploads/2025/05/render-arquitectura-sala.jpg"
+        },
+        {
+          "titulo": "Viviendas de segunda mano",
+          "texto": "Pisos vacíos amueblados sobre la fotografía real.",
+          "foto": "/wp-content/uploads/2025/04/Home-Staging-Viviendas.webp"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders inmobiliarios",
+    "items": [
+      {
+        "pregunta": "¿Las imágenes pueden mostrar algo que no se va a construir?",
+        "respuesta": "No deben. Trabajamos con el proyecto y la memoria de calidades para que el comprador vea <strong>lo que va a recibir</strong>. Si se incluye mobiliario decorativo o vegetación ya crecida, se presenta como ambientación, que es la práctica habitual en la publicidad inmobiliaria."
+      },
+      {
+        "pregunta": "¿Sirven para pisos de segunda mano?",
+        "respuesta": "Sí, aunque ahí suele funcionar mejor otro enfoque: amueblar digitalmente las fotos reales del piso vacío. Ese servicio es el <a href='/home-staging-virtual/'>home staging virtual</a> y permite <strong>reformar sobre la foto</strong> para que el comprador imagine la vivienda actualizada."
+      },
+      {
+        "pregunta": "¿Podéis añadir un recorrido virtual?",
+        "respuesta": "Sí. Con el modelo de la vivienda tipo se puede montar un recorrido navegable para la web o la caseta de ventas. Te explicamos las diferencias entre formatos en <a href='/render-animacion-o-tour-360/'>render, animación o tour 360</a>, para que elijas <strong>el formato más útil</strong> en tu campaña."
+      },
+      {
+        "pregunta": "¿Qué documentación hay que enviar?",
+        "respuesta": "Plantas, alzados y secciones, la memoria de calidades y, si existen, referencias de estilo de la comercializadora. Con el proyecto de ejecución completo el resultado es más preciso, pero podemos empezar con el <strong>proyecto básico aprobado</strong> y ajustar después."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders inmobiliarios",
+    "singular": "Render inmobiliario",
+    "sufijo": "inmobiliarios"
+  }
+}

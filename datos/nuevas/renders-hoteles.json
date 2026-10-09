@@ -1,0 +1,97 @@
+{
+  "slug": "renders-hoteles",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de hoteles",
+  "tituloSeo": "Renders de hoteles 3D: habitaciones, lobby y zonas comunes",
+  "descripcion": "Imágenes 3D de hoteles, apartamentos turísticos y hostales: habitaciones, recepción, restaurante y piscina antes de abrir o de reformar. Pide presupuesto.",
+  "palabraClave": "renders de hoteles",
+  "foto": "/wp-content/uploads/2025/05/renders-hoteles.jpg",
+  "fotoAlt": "Renders de hoteles: habitación de hotel amueblada con cama, cabecero e iluminación cálida",
+  "intro": {
+    "h2": "Renders de hoteles para vender estancias antes de abrir",
+    "html": "<p>Un hotel en obra o en reforma necesita imágenes mucho antes de existir: para la financiación, para las agencias y para abrir reservas. Un <strong>render de hotel</strong> muestra las habitaciones, el lobby y la piscina tal y como las verá el huésped.</p><p>Las técnicas son las de los <a href='/renders-interiores/'>renders de interiores</a> y exteriores, pero aplicadas con criterios propios de la hostelería.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de hoteles?",
+      "html": "<p>Son imágenes 3D de un establecimiento hotelero: habitaciones tipo, suites, baños, recepción, restaurante, spa, piscina y fachada. Se trabajan en serie, porque <strong>la habitación tipo</strong> se repite muchas veces y su imagen tiene que representar a todas, con los mismos acabados y textiles.</p><p>El tono también es distinto al de una vivienda. Un hotel vende una experiencia, así que la luz, la ropa de cama bien estirada, el albornoz o la copa en la terraza cuentan tanto como el mobiliario. El objetivo es que quien mira quiera estar ahí esa misma noche.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de hoteles",
+      "html": "<p>Sirven para que la cadena o el inversor <strong>apruebe el interiorismo</strong> antes de amueblar todas las habitaciones. Después, esas mismas imágenes se usan en la web de reservas, en las plataformas de viaje y en las presentaciones a agencias mientras el hotel sigue en obra.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede usar un render de hotel en las plataformas de reserva?",
+      "html": "<p>Sí, mientras el hotel está en obra o en reforma es lo habitual, y conviene indicar que se trata de una imagen orientativa. Cuando el establecimiento abre, las imágenes se sustituyen por fotos reales; hasta entonces, el render permite empezar a vender con antelación.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué estancias de un hotel conviene representar primero?",
+      "html": "<p>La habitación tipo, la recepción y la zona con más atractivo, sea la piscina, la terraza o el restaurante. Son las imágenes que abren la web y las fichas en agencias. Spa, salas de reuniones o gimnasio se añaden después, según el tipo de cliente al que se dirija el hotel.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de hoteles",
+      "html": "<ul><li><strong>Habitaciones tipo y suites</strong> con su baño, su ropa de cama y su decoración.</li><li><strong>Zonas comunes</strong> como recepción, lobby, restaurante y bar.</li><li><strong>Exteriores del hotel</strong>: piscina, terrazas y fachada, de día o al atardecer.</li><li><strong>Estilo homogéneo</strong> en toda la serie de imágenes.</li><li><strong>Formatos para reservas</strong>, listos para la web y las plataformas de viaje.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de hoteles",
+      "html": "<p>Un hotel se presenta con varias vistas que cuentan la estancia completa.</p>",
+      "tarjetas": [
+        {
+          "titulo": "Habitación tipo",
+          "texto": "La estancia que se repite y define el hotel.",
+          "foto": "/wp-content/uploads/2025/04/render-interior-3d-habitacion.webp"
+        },
+        {
+          "titulo": "Baño de la habitación",
+          "texto": "Ducha, lavabo y amenities con acabado de hotel.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-banos.webp"
+        },
+        {
+          "titulo": "Restaurante y cafetería",
+          "texto": "Comedor, barra y zona de desayunos con ambiente.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-cafeterias-scaled.jpg"
+        },
+        {
+          "titulo": "Piscina y exteriores",
+          "texto": "El gran reclamo de los hoteles de costa.",
+          "foto": "/wp-content/uploads/2025/04/render-de-piscinas-3D.jpeg"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de hoteles",
+    "items": [
+      {
+        "pregunta": "¿Hacéis renders de apartamentos turísticos y hostales?",
+        "respuesta": "Sí. Funcionan igual que un hotel, aunque a menor escala: suele bastar con <strong>cada tipología de apartamento</strong> y las zonas comunes. Para anunciarlos mientras se reforman, son una alternativa a esperar a tener fotos del alojamiento terminado."
+      },
+      {
+        "pregunta": "¿Cuánto tarda una serie de imágenes de hotel?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. En series largas entregamos <strong>primero la habitación tipo</strong> para fijar el estilo y luego seguimos con el resto de estancias."
+      },
+      {
+        "pregunta": "¿Podéis mostrar el hotel de noche?",
+        "respuesta": "Sí. La fachada iluminada, la piscina con luz subacuática o la terraza al anochecer son imágenes con mucho atractivo. Se trabajan como <a href='/renders-nocturnos/'>renders nocturnos</a>, con <strong>la iluminación del proyecto</strong> y no con una genérica."
+      },
+      {
+        "pregunta": "¿Y un vídeo o un recorrido por el hotel?",
+        "respuesta": "Sí, con el modelo hecho se puede producir un <a href='/video-render-3d/'>vídeo render 3D</a> que recorra la llegada, la recepción y la habitación. Funciona bien en la web y en redes como <strong>presentación del establecimiento</strong> antes de la apertura."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de hoteles",
+    "singular": "Render de hotel",
+    "sufijo": "de hoteles"
+  }
+}

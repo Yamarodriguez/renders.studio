@@ -1,0 +1,97 @@
+{
+  "slug": "renders-nocturnos",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders nocturnos",
+  "tituloSeo": "Renders nocturnos 3D: fachadas, jardines y piscinas",
+  "descripcion": "Renders nocturnos en 3D con iluminación artificial realista: fachadas, jardines, piscinas y locales tal como se verán al anochecer. Pide presupuesto.",
+  "palabraClave": "renders nocturnos",
+  "foto": "/wp-content/uploads/2025/04/renders-nocturnos.webp",
+  "fotoAlt": "Renders nocturnos: vivienda moderna iluminada al anochecer con luces exteriores encendidas",
+  "intro": {
+    "h2": "Renders nocturnos para enseñar el proyecto con sus luces encendidas",
+    "html": "<p>De día se ven los materiales; de noche se ve el ambiente. Una imagen nocturna en 3D muestra cómo funciona <strong>la iluminación del proyecto</strong>: el bañado de la fachada, las balizas del jardín, el fondo de la piscina o el escaparate de un local.</p><p>Es la vista que más emoción transmite en un folleto y la que explica con más claridad un proyecto de luminotecnia antes de comprar una sola luminaria.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders nocturnos?",
+      "html": "<p>Son imágenes fotorrealistas de un espacio en hora azul o en plena noche, donde la luz principal ya no es el sol, sino las fuentes artificiales del propio proyecto. Cada luminaria se coloca con su posición, su potencia aproximada y su <strong>temperatura de color</strong>, para que el reparto de luces y sombras sea creíble.</p><p>Técnicamente son más delicados que una vista diurna. Hay que equilibrar el cielo oscuro con las zonas iluminadas, evitar que las ventanas parezcan quemadas y cuidar los reflejos en el agua, el vidrio y el pavimento mojado.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders nocturnos",
+      "html": "<p>Un hotel o un restaurante los usa para vender la experiencia de la cena en la terraza. Un ingeniero de iluminación los emplea para <strong>validar un proyecto de luz</strong> con su cliente, y una promotora los combina con la versión de día para dar variedad a la campaña.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Hora azul o noche cerrada: qué conviene más?",
+      "html": "<p>La hora azul, justo después de la puesta de sol, mantiene algo de luz en el cielo y deja leer la silueta del edificio junto a las luces encendidas. La noche cerrada es más dramática y resalta las luminarias, pero esconde la arquitectura. Lo decidimos según lo que quieras contar.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se pueden usar las luminarias reales del proyecto?",
+      "html": "<p>Sí. Si el proyecto de iluminación ya tiene fichas técnicas, reproducimos el tipo de haz, el color de la luz y la posición de cada punto. Si aún no está definido, proponemos una iluminación coherente y la imagen sirve para decidir dónde poner luz y dónde dejar sombra.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders nocturnos",
+      "html": "<ul><li><strong>Modelado de la escena</strong> o reutilización del modelo de la vista de día.</li><li><strong>Diseño de la iluminación artificial</strong> con luminarias, tiras LED y luz interior por las ventanas.</li><li><strong>Cielo nocturno</strong> o de hora azul ajustado a la atmósfera que buscas.</li><li><strong>Reflejos y brillos</strong> controlados en agua, vidrio y suelos.</li><li><strong>Vista previa de la luz</strong> para corregir intensidades antes de la imagen final.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders nocturnos",
+      "html": "<p>La noche cambia por completo la lectura de cada espacio:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Fachadas iluminadas",
+          "texto": "Bañados de luz, portales y huecos encendidos desde dentro.",
+          "foto": "/wp-content/uploads/2025/04/render-3d-fachada.jpg"
+        },
+        {
+          "titulo": "Locales iluminados",
+          "texto": "Restaurantes y tiendas encendidos cuando cae la tarde.",
+          "foto": "/wp-content/uploads/2025/05/renders-local-comercial.jpg"
+        },
+        {
+          "titulo": "Interiores con luz cálida",
+          "texto": "Salones con lámparas encendidas y ambiente de noche.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-arquitectura-y-diseno.png"
+        },
+        {
+          "titulo": "Hostelería y ocio",
+          "texto": "Terrazas, hoteles y restaurantes con su ambiente de noche.",
+          "foto": "/wp-content/uploads/2025/05/renders-hoteles.jpg"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders nocturnos",
+    "items": [
+      {
+        "pregunta": "¿Hace falta una vista de día para hacer la de noche?",
+        "respuesta": "No es obligatorio, pero es lo más eficiente. Si ya existe el modelo de la vista diurna, la versión nocturna aprovecha <strong>la misma cámara y materiales</strong> y solo se trabaja la luz. Si partes de cero, consulta los <a href='/renders-exteriores/'>renders de exteriores</a> para el encargo completo."
+      },
+      {
+        "pregunta": "¿Las luces del render coinciden con lo que se instalará?",
+        "respuesta": "Se acercan mucho si nos das las fichas de las luminarias. Aun así, el render es una imagen de presentación y no un <strong>cálculo luminotécnico</strong>: para niveles de iluminación exactos hace falta el estudio específico del proyectista de iluminación."
+      },
+      {
+        "pregunta": "¿Funcionan las imágenes de noche en interiores?",
+        "respuesta": "Sí, sobre todo en salones con ventanales, dormitorios de hotel o restaurantes, donde la luz artificial define el ambiente. Se juega con <strong>lámparas, apliques y tiras ocultas</strong> y con el contraste del exterior oscuro. Tienes ejemplos de estancias en <a href='/renders-interiores/'>renders de interiores</a>."
+      },
+      {
+        "pregunta": "¿Se puede animar el paso del día a la noche?",
+        "respuesta": "Sí. Con el mismo modelo se puede preparar una secuencia en la que el sol se pone y las luces se van encendiendo. Es un recurso muy vistoso para <strong>presentaciones y redes sociales</strong>; lo explicamos en la página de <a href='/video-render-3d/'>vídeo render 3D</a>."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders nocturnos",
+    "singular": "Render nocturno",
+    "sufijo": "nocturnos"
+  }
+}

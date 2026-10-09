@@ -1,0 +1,97 @@
+{
+  "slug": "renders-camping",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de campings",
+  "tituloSeo": "Renders de campings: parcelas, bungalós y glamping",
+  "descripcion": "Renders de campings y glamping en 3D: parcelas, bungalós, mobile homes, piscinas y zonas comunes para planificar y comercializar tu camping. Pide presupuesto.",
+  "palabraClave": "renders de campings",
+  "foto": "/wp-content/uploads/2025/05/renders-camping.png",
+  "fotoAlt": "Renders de campings: vista general con alojamientos, caminos y zonas verdes",
+  "intro": {
+    "h2": "Renders de campings para planificar y vender estancias",
+    "html": "<p>Un camping es casi un pequeño pueblo: parcelas, alojamientos, viales, piscina, recepción y servicios repartidos por una finca. Ver todo eso en 3D ayuda a ordenar el proyecto y a enseñar al cliente cómo será su estancia.</p><p>Trabajamos con el plano de la parcela y los modelos de alojamiento que vayas a instalar, y cuidamos <strong>la relación con el paisaje</strong> en cada vista.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de campings?",
+      "html": "<p>Son imágenes 3D de un camping o un glamping, ya sea nuevo o en plena renovación. Pueden mostrar una vista aérea del conjunto, una calle de parcelas, un bungaló por dentro, una tienda safari, una mobile home con su porche o la zona de piscina y restaurante.</p><p>A diferencia de un edificio, aquí la vegetación y el terreno son protagonistas: árboles, desniveles, caminos y sombras definen la experiencia. Por eso dedicamos especial atención a <strong>la vegetación y el entorno</strong>, y a que los alojamientos se integren en la finca sin parecer pegados.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de campings",
+      "html": "<p>Sirven para presentar el proyecto al ayuntamiento o a un inversor, decidir qué modelos de alojamiento instalar y dónde, y llenar la web de reservas con imágenes de <strong>alojamientos aún no instalados</strong>. También se usan en ferias de turismo y en folletos para agencias de viajes.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis representar mobile homes de un fabricante concreto?",
+      "html": "<p>Sí. Si nos pasas la ficha técnica o el modelo del fabricante, reproducimos la unidad con su porche, su revestimiento y su distribución interior. Así el render muestra exactamente lo que vas a comprar y puedes comparar modelos colocados en tu parcela antes de cerrar el pedido.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede ver el camping a vista de pájaro?",
+      "html": "<p>Sí, y suele ser la primera imagen que se pide. Una vista aérea explica de un golpe la distribución de zonas, los accesos y los servicios, algo que un plano no transmite igual. Para zonas ajardinadas con más detalle, mira los <a href='/renders-parques/'>renders de parques</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de campings",
+      "html": "<ul><li><strong>Vista general de la finca</strong> con parcelas, viales y zonas de servicio.</li><li><strong>Alojamientos por dentro y fuera</strong>: bungalós, mobile homes, cabañas y tiendas de glamping.</li><li><strong>Zonas comunes</strong>: recepción, restaurante, piscina, parque infantil y bloques sanitarios.</li><li><strong>Vegetación de la zona</strong>, adaptada al clima y al paisaje donde está el camping.</li><li><strong>Luz de atardecer</strong> o de noche para transmitir ambiente de vacaciones.</li><li><strong>Imágenes para la web</strong> de reservas y para presentaciones a inversores.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de campings",
+      "html": "<p>Un mismo camping se cuenta con imágenes de escalas muy distintas:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Bungalós y cabañas",
+          "texto": "Alojamientos de madera con porche y zona exterior.",
+          "foto": "/wp-content/uploads/2025/04/renders-nocturnos.webp"
+        },
+        {
+          "titulo": "Piscina y zona de baño",
+          "texto": "La piscina comunitaria con solárium, hamacas y sombrillas.",
+          "foto": "/wp-content/uploads/2025/04/render-de-piscinas-3D.jpeg"
+        },
+        {
+          "titulo": "Zonas verdes y caminos",
+          "texto": "Viales, arbolado y espacios de juego entre parcelas.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-parques.jpg"
+        },
+        {
+          "titulo": "Interior del alojamiento",
+          "texto": "Dormitorio y salón de un bungaló o mobile home.",
+          "foto": "/wp-content/uploads/2025/04/render-interior-3d-habitacion.webp"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de campings",
+    "items": [
+      {
+        "pregunta": "¿Sirven para pedir licencias o subvenciones?",
+        "respuesta": "Pueden acompañar la documentación como apoyo visual, aunque no sustituyen a los planos técnicos del proyecto. A un ayuntamiento o a un organismo de turismo le ayudan a entender <strong>el impacto en el paisaje</strong> y la calidad de la propuesta."
+      },
+      {
+        "pregunta": "¿Qué cambia entre un camping y un glamping en las imágenes?",
+        "respuesta": "En el glamping pesa más el interior: camas, textiles, iluminación cálida y detalles de diseño, porque se vende como experiencia. En un camping tradicional mandan la vista de conjunto y las parcelas. Adaptamos <strong>el peso de cada vista</strong> al tipo de cliente que buscas."
+      },
+      {
+        "pregunta": "¿Se puede hacer un recorrido por el camping?",
+        "respuesta": "Sí. Con el modelo completo preparamos un vídeo que recorre la entrada, las calles y los alojamientos, o un recorrido navegable para la web. Tienes más detalle en el <a href='/tour-virtual-360/'>tour virtual 360</a>, una forma de <strong>visitar el camping online</strong> antes de reservar."
+      },
+      {
+        "pregunta": "¿Cuánto se tarda en tener las imágenes?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Si quieres llegar a la temporada con la web actualizada, haz tu <a href='/presupuesto/'>petición de presupuesto</a> con margen y te proponemos <strong>un calendario de entregas</strong>."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de campings",
+    "singular": "Render de camping",
+    "sufijo": "de campings"
+  }
+}

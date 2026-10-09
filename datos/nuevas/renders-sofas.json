@@ -1,0 +1,97 @@
+{
+  "slug": "renders-sofas",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de sofás",
+  "tituloSeo": "Renders de sofás 3D para fabricantes, tiendas y catálogos",
+  "descripcion": "Imágenes 3D de sofás para fabricantes, tiendas de muebles y tiendas online: cada tapicería y cada configuración sin sesión de fotos. Pide presupuesto.",
+  "palabraClave": "renders de sofás",
+  "foto": "/wp-content/uploads/2025/05/sofa-render-3d.webp",
+  "fotoAlt": "Renders de sofás: sofá tapizado modelado en 3D con cojines y textura de tela",
+  "intro": {
+    "h2": "Renders de sofás para vender cada tapicería sin fotografiarla",
+    "html": "<p>Un fabricante de sofás puede ofrecer el mismo modelo en muchas telas, colores y módulos, pero fotografiar cada combinación no es viable. Con un <strong>render de sofá</strong> se modela la pieza una vez y se genera cada versión que quieras enseñar.</p><p>Es render de producto, no de estancia: si lo que buscas es el salón completo, consulta los <a href='/renders-salones/'>renders de salones</a>.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de sofás?",
+      "html": "<p>Son imágenes 3D de un sofá concreto, modelado a partir de sus planos de fabricación o de fotos de la pieza real. La clave está en <strong>la tapicería y sus costuras</strong>: la caída de la tela, el pespunte, el capitoné, la arruga del asiento usado. Un sofá perfecto y sin arrugas parece de plástico.</p><p>El mismo modelo puede presentarse de dos maneras: aislado sobre fondo neutro, para fichas de producto y tiendas online, o ambientado en un salón, para catálogos y redes. Las dos salen del mismo archivo 3D, así que no hace falta volver a trabajar la pieza.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de sofás",
+      "html": "<p>Sirven para lanzar una colección antes de tener los prototipos fotografiados y para <strong>mostrar todas las combinaciones</strong> de tela y módulo en la tienda online. También evitan transportar y montar piezas voluminosas en un plató, que en un sofá es buena parte del trabajo de una sesión de fotos.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Podéis reproducir las telas de mi muestrario?",
+      "html": "<p>Sí. Necesitamos una foto plana y bien iluminada de cada tela, o mejor una muestra física escaneada, y su referencia de color. Con eso preparamos un material que reproduce la trama, el brillo y el relieve, y lo aplicamos a cualquier modelo de la colección.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se pueden mostrar sofás modulares en varias configuraciones?",
+      "html": "<p>Sí, es uno de los usos más habituales. Modelamos cada módulo por separado, ya sea brazo, asiento, chaise longue o rincón, y los combinamos como haría el cliente en la tienda. Así enseñas el sofá recto, en esquina o con chaise longue sin fabricar ninguna de esas versiones.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de sofás",
+      "html": "<ul><li><strong>Modelado del sofá</strong> a partir de planos técnicos, fotos o la pieza física.</li><li><strong>Tapicerías del muestrario</strong> con su textura, su color y sus costuras.</li><li><strong>Imagen sobre fondo neutro</strong> para fichas de producto y tienda online.</li><li><strong>Escenas de salón</strong> para catálogo, redes y campañas.</li><li><strong>Vistas de detalle</strong> de patas, costuras, mecanismos o cabezales.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de sofás",
+      "html": "<p>Según dónde vaya a publicarse la imagen, cambia el planteamiento.</p>",
+      "tarjetas": [
+        {
+          "titulo": "Sofá sobre fondo neutro",
+          "texto": "La pieza aislada, lista para la ficha de producto.",
+          "foto": "/wp-content/uploads/2025/04/render-de-productos.webp"
+        },
+        {
+          "titulo": "Sofá ambientado",
+          "texto": "El modelo colocado en un salón con decoración.",
+          "foto": "/wp-content/uploads/2025/04/render-interior.webp"
+        },
+        {
+          "titulo": "Sofá para catálogo",
+          "texto": "Series completas con el mismo estilo de imagen.",
+          "foto": "/wp-content/uploads/2025/04/catalogos-de-arquitectura.jpg"
+        },
+        {
+          "titulo": "Sofá en campaña",
+          "texto": "Imágenes para redes, banners y lanzamientos de colección.",
+          "foto": "/wp-content/uploads/2025/05/renders-salas.webp"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de sofás",
+    "items": [
+      {
+        "pregunta": "¿Qué necesitáis para modelar un sofá?",
+        "respuesta": "Los planos o las medidas de la pieza y fotos desde varios ángulos, con detalle de patas y costuras. Si tienes <strong>el archivo 3D de diseño</strong>, partimos de él. Tienes más información en nuestro servicio de <a href='/modelado-3d/'>modelado 3D</a>."
+      },
+      {
+        "pregunta": "¿Puedo pedir un vídeo o una vista giratoria del sofá?",
+        "respuesta": "Sí. Con el modelo hecho, generar <strong>una vista que gira</strong> o una animación del mecanismo relax es sencillo. Lo planteamos como <a href='/video-render-3d/'>vídeo render 3D</a>, útil tanto para la ficha del producto como para redes sociales."
+      },
+      {
+        "pregunta": "¿Cuánto tarda el render de un sofá?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Las variantes de tela que pidas después van más rápido, porque <strong>el modelo ya está hecho</strong> y solo cambia el material."
+      },
+      {
+        "pregunta": "¿Trabajáis también otros muebles tapizados?",
+        "respuesta": "Sí. Sillones, butacas, camas tapizadas y cabeceros se trabajan igual que un sofá. Para lámparas, mesas o cualquier otro objeto tienes los <a href='/renders-productos/'>renders de productos</a>, con <strong>el mismo enfoque de catálogo</strong>."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de sofás",
+    "singular": "Render de sofá",
+    "sufijo": "de sofás"
+  }
+}

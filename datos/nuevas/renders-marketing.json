@@ -1,0 +1,97 @@
+{
+  "slug": "renders-marketing",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders para marketing",
+  "tituloSeo": "Renders para marketing: imágenes 3D para tus campañas",
+  "descripcion": "Renders para marketing inmobiliario y de marca: imágenes 3D para anuncios, redes, folletos y webs, adaptadas al formato de cada canal. Pide presupuesto.",
+  "palabraClave": "renders para marketing",
+  "foto": "/wp-content/uploads/2025/05/renders-marketing.webp",
+  "fotoAlt": "Renders para marketing: imagen 3D de un espacio preparada para una campaña publicitaria",
+  "intro": {
+    "h2": "Renders para marketing que encajan en cada canal",
+    "html": "<p>Una campaña necesita imágenes que cuenten algo en un vistazo, ya sea en la pantalla de un móvil, en un anuncio o en una valla. Las imágenes 3D permiten preparar esa pieza a medida, con el encuadre, la luz y el espacio para texto que pide cada soporte.</p><p>Antes de empezar definimos contigo <strong>el mensaje de la campaña</strong> y los formatos en los que se va a publicar.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders para marketing?",
+      "html": "<p>Son imágenes 3D creadas con un objetivo publicitario: atraer la atención, explicar un producto o un espacio y empujar a una acción concreta. Pueden mostrar una promoción de viviendas, un local que va a abrir, un mueble nuevo o un hotel que estrena habitaciones.</p><p>Lo que las diferencia de una imagen técnica es que se componen pensando en el diseño gráfico que irá encima: se deja <strong>aire para el titular</strong>, se elige un punto de vista con fuerza y se mantiene una estética común en toda la campaña. Para una pieza explicativa con datos encaja mejor una <a href='/infografias-arquitectura/'>infografía de arquitectura</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders para marketing",
+      "html": "<p>Sirven para anuncios en redes y buscadores, cabeceras de web, folletos, correos a clientes potenciales y cartelería. Su ventaja es que una sola escena 3D genera <strong>piezas para varios soportes</strong>, con la misma luz y el mismo estilo, sin organizar una sesión fotográfica para cada uno.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué formatos entregáis para redes?",
+      "html": "<p>Los que pida tu plan de medios: cuadrado y vertical para publicaciones e historias, horizontal para web y banners. Encuadramos cada versión por separado en lugar de recortar una imagen grande, así lo importante nunca queda fuera del marco ni tapado por el texto.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se pueden crear escenas de estilo de vida?",
+      "html": "<p>Sí. Además del espacio, podemos incluir personas, objetos y situaciones que transmiten cómo se vive allí: un desayuno en la terraza, una reunión en la oficina o una tarde junto a la piscina. Ese contexto ayuda a que el público se identifique con la imagen.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders para marketing",
+      "html": "<ul><li><strong>Briefing creativo</strong> para fijar mensaje, público y canales.</li><li><strong>Escenas a medida</strong> con encuadres pensados para llevar texto encima.</li><li><strong>Versiones por formato</strong> para redes, web, prensa y cartelería.</li><li><strong>Ambientación con personas</strong> y objetos que cuentan un estilo de vida.</li><li><strong>Estética común</strong> en toda la serie de imágenes de la campaña.</li><li><strong>Piezas animadas cortas</strong> a partir de la misma escena, si las necesitas.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders para marketing",
+      "html": "<p>Según lo que se promociona, la campaña se apoya en imágenes distintas:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Campañas inmobiliarias",
+          "texto": "Promociones de viviendas presentadas para atraer compradores.",
+          "foto": "/wp-content/uploads/2025/05/renders-inmobiliarias.webp"
+        },
+        {
+          "titulo": "Lanzamientos de producto",
+          "texto": "El artículo nuevo como protagonista de anuncios y redes.",
+          "foto": "/wp-content/uploads/2025/04/render-de-productos.webp"
+        },
+        {
+          "titulo": "Hostelería y turismo",
+          "texto": "Hoteles y alojamientos que enseñan la experiencia completa.",
+          "foto": "/wp-content/uploads/2025/05/renders-hoteles.jpg"
+        },
+        {
+          "titulo": "Aperturas de locales",
+          "texto": "Tiendas y restaurantes que anuncian su próxima inauguración.",
+          "foto": "/wp-content/uploads/2025/05/renders-local-comercial.jpg"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders para marketing",
+    "items": [
+      {
+        "pregunta": "¿Podéis trabajar con mi agencia de publicidad?",
+        "respuesta": "Sí, y es lo más frecuente. La agencia define el concepto y nosotros preparamos las imágenes según su <strong>guía de estilo</strong>, entregando los archivos listos para maquetar. Cuantas más referencias nos pase al principio, menos ajustes hacen falta después."
+      },
+      {
+        "pregunta": "¿Las imágenes se pueden convertir en vídeo?",
+        "respuesta": "Sí. Con la misma escena se generan recorridos de cámara o animaciones cortas, muy útiles en anuncios para redes, donde el movimiento retiene la atención. Lo detallamos en la página de <a href='/video-render-3d/'>vídeo render 3D</a>, incluido <strong>el formato vertical</strong>."
+      },
+      {
+        "pregunta": "¿Cuánto cuesta una serie para una campaña?",
+        "respuesta": "Depende del número de escenas y formatos. Como referencia, el pack 6 renders + vídeo 3D cuesta 370 € – 620 €, y el resto de servicios aparece en la tabla de <a href='/precios/'>precios de renders</a>. Te enviamos <strong>una propuesta cerrada</strong> según tu plan de medios."
+      },
+      {
+        "pregunta": "¿Quién decide el estilo de las imágenes?",
+        "respuesta": "Lo decides tú, con nuestra propuesta como punto de partida. Antes de producir la serie te enseñamos una imagen de prueba con la luz, el color y la ambientación; cuando la apruebas, aplicamos <strong>esa misma dirección visual</strong> al resto de piezas."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders para marketing",
+    "singular": "Render para marketing",
+    "sufijo": "para marketing"
+  }
+}

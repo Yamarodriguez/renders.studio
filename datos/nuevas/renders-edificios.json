@@ -1,0 +1,97 @@
+{
+  "slug": "renders-edificios",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de edificios",
+  "tituloSeo": "Renders de edificios 3D para promociones y concursos",
+  "descripcion": "Renders de edificios en 3D: bloques de viviendas, equipamientos y terciario con su entorno, para vender sobre plano o ir a concurso. Pide presupuesto.",
+  "palabraClave": "renders de edificios",
+  "foto": "/wp-content/uploads/2025/04/renders-de-edificios.jpg",
+  "fotoAlt": "Renders de edificios: bloque residencial de varias plantas visto desde la calle con arbolado",
+  "intro": {
+    "h2": "Renders de edificios para presentar un proyecto que aún no existe",
+    "html": "<p>Un edificio en proyecto es difícil de imaginar a partir de planos, incluso para quien lo encarga. Una imagen 3D del edificio enseña su volumen, su relación con la calle y su aspecto final, y se convierte en la <strong>imagen de referencia</strong> de toda la promoción.</p><p>Trabajamos para promotoras, constructoras y despachos de arquitectura de toda España. El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de edificios?",
+      "html": "<p>Son imágenes fotorrealistas de una construcción completa, generadas a partir del modelo del proyecto: un bloque de viviendas, un hotel, un colegio, un edificio de oficinas o una nave. A diferencia de una vista de detalle, el objetivo es entender <strong>el conjunto y su implantación</strong>: alturas, retranqueos, accesos, sombras sobre la calle y relación con los edificios vecinos.</p><p>Por eso el entorno pesa tanto como el propio edificio. Una promoción en un ensanche se cuenta con tráfico, aceras y arbolado; un equipamiento en las afueras, con su aparcamiento, los recorridos peatonales y el paisaje que lo rodea.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de edificios",
+      "html": "<p>Una promotora los necesita para la valla de obra, el folleto y la web de la promoción antes de poner la primera piedra. Un arquitecto los presenta en <strong>concursos de arquitectura</strong>, donde el jurado compara propuestas en pocos paneles, y la administración los pide para explicar un equipamiento a los vecinos.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué puntos de vista se usan para un edificio?",
+      "html": "<p>Lo más habitual es combinar una vista a la altura del peatón, que es como se vivirá el edificio desde la calle, con una vista aérea que explica la parcela, las zonas comunes y la cubierta. Si el proyecto tiene un acceso o un patio singular, se añade una vista cercana de ese punto.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede integrar el edificio en una foto real del solar?",
+      "html": "<p>Sí. Con una fotografía tomada desde la calle o con dron, encajamos el modelo con la perspectiva y la luz de la toma. El resultado enseña el edificio en su sitio exacto, rodeado de lo que ya existe, algo que convence mucho más a un comprador que un fondo genérico.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de edificios",
+      "html": "<ul><li><strong>Modelado del edificio</strong> a partir de tus planos, o importación de tu modelo de Revit, ArchiCAD o SketchUp.</li><li><strong>Entorno urbano o paisajístico</strong> con viales, vegetación, vehículos y personas a escala.</li><li><strong>Materiales de envolvente</strong> y carpinterías según la memoria de calidades.</li><li><strong>Vistas aéreas y peatonales</strong> coordinadas, con el mismo cielo y la misma hora.</li><li><strong>Fotomontaje sobre el solar</strong> cuando hay fotografía de la parcela.</li><li><strong>Vista previa</strong> y ajustes antes de la entrega final.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de edificios",
+      "html": "<p>Cada uso del edificio pide un enfoque distinto:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Bloques de viviendas",
+          "texto": "Promociones residenciales con zonas comunes, portales y terrazas.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-exteriores.jpg"
+        },
+        {
+          "titulo": "Edificios terciarios",
+          "texto": "Oficinas, hoteles y comercios con accesos y vestíbulos visibles.",
+          "foto": "/wp-content/uploads/2025/04/3D-render-de-arquitectura.jpg"
+        },
+        {
+          "titulo": "Estudios de volumen",
+          "texto": "El edificio en blanco para estudiar masa y soleamiento.",
+          "foto": "/wp-content/uploads/2025/04/que-es-un-render.jpg"
+        },
+        {
+          "titulo": "Zonas comunes interiores",
+          "texto": "Portales, vestíbulos y espacios compartidos del edificio.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-arquitectura-y-diseno.png"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de edificios",
+    "items": [
+      {
+        "pregunta": "¿Podéis trabajar con mi modelo BIM?",
+        "respuesta": "Sí. Si nos pasas el modelo de Revit, ArchiCAD o SketchUp, partimos de él y <strong>ahorramos la fase de modelado</strong>. Revisamos la geometría, sustituimos los materiales por texturas realistas y añadimos el entorno. Lo explicamos en la página de <a href='/modelado-3d/'>modelado 3D</a>."
+      },
+      {
+        "pregunta": "¿Qué renders necesita una promoción para empezar a vender?",
+        "respuesta": "Como base, una vista exterior desde la calle, una aérea con las zonas comunes y alguna vista interior de la vivienda tipo. Con eso se cubren la valla, el folleto y <strong>el portal inmobiliario</strong>. Hay más detalle en los <a href='/renders-inmobiliarios/'>renders inmobiliarios</a>."
+      },
+      {
+        "pregunta": "¿Se puede hacer un vídeo del edificio con el mismo modelo?",
+        "respuesta": "Sí. El modelo que usamos para las imágenes sirve para un recorrido animado alrededor del edificio y por sus zonas comunes. Es una forma de <strong>enseñar el proyecto completo</strong> en la web o en la oficina de ventas de la promotora; lo tienes en <a href='/video-render-3d/'>vídeo render 3D</a>."
+      },
+      {
+        "pregunta": "¿Cambiar el proyecto obliga a empezar de nuevo?",
+        "respuesta": "No. Si cambian alturas, huecos o materiales durante el desarrollo, se actualiza el modelo existente y se vuelven a generar las vistas con <strong>el mismo encuadre</strong>. Así las imágenes de la promoción siguen siendo coherentes entre sí aunque el proyecto evolucione."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de edificios",
+    "singular": "Render de edificio",
+    "sufijo": "de edificios"
+  }
+}

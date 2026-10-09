@@ -1,0 +1,97 @@
+{
+  "slug": "render-casa",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de casas",
+  "tituloSeo": "Renders de casas 3D: obra nueva, reformas y ventas",
+  "descripcion": "Renders de casas en 3D para ver tu vivienda terminada antes de construirla o reformarla: fachada, jardín e interiores con luz real. Pide presupuesto.",
+  "palabraClave": "renders de casas",
+  "foto": "/wp-content/uploads/2025/04/render-casa.jpg",
+  "fotoAlt": "Renders de casas: vivienda unifamiliar moderna con su fachada y la parcela ajardinada",
+  "intro": {
+    "h2": "Renders de casas para ver tu vivienda terminada antes de construirla",
+    "html": "<p>Las imágenes 3D de una casa enseñan la fachada, el jardín y las estancias tal como quedarán, con sus materiales y su luz. Son la herramienta para <strong>decidir antes de construir</strong> y para que la familia, el banco o el comprador entiendan el proyecto sin tener que leer planos.</p><p>Trabajamos online para toda España a partir de tus planos y referencias. El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de casas?",
+      "html": "<p>Un render de casa es una imagen fotorrealista generada por ordenador a partir de los planos de una vivienda unifamiliar, un chalet, una casa de campo o un adosado. Puede mostrar el exterior completo con la parcela, una estancia concreta o una <strong>vista aérea de la planta</strong> amueblada.</p><p>Lo que lo diferencia de otros encargos es que el cliente suele ser quien va a vivir allí. Por eso importan los detalles cotidianos: dónde da el sol por la tarde, cómo se ve el porche desde la cocina o qué tono de teja combina con la piedra del muro.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de casas",
+      "html": "<p>Sirven para que un particular apruebe el diseño con su arquitecto antes de pedir la licencia, para que una constructora <strong>enseñe la casa piloto</strong> que aún no existe y para que quien vende una parcela con proyecto muestre lo que se puede levantar en ella. También ayudan a comparar acabados de fachada sin gastar en muestras.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede ver la casa a distintas horas del día?",
+      "html": "<p>Sí. Con el mismo modelo podemos generar una vista con luz de mañana, otra al atardecer y otra con la iluminación exterior encendida. Así compruebas la orientación, las sombras del porche y cómo se verá la entrada cuando vuelvas de noche. Las vistas sin sol tienen su propia página de <a href='/renders-nocturnos/'>renders nocturnos</a>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Necesito tener el proyecto terminado para pedir el render?",
+      "html": "<p>No hace falta. Basta con las plantas y los alzados, aunque sean de anteproyecto, y con fotos o referencias de los materiales que te gustan. Si después cambias algo, se ajusta el modelo. En la guía de <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a> tienes la lista completa.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de casas",
+      "html": "<ul><li><strong>Modelado de la vivienda</strong> completa a partir de plantas, alzados y secciones.</li><li><strong>Parcela y entorno</strong>: jardín, piscina si la hay, vallado, accesos y vegetación.</li><li><strong>Materiales de fachada</strong>, cubierta, carpinterías y pavimentos exteriores según tus referencias.</li><li><strong>Estancias interiores</strong> que elijas, con mobiliario acorde al estilo de la casa.</li><li><strong>Vista previa</strong> para corregir encuadres y acabados antes de la imagen final.</li><li><strong>Entrega en alta resolución</strong>, lista para imprimir o publicar en un anuncio.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de casas",
+      "html": "<p>Según la fase del proyecto y quién vaya a verlo, se piden vistas distintas:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Exterior de la casa",
+          "texto": "Fachada, cubierta y parcela con luz natural.",
+          "foto": "/wp-content/uploads/2025/04/render-fachada.jpg"
+        },
+        {
+          "titulo": "Casa con jardín",
+          "texto": "La vivienda integrada en su entorno, con vegetación y accesos.",
+          "foto": "/wp-content/uploads/2025/04/Render-casa-1-1.webp"
+        },
+        {
+          "titulo": "Planta 3D amueblada",
+          "texto": "Vista cenital para entender la distribución de un vistazo.",
+          "foto": "/wp-content/uploads/2025/04/render-de-casa-planta-3d.webp"
+        },
+        {
+          "titulo": "Interiores de la vivienda",
+          "texto": "Cocina, salón y dormitorios con los acabados elegidos.",
+          "foto": "/wp-content/uploads/2025/05/renders-casas-cocina.jpg"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de casas",
+    "items": [
+      {
+        "pregunta": "¿Cuántas imágenes conviene pedir para una casa?",
+        "respuesta": "Para aprobar un diseño suele bastar con la fachada principal y la vista desde el jardín. Si la casa se va a vender sobre plano, conviene añadir <strong>el salón y la cocina</strong>, que es donde el comprador se detiene. Lo decidimos contigo según el uso que vayas a darles."
+      },
+      {
+        "pregunta": "¿Cuánto cuesta un render de casa?",
+        "respuesta": "Depende sobre todo del entorno y del nivel de detalle. Como referencia, un <strong>render exterior</strong> está entre 90 € y 220 € por imagen; las vistas interiores tienen su propio rango en la tabla de <a href='/precios/'>precios de renders</a>."
+      },
+      {
+        "pregunta": "¿Podéis hacer el render si la casa ya existe y quiero reformarla?",
+        "respuesta": "Sí. Con fotos del estado actual y las medidas principales modelamos la vivienda y aplicamos la reforma: fachada nueva, ampliación o cambio de carpinterías. Ver <strong>estado actual y reforma</strong> juntos ayuda a decidir si la obra compensa, como en los <a href='/renders-antes-y-despues/'>renders de antes y después</a>."
+      },
+      {
+        "pregunta": "¿Qué diferencia hay con un render de arquitectura?",
+        "respuesta": "El render de arquitectura cubre cualquier edificio o espacio público. El de casa se centra en <strong>la vivienda unifamiliar</strong> y en quien va a habitarla, así que da más peso al jardín, a la orientación y a los rincones de uso diario."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de casas",
+    "singular": "Render de casa",
+    "sufijo": "de casas"
+  }
+}

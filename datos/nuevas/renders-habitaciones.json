@@ -1,0 +1,92 @@
+{
+  "slug": "renders-habitaciones",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de habitaciones",
+  "tituloSeo": "Renders de habitaciones: dormitorios e infantiles en 3D",
+  "descripcion": "Imágenes 3D de dormitorios principales, infantiles y juveniles para reformas, interioristas y fabricantes de muebles, antes de montarlos. Pide presupuesto.",
+  "palabraClave": "renders de habitaciones",
+  "foto": "/wp-content/uploads/2025/04/renders-de-habitaciones.jpg",
+  "fotoAlt": "Renders de habitaciones: dormitorio amueblado con cama, mesillas, textiles y luz suave",
+  "intro": {
+    "h2": "Renders de habitaciones pensados para el descanso y el almacenaje",
+    "html": "<p>En un dormitorio las dudas no son tanto de materiales como de espacio: dónde va la cama, si cabe el armario, cómo entra la luz por la mañana. Un <strong>render de dormitorio</strong> responde a todo eso con la habitación ya amueblada.</p><p>Las demás estancias de la casa las cubren nuestros <a href='/renders-interiores/'>renders de interiores</a>; aquí hablamos solo de habitaciones y de quien las diseña, las amuebla o las vende.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de habitaciones?",
+      "html": "<p>Son imágenes 3D de un dormitorio, ya sea el principal, uno infantil, uno juvenil o una habitación de invitados. Se modelan sobre la planta real, con las puertas, la ventana y los radiadores, y se amueblan con <strong>cama, armario y textiles</strong> según el estilo que busques.</p><p>Lo que más cuidamos en este tipo de imagen son las telas: el edredón, las cortinas, la alfombra y el cabecero tapizado. Son las que dan la sensación de calidez, y si quedan rígidas o planas, el dormitorio parece un escaparate y no un sitio donde dormir a gusto.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de habitaciones",
+      "html": "<p>A una familia le sirven para planificar el cuarto de los niños antes de comprar literas y escritorios. A un fabricante de dormitorios o de armarios, para <strong>presentar sus composiciones</strong> en contexto. Y a quien vende una vivienda sobre plano, para que el comprador entienda que el dormitorio principal admite cama grande y vestidor.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede planificar un dormitorio infantil que crezca con el niño?",
+      "html": "<p>Sí. Preparamos la misma habitación en dos etapas: con cuna y zona de juego, y más adelante con cama y escritorio de estudio. Así compruebas si los muebles que compras ahora seguirán sirviendo dentro de unos años y si la distribución aguanta el cambio.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede mostrar el armario por dentro?",
+      "html": "<p>Sí, si lo necesitas. Para un fabricante de armarios o de vestidores a medida, mostramos el interior con baldas, cajones y barras de colgar en una vista abierta. En un dormitorio que se va a vender suele bastar con el armario cerrado y bien integrado en la pared.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de habitaciones",
+      "html": "<ul><li><strong>Distribución del mobiliario</strong> sobre la planta, respetando paso, puertas y radiadores.</li><li><strong>Textiles y tapicerías</strong> con caída y arrugas naturales.</li><li><strong>Armarios y vestidores</strong> cerrados o abiertos, a medida o de catálogo.</li><li><strong>Luz de mañana o noche</strong>, con lámparas de mesilla y luz indirecta.</li><li><strong>Versiones de estilo</strong> sobre la misma habitación, para comparar propuestas.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de habitaciones",
+      "html": "<p>No se plantea igual un dormitorio de matrimonio que el cuarto de un estudiante.</p>",
+      "tarjetas": [
+        {
+          "titulo": "Dormitorio principal",
+          "texto": "Cama de matrimonio, cabecero y espacio para vestidor.",
+          "foto": "/wp-content/uploads/2025/04/render-interior-3d-habitacion.webp"
+        },
+        {
+          "titulo": "Habitación de invitados",
+          "texto": "Una estancia sencilla que también hace de despacho.",
+          "foto": "/wp-content/uploads/2025/05/proyecto-de-render-habitacion.jpg"
+        },
+        {
+          "titulo": "Dormitorio para vender",
+          "texto": "La habitación vacía, amueblada para el anuncio del piso.",
+          "foto": "/wp-content/uploads/2025/04/Home-Staging-Viviendas.webp"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de habitaciones",
+    "items": [
+      {
+        "pregunta": "¿Qué medidas tengo que darte del dormitorio?",
+        "respuesta": "Las de las paredes, la altura del techo y la posición de la puerta, la ventana y el radiador. Con una planta acotada es suficiente; si no la tienes, <strong>un croquis con fotos</strong> también nos vale para empezar a modelar la habitación."
+      },
+      {
+        "pregunta": "¿Cuánto tarda un render de dormitorio?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Si tienes prisa por presentar la propuesta, consulta los <a href='/express/'>renders express</a> y vemos contigo <strong>qué fecha es viable</strong> para tu encargo."
+      },
+      {
+        "pregunta": "¿Sirven para anunciar un piso de alquiler por habitaciones?",
+        "respuesta": "Sí. En ese caso interesa enseñar que cada habitación tiene <strong>cama, escritorio y almacenaje</strong> propios, y que el espacio está bien aprovechado. Es un uso muy práctico para anunciar pisos de estudiantes que todavía no están amueblados."
+      },
+      {
+        "pregunta": "¿Qué diferencia hay con amueblar fotos de la habitación?",
+        "respuesta": "El render parte de la planta y lo modela todo; amueblar fotos reales es <a href='/home-staging-virtual/'>home staging virtual</a>. Lo segundo encaja cuando la habitación ya existe y está vacía, y lo primero cuando <strong>aún está en obra</strong> o solo existe sobre plano."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de habitaciones",
+    "singular": "Render de habitación",
+    "sufijo": "de habitaciones"
+  }
+}

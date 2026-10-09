@@ -1,0 +1,97 @@
+{
+  "slug": "renders-realistas",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders realistas",
+  "tituloSeo": "Renders realistas 3D: imágenes que parecen fotografías",
+  "descripcion": "Renders realistas en 3D para arquitectura, interiorismo y producto: luz física, materiales con textura y encuadres de fotógrafo. Pide presupuesto.",
+  "palabraClave": "renders realistas",
+  "foto": "/wp-content/uploads/2025/04/renders-realistas-3d.webp",
+  "fotoAlt": "Renders realistas: salón con luz natural, texturas de madera y tejidos que parecen fotografía",
+  "intro": {
+    "h2": "Renders realistas que se confunden con una fotografía",
+    "html": "<p>El realismo no es un efecto que se añade al final: sale de cómo se modela, cómo se ilumina y cómo se encuadra cada escena. Una imagen 3D realista es la que <strong>no despierta sospechas</strong> en quien la mira, porque la luz, las sombras y los materiales se comportan como en el mundo real.</p><p>Es lo que buscan promotoras, interioristas y marcas cuando la imagen va a sustituir a una foto que todavía no se puede hacer.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders realistas?",
+      "html": "<p>Son imágenes generadas por ordenador con motores de cálculo físico de la luz, que simulan cómo rebota en cada superficie, cómo se tiñe al atravesar un visillo o cómo se difumina una sombra. A eso se suman <strong>texturas con imperfecciones</strong>: una madera con vetas irregulares, una pared con un leve desgaste, un cojín algo hundido.</p><p>La diferencia con un render esquemático está en esos detalles. Un render básico enseña el diseño; uno realista transmite la sensación de estar allí. El nivel extremo de ese trabajo, con retoque fotográfico añadido, es lo que llamamos hiperrealismo.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders realistas",
+      "html": "<p>Sirven cuando la imagen tiene que convencer a alguien que no sabe leer planos: el comprador de una vivienda sobre plano, el cliente final de un interiorista o el lector de un catálogo. Cuanto más creíble es la escena, <strong>menos dudas genera</strong> y más fácil resulta tomar una decisión.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué hace que un render parezca una fotografía?",
+      "html": "<p>Tres cosas a la vez: una luz coherente con la hora y la orientación, materiales con defectos naturales y un encuadre como el de un fotógrafo de arquitectura, con verticales rectas y una altura de cámara creíble. Si falla una de ellas, el ojo detecta enseguida que la imagen es artificial.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede hacer realista un proyecto sin decidir los materiales?",
+      "html": "<p>Se puede, pero el resultado depende mucho de las referencias. Si los acabados no están cerrados, proponemos materiales verosímiles para el estilo del proyecto y se sustituyen cuando los elijas. Lo que no conviene es dejar superficies genéricas, porque son lo primero que delata un render poco cuidado.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders realistas",
+      "html": "<ul><li><strong>Iluminación física</strong> con sol, cielo y luces artificiales calculadas.</li><li><strong>Materiales con textura real</strong>, relieve, brillo e imperfecciones.</li><li><strong>Encuadre fotográfico</strong> con altura de cámara y lente pensadas para cada espacio.</li><li><strong>Atrezo y decoración</strong> que dan vida a la escena sin recargarla.</li><li><strong>Posproducción ligera</strong> de color y contraste, como en una foto profesional.</li><li><strong>Vista previa</strong> para validar el resultado antes de la entrega.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders realistas",
+      "html": "<p>El realismo se aplica a cualquier tema, pero cada uno tiene sus claves:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Interiores realistas",
+          "texto": "Estancias con luz natural, tejidos y madera creíbles.",
+          "foto": "/wp-content/uploads/2025/05/render-arquitectura-sala.jpg"
+        },
+        {
+          "titulo": "Exteriores realistas",
+          "texto": "Arquitectura con cielo, vegetación y sombras de verdad.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-exteriores.jpg"
+        },
+        {
+          "titulo": "Producto realista",
+          "texto": "Objetos con brillos y materiales listos para catálogo.",
+          "foto": "/wp-content/uploads/2025/04/render-de-productos.webp"
+        },
+        {
+          "titulo": "Hiperrealismo",
+          "texto": "El máximo detalle, con retoque de fotografía profesional.",
+          "foto": "/wp-content/uploads/2025/04/render-3d-proyecto.webp"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders realistas",
+    "items": [
+      {
+        "pregunta": "¿Qué diferencia hay entre realista e hiperrealista?",
+        "respuesta": "Un render realista ya es creíble; el hiperrealista lleva ese trabajo al límite, con más detalle de modelado, más atrezo y un retoque final de nivel fotográfico. Es la opción para <strong>campañas de alto impacto</strong>. Puedes ver ejemplos en <a href='/hiperrealistas/'>renders hiperrealistas</a>."
+      },
+      {
+        "pregunta": "¿Qué programas usáis para conseguir ese realismo?",
+        "respuesta": "Trabajamos con motores de render físicos y programas de modelado profesionales, y elegimos cada uno según el proyecto. El programa importa menos que <strong>el criterio del renderista</strong> al iluminar y encuadrar. Lo contamos con detalle en <a href='/programas-para-renders/'>programas para renders</a>."
+      },
+      {
+        "pregunta": "¿Un render realista tarda más que uno sencillo?",
+        "respuesta": "Algo más, porque exige cuidar materiales, atrezo y luz. Aun así, el plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Lo que más alarga un encargo no es el realismo, sino <strong>los cambios de diseño</strong> a mitad del proceso."
+      },
+      {
+        "pregunta": "¿Puedo pedir que el render imite el estilo de una foto concreta?",
+        "respuesta": "Sí. Si nos pasas fotografías de referencia, reproducimos su ambiente: tipo de luz, gama de color, encuadre y nivel de atrezo. Es una forma muy eficaz de <strong>alinear expectativas</strong> desde el principio, y te lo pedimos junto al resto del material en la <a href='/presupuesto/'>solicitud de presupuesto</a>."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders realistas",
+    "singular": "Render realista",
+    "sufijo": "realistas"
+  }
+}

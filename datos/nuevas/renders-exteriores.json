@@ -1,0 +1,97 @@
+{
+  "slug": "renders-exteriores",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de exteriores",
+  "tituloSeo": "Renders de exteriores 3D: arquitectura con su entorno",
+  "descripcion": "Renders de exteriores en 3D: viviendas, edificios, jardines y urbanizaciones con cielo, vegetación y luz real, para proyectos y ventas. Pide presupuesto.",
+  "palabraClave": "renders de exteriores",
+  "foto": "/wp-content/uploads/2025/04/renders-de-exteriores.jpg",
+  "fotoAlt": "Renders de exteriores: vivienda contemporánea rodeada de jardín bajo un cielo despejado",
+  "intro": {
+    "h2": "Renders de exteriores que muestran el proyecto en su entorno real",
+    "html": "<p>Un proyecto no se entiende solo por su volumen: también cuenta dónde está, qué lo rodea y cómo le da el sol. Una imagen exterior en 3D reúne todo eso y enseña la obra <strong>integrada en su paisaje</strong>, sea una calle, una ladera o una urbanización.</p><p>Hacemos vistas exteriores de cualquier escala, desde una caseta de jardín hasta un conjunto residencial, siempre con una vista previa que revisas antes de la entrega.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de exteriores?",
+      "html": "<p>Son imágenes fotorrealistas de cualquier elemento al aire libre: edificios, viviendas, jardines, terrazas, piscinas, plazas o calles. Lo que los define es que la luz no la controla una lámpara, sino <strong>el sol y el cielo</strong>, y eso obliga a cuidar la hora del día, la estación y la orientación real de la parcela.</p><p>También exigen mucho trabajo de entorno. La vegetación, el pavimento, los coches aparcados o la gente que pasea son los que hacen creíble la escena; sin ellos, el mismo edificio parece una maqueta flotando sobre un fondo vacío.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de exteriores",
+      "html": "<p>Se usan para vender sobre plano, para tramitar licencias en las que importa el impacto visual y para que un cliente apruebe el diseño de su jardín o su fachada. En urbanismo, permiten <strong>explicar una actuación</strong> a los vecinos antes de la exposición pública, con una imagen que cualquiera entiende.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué hora del día queda más natural en una vista exterior?",
+      "html": "<p>Depende de la orientación y de lo que quieras destacar. La luz de media mañana enseña bien los materiales; la del atardecer, más cálida, da ambiente a terrazas y piscinas. Una vez modelado el exterior, cambiar la hora es sencillo, así que puedes ver opciones antes de elegir.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se modela el paisaje o se usa una fotografía?",
+      "html": "<p>Las dos cosas son posibles. Si hay una foto del terreno o del solar, encajamos el proyecto en ella y conservamos el entorno real. Si la parcela aún está vacía o no hay buenas tomas, modelamos el paisaje con su topografía, su vegetación y los edificios cercanos más visibles.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de exteriores",
+      "html": "<ul><li><strong>Modelado del proyecto</strong> y de su parcela, con la topografía cuando influye en la imagen.</li><li><strong>Vegetación adaptada al clima</strong>: no es lo mismo un jardín mediterráneo que uno atlántico.</li><li><strong>Cielo e iluminación solar</strong> según la orientación real del proyecto.</li><li><strong>Personas, vehículos y mobiliario urbano</strong> para dar escala y vida a la escena.</li><li><strong>Vista previa</strong> con encuadre y materiales antes de la versión final.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de exteriores",
+      "html": "<p>El exterior puede ser el de una casa o el de un barrio entero; estos son los encargos más comunes:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Viviendas unifamiliares",
+          "texto": "Casas con su parcela, accesos y zona de jardín.",
+          "foto": "/wp-content/uploads/2025/04/render-casa.jpg"
+        },
+        {
+          "titulo": "Fachadas y edificios",
+          "texto": "Bloques y edificios vistos desde la calle con su contexto.",
+          "foto": "/wp-content/uploads/2025/04/render-fachada.jpg"
+        },
+        {
+          "titulo": "Piscinas y terrazas",
+          "texto": "Zonas de baño, solárium y porches con luz de tarde.",
+          "foto": "/wp-content/uploads/2025/04/render-de-piscinas-3D.jpeg"
+        },
+        {
+          "titulo": "Parques y zonas verdes",
+          "texto": "Espacios públicos, jardines comunitarios y recorridos peatonales.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-parques.jpg"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de exteriores",
+    "items": [
+      {
+        "pregunta": "¿Cuánto cuesta un render exterior?",
+        "respuesta": "Como referencia, un render exterior está entre 90 € y 220 € por imagen. El precio sube con <strong>la complejidad del entorno</strong>: no cuesta lo mismo una casa sobre césped que una calle con edificios, tráfico y arbolado. Tienes la tabla completa en <a href='/precios/'>precios de renders</a>."
+      },
+      {
+        "pregunta": "¿Podéis hacer la misma vista exterior de noche?",
+        "respuesta": "Sí. Con el modelo ya terminado, se cambia el cielo, se encienden las luminarias y las ventanas, y se ajustan los reflejos. Tener <strong>versión diurna y nocturna</strong> del mismo encuadre funciona muy bien en folletos; lo explicamos en <a href='/renders-nocturnos/'>renders nocturnos</a>."
+      },
+      {
+        "pregunta": "¿Qué datos necesitáis sobre la parcela?",
+        "respuesta": "Un plano de situación con el norte marcado, la topografía si el terreno tiene pendiente y fotos del entorno desde los puntos de vista que te interesan. Con eso podemos situar <strong>la luz solar correcta</strong> y reproducir lo que rodea al proyecto con fidelidad."
+      },
+      {
+        "pregunta": "¿Se pueden combinar exteriores e interiores en un mismo encargo?",
+        "respuesta": "Sí, y es lo habitual en viviendas y promociones: el modelo es el mismo y solo cambian las cámaras y la iluminación. Así el conjunto de imágenes mantiene <strong>una estética coherente</strong>. Para las estancias, consulta los <a href='/renders-interiores/'>renders de interiores</a>."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de exteriores",
+    "singular": "Render exterior",
+    "sufijo": "de exteriores"
+  }
+}

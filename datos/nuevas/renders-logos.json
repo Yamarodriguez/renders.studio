@@ -1,0 +1,92 @@
+{
+  "slug": "renders-logos",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de logos",
+  "tituloSeo": "Renders de logos en 3D para presentar tu marca",
+  "descripcion": "Renders de logos en 3D para presentaciones, redes, rótulos y vídeo: tu logotipo con volumen, materiales y luz, sin cambiar su diseño. Pide presupuesto.",
+  "palabraClave": "renders de logos",
+  "foto": "/wp-content/uploads/2025/05/render-logos.webp",
+  "fotoAlt": "Renders de logos: logotipo convertido en pieza 3D con volumen y luz de estudio",
+  "intro": {
+    "h2": "Renders de logos para dar volumen a tu marca",
+    "html": "<p>Un logotipo plano funciona en una tarjeta, pero en una presentación, una cabecera de vídeo o una pantalla de feria se queda corto. Convertido en pieza tridimensional, con relieve, material y sombra, gana presencia sin cambiar su diseño.</p><p>Trabajamos con tu archivo vectorial, respetamos <strong>proporciones y colores corporativos</strong> y te enseñamos una prueba de material antes de la entrega definitiva.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de logos?",
+      "html": "<p>Son imágenes en las que el logotipo de una marca deja de ser un dibujo plano y se convierte en un objeto: letras extruidas, un símbolo de metal pulido, un rótulo de neón o una placa de madera grabada. Se modela a partir del vector original y se le asigna un material y un entorno de luz.</p><p>No tiene nada que ver con la arquitectura: el trabajo se parece más al diseño gráfico que al interiorismo. Lo importante es que la marca siga siendo reconocible y que el material elegido transmita <strong>el carácter de la empresa</strong>, sea sobrio, tecnológico o artesanal.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de logos",
+      "html": "<p>Sirven para abrir una presentación corporativa, animar la entrada de un vídeo, crear publicaciones de lanzamiento en redes o enseñar a un cliente cómo quedará <strong>el rótulo de su fachada</strong> antes de fabricarlo. También dan juego como fondo de pantalla en eventos y stands.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué archivo del logotipo necesitáis?",
+      "html": "<p>Un archivo vectorial, en formato AI, SVG, EPS o PDF. Con él la extrusión sale limpia y respeta cada curva. Si solo tienes una imagen en PNG o JPG, podemos redibujarlo, aunque conviene que el diseñador original revise el resultado antes de pasar al volumen.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede animar el logotipo?",
+      "html": "<p>Sí. El modelo que preparamos para la imagen fija sirve también para una animación corta: el símbolo que aparece, gira o se ilumina, pensada como cortinilla de entrada o cierre de un vídeo. Para piezas más largas tienes el servicio de <a href='/video-render-3d/'>vídeo render 3D</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de logos",
+      "html": "<ul><li><strong>Modelado desde el vector</strong> con la extrusión y los biseles que pida el diseño.</li><li><strong>Materiales a elegir</strong>: metal, cristal, madera, plástico mate o luz de neón.</li><li><strong>Ajuste al manual</strong> de marca en colores, tipografía y márgenes.</li><li><strong>Escenas de presentación</strong> sobre fondo liso, en pared o en un rótulo de fachada.</li><li><strong>Formatos para cada canal</strong>: horizontal para web, vertical para redes y fondo transparente.</li><li><strong>Prueba previa</strong> del material y el encuadre antes de la entrega final.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de logos",
+      "html": "<p>El mismo logotipo puede presentarse de formas muy distintas según dónde se vaya a usar:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Logo en recepción",
+          "texto": "La marca sobre el mostrador o la pared principal.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-locales.webp"
+        },
+        {
+          "titulo": "Logo para redes y vídeo",
+          "texto": "Piezas verticales y animaciones para campañas digitales.",
+          "foto": "/wp-content/uploads/2025/05/renders-marketing.webp"
+        },
+        {
+          "titulo": "Logo sobre producto",
+          "texto": "El símbolo grabado o impreso sobre el propio artículo.",
+          "foto": "/wp-content/uploads/2025/04/render-de-productos.webp"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de logos",
+    "items": [
+      {
+        "pregunta": "¿Cambiáis el diseño de mi logotipo?",
+        "respuesta": "No. Partimos del diseño aprobado y solo añadimos profundidad, material y luz. Si al pasar a 3D algún detalle fino se pierde, por ejemplo un trazo muy delgado, te lo comentamos y decides con tu diseñador <strong>el ajuste más fiel</strong> a la marca."
+      },
+      {
+        "pregunta": "¿Puedo pedir varios materiales para comparar?",
+        "respuesta": "Sí, y es lo habitual cuando la marca todavía no tiene decidido su acabado. Preparamos el mismo encuadre con varios materiales para que elijas viéndolos juntos, por ejemplo <strong>metal cepillado o madera</strong>, antes de cerrar la versión final."
+      },
+      {
+        "pregunta": "¿Sirve para enseñar un rótulo antes de encargarlo?",
+        "respuesta": "Sí. Colocamos el logotipo sobre una foto de tu fachada o en el modelo 3D del edificio, con su iluminación nocturna, para que veas <strong>el tamaño y la legibilidad</strong> desde la calle. Si además quieres reformar el frente, mira los <a href='/renders-fachadas/'>renders de fachadas</a>."
+      },
+      {
+        "pregunta": "¿Cuánto tarda el encargo?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Para cerrar fecha y precio, cuéntanos los usos previstos al <a href='/presupuesto/'>solicitar presupuesto</a> y te proponemos <strong>un paquete de imágenes</strong> ajustado a ellos."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de logos",
+    "singular": "Render de logo",
+    "sufijo": "de logos"
+  }
+}

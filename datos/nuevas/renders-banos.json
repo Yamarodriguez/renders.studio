@@ -1,0 +1,92 @@
+{
+  "slug": "renders-banos",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de baños",
+  "tituloSeo": "Renders de baños 3D: revestimientos, sanitarios y luz",
+  "descripcion": "Imágenes 3D de baños para reformas, interioristas y tiendas de cerámica: azulejos, mamparas, grifería y luz vistos antes de la obra. Pide presupuesto.",
+  "palabraClave": "renders de baños",
+  "foto": "/wp-content/uploads/2025/04/renders-de-banos.webp",
+  "fotoAlt": "Renders de baños: vista de un baño con revestimientos cerámicos, sanitarios y grifería",
+  "intro": {
+    "h2": "Renders de baños para elegir azulejos y mampara sin equivocarte",
+    "html": "<p>El baño es la estancia más pequeña de la casa y, sin embargo, la que más materiales reúne en poco espacio: cerámica, vidrio, grifería, espejo y madera. Un <strong>render de baño</strong> los pone juntos con la luz que tendrán de verdad.</p><p>Para ver la vivienda completa existen los <a href='/renders-interiores/'>renders de interiores</a>; esta página se centra en el baño y en las decisiones que solo se toman en él.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de baños?",
+      "html": "<p>Son imágenes 3D de un baño concreto, construidas sobre su planta y con las piezas que vas a instalar. Lo que los distingue es la escala: en un baño cada junta, cada cambio de formato de azulejo y cada encuentro entre plato y pared se ve de cerca, así que el modelo tiene que ser <strong>preciso en los remates</strong>.</p><p>También es la estancia donde la luz engaña más. Hay poca ventana o ninguna, mucho brillo y un espejo que lo devuelve todo. Una buena imagen reproduce esos reflejos para que el porcelánico que eliges en la tienda se parezca al que verás en casa.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de baños",
+      "html": "<p>Sirven para decidir la combinación de revestimientos antes de comprar las cajas de cerámica, que luego no se devuelven con facilidad. A una tienda de azulejos o de mamparas le permiten <strong>enseñar la composición terminada</strong> y no una pieza suelta en el expositor. A un reformista, cerrar el encargo con un cliente que ya ha visto el resultado.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede comparar plato de ducha y bañera en el mismo baño?",
+      "html": "<p>Sí. Modelamos el baño una vez y preparamos las dos versiones con el mismo encuadre, para que veas cómo cambian el espacio libre y la sensación de amplitud. Es una de las dudas más comunes en una reforma y la imagen la resuelve antes de que el fontanero mueva ninguna toma.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Vale un render de baño para un aseo muy pequeño?",
+      "html": "<p>Sí, y es donde más se nota. En un aseo o en un baño estrecho cualquier decisión pesa: un mueble demasiado profundo o un azulejo oscuro lo encogen. El render te deja probar formatos, colores y espejos hasta dar con la combinación que lo hace parecer más amplio.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de baños",
+      "html": "<ul><li><strong>Despiece de revestimientos</strong> con el formato, la colocación y el color de junta que elijas.</li><li><strong>Sanitarios y grifería</strong> de las referencias que nos pases, o equivalentes si aún no están decididas.</li><li><strong>Mampara y vidrios</strong> con su transparencia, su perfilería y sus reflejos.</li><li><strong>Luz de espejo</strong> y de techo, combinada con la natural si hay ventana.</li><li><strong>Vista previa del encuadre</strong> antes del render final, para elegir desde dónde se ve mejor.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de baños",
+      "html": "<p>Cada baño se plantea según su uso y la vivienda o el edificio en que está.</p>",
+      "tarjetas": [
+        {
+          "titulo": "Baño en suite",
+          "texto": "Integrado en el dormitorio principal, sin puerta de por medio.",
+          "foto": "/wp-content/uploads/2025/04/render-interior-3d-habitacion.webp"
+        },
+        {
+          "titulo": "Reforma de baño",
+          "texto": "El baño actual frente a la propuesta nueva.",
+          "foto": "/wp-content/uploads/2025/05/renders-antes-y-despues.webp"
+        },
+        {
+          "titulo": "Baño en planta",
+          "texto": "Vista cenital para comprobar la distribución de las piezas.",
+          "foto": "/wp-content/uploads/2025/04/render-de-casa-planta-3d.webp"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de baños",
+    "items": [
+      {
+        "pregunta": "¿Puedo pedir solo el baño y no toda la vivienda?",
+        "respuesta": "Sí. Encargar <strong>una sola estancia</strong> es habitual cuando la reforma se limita al baño. Nos basta con su planta y las referencias de materiales; el resto de la casa no hace falta modelarlo, salvo la parte que se vea por la puerta."
+      },
+      {
+        "pregunta": "¿Cuánto cuesta un render de baño?",
+        "respuesta": "Un baño se cobra como render interior, entre 70 € – 170 € por imagen según el detalle y las variantes que pidas. El desglose está en la página de <a href='/precios/'>precios de renders</a>, junto con <strong>qué hace variar el precio</strong>."
+      },
+      {
+        "pregunta": "¿Podéis copiar un azulejo que he visto en una tienda?",
+        "respuesta": "Sí, con una foto frontal de la pieza y el nombre de la serie. Reproducimos <strong>el color y el relieve</strong> con la mayor fidelidad posible; si el fabricante ofrece texturas para descargar, las usamos y el parecido es todavía mayor."
+      },
+      {
+        "pregunta": "¿Cuánto se tarda en tener el render del baño?",
+        "respuesta": "El plazo habitual es de 15 días y puede ser menor si el proyecto es urgente. Ganas tiempo si llegas con <strong>los materiales ya escogidos</strong>. Para enseñar el baño actual junto a la reforma tienes los <a href='/renders-antes-y-despues/'>renders antes y después</a>."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de baños",
+    "singular": "Render de baño",
+    "sufijo": "de baños"
+  }
+}

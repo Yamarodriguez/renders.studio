@@ -1,0 +1,97 @@
+{
+  "slug": "renders-productos",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de productos",
+  "tituloSeo": "Renders de productos 3D para catálogo y tienda online",
+  "descripcion": "Renders de productos en 3D para catálogo, tienda online y redes: muebles, lámparas, grifería o envases sin sesión de fotos ni prototipo. Pide presupuesto.",
+  "palabraClave": "renders de productos",
+  "foto": "/wp-content/uploads/2025/04/render-de-productos.webp",
+  "fotoAlt": "Renders de productos: pieza de diseño presentada en 3D con luz de estudio",
+  "intro": {
+    "h2": "Renders de productos para vender antes de fabricar",
+    "html": "<p>Fotografiar un producto exige tenerlo fabricado, montar un plató y repetir la sesión cada vez que cambia un acabado. Con una imagen 3D basta el diseño: el objeto se presenta en cualquier color, ángulo o ambiente.</p><p>Modelamos la pieza a partir de tus planos o archivos de diseño y te enviamos una <strong>prueba de materiales</strong> para revisarla antes de preparar las imágenes definitivas.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de productos?",
+      "html": "<p>Son imágenes fotorrealistas de un objeto creadas a partir de su modelo digital: un sillón, una lámpara, un grifo, una baldosa, un electrodoméstico o un envase. El modelo se viste con sus materiales reales y se ilumina como en un estudio fotográfico, sobre fondo neutro o dentro de un ambiente.</p><p>Aquí el reto está en la escala pequeña: costuras, brillos del metal, la transparencia del cristal o la veta de una madera se miran de cerca, así que <strong>el acabado de cada material</strong> tiene que ser exacto. Si tu producto es un mueble tapizado, mira también los <a href='/renders-sofas/'>renders de sofás</a>.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de productos",
+      "html": "<p>Sirven para llenar la ficha de una tienda online, preparar un catálogo antes de la producción, enseñar a un distribuidor <strong>todas las variantes de color</strong> o lanzar una campaña sin esperar a la primera tirada. Para el fabricante también son una forma de validar el diseño con su equipo.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Qué archivos necesitas del producto?",
+      "html": "<p>Lo ideal es el modelo de diseño en un formato estándar, como STEP, OBJ o FBX, junto con las referencias de acabados. Si solo tienes planos acotados o fotos de una muestra, también podemos trabajar: el servicio de <a href='/modelado-3d/'>modelado 3D de piezas</a> reconstruye el objeto antes de renderizarlo.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Puedo tener el mismo producto en varios colores?",
+      "html": "<p>Sí, y es una de las ventajas frente a la fotografía. Una vez hecho el modelo, cambiar tapicería, lacado o metal es rápido, de modo que obtienes la colección completa con el mismo encuadre y la misma luz, algo que en un plató cuesta mucho igualar.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de productos",
+      "html": "<ul><li><strong>Modelado de la pieza</strong> desde tu archivo de diseño, planos o muestra.</li><li><strong>Materiales fieles</strong>: tejidos, metales, plásticos, cerámica y vidrio.</li><li><strong>Fondo neutro</strong> para la ficha de tienda online, con sombra suave.</li><li><strong>Escenas de uso</strong> que sitúan el producto en una cocina, un salón o un baño.</li><li><strong>Variantes de acabado</strong> con el mismo encuadre para toda la gama.</li><li><strong>Detalles en primer plano</strong> de herrajes, texturas o mecanismos.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de productos",
+      "html": "<p>Según el sector, el producto se presenta de una manera u otra:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Mobiliario y tapicería",
+          "texto": "Sillones, sofás y mesas con sus tejidos reales.",
+          "foto": "/wp-content/uploads/2025/05/sofa-render-3d.webp"
+        },
+        {
+          "titulo": "Muebles de cocina",
+          "texto": "Frentes, encimeras y electrodomésticos dentro de un ambiente.",
+          "foto": "/wp-content/uploads/2025/05/renders-casas-cocina.jpg"
+        },
+        {
+          "titulo": "Sanitarios y grifería",
+          "texto": "Lavabos, grifos y mamparas con brillos y reflejos.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-banos.webp"
+        },
+        {
+          "titulo": "Producto en ambiente",
+          "texto": "La pieza integrada en una estancia que la explica.",
+          "foto": "/wp-content/uploads/2025/04/render-interior.webp"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de productos",
+    "items": [
+      {
+        "pregunta": "¿Se nota la diferencia con una fotografía?",
+        "respuesta": "Bien hecho, no. Con materiales calibrados y una iluminación de estudio, la imagen 3D resulta indistinguible de una foto para quien compra en una web. Esa es la idea de los <a href='/renders-realistas/'>renders realistas</a>: que el cliente vea <strong>el objeto tal como es</strong>."
+      },
+      {
+        "pregunta": "¿Sirven las imágenes para marketplaces?",
+        "respuesta": "Sí. Preparamos versiones sobre <strong>fondo blanco puro</strong> y en el formato cuadrado que piden la mayoría de plataformas de venta, además de imágenes de ambiente para la galería del producto. Si necesitas otras proporciones para banners o redes, salen del mismo modelo."
+      },
+      {
+        "pregunta": "¿También hacéis animaciones del producto?",
+        "respuesta": "Sí. Con el modelo ya preparado se puede generar una animación que gire alrededor de la pieza, la despiece o muestre un mecanismo en marcha. Es un <strong>buen complemento comercial</strong> para ferias y presentaciones; tienes más detalle en <a href='/video-render-3d/'>vídeo render 3D</a>."
+      },
+      {
+        "pregunta": "¿Necesito un prototipo físico para empezar?",
+        "respuesta": "No. Muchos fabricantes encargan las imágenes antes de producir, para medir la respuesta de los distribuidores o tener listo el catálogo de temporada. Basta con el diseño técnico y las <strong>referencias de acabado</strong>; si existe una muestra, nos sirve para comprobar colores."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de productos",
+    "singular": "Render de producto",
+    "sufijo": "de productos"
+  }
+}

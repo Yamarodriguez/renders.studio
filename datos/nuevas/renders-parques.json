@@ -1,0 +1,97 @@
+{
+  "slug": "renders-parques",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de parques",
+  "tituloSeo": "Renders de parques 3D: plazas, jardines y zonas verdes",
+  "descripcion": "Renders de parques en 3D para proyectos de paisajismo y urbanismo: plazas, jardines, zonas infantiles y paseos con vegetación real. Pide presupuesto.",
+  "palabraClave": "renders de parques",
+  "foto": "/wp-content/uploads/2025/04/renders-de-parques.jpg",
+  "fotoAlt": "Renders de parques: zona verde urbana con caminos, arbolado y bancos para el paseo",
+  "intro": {
+    "h2": "Renders de parques para explicar un proyecto de paisajismo a cualquiera",
+    "html": "<p>Un plano de paisajismo está lleno de símbolos que solo entienden los técnicos. Una imagen 3D del parque, en cambio, enseña los caminos, la sombra de los árboles y las zonas de juego tal como las vivirán <strong>los vecinos y usuarios</strong>.</p><p>Trabajamos con ayuntamientos, paisajistas, ingenierías y promotoras de urbanizaciones, a partir de los planos del proyecto y de la lista de especies previstas.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de parques?",
+      "html": "<p>Son imágenes fotorrealistas de espacios libres: parques urbanos, plazas, jardines públicos, paseos fluviales, zonas infantiles o áreas deportivas al aire libre. Aquí el material principal no es el hormigón ni el vidrio, sino <strong>la vegetación y el agua</strong>, y eso cambia la forma de trabajar.</p><p>Cada especie tiene su porte, su color y su textura según la estación. Un parque recién plantado no se parece al mismo parque con los árboles crecidos, y conviene decidir cuál de los dos se quiere enseñar. También importan el pavimento, el mobiliario urbano y la gente que da vida al lugar.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de parques",
+      "html": "<p>Sirven para presentar un proyecto en un <strong>proceso de participación ciudadana</strong>, para acompañar un concurso de paisajismo y para que una urbanización enseñe sus zonas comunes a los compradores. También ayudan al equipo técnico a revisar recorridos, sombras y visuales antes de licitar la obra.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede mostrar el parque en distintas estaciones?",
+      "html": "<p>Sí. Con el mismo modelo podemos cambiar el follaje, el color del césped y la luz para enseñar el parque en primavera y en otoño, por ejemplo. Es útil cuando el proyecto apuesta por especies de hoja caduca o floraciones concretas que transforman el espacio a lo largo del año.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Hay que tener definida la lista de plantas?",
+      "html": "<p>Ayuda mucho, pero no es imprescindible. Si el paisajista ya tiene la plantación definida, buscamos modelos 3D de esas especies o las más parecidas. Si el proyecto está en una fase inicial, proponemos vegetación adecuada al clima de la zona y se ajusta cuando se cierre la selección.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de parques",
+      "html": "<ul><li><strong>Modelado del terreno</strong> con taludes, caminos, pavimentos y láminas de agua.</li><li><strong>Vegetación por especies</strong>, con árboles, arbustos y tapizantes según el proyecto.</li><li><strong>Mobiliario urbano y juegos</strong>: bancos, fuentes, papeleras, pérgolas y zonas infantiles.</li><li><strong>Personas y actividad</strong> coherentes con el uso previsto de cada zona.</li><li><strong>Vistas aéreas y peatonales</strong> para explicar el conjunto y el detalle.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de parques",
+      "html": "<p>Los espacios libres son muy distintos entre sí; estos son los más frecuentes:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Plazas y espacios públicos",
+          "texto": "Lugares de encuentro urbanos con pavimento, sombra y bancos.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-exteriores.jpg"
+        },
+        {
+          "titulo": "Jardines privados",
+          "texto": "Parcelas residenciales con césped, arbolado y zonas de estar.",
+          "foto": "/wp-content/uploads/2025/04/Render-casa-1-1.webp"
+        },
+        {
+          "titulo": "Zonas comunes con piscina",
+          "texto": "Jardines de urbanización con agua, solárium y paseos.",
+          "foto": "/wp-content/uploads/2025/04/render-de-piscinas-3D.jpeg"
+        },
+        {
+          "titulo": "Campings y naturaleza",
+          "texto": "Parcelas, bungalós y caminos integrados en el paisaje natural.",
+          "foto": "/wp-content/uploads/2025/05/renders-camping.png"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de parques",
+    "items": [
+      {
+        "pregunta": "¿Qué planos necesitáis para un proyecto de parque?",
+        "respuesta": "La planta general con pavimentos y plantación, las secciones si hay desniveles y el catálogo del mobiliario previsto. Si existe, el levantamiento topográfico también ayuda. Con eso montamos <strong>el modelo del espacio libre</strong>; la lista completa está en <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a>."
+      },
+      {
+        "pregunta": "¿Se puede recorrer el parque en un vídeo?",
+        "respuesta": "Sí. Un recorrido animado a la altura del peatón transmite <strong>la escala del espacio</strong> con más fuerza que varias imágenes sueltas, y es muy útil en presentaciones públicas. Se hace sobre el mismo modelo; lo explicamos en la página de <a href='/video-render-3d/'>vídeo render 3D</a>."
+      },
+      {
+        "pregunta": "¿Cómo se representa un parque recién plantado?",
+        "respuesta": "Podemos mostrar los árboles con el tamaño de plantación, que es lo que se verá al inaugurar, o con <strong>el porte de madurez</strong>, que es la imagen que persigue el proyecto. Para una licitación suele ser más honesto el primero; para comunicar, el segundo."
+      },
+      {
+        "pregunta": "¿Hacéis también vistas para concursos de urbanismo?",
+        "respuesta": "Sí. En concursos se suelen combinar una vista aérea del conjunto con varias vistas peatonales de los puntos clave, todas con <strong>la misma estética gráfica</strong>. Si el encargo incluye edificios, se tratan junto al parque, como en los <a href='/renders-arquitectura/'>renders de arquitectura</a>."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de parques",
+    "singular": "Render de parque",
+    "sufijo": "de parques"
+  }
+}

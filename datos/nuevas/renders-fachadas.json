@@ -1,0 +1,97 @@
+{
+  "slug": "renders-fachadas",
+  "tipo": "servicio",
+  "grupo": "tipo",
+  "etiqueta": "Tipo de render",
+  "titulo": "Renders de fachadas",
+  "tituloSeo": "Renders de fachadas 3D: materiales, color y luz real",
+  "descripcion": "Renders de fachadas en 3D para elegir revestimientos, colores y carpinterías antes de la obra, en edificios nuevos o en rehabilitación. Pide presupuesto.",
+  "palabraClave": "renders de fachadas",
+  "foto": "/wp-content/uploads/2025/04/render-3d-fachada.jpg",
+  "fotoAlt": "Renders de fachadas: edificio residencial con revestimiento claro, balcones y carpintería oscura",
+  "intro": {
+    "h2": "Renders de fachadas para decidir el aspecto del edificio antes de la obra",
+    "html": "<p>La fachada es lo primero que ven un vecino, un comprador o el técnico del ayuntamiento. Una imagen 3D de la envolvente permite comparar <strong>revestimientos, colores y carpinterías</strong> sobre el propio edificio y no sobre un catálogo de muestras.</p><p>Sirve igual para obra nueva que para rehabilitar un bloque existente. Partimos de los alzados o de fotos del estado actual, y te enseñamos una vista previa antes de la imagen definitiva.</p>"
+  },
+  "secciones": [
+    {
+      "nivel": "h2",
+      "titulo": "¿Qué son los renders de fachadas?",
+      "html": "<p>Un render de fachada es una imagen fotorrealista centrada en la piel exterior de un edificio: el revestimiento, los huecos, los balcones, los remates de cubierta y elementos como celosías, toldos o barandillas. El encuadre suele ser frontal o en <strong>perspectiva desde la acera</strong>, a la altura de los ojos de quien pasa por la calle.</p><p>Frente a una vista general del edificio, aquí el protagonista es el material: cómo se ve el ladrillo caravista con el sol rasante, si un panel composite refleja demasiado o qué despiece marca un aplacado de piedra junto al portal.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Para qué sirven los renders de fachadas",
+      "html": "<p>Las comunidades de vecinos los usan para votar una rehabilitación con algo concreto delante. Los arquitectos los adjuntan a la <strong>solicitud de licencia</strong> cuando el municipio pide justificar cómo encaja la intervención en la calle, y los fabricantes de revestimientos los emplean para enseñar su producto ya colocado.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se puede poner la fachada nueva sobre una foto del edificio actual?",
+      "html": "<p>Sí, y es lo habitual en rehabilitación. Modelamos la fachada, la encajamos en una fotografía tomada desde la calle y respetamos el entorno real: los edificios colindantes, el arbolado y la acera. Así la comunidad ve el cambio en su contexto, y puede presentarse también como <a href='/renders-antes-y-despues/'>imagen de antes y después</a>.</p>"
+    },
+    {
+      "nivel": "h3",
+      "titulo": "¿Se pueden comparar varias propuestas de color?",
+      "html": "<p>Sí. Una vez modelada la fachada, cambiar el color del mortero, el tono de la carpintería o el tipo de barandilla es rápido. Preparamos las variantes con el mismo encuadre y la misma luz para que la comparación sea justa y se decida mirando las imágenes una junto a otra.</p>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Qué incluye nuestro servicio de renders de fachadas",
+      "html": "<ul><li><strong>Modelado de la envolvente</strong> a partir de alzados, con huecos, vuelos y remates.</li><li><strong>Texturas de material real</strong>: ladrillo, piedra, enfoscado, madera, composite o cerámica.</li><li><strong>Integración en la calle</strong>, sobre fotografía o con un entorno modelado.</li><li><strong>Variantes de acabado</strong> con el mismo punto de vista para compararlas.</li><li><strong>Vista previa</strong> antes de la imagen definitiva, para ajustar luz y encuadre.</li></ul>"
+    },
+    {
+      "nivel": "h2",
+      "titulo": "Tipos de renders de fachadas",
+      "html": "<p>El encuadre y el contexto cambian según el edificio y el uso de la imagen:</p>",
+      "tarjetas": [
+        {
+          "titulo": "Fachada de vivienda",
+          "texto": "Casas unifamiliares con su acceso, porche y carpinterías.",
+          "foto": "/wp-content/uploads/2025/04/render-fachada.jpg"
+        },
+        {
+          "titulo": "Rehabilitación de edificios",
+          "texto": "El bloque actual con su nuevo revestimiento aplicado.",
+          "foto": "/wp-content/uploads/2025/04/renders-de-edificios.jpg"
+        },
+        {
+          "titulo": "Fachadas singulares",
+          "texto": "Volúmenes y revestimientos que dan carácter al edificio.",
+          "foto": "/wp-content/uploads/2025/04/3D-render-de-arquitectura.jpg"
+        },
+        {
+          "titulo": "Fachada de noche",
+          "texto": "Iluminación arquitectónica y ventanas encendidas tras el anochecer.",
+          "foto": "/wp-content/uploads/2025/04/renders-nocturnos.webp"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "titulo": "Preguntas frecuentes sobre renders de fachadas",
+    "items": [
+      {
+        "pregunta": "¿Qué necesito enviar para un render de fachada?",
+        "respuesta": "Los alzados acotados, una planta para entender los vuelos y las referencias de los materiales, con marca y acabado si ya están elegidos. En una rehabilitación, añade <strong>fotos frontales del edificio</strong>. Tienes la lista completa en <a href='/que-enviar-para-pedir-un-render/'>qué enviar para pedir un render</a>."
+      },
+      {
+        "pregunta": "¿Sirve un render de fachada para la licencia de obras?",
+        "respuesta": "Muchos ayuntamientos piden una imagen que muestre cómo encaja la intervención en la calle, sobre todo en <strong>cascos históricos</strong>. El render no sustituye al proyecto técnico, pero acompaña la documentación y ayuda a que el técnico municipal entienda el resultado."
+      },
+      {
+        "pregunta": "¿Podéis mostrar la fachada iluminada de noche?",
+        "respuesta": "Sí. Con el mismo modelo se genera una vista con las luminarias de fachada, el portal encendido y algunas ventanas con luz. Es útil en hoteles, comercios y edificios con <strong>iluminación arquitectónica</strong>. Hay más ejemplos en la página de <a href='/renders-nocturnos/'>renders nocturnos</a>."
+      },
+      {
+        "pregunta": "¿En qué se diferencia de un render de edificio?",
+        "respuesta": "El render de edificio muestra el volumen completo, a menudo desde lejos o desde el aire, para entender cómo se implanta en la parcela. El de fachada se acerca y se centra en <strong>el material y el detalle</strong>. Para la vista general, mira los <a href='/renders-edificios/'>renders de edificios</a>."
+      }
+    ]
+  },
+  "plantilla": "hiperrealistas",
+  "clave": {
+    "plural": "Renders de fachadas",
+    "singular": "Render de fachada",
+    "sufijo": "de fachadas"
+  }
+}
