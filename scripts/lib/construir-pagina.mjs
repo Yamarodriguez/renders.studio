@@ -303,6 +303,22 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
    * despues TODAS las secciones de la plantilla, adaptadas por clonar.mjs.
    * Las preguntas del servicio se suman al acordeon de la plantilla.
    */
+  /**
+   * Solo en /arquitectos/ y /estudio-arquitectura/: la lista de sus paginas
+   * de ciudad, al final de la pagina (pedido por el propietario).
+   */
+  function ciudadesAlFinal(g) {
+    if (!g.ciudadesAlFinal) return '';
+    const ciudades = anadidos.guias.filter((x) => x.grupo === 'ciudad' && x.slug.startsWith(`${g.slug}-`));
+    if (!ciudades.length) return '';
+    return (
+      `<section class="r-seo-servicio r-ciudades-final"><div class="r-guia r-servicio"><div class="r-caja r-guia-cuerpo">` +
+      `<h2>${g.ciudadesAlFinal.titulo}</h2><p>${g.ciudadesAlFinal.texto}</p>` +
+      `<ul class="r-ciudades">${ciudades.map((x) => `<li><a href="/${x.slug}/">${x.titulo}</a></li>`).join('')}</ul>` +
+      `</div></div></section>`
+    );
+  }
+
   function construyeClon(g, ficha, cabecera) {
     const datos = JSON.parse(fs.readFileSync(path.join(DATOS, 'paginas', `${g.plantilla}.json`), 'utf8'));
     const plantilla = paginas.find((p) => p.slug === g.plantilla);
@@ -343,6 +359,7 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
       aeo.resumenNueva(g) +
       anadidos.pintaBloqueSeo(g, { sinEntrada: subida }) +
       resto +
+      ciudadesAlFinal(g) +
       `</div>`;
     cuerpo = aeo.limpiaMarcado(anadidos.arreglaEnlaces(corrector.corrige(aRelativas(cuerpo))));
     // FAQPage con TODAS las preguntas del acordeon (las del servicio y las de la plantilla)

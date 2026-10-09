@@ -40,11 +40,6 @@
     },
     {
       "nivel": "h2",
-      "titulo": "Nuestro estudio de arquitectura en tu ciudad",
-      "html": "<p>El estudio trabaja online para toda España. Estas son sus páginas en las ciudades donde más proyectos nos piden:</p><ul class=\"r-ciudades\"><li><a href='/estudio-arquitectura-madrid/'>Estudio de arquitectura en Madrid</a></li><li><a href='/estudio-arquitectura-barcelona/'>Estudio de arquitectura en Barcelona</a></li><li><a href='/estudio-arquitectura-valencia/'>Estudio de arquitectura en Valencia</a></li><li><a href='/estudio-arquitectura-sevilla/'>Estudio de arquitectura en Sevilla</a></li><li><a href='/estudio-arquitectura-malaga/'>Estudio de arquitectura en Málaga</a></li><li><a href='/estudio-arquitectura-bilbao/'>Estudio de arquitectura en Bilbao</a></li><li><a href='/estudio-arquitectura-alicante/'>Estudio de arquitectura en Alicante</a></li><li><a href='/estudio-arquitectura-mallorca/'>Estudio de arquitectura en Mallorca</a></li><li><a href='/estudio-arquitectura-zaragoza/'>Estudio de arquitectura en Zaragoza</a></li><li><a href='/estudio-arquitectura-murcia/'>Estudio de arquitectura en Murcia</a></li></ul>"
-    },
-    {
-      "nivel": "h2",
       "titulo": "Servicios de nuestro estudio de arquitectura",
       "html": "<p>Lo que más nos piden, con su página propia:</p>",
       "tarjetas": [
@@ -133,5 +128,9 @@
     "Contacta con nuestro estudio de arquitectura",
     "Estudio de arquitectura profesional",
     "Habla con nuestro estudio de arquitectura"
-  ]
+  ],
+  "ciudadesAlFinal": {
+    "titulo": "Nuestro estudio de arquitectura en tu ciudad",
+    "texto": "El estudio trabaja online para toda España. Estas son sus páginas en las ciudades donde más proyectos nos piden:"
+  }
 }
