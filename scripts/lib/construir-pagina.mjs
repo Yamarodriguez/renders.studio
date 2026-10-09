@@ -20,6 +20,7 @@ import { pintaCabezaRediseno, pintaCabecera, pintaCierre, pintaPie } from './red
 import { creaCorrector } from './erratas.mjs';
 import { creaAnadidos } from './anadidos.mjs';
 import { creaClonador } from './clonar.mjs';
+import { creaAeo } from './aeo.mjs';
 
 const DOMINIO = 'https://renders.studio';
 
@@ -57,6 +58,7 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
   const pintor = creaPintor({ iconos, adjuntos, dinamicos });
   // Solo para el rediseno: enlaces arreglados, zonas, datos para Google y guias.
   const anadidos = creaAnadidos(raiz, paginas);
+  const aeo = creaAeo(raiz, paginas, anadidos);
   // Solo para el rediseno: paso del texto a español de España.
   // Con IDIOMA=original se pinta el texto tal cual, para comparar.
   const corrector =
@@ -164,10 +166,10 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
       const datos = JSON.parse(fs.readFileSync(path.join(DATOS, 'paginas', `${slug}.json`), 'utf8'));
       const ctx = { slug, rediseno, contador: { imagenes: 0, sinLazy: new Set() } };
       if (rediseno) meteVistaEnTipos(datos.elementor);
-      contenido = pintaArbol(datos.elementor, {
-        ...ctx,
-        pintaContenido: (n, c) => pintor.pintaContenido(n, c ?? ctx),
-      });
+      const opciones = { ...ctx, pintaContenido: (n, c) => pintor.pintaContenido(n, c ?? ctx) };
+      contenido = rediseno
+        ? pintaArbol(datos.elementor.slice(0, 1), opciones) + '<!--R-RESUMEN-->' + pintaArbol(datos.elementor.slice(1), opciones)
+        : pintaArbol(datos.elementor, opciones);
       envoltorio = armazon.envoltorio;
     } else {
       // El texto de las legales no esta en el export (lo pone un plugin):
@@ -247,12 +249,17 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
         `<div class="r-legal-cabeza"><div class="r-caja"><p class="r-legal-titulo">${pagina.titulo}</p></div></div>` +
         `<div class="r-caja r-legal">${contenido}</div>`;
     }
-    const cuerpoFinal = anadidos.arreglaEnlaces(corrector.corrige(aRelativas(cuerpo)));
+    cuerpo = cuerpo.replace('<!--R-RESUMEN-->', aeo.resumenOriginal(pagina));
+    const cuerpoFinal = aeo.limpiaMarcado(anadidos.arreglaEnlaces(corrector.corrige(aRelativas(cuerpo))));
     const yaTieneFaq = ficha.cabeza.some((p) => p.tipo === 'scriptEnLinea' && String(p.js || '').includes('FAQPage'));
     // El <head> NO pasa por aRelativas: canonical y og:url siguen absolutas.
     return (
       `<!DOCTYPE html>\n<html lang="${ficha.lang}">\n<head>\n` +
-      pintaCabezaRediseno(ficha, { extra: anadidos.datosParaGoogle(pagina, cuerpoFinal, yaTieneFaq) }) +
+      pintaCabezaRediseno(ficha, {
+        extra: anadidos.datosParaGoogle(pagina, cuerpoFinal, yaTieneFaq),
+        ajustaLd: aeo.ajustaJsonLd,
+        descripcion: aeo.aeo.metadatos?.[pagina.slug]?.descripcion || '',
+      }) +
       `\n</head>\n<body class="r-cuerpo r-pagina-${pagina.slug}">\n` +
       // Toda la web va en una caja de ancho fijo y centrada: al alejar el
       // zoom o en pantallas grandes no se estira.
@@ -278,7 +285,7 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
     if (g.plantilla) return construyeClon(g, ficha, cabecera);
     return (
       `<!DOCTYPE html>\n<html lang="${ficha.lang}">\n<head>\n` +
-      pintaCabezaRediseno(ficha, { propia: anadidos.cabezaDeGuia(g) }) +
+      pintaCabezaRediseno(ficha, { propia: anadidos.cabezaDeGuia(g) + '\n' + aeo.jsonLdEmpresa() }) +
       `\n</head>\n<body class="r-cuerpo r-pagina-guia">\n<div class="r-pagina">\n` +
       aRelativas(pintaCabecera(cabecera, `/${g.slug}/`, anadidos.destinoDeMenu, anadidos.guias)) +
       `\n<main id="main">\n` +
@@ -300,6 +307,16 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
     const datos = JSON.parse(fs.readFileSync(path.join(DATOS, 'paginas', `${g.plantilla}.json`), 'utf8'));
     const plantilla = paginas.find((p) => p.slug === g.plantilla);
     const arbol = creaClonador(g.clave, g.titulo).adapta(structuredClone(datos.elementor));
+    // la respuesta propia del servicio sube a la portada, en lugar del parrafo
+    // de plantilla ("Ofrecemos servicios de...")
+    const sube = (n) => {
+      if (n.widgetType === 'text-editor' && /Ofrecemos servicios/.test(n.settings?.editor || '')) {
+        n.settings.editor = `<h2 class="r-heroe-entrada">${g.intro.h2}</h2>${g.intro.html}`;
+        return true;
+      }
+      return (n.elements || []).some(sube);
+    };
+    const subida = sube(arbol[0]);
     // el slug de la plantilla: galeria, formulario y mapa se copiaron con el
     const ctx = { slug: g.plantilla, rediseno: true, contador: { imagenes: 0, sinLazy: new Set() } };
     const pinta = (nodos) => pintaArbol(nodos, { ...ctx, pintaContenido: (n, c) => pintor.pintaContenido(n, c ?? ctx) });
@@ -323,15 +340,16 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
     let cuerpo =
       `<div class="elementor elementor-${plantilla.id} r-contenido r-clon">` +
       portada +
-      anadidos.pintaBloqueSeo(g) +
+      aeo.resumenNueva(g) +
+      anadidos.pintaBloqueSeo(g, { sinEntrada: subida }) +
       resto +
       `</div>`;
-    cuerpo = anadidos.arreglaEnlaces(corrector.corrige(aRelativas(cuerpo)));
+    cuerpo = aeo.limpiaMarcado(anadidos.arreglaEnlaces(corrector.corrige(aRelativas(cuerpo))));
     // FAQPage con TODAS las preguntas del acordeon (las del servicio y las de la plantilla)
     const faq = anadidos.datosParaGoogle({ conElementor: false }, cuerpo, false);
     return (
       `<!DOCTYPE html>\n<html lang="${ficha.lang}">\n<head>\n` +
-      pintaCabezaRediseno(ficha, { propia: anadidos.cabezaDeGuia(g, { sinFaq: true }), extra: faq }) +
+      pintaCabezaRediseno(ficha, { propia: anadidos.cabezaDeGuia(g, { sinFaq: true }) + '\n' + aeo.jsonLdEmpresa(), extra: faq }) +
       `\n</head>\n<body class="r-cuerpo r-pagina-${g.slug}">\n<div class="r-pagina">\n` +
       aRelativas(pintaCabecera(cabecera, `/${g.slug}/`, anadidos.destinoDeMenu, anadidos.guias)) +
       `\n<main id="main">\n` +
@@ -345,5 +363,5 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
 
   // las guias solo existen en el rediseno
   const nuevas = modo === 'rediseno' ? anadidos.guias.map((g) => g.slug) : [];
-  return { construye, construyeNueva, nuevas, paginas, erratas: corrector.recuento };
+  return { construye, construyeNueva, nuevas, paginas, erratas: corrector.recuento, aeo };
 }

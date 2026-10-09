@@ -35,7 +35,8 @@ export function creaCorrector(raiz = process.cwd()) {
   const palabras = datos.palabras || {};
   // las cifras corregidas (precios) se tratan igual que las frases
   const { _nota, ...cifras } = datos.cifras || {};
-  const frases = { ...(datos.frases || {}), ...cifras };
+  const { _nota: _n2, ...marca } = datos.marca || {};
+  const frases = { ...(datos.frases || {}), ...cifras, ...marca };
   const protegidas = datos.protegidas || [];
   const recuento = {};
 

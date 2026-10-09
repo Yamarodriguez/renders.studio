@@ -28,5 +28,11 @@
     "€60 – €250": "80 € – 270 €",
     "€50 – €100": "90 € – 240 €",
     "€100 – €500": "120 € – 520 €"
+  },
+  "marca": {
+    "_nota": "Un solo nombre de marca en el texto (pedido por el propietario, 9-10-2026)",
+    "Render Studio": "Renders.studio",
+    "Renders.Studio": "Renders.studio",
+    "RENDERS.STUDIO": "Renders.studio"
   }
 }

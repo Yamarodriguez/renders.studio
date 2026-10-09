@@ -1,0 +1,115 @@
+{
+  "_nota": "AEO: lo que necesitan los buscadores y las IA para entender y citar la web. Pedido por el propietario (9-10-2026). Solo cifras de la lista blanca: precios de /precios/ y plazo de 15 dias. Lo usan scripts/lib/aeo.mjs (resumen, datos de empresa) y las rutas /robots.txt, /sitemap.xml y /llms.txt.",
+  "marca": "Renders.studio",
+  "correo": "Renders.studio3D@gmail.com",
+  "lema": "Estudio de renders 3D y visualización arquitectónica que trabaja online para toda España.",
+  "servicios": [
+    "Renders de exteriores e interiores",
+    "Renders hiperrealistas",
+    "Modelado 3D",
+    "Planos 2D y planos renderizados 3D",
+    "Infografías de arquitectura",
+    "Vídeo render 3D",
+    "Tour virtual 360 y realidad virtual",
+    "Home staging virtual",
+    "Catálogos de arquitectura"
+  ],
+  "clientes": "arquitectos, estudios de arquitectura, promotoras, inmobiliarias, interioristas y particulares",
+  "plazo": "15 días habituales; menos si el proyecto es urgente",
+  "entrega": "En la resolución y el formato que necesites",
+  "tabla": [
+    [
+      "Render interior",
+      "70 € – 170 €"
+    ],
+    [
+      "Render exterior",
+      "90 € – 220 €"
+    ],
+    [
+      "Modelado 3D",
+      "80 € – 270 €"
+    ],
+    [
+      "Planos 2D profesionales",
+      "40 € – 180 €"
+    ],
+    [
+      "Planos renderizados 3D",
+      "90 € – 240 €"
+    ],
+    [
+      "Tour virtual 360 (por escena)",
+      "120 € – 520 €"
+    ],
+    [
+      "Infografía comercial",
+      "110 € – 320 €"
+    ],
+    [
+      "Pack 6 renders + vídeo 3D",
+      "370 € – 620 €"
+    ]
+  ],
+  "precioPorDefecto": "Render interior 70–170 €; exterior 90–220 €",
+  "precios": {
+    "precios": "Interior 70–170 €; exterior 90–220 €; tour 360 120–520 € por escena",
+    "planos-renders": "Planos 2D 40–180 €; planos 3D 90–240 €",
+    "modelado-3d": "80–270 €, según la complejidad",
+    "tour-virtual-360": "120–520 € por escena",
+    "realidad-virtual-arquitectura": "Desde 120 € por escena (base del tour 360)",
+    "infografias-arquitectura": "110–320 € por infografía comercial",
+    "video-render-3d": "Pack 6 renders + vídeo 3D: 370–620 €",
+    "renders-marketing": "Pack 6 renders + vídeo 3D: 370–620 €",
+    "home-staging-virtual": "Según el trabajo sobre cada foto: lo indica el presupuesto",
+    "catalogos-arquitectura": "Según páginas e imágenes: lo indica el presupuesto",
+    "renders-productos": "Según la pieza: lo indica el presupuesto",
+    "renders-sofas": "Según la pieza: lo indica el presupuesto",
+    "renders-logos": "Según la pieza: lo indica el presupuesto",
+    "renders-interiores": "Render interior 70–170 €",
+    "renders-cocinas": "Render interior 70–170 €",
+    "renders-banos": "Render interior 70–170 €",
+    "renders-habitaciones": "Render interior 70–170 €",
+    "renders-salones": "Render interior 70–170 €",
+    "renders-oficinas": "Render interior 70–170 €",
+    "renders-hoteles": "Render interior 70–170 €; exterior 90–220 €",
+    "renders-cafeterias": "Render interior 70–170 €",
+    "renders-locales-comerciales": "Render interior 70–170 €",
+    "renders-antes-y-despues": "Render interior 70–170 €",
+    "render-casa": "Render exterior 90–220 €; interior 70–170 €",
+    "renders-fachadas": "Render exterior 90–220 €",
+    "renders-edificios": "Render exterior 90–220 €",
+    "renders-exteriores": "Render exterior 90–220 €",
+    "renders-nocturnos": "Render exterior 90–220 €",
+    "renders-parques": "Render exterior 90–220 €",
+    "renders-piscinas": "Render exterior 90–220 €",
+    "renders-camping": "Render exterior 90–220 €"
+  },
+  "respuestas": {
+    "renders": "Renders.studio es un estudio de renders 3D y visualización arquitectónica que trabaja online para toda España. Hacemos renders de exteriores e interiores, modelado 3D, planos, infografías, vídeo y tour virtual 360 para arquitectos, promotoras, interioristas y particulares, con un plazo habitual de 15 días.",
+    "precios": "Un render interior cuesta entre 70 y 170 €, y uno exterior entre 90 y 220 €. El modelado 3D va de 80 a 270 €, los planos renderizados en 3D de 90 a 240 € y el tour virtual 360 de 120 a 520 € por escena. El precio exacto depende del detalle, del número de vistas y del plazo.",
+    "presupuesto": "Para pedir un presupuesto de renders basta con enviar los planos o un croquis con medidas, las referencias de materiales y las vistas que necesitas. Respondemos con una propuesta detallada de precio y plazo; el plazo habitual es de 15 días.",
+    "contacto": "Puedes contactar con Renders.studio por correo en Renders.studio3D@gmail.com o con el formulario de esta página. Cuéntanos qué proyecto tienes y qué imágenes necesitas, y te enviamos una propuesta de precio y plazo.",
+    "servicios": "Los servicios de Renders.studio son renders de exteriores e interiores, renders hiperrealistas, modelado 3D, planos 2D y 3D, infografías, vídeo render 3D, tour virtual 360, realidad virtual, home staging virtual y catálogos de arquitectura. Todos se hacen online, para cualquier punto de España.",
+    "hiperrealistas": "Un render hiperrealista es una imagen 3D con tanto detalle en materiales, luz e imperfecciones que se confunde con una fotografía. Se usa sobre todo para vender viviendas sobre plano y para catálogos. En Renders.studio, un render interior cuesta entre 70 y 170 € y uno exterior entre 90 y 220 €.",
+    "baratos": "Los renders baratos de Renders.studio empiezan en 70 € por un render interior y 90 € por uno exterior, con el mismo proceso de vista previa y entrega que el resto de encargos. Son una opción para particulares, reformas y proyectos con presupuesto ajustado.",
+    "economicos": "Los renders económicos de Renders.studio empiezan en 70 € por un render interior y 90 € por uno exterior. Están pensados para reformas, particulares y proyectos pequeños que necesitan una imagen clara sin un presupuesto alto.",
+    "online": "Los renders online se encargan sin reuniones presenciales: envías los planos y las referencias por internet, revisas una vista previa y recibes el render final en la resolución que necesites. Renders.studio trabaja así para toda España, con un plazo habitual de 15 días.",
+    "express": "Renders express es el servicio para proyectos con prisa, como un concurso o una presentación con fecha cerrada. El plazo habitual de Renders.studio es de 15 días y puede ser menor si el proyecto es urgente; el plazo exacto se fija en el presupuesto.",
+    "profesionales": "Un render profesional es una imagen 3D hecha a partir de los planos del proyecto, con materiales, luz y encuadre cuidados para presentarlo o venderlo. Renders.studio los hace online para arquitectos, promotoras, interioristas y particulares.",
+    "freelance": "Un renderista freelance trabaja por encargo, sin que tengas que contratarlo en plantilla. Renders.studio funciona así: cada proyecto se presupuesta por imágenes, se trabaja online y se entrega con un plazo habitual de 15 días.",
+    "agencia": "Una agencia de renders produce las imágenes 3D de un proyecto para que el estudio o la promotora no tengan que hacerlas dentro. Renders.studio ofrece renders, modelado 3D, infografías, vídeo y tour virtual 360 para clientes de toda España.",
+    "empresa": "Renders.studio es una empresa de renders 3D que trabaja online para toda España: renders de exteriores e interiores, modelado 3D, planos, infografías y tour virtual 360 para arquitectos, promotoras, inmobiliarias e interioristas.",
+    "despacho": "Un despacho de renders es un estudio dedicado a convertir proyectos de arquitectura en imágenes 3D. Renders.studio trabaja a partir de tus planos o de tu modelo, con una vista previa antes del render final y un plazo habitual de 15 días.",
+    "renderistas": "Un renderista es el profesional que convierte planos y modelos 3D en imágenes realistas de un proyecto. En Renders.studio los renderistas trabajan online para arquitectos, promotoras e interioristas de toda España.",
+    "renderizado": "El renderizado 3D es el proceso que convierte un modelo digital en una imagen realista, calculando cómo la luz incide en cada material. Es la última fase de un render: antes van el modelado, los materiales y la iluminación.",
+    "programas-para-renders": "Los programas más usados para hacer renders de arquitectura son Lumion, V-Ray, Corona Renderer, Enscape, Blender y Twinmotion, junto con programas de modelado como SketchUp, Revit o 3ds Max. Cada uno encaja mejor con un tipo de proyecto y de flujo de trabajo.",
+    "cursos": "Esta página reúne información sobre cursos de renders: qué se aprende, qué programas se usan y cómo se organiza la formación para crear renders fotorrealistas de arquitectura e interiores.",
+    "trabajo-renderista": "Esta página es para quien busca trabajo como renderista o quiere colaborar con Renders.studio, y para quien necesita contratar a un renderista 3D. Explica qué tipo de proyectos hacemos y cómo contactar."
+  },
+  "metadatos": {
+    "precios": {
+      "descripcion": "Precios de renders 3D: interior de 70 a 170 €, exterior de 90 a 220 €, modelado, planos y tour virtual 360. Consulta la tabla y pide presupuesto."
+    }
+  }
+}

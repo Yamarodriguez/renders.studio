@@ -16,7 +16,7 @@ import { parse } from 'node-html-parser';
 const DOMINIO = 'https://renders.studio';
 const CORREO = 'Renders.studio3D@gmail.com';
 const LOGO = '/wp-content/uploads/2025/04/cropped-render.png';
-const ESTILO = '/estilo/diseno.css?v=5';
+const ESTILO = '/estilo/diseno.css?v=6';
 
 /** Piezas del <head> de WordPress que se conservan. */
 function seConserva(p) {
@@ -39,7 +39,7 @@ function seConserva(p) {
  *           JSON-LD. De la ficha solo se toman entonces lo comun a toda la
  *           web: iconos, verificaciones de Google y Bing, y Analytics.
  */
-export function pintaCabezaRediseno(ficha, { extra = '', propia = '' } = {}) {
+export function pintaCabezaRediseno(ficha, { extra = '', propia = '', ajustaLd = (js) => js, descripcion = '' } = {}) {
   const out = [];
   const comun = (p) =>
     (p.tipo === 'meta' && /charset|viewport|google-site-verification|msvalidate/.test(p.html)) ||
@@ -51,9 +51,12 @@ export function pintaCabezaRediseno(ficha, { extra = '', propia = '' } = {}) {
     if (!queda) continue;
     if (propia && !comun(p)) continue;
     if (p.tipo === 'titulo') out.push(`<title>${p.texto}</title>`);
+    else if (descripcion && p.tipo === 'meta' && /(name="description"|property="og:description")/.test(p.html))
+      // descripcion corregida a mano (datos/aeo.json, "metadatos")
+      out.push(p.html.replace(/content="[^"]*"/, `content="${descripcion.replaceAll('"', '&quot;')}"`));
     else if (p.tipo === 'meta' || p.tipo === 'link') out.push(p.html);
     else if (p.tipo === 'script') out.push(`<script async src="${p.src}"></script>`);
-    else if (queda === 'jsonld') out.push(`<script type="application/ld+json">${p.js}</script>`);
+    else if (queda === 'jsonld') out.push(`<script type="application/ld+json">${ajustaLd(p.js)}</script>`);
     else out.push(`<script>${p.js}</script>`);
   }
   out.push(
@@ -61,6 +64,8 @@ export function pintaCabezaRediseno(ficha, { extra = '', propia = '' } = {}) {
     `<link rel="preload" href="/estilo/fuentes/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>`,
     // los iconos de "por que elegirnos" y del proceso de trabajo
     `<link rel="stylesheet" href="/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css">`,
+    // los <style> que el contenido traia repetidos en cada pagina
+    `<link rel="stylesheet" href="/estilo/bloques.css?v=1">`,
     `<link rel="stylesheet" href="${ESTILO}">`
   );
   if (propia) out.splice(2, 0, propia);

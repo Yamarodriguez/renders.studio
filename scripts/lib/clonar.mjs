@@ -68,7 +68,7 @@ export function creaClonador(clave, titulo) {
     if (contieneClave(t, clave.plural)) return t;
     if (/^\s*renders?\s*$/i.test(t)) return clave.plural;
     if (/render studio/i.test(t)) {
-      t = t.replace(/\?\s*$/, '') + ` para sus proyectos de ${clave.plural.toLowerCase()}?`;
+      t = t.replace(/\?\s*$/, '').replace(/render studio/i, 'Renders.studio') + ` para sus proyectos de ${clave.plural.toLowerCase()}?`;
       return t;
     }
     // "Precio Render: Tarifas..." -> "Precio Tour virtual 360: Tarifas..."

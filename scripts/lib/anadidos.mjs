@@ -267,12 +267,12 @@ export function creaAnadidos(raiz, paginas) {
    * texto (que es, para que sirve, que incluye, tipos). Proceso, precios y
    * ejemplos no van: la plantilla ya trae los suyos.
    */
-  function pintaBloqueSeo(g) {
+  function pintaBloqueSeo(g, { sinEntrada = false } = {}) {
     const secciones = g.secciones.filter((x) => !x.pasos && !x.precios && !x.galeria);
     return (
       `<section class="r-seo-servicio"><div class="r-guia r-servicio"><div class="r-caja r-guia-cuerpo">` +
       `<p class="r-etiqueta">${esc(g.etiqueta || 'Servicio')}</p>` +
-      `<h2>${esc(g.intro.h2)}</h2>${g.intro.html}` +
+      (sinEntrada ? '' : `<h2>${esc(g.intro.h2)}</h2>${g.intro.html}`) +
       `<p class="r-guia-botones"><a class="r-boton r-boton-acento" href="/presupuesto/">Pedir presupuesto</a><a class="r-boton r-boton-linea" href="/precios/">Ver precios</a></p>` +
       secciones.map(seccionHtml).join('\n') +
       `</div></div></section>`
@@ -301,6 +301,7 @@ export function creaAnadidos(raiz, paginas) {
             description: g.descripcion,
             url,
             areaServed: 'España',
+            ...(g.actualizado ? { dateModified: g.actualizado } : {}),
             ...(g.foto ? { image: DOMINIO + g.foto } : {}),
             provider: { '@type': 'Organization', name: 'Renders.studio', url: DOMINIO + '/', email: CORREO },
           }
@@ -311,6 +312,7 @@ export function creaAnadidos(raiz, paginas) {
         description: g.descripcion,
         inLanguage: 'es-ES',
         mainEntityOfPage: url,
+        ...(g.actualizado ? { dateModified: g.actualizado } : {}),
         ...(g.foto ? { image: DOMINIO + g.foto } : {}),
         author: { '@type': 'Organization', name: 'Renders.studio', url: DOMINIO + '/' },
         publisher: { '@type': 'Organization', name: 'Renders.studio', url: DOMINIO + '/' },
@@ -350,5 +352,5 @@ export function creaAnadidos(raiz, paginas) {
     ].join('\n');
   }
 
-  return { arreglaEnlaces, destinoDeMenu, pintaZonas, datosParaGoogle, pintaGuia, pintaBloqueSeo, faqItemsHtml, cabezaDeGuia, guias };
+  return { arreglaEnlaces, destinoDeMenu, pintaZonas, datosParaGoogle, pintaGuia, pintaBloqueSeo, faqItemsHtml, cabezaDeGuia, guias, situa, lugarDe, zonas };
 }

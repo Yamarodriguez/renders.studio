@@ -2795,3 +2795,87 @@ body.r-cuerpo {
   top: -26px;
   height: 26px;
 }
+
+/* ============================================================ EN RESUMEN
+   Respuesta directa y datos clave bajo la portada: lo que citan las IA. */
+.r-resumen {
+  background: var(--blanco);
+  border-bottom: 1px solid var(--linea);
+  padding: 40px 0;
+}
+.r-resumen-in {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
+  gap: 48px;
+  align-items: start;
+}
+.r-resumen-respuesta {
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--tinta);
+  margin: 12px 0 14px;
+}
+.r-resumen-enlaces {
+  margin: 0;
+  font-size: 14.5px;
+  font-weight: 600;
+}
+.r-resumen-enlaces a {
+  color: var(--acento);
+}
+.r-resumen-datos {
+  margin: 0;
+  border: 1px solid var(--linea);
+  border-radius: 8px;
+  background: var(--papel);
+  overflow: hidden;
+}
+.r-resumen-datos > div {
+  display: grid;
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 12px;
+  padding: 12px 18px;
+  border-bottom: 1px solid var(--linea);
+}
+.r-resumen-datos > div:last-child {
+  border-bottom: 0;
+}
+.r-resumen-datos dt {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--piedra);
+  padding-top: 2px;
+}
+.r-resumen-datos dd {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--tinta);
+}
+@media (max-width: 860px) {
+  .r-resumen-in {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+@media (max-width: 460px) {
+  .r-resumen-datos > div {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
+/* la entrada del servicio dentro de la portada oscura */
+.r-heroe .r-heroe-entrada {
+  font-size: clamp(19px, 2vw, 23px);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  margin: 0 0 12px;
+}
+.r-heroe .elementor-widget-text-editor h2.r-heroe-entrada {
+  font-size: clamp(19px, 2vw, 23px) !important;
+  line-height: 1.3;
+  margin: 0 0 12px;
+}

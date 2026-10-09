@@ -1,0 +1,247 @@
+/* Estilos que el contenido de Elementor traia dentro de cada pagina.
+   Generado por scripts/23-bloques-css.mjs: no editar a mano. */
+
+/* bloque 13a186d2 (176 paginas) */
+.render-process {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .render-step {
+    background: #f9f9f9;
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+  }
+
+  .render-step:hover {
+    transform: translateY(-5px);
+    border-color: #d81b60; /* Rosa fucsia más fuerte */
+  }
+
+  .render-step i {
+    font-size: 64px;
+    color: #1e88e5;
+    margin-bottom: 20px;
+  }
+
+  .render-step h3 {
+    font-size: 20px;
+    color: #222;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .render-step p {
+    font-size: 15px;
+    color: #555;
+  }
+
+  @media (max-width: 900px) {
+    .render-process {
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+  }
+
+/* bloque 8fdc8e2d (176 paginas) */
+.why-us-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    text-align: center;
+  }
+
+  .why-us-box {
+    background: #f9f9f9;
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+  }
+
+  .why-us-box:hover {
+    border-color: #d4af37;
+    transform: translateY(-5px);
+  }
+
+  .why-us-box i {
+    font-size: 48px;
+    color: #d4af37;
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+  }
+
+  .why-us-box i:hover {
+    color: #b99c5d;
+  }
+
+  .why-us-box h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .why-us-box p {
+    font-size: 16px;
+    color: #666;
+  }
+
+  @media (max-width: 900px) {
+    .why-us-section {
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+  }
+
+/* bloque d1d6dae7 (176 paginas) */
+/* Slider container */
+  .testimonial-section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .testimonial-slider-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Slider track */
+  .testimonial-slider {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.4s ease;
+    will-change: transform;
+    touch-action: pan-y;
+  }
+
+  /* Each testimonial card */
+  .testimonial {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    flex-shrink: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    aspect-ratio: 1/1;
+    /* Desktop: show 3 per view */
+    width: calc((100% - 40px) / 3);
+  }
+
+  /* Star rating */
+  .star-rating {
+    font-size: 28px;
+    color: #f1c40f;
+    margin-bottom: 15px;
+  }
+  .testimonial p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+    flex-grow: 1;
+  }
+  .client-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #222;
+    margin-top: 15px;
+  }
+  .client-position {
+    font-size: 14px;
+    color: #777;
+  }
+
+  /* Navigation arrows */
+  .slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255,255,255,0.9);
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 30px;
+    color: #333;
+    z-index: 2;
+  }
+  .slider-arrow:hover {
+    color: #1e88e5;
+  }
+  .prev { left: 10px; }
+  .next { right: 10px; }
+
+  /* Mobile: 1 per view */
+  @media (max-width: 768px) {
+    .testimonial {
+      width: 100%;
+      max-width: 90%;
+      margin: 0 auto;
+    }
+    .slider-arrow { display: none; }
+  }
+
+/* bloque 2fc1bf4d (176 paginas) */
+.faq-container {
+    margin: 20px auto;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+  }
+  .faq-item {
+    background-color: #f9f9f9;
+    margin: 12px 0;
+    padding: 28px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  .faq-item:hover {
+    background-color: #efefef;
+  }
+  .faq-question {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0;
+    line-height: 1.2;
+  }
+  .faq-answer {
+    font-size: 1.6rem;
+    margin-top: 12px;
+    line-height: 1.8;
+    display: none;
+  }
+  .faq-item.active .faq-answer {
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .faq-question {
+      font-size: 1.8rem;
+    }
+    .faq-answer {
+      font-size: 1.4rem;
+    }
+  }
+
+/* bloque b2651e29 (124 paginas) */
+#pt-cv-view-73ea951bdf .pt-cv-thumb-wrapper:not(.miniwrap) {  }#pt-cv-view-73ea951bdf .pt-cv-thumbnail:not(.pt-cv-thumbnailsm) { height: 250px; }#pt-cv-view-73ea951bdf > .pt-cv-page {grid-template-columns: repeat(3, 1fr);grid-gap: 15px;}
+@media all and (max-width: 1024px) { 
+#pt-cv-view-73ea951bdf > .pt-cv-page {grid-template-columns: repeat(2, 1fr);}
+} 
+@media all and (max-width: 767px) { 
+#pt-cv-view-73ea951bdf > .pt-cv-page {grid-template-columns: repeat(2, 1fr);}
+}
