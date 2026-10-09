@@ -43,20 +43,52 @@
       "titulo": "Servicios de nuestro estudio de arquitectura",
       "html": "<p>Lo que más nos piden, con su página propia:</p>",
       "tarjetas": [
-        { "titulo": "Planos de arquitectura", "texto": "Plantas 2D y plantas amuebladas en 3D.", "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura.jpg", "href": "/planos-renders/" },
-        { "titulo": "Modelado 3D", "texto": "El proyecto levantado en tres dimensiones.", "foto": "/wp-content/uploads/2025/04/modelado-3D.jpg", "href": "/modelado-3d/" },
-        { "titulo": "Diseño de interiores", "texto": "Estancias con sus acabados y su luz.", "foto": "/wp-content/uploads/2025/04/render-interior.webp", "href": "/renders-interiores/" },
-        { "titulo": "Diseño de fachadas", "texto": "La cara del edificio, antes de la obra.", "foto": "/wp-content/uploads/2025/04/render-fachada.jpg", "href": "/renders-fachadas/" }
+        {
+          "titulo": "Planos de arquitectura",
+          "texto": "Plantas 2D y plantas amuebladas en 3D.",
+          "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura.jpg",
+          "href": "/planos-renders/"
+        },
+        {
+          "titulo": "Modelado 3D",
+          "texto": "El proyecto levantado en tres dimensiones.",
+          "foto": "/wp-content/uploads/2025/04/modelado-3D.jpg",
+          "href": "/modelado-3d/"
+        },
+        {
+          "titulo": "Diseño de interiores",
+          "texto": "Estancias con sus acabados y su luz.",
+          "foto": "/wp-content/uploads/2025/04/render-interior.webp",
+          "href": "/renders-interiores/"
+        },
+        {
+          "titulo": "Diseño de fachadas",
+          "texto": "La cara del edificio, antes de la obra.",
+          "foto": "/wp-content/uploads/2025/04/render-fachada.jpg",
+          "href": "/renders-fachadas/"
+        }
       ]
     }
   ],
   "faq": {
     "titulo": "Preguntas frecuentes sobre nuestro estudio de arquitectura",
     "items": [
-      { "pregunta": "¿Tengo que tener los planos para empezar?", "respuesta": "No. Puedes empezar con una idea, un croquis con medidas o fotos del espacio. Si ya tienes planos, <strong>los usamos como base</strong> y el trabajo va más rápido." },
-      { "pregunta": "¿Cuánto tarda el estudio de arquitectura en entregar?", "respuesta": "El plazo habitual es de 15 días para las imágenes, y puede ser menor si el proyecto es urgente. El plazo exacto de cada encargo <strong>va en el presupuesto</strong>." },
-      { "pregunta": "¿Trabajáis con clientes de cualquier ciudad?", "respuesta": "Sí. El servicio es online: la información, las revisiones y las entregas van por internet, así que trabajamos igual <strong>para cualquier punto de España</strong>. Más en <a href='/online/'>renders online</a>." },
-      { "pregunta": "¿Cuánto cuesta trabajar con el estudio?", "respuesta": "Depende de lo que encargues. Los rangos de los renders, el modelado y los planos están en la página de <a href='/precios/'>precios de renders</a>; con tu proyecto te enviamos un <strong>presupuesto a medida</strong>." }
+      {
+        "pregunta": "¿Tengo que tener los planos para empezar?",
+        "respuesta": "No. Puedes empezar con una idea, un croquis con medidas o fotos del espacio. Si ya tienes planos, <strong>los usamos como base</strong> y el trabajo va más rápido."
+      },
+      {
+        "pregunta": "¿Cuánto tarda el estudio de arquitectura en entregar?",
+        "respuesta": "El plazo habitual es de 15 días para las imágenes, y puede ser menor si el proyecto es urgente. El plazo exacto de cada encargo <strong>va en el presupuesto</strong>."
+      },
+      {
+        "pregunta": "¿Trabajáis con clientes de cualquier ciudad?",
+        "respuesta": "Sí. El servicio es online: la información, las revisiones y las entregas van por internet, así que trabajamos igual <strong>para cualquier punto de España</strong>. Más en <a href='/online/'>renders online</a>."
+      },
+      {
+        "pregunta": "¿Cuánto cuesta trabajar con el estudio?",
+        "respuesta": "Depende de lo que encargues. Los rangos de los renders, el modelado y los planos están en la página de <a href='/precios/'>precios de renders</a>; con tu proyecto te enviamos un <strong>presupuesto a medida</strong>."
+      }
     ]
   },
   "plantilla": "hiperrealistas",
@@ -65,5 +97,36 @@
     "singular": "Estudio de arquitectura",
     "sufijo": "en estudio de arquitectura"
   },
-  "actualizado": "2026-10-09"
+  "actualizado": "2026-10-09",
+  "h2Plantilla": [
+    "Estudio de arquitectura y renders 3D",
+    "Estudio de arquitectura: proyectos, modelado 3D, planos y diseño 3D",
+    "Qué es un render y cómo lo usa un estudio de arquitectura",
+    "Renders de arquitectura de nuestro estudio de arquitectura",
+    "Visualización de alta calidad de un estudio de arquitectura",
+    "Proyectos de nuestro estudio de arquitectura",
+    "Precio del estudio de arquitectura: tarifas claras",
+    "Tipos de render de nuestro estudio de arquitectura",
+    "Los renderistas de nuestro estudio de arquitectura",
+    "Estudio de arquitectura y empresa de renders",
+    "El renderizado 3D en un estudio de arquitectura",
+    "Un estudio de arquitectura que trabaja con inteligencia artificial",
+    "Cómo trabaja nuestro estudio de arquitectura, paso a paso",
+    "Pide presupuesto a nuestro estudio de arquitectura",
+    "Cursos de renders de nuestro estudio de arquitectura",
+    "Fotos e imágenes de nuestro estudio de arquitectura",
+    "Trabajo en nuestro estudio de arquitectura",
+    "¿Por qué elegir el estudio de arquitectura Renders.studio?",
+    "Opiniones de clientes de nuestro estudio de arquitectura",
+    "Estudio de arquitectura para arquitectura y diseño en 3D",
+    "Despacho y estudio de arquitectura",
+    "Agencia y estudio de arquitectura",
+    "Un estudio de arquitectura con trato de freelance",
+    "Programas que usa nuestro estudio de arquitectura",
+    "Estudio de arquitectura con precios ajustados",
+    "Preguntas frecuentes sobre nuestro estudio de arquitectura",
+    "Contacta con nuestro estudio de arquitectura",
+    "Estudio de arquitectura profesional",
+    "Habla con nuestro estudio de arquitectura"
+  ]
 }

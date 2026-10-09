@@ -306,7 +306,7 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
   function construyeClon(g, ficha, cabecera) {
     const datos = JSON.parse(fs.readFileSync(path.join(DATOS, 'paginas', `${g.plantilla}.json`), 'utf8'));
     const plantilla = paginas.find((p) => p.slug === g.plantilla);
-    const arbol = creaClonador(g.clave, g.titulo).adapta(structuredClone(datos.elementor));
+    const arbol = creaClonador(g.clave, g.titulo, g.h2Plantilla).adapta(structuredClone(datos.elementor));
     // la respuesta propia del servicio sube a la portada, en lugar del parrafo
     // de plantilla ("Ofrecemos servicios de...")
     const sube = (n) => {

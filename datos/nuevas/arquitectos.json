@@ -43,20 +43,52 @@
       "titulo": "Servicios que ofrecen nuestros arquitectos",
       "html": "<p>Lo que más nos piden, con su página propia:</p>",
       "tarjetas": [
-        { "titulo": "Estudio de arquitectura", "texto": "Proyectos de arquitectura, interiores y fachadas.", "foto": "/wp-content/uploads/2025/04/Estudio-arquitectura.jpg", "href": "/estudio-arquitectura/" },
-        { "titulo": "Planos de arquitectura", "texto": "Plantas 2D y plantas amuebladas en 3D.", "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura.jpg", "href": "/planos-renders/" },
-        { "titulo": "Renders de arquitectura", "texto": "Exteriores y volúmenes de tu proyecto.", "foto": "/wp-content/uploads/2025/04/3D-render-de-arquitectura.jpg", "href": "/renders-arquitectura/" },
-        { "titulo": "Renders de interiores", "texto": "Estancias con sus acabados y su luz.", "foto": "/wp-content/uploads/2025/04/render-interior.webp", "href": "/renders-interiores/" }
+        {
+          "titulo": "Estudio de arquitectura",
+          "texto": "Proyectos de arquitectura, interiores y fachadas.",
+          "foto": "/wp-content/uploads/2025/04/Estudio-arquitectura.jpg",
+          "href": "/estudio-arquitectura/"
+        },
+        {
+          "titulo": "Planos de arquitectura",
+          "texto": "Plantas 2D y plantas amuebladas en 3D.",
+          "foto": "/wp-content/uploads/2025/04/planos-de-arquitectura.jpg",
+          "href": "/planos-renders/"
+        },
+        {
+          "titulo": "Renders de arquitectura",
+          "texto": "Exteriores y volúmenes de tu proyecto.",
+          "foto": "/wp-content/uploads/2025/04/3D-render-de-arquitectura.jpg",
+          "href": "/renders-arquitectura/"
+        },
+        {
+          "titulo": "Renders de interiores",
+          "texto": "Estancias con sus acabados y su luz.",
+          "foto": "/wp-content/uploads/2025/04/render-interior.webp",
+          "href": "/renders-interiores/"
+        }
       ]
     }
   ],
   "faq": {
     "titulo": "Preguntas frecuentes sobre nuestros arquitectos",
     "items": [
-      { "pregunta": "¿Puedo empezar solo con una idea?", "respuesta": "Sí. Con una idea, un croquis con medidas o fotos del espacio es suficiente para empezar. <strong>Te ayudamos a definirla</strong> y la vemos en imágenes antes de cerrar nada." },
-      { "pregunta": "¿Cuánto tardan los arquitectos en entregar?", "respuesta": "El plazo habitual es de 15 días para las imágenes, y puede ser menor si el proyecto es urgente. El plazo exacto <strong>va en el presupuesto</strong> de cada encargo." },
-      { "pregunta": "¿Trabajáis con clientes de toda España?", "respuesta": "Sí. El servicio es online: la información, las revisiones y las entregas van por internet, así que trabajamos igual <strong>para cualquier punto de España</strong>. Más en <a href='/online/'>renders online</a>." },
-      { "pregunta": "¿Cuánto cuesta el servicio?", "respuesta": "Depende de lo que encargues. Los rangos de renders, modelado y planos están en la página de <a href='/precios/'>precios de renders</a>; con tu proyecto te enviamos un <strong>presupuesto a medida</strong>." }
+      {
+        "pregunta": "¿Puedo empezar solo con una idea?",
+        "respuesta": "Sí. Con una idea, un croquis con medidas o fotos del espacio es suficiente para empezar. <strong>Te ayudamos a definirla</strong> y la vemos en imágenes antes de cerrar nada."
+      },
+      {
+        "pregunta": "¿Cuánto tardan los arquitectos en entregar?",
+        "respuesta": "El plazo habitual es de 15 días para las imágenes, y puede ser menor si el proyecto es urgente. El plazo exacto <strong>va en el presupuesto</strong> de cada encargo."
+      },
+      {
+        "pregunta": "¿Trabajáis con clientes de toda España?",
+        "respuesta": "Sí. El servicio es online: la información, las revisiones y las entregas van por internet, así que trabajamos igual <strong>para cualquier punto de España</strong>. Más en <a href='/online/'>renders online</a>."
+      },
+      {
+        "pregunta": "¿Cuánto cuesta el servicio?",
+        "respuesta": "Depende de lo que encargues. Los rangos de renders, modelado y planos están en la página de <a href='/precios/'>precios de renders</a>; con tu proyecto te enviamos un <strong>presupuesto a medida</strong>."
+      }
     ]
   },
   "plantilla": "hiperrealistas",
@@ -65,5 +97,36 @@
     "singular": "Arquitecto",
     "sufijo": "de arquitectos"
   },
-  "actualizado": "2026-10-09"
+  "actualizado": "2026-10-09",
+  "h2Plantilla": [
+    "Arquitectos y renders 3D",
+    "Arquitectos para proyectos de arquitectura, modelado 3D, planos y diseño 3D",
+    "Qué es un render y por qué lo usan los arquitectos",
+    "Renders de arquitectura hechos por arquitectos",
+    "Arquitectos y visualización arquitectónica de alta calidad",
+    "Proyectos de nuestros arquitectos",
+    "Precio de los arquitectos renderistas: tarifas claras",
+    "Tipos de render que hacen nuestros arquitectos",
+    "Arquitectos renderistas",
+    "Una empresa de arquitectos especializada en renders",
+    "El renderizado 3D explicado por arquitectos",
+    "Arquitectos y renders con inteligencia artificial",
+    "Cómo trabajan nuestros arquitectos, paso a paso",
+    "Pide presupuesto a nuestros arquitectos",
+    "Cursos de renders para arquitectos",
+    "Fotos e imágenes de los proyectos de nuestros arquitectos",
+    "Trabajo para arquitectos renderistas",
+    "¿Por qué elegir a los arquitectos de Renders.studio?",
+    "Opiniones de clientes sobre nuestros arquitectos",
+    "Arquitectos para arquitectura y diseño en 3D",
+    "Un despacho de arquitectos dedicado al render",
+    "Agencia de arquitectos para tus imágenes 3D",
+    "Arquitectos freelance para tu proyecto",
+    "Programas que usan nuestros arquitectos",
+    "Arquitectos con precios ajustados",
+    "Preguntas frecuentes a nuestros arquitectos",
+    "Contacta con nuestros arquitectos",
+    "Arquitectos profesionales del render",
+    "Habla con nuestros arquitectos"
+  ]
 }

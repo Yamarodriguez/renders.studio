@@ -45,7 +45,13 @@ const sinRepetidas = (t) => t.replace(/(^|\s)(\S+)(\s+\2)+(?=\s|$|[.,:;?!])/gi, 
 
 const RX_FRASE = /\b(render)(s)?\s+hiperrealista(s)?\b/gi;
 
-export function creaClonador(clave, titulo) {
+/**
+ * titulos: opcional, los h2 de la plantilla escritos a mano para este
+ * servicio, en orden (sin contar las tarjetas). Si estan, mandan sobre la
+ * sustitucion automatica: es para las paginas donde el cambio mecanico no
+ * suena natural ("Arquitectos", "Estudio de arquitectura").
+ */
+export function creaClonador(clave, titulo, titulos = null) {
   const empiezaPorRender = /^render/i.test(clave.plural);
 
   /** "render(s) hiperrealista(s)" -> la clave. */
@@ -120,6 +126,7 @@ export function creaClonador(clave, titulo) {
   /** Recorre la copia del arbol y la adapta al servicio. */
   function adapta(arbol) {
     let h1Hecho = false;
+    let nH2 = 0;
     const visita = (n, columnaConFoto) => {
       const s = n.settings || {};
       const esColumnaFoto = n.elType === 'column' && Boolean(s.background_image?.url);
@@ -133,7 +140,9 @@ export function creaClonador(clave, titulo) {
             // tarjeta: el titulo no cambia, solo baja a h3
             if (nivel === 'h2') s.header_size = 'h3';
           } else if (nivel === 'h2') {
-            s.title = enTexto(s.title, claveEnH2);
+            const propio = titulos && titulos[nH2];
+            nH2++;
+            s.title = propio || enTexto(s.title, claveEnH2);
           } else {
             s.title = enTexto(s.title, (t) => sinRepetidas(frase(t)));
           }
