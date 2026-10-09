@@ -250,7 +250,7 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
         `<div class="r-caja r-legal">${contenido}</div>`;
     }
     cuerpo = cuerpo.replace('<!--R-RESUMEN-->', aeo.resumenOriginal(pagina));
-    const cuerpoFinal = aeo.limpiaMarcado(anadidos.arreglaEnlaces(corrector.corrige(aRelativas(cuerpo))));
+    const cuerpoFinal = aeo.limpiaMarcado(anadidos.arreglaEnlaces(corrector.corrige(aRelativas(cuerpo)), pagina.ruta));
     const yaTieneFaq = ficha.cabeza.some((p) => p.tipo === 'scriptEnLinea' && String(p.js || '').includes('FAQPage'));
     // El <head> NO pasa por aRelativas: canonical y og:url siguen absolutas.
     return (
@@ -361,7 +361,7 @@ export function creaConstructor(raiz = process.cwd(), { modo = MODO } = {}) {
       resto +
       ciudadesAlFinal(g) +
       `</div>`;
-    cuerpo = aeo.limpiaMarcado(anadidos.arreglaEnlaces(corrector.corrige(aRelativas(cuerpo))));
+    cuerpo = aeo.limpiaMarcado(anadidos.arreglaEnlaces(corrector.corrige(aRelativas(cuerpo)), `/${g.slug}/`));
     // FAQPage con TODAS las preguntas del acordeon (las del servicio y las de la plantilla)
     const faq = anadidos.datosParaGoogle({ conElementor: false }, cuerpo, false);
     return (

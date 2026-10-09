@@ -73,6 +73,14 @@
     "render marketing": "/renders-marketing/",
     "render camping": "/renders-camping/",
     "hotel render": "/renders-hoteles/",
-    "renders con ia: renders con inteligencia artificial": "/renders-con-ia/"
+    "renders con ia: renders con inteligencia artificial": "/renders-con-ia/",
+    "planos": "/planos-renders/",
+    "render arquitectura": "/renders-arquitectura/",
+    "infografias en": "/infografias-arquitectura/",
+    "infografias": "/infografias-arquitectura/",
+    "modelado": "/modelado-3d/",
+    "arquitectos": "/arquitectos/",
+    "renderizações de interiores": "/renders-interiores/",
+    "renderização de vídeo 3d": "/video-render-3d/"
   }
 }

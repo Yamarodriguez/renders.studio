@@ -50,7 +50,7 @@ export function creaAnadidos(raiz, paginas) {
   // ---------------------------------------------------------------- enlaces
 
   /** Da destino a los <a href="#"> y <a href=""> cuyo texto esta en la tabla. */
-  function arreglaEnlaces(html) {
+  function arreglaEnlaces(html, rutaActual = null) {
     const tabla = enlaces.botones || {};
     let salida = String(html).replace(/<a\b([^>]*?)href="(#|)"([^>]*)>([\s\S]*?)<\/a>/g, (todo, antes, _h, despues, dentro) => {
       const destino = tabla[plano(dentro).toLowerCase()];
@@ -63,19 +63,26 @@ export function creaAnadidos(raiz, paginas) {
     // las tarjetas de servicios y de tipos de render enlazan a su pagina
     // nueva (datos/enlaces.json, "tarjetas"); el texto del titulo no cambia
     const tarjetas = enlaces.tarjetas || {};
-    salida = salida.replace(/<(h[23]) class="elementor-heading-title[^"]*">([^<]+)<\/\1>/g, (todo, n, texto) => {
-      const t = plano(texto).toLowerCase();
-      // en las paginas de lugar el titulo lleva la ciudad detras ("Render
-      // Arquitectos Madrid"): vale la clave mas larga que lo empiece
+    // el titulo puede traer negritas dentro ("Modelado 3D <b>Huesca</b>")
+    salida = salida.replace(/<(h[23]) class="(elementor-heading-title[^"]*)">((?:(?!<\/h[23]>|<a\b)[\s\S])*?)<\/\1>/g, (todo, n, clase, dentro) => {
+      const t = plano(dentro).toLowerCase();
       let destino = tarjetas[t];
+      // en las tarjetas de las paginas de lugar el titulo lleva la ciudad
+      // detras ("Render Arquitectos Madrid"): vale la clave mas larga que lo
+      // empiece, si lo que queda es solo un nombre de lugar (pocas palabras,
+      // sin comas ni dos puntos). Asi no se enlazan los titulos de seccion.
       if (!destino) {
         const clave = Object.keys(tarjetas)
           .filter((k) => !k.startsWith('_') && t.startsWith(k + ' '))
+          .filter((k) => {
+            const resto = t.slice(k.length).trim();
+            return !/[,:;?¿]/.test(resto) && resto.split(/\s+/).length <= (n === 'h3' ? 8 : 6);
+          })
           .sort((a, b) => b.length - a.length)[0];
         destino = clave && tarjetas[clave];
       }
-      if (!destino || destino.startsWith('_')) return todo;
-      return todo.replace(`>${texto}<`, `><a href="${esc(destino)}">${texto}</a><`);
+      if (!destino || destino.startsWith('_') || destino === rutaActual) return todo;
+      return `<${n} class="${clase}"><a href="${esc(destino)}">${dentro}</a></${n}>`;
     });
     // el ancla de la galeria de proyectos de la pagina
     salida = salida.replace('<div class="elementor-image-gallery">', '<div class="elementor-image-gallery" id="proyectos">');
