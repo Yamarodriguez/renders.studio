@@ -271,7 +271,13 @@ export function creaPintor({ iconos = {}, adjuntos = {}, dinamicos = {}, dominio
   };
 
   /** Devuelve el contenido del widget, o null si ese tipo no esta hecho. */
+  // En el rediseno, la galeria "Proyectos de Renders" de todas las paginas
+  // muestra las fotos de la portada (pedido por el propietario): las demas
+  // galerias tenian 15 o 18 de esas mismas 24 fotos.
+  const galeriaPortada = Object.entries(capturados['image-gallery']).find(([k]) => k.startsWith('renders:'))?.[1];
+
   function pintaContenido(n, ctx) {
+    if (n.widgetType === 'image-gallery' && ctx?.rediseno && galeriaPortada) return galeriaPortada;
     if (capturados[n.widgetType]) {
       const copia = copiaDeLaWeb(n, ctx);
       if (copia !== null) return copia;
